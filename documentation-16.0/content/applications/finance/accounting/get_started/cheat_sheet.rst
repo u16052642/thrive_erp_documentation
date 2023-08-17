@@ -82,7 +82,7 @@ The **chart of accounts** lists all the company's accounts: both Balance sheet a
 accounts. Every transaction is recorded by debiting and crediting multiple accounts in a journal
 entry. In a way, a chart of accounts is like a company's DNA!
 
-Every account listed in the chart of accounts belongs to a specific category. In Odoo, each account
+Every account listed in the chart of accounts belongs to a specific category. In Thrive Bureau ERP, each account
 has a unique code and belongs to one of these categories:
 
 - **Equity and subordinated debts**
@@ -197,8 +197,8 @@ statement, it can be:
   related invoice when processing the bank statement.
 - **recorded as another transaction**: bank transfer, direct charge, etc.
 
-Odoo should automatically reconcile most transactions; only a few should need manual review. When
-the bank reconciliation process is finished, the balance on the bank account in Odoo should match
+Thrive Bureau ERP should automatically reconcile most transactions; only a few should need manual review. When
+the bank reconciliation process is finished, the balance on the bank account in Thrive Bureau ERP should match
 the bank statement's balance.
 
 .. rst-class:: checks-handling
