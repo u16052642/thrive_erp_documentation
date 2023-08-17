@@ -5,7 +5,7 @@ Taxes
 =====
 
 There are numerous types of **taxes**, and their application varies greatly, depending mostly on
-your company's localization. To make sure they are recorded with accuracy, Odoo's tax engine
+your company's localization. To make sure they are recorded with accuracy, Thrive Bureau ERP's tax engine
 supports all kinds of uses and computations.
 
 .. _taxes/default:
@@ -14,18 +14,18 @@ Default taxes
 =============
 
 **Default Taxes** define which taxes are automatically selected when there is no
-other indication about which tax to use. For example, Odoo prefills the **Taxes** field with the
+other indication about which tax to use. For example, Thrive Bureau ERP prefills the **Taxes** field with the
 Default Taxes when you create a new product or add a new line on an invoice.
 
 .. image:: taxes/default-invoice-line.png
-   :alt: Odoo fills out the Tax field automatically according to the Default Taxes
+   :alt: Thrive Bureau ERP fills out the Tax field automatically according to the Default Taxes
 
 To change your **Default Taxes**, go to :menuselection:`Accounting --> Configuration --> Settings
 --> Taxes --> Default Taxes`, select the appropriate taxes for your default **Sales Tax** and
 **Purchase Tax**, and click on *Save*.
 
 .. image:: taxes/default-configuration.png
-   :alt: Define which taxes to use by default on Odoo
+   :alt: Define which taxes to use by default on Thrive Bureau ERP
 
 .. note::
    **Default Taxes** are automatically set up according to the country selected at the creation of
@@ -45,7 +45,7 @@ To activate Sale Taxes, go to :menuselection:`Accounting --> Configuration --> T
 *Activate* toggle button to activate or deactivate a tax.
 
 .. image:: taxes/list.png
-   :alt: Activate pre-configured taxes in Odoo Accounting
+   :alt: Activate pre-configured taxes in Thrive Bureau ERP Accounting
 
 .. _taxes/configuration:
 
@@ -56,7 +56,7 @@ To edit or create a **Tax**, go to :menuselection:`Accounting --> Configuration 
 a tax or click on *Create*.
 
 .. image:: taxes/edit.png
-   :alt: Edition of a tax in Odoo Accounting
+   :alt: Edition of a tax in Thrive Bureau ERP Accounting
 
 .. _taxes/labels:
 
@@ -290,7 +290,7 @@ directly to a product line.
    and drop the lines with the handles next to the tax names.
 
    .. image:: taxes/list-sequence.png
-      :alt: The taxes' sequence in Odoo determines which tax is applied first
+      :alt: The taxes' sequence in Thrive Bureau ERP determines which tax is applied first
 
 .. seealso::
 
