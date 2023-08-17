@@ -2,13 +2,11 @@
 Follow-up on invoices
 =====================
 
-A follow-up message can be sent to customers when a payment is overdue. Odoo helps you identify late
+A follow-up message can be sent to customers when a payment is overdue. Thrive Bureau ERP helps you identify late
 payments and allows you to schedule and send the appropriate reminders using **follow-up actions**
 that automatically trigger one or more actions according to the number of overdue days. You can send
 your follow-ups via different means, such as email, post, or SMS.
 
-.. seealso::
-   - `Odoo Tutorials: Payment Follow-up <https://www.odoo.com/slides/slide/payment-follow-up-1682>`_
 
 Configuration
 =============
@@ -43,7 +41,7 @@ Follow-up reports
 =================
 
 Overdue invoices you need to follow up on are available in :menuselection:`Accounting --> Customers
---> Follow-up Reports`. By default, Odoo filters by :guilabel:`Overdue Invoices`, but you can also
+--> Follow-up Reports`. By default, Thrive Bureau ERP filters by :guilabel:`Overdue Invoices`, but you can also
 filter by :guilabel:`In need of action` in the :guilabel:`Filters` menu.
 
 When selecting an invoice, you can see all of the customer's unpaid invoices (overdue or not), with
