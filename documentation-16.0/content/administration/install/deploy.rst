@@ -2,7 +2,7 @@
 System configuration
 ====================
 
-This document describes basic steps to set up Odoo in production or on an
+This document describes basic steps to set up Thrive Bureau ERP in production or on an
 internet-facing server. It follows :ref:`installation <setup/install>`, and is
 not generally necessary for a development systems that is not exposed on the
 internet.
@@ -14,7 +14,7 @@ internet.
 dbfilter
 ========
 
-Odoo is a multi-tenant system: a single Odoo system may run and serve a number
+Thrive Bureau ERP is a multi-tenant system: a single Thrive Bureau ERP system may run and serve a number
 of database instances. It is also highly customizable, with customizations
 (starting from the modules being loaded) depending on the "current database".
 
@@ -23,12 +23,12 @@ company user: the database can be selected when logging in, and customizations
 loaded afterwards.
 
 However it is an issue for non-logged users (portal, website) which aren't
-bound to a database: Odoo needs to know which database should be used to load
+bound to a database: Thrive Bureau ERP needs to know which database should be used to load
 the website page or perform the operation. If multi-tenancy is not used that is not an
 issue, there's only one database to use, but if there are multiple databases
-accessible Odoo needs a rule to know which one it should use.
+accessible Thrive Bureau ERP needs a rule to know which one it should use.
 
-That is one of the purposes of :option:`--db-filter <odoo-bin --db-filter>`:
+That is one of the purposes of :option:`--db-filter <Thrive Bureau ERP-bin --db-filter>`:
 it specifies how the database should be selected based on the hostname (domain)
 that is being requested. The value is a `regular expression`_, possibly
 including the dynamically injected hostname (``%h``) or the first subdomain
@@ -64,7 +64,7 @@ in :ref:`the configuration file <reference/cmdline/config_file>` set:
 
 .. note::
 
-  Setting a proper :option:`--db-filter <odoo-bin --db-filter>` is an important part
+  Setting a proper :option:`--db-filter <Thrive Bureau ERP-bin --db-filter>` is an important part
   of securing your deployment.
   Once it is correctly working and only matching a single database per hostname, it
   is strongly recommended to block access to the database manager screens,
@@ -79,17 +79,17 @@ By default, PostgreSQL only allows connection over UNIX sockets and loopback
 connections (from "localhost", the same machine the PostgreSQL server is
 installed on).
 
-UNIX socket is fine if you want Odoo and PostgreSQL to execute on the same
-machine, and is the default when no host is provided, but if you want Odoo and
+UNIX socket is fine if you want Thrive Bureau ERP and PostgreSQL to execute on the same
+machine, and is the default when no host is provided, but if you want Thrive Bureau ERP and
 PostgreSQL to execute on different machines [#different-machines]_ it will
 need to `listen to network interfaces`_ [#remote-socket]_, either:
 
 * Only accept loopback connections and `use an SSH tunnel`_ between the
-  machine on which Odoo runs and the one on which PostgreSQL runs, then
-  configure Odoo to connect to its end of the tunnel
-* Accept connections to the machine on which Odoo is installed, possibly
+  machine on which Thrive Bureau ERP runs and the one on which PostgreSQL runs, then
+  configure Thrive Bureau ERP to connect to its end of the tunnel
+* Accept connections to the machine on which Thrive Bureau ERP is installed, possibly
   over ssl (see `PostgreSQL connection settings`_ for details), then configure
-  Odoo to connect over the network
+  Thrive Bureau ERP to connect over the network
 
 Configuration sample
 --------------------
@@ -113,18 +113,18 @@ in ``/etc/postgresql/<YOUR POSTGRESQL VERSION>/main/postgresql.conf`` set:
   port = 5432
   max_connections = 80
 
-.. _setup/deploy/odoo:
+.. _setup/deploy/Thrive Bureau ERP:
 
-Configuring Odoo
+Configuring Thrive Bureau ERP
 ----------------
 
-Out of the box, Odoo connects to a local postgres over UNIX socket via port
+Out of the box, Thrive Bureau ERP connects to a local postgres over UNIX socket via port
 5432. This can be overridden using :ref:`the database options
 <reference/cmdline/server/database>` when your Postgres deployment is not
 local and/or does not use the installation defaults.
 
 The :ref:`packaged installers <setup/install/packaged>` will automatically
-create a new user (``odoo``) and set it as the database user.
+create a new user (``Thrive Bureau ERP``) and set it as the database user.
 
 * The database management screens are protected by the ``admin_passwd``
   setting. This setting can only be set using configuration files, and is
@@ -146,7 +146,7 @@ Configuration sample
 
 * connect to a PostgreSQL server on 192.168.1.2
 * port 5432
-* using an 'odoo' user account,
+* using an 'Thrive Bureau ERP' user account,
 * with 'pwd' as a password
 * filtering only db with a name beginning with 'mycompany'
 
@@ -158,17 +158,17 @@ in :ref:`the configuration file <reference/cmdline/config_file>` set:
   admin_passwd = mysupersecretpassword
   db_host = 192.168.1.2
   db_port = 5432
-  db_user = odoo
+  db_user = Thrive Bureau ERP
   db_password = pwd
   dbfilter = ^mycompany.*$
 
 .. _postgresql_ssl_connect:
 
-SSL Between Odoo and PostgreSQL
+SSL Between Thrive Bureau ERP and PostgreSQL
 -------------------------------
 
-Since Odoo 11.0, you can enforce ssl connection between Odoo and PostgreSQL.
-in Odoo the db_sslmode control the ssl security of the connection
+Since Thrive Bureau ERP 11.0, you can enforce ssl connection between Thrive Bureau ERP and PostgreSQL.
+in Thrive Bureau ERP the db_sslmode control the ssl security of the connection
 with value chosen out of 'disable', 'allow', 'prefer', 'require', 'verify-ca'
 or 'verify-full'
 
@@ -179,7 +179,7 @@ or 'verify-full'
 Builtin server
 ==============
 
-Odoo includes built-in HTTP servers, using either multithreading or
+Thrive Bureau ERP includes built-in HTTP servers, using either multithreading or
 multiprocessing.
 
 For production use, it is recommended to use the multiprocessing server as it
@@ -187,7 +187,7 @@ increases stability, makes somewhat better use of computing resources and can
 be better monitored and resource-restricted.
 
 * Multiprocessing is enabled by configuring :option:`a non-zero number of
-  worker processes <odoo-bin --workers>`, the number of workers should be based
+  worker processes <Thrive Bureau ERP-bin --workers>`, the number of workers should be based
   on the number of cores in the machine (possibly with some room for cron
   workers depending on how much cron work is predicted)
 * Worker limits can be configured based on the hardware configuration to avoid
@@ -215,16 +215,16 @@ LiveChat
 --------
 
 In multiprocessing, a dedicated LiveChat worker is automatically started and
-listening on :option:`the gevent port <odoo-bin --gevent-port>` but
+listening on :option:`the gevent port <Thrive Bureau ERP-bin --gevent-port>` but
 the client will not connect to it.
 
 Instead you must have a proxy redirecting requests whose URL starts with
 ``/websocket/`` to the gevent port. Other request should be proxied to
-the :option:`normal HTTP port <odoo-bin --http-port>`
+the :option:`normal HTTP port <Thrive Bureau ERP-bin --http-port>`
 
-To achieve such a thing, you'll need to deploy a reverse proxy in front of Odoo,
+To achieve such a thing, you'll need to deploy a reverse proxy in front of Thrive Bureau ERP,
 like nginx or apache. When doing so, you'll need to forward some more http Headers
-to Odoo, and activate the proxy_mode in Odoo configuration to have Odoo read those
+to Thrive Bureau ERP, and activate the proxy_mode in Thrive Bureau ERP configuration to have Thrive Bureau ERP read those
 headers.
 
 Configuration sample
@@ -236,7 +236,7 @@ Configuration sample
 * 60 users / 6 = 10 <- theoretical number of worker needed
 * (4 * 2) + 1 = 9 <- theoretical maximal number of worker
 * We'll use 8 workers + 1 for cron. We'll also use a monitoring system to measure cpu load, and check if it's between 7 and 7.5 .
-* RAM = 9 * ((0.8*150) + (0.2*1024)) ~= 3Go RAM for Odoo
+* RAM = 9 * ((0.8*150) + (0.2*1024)) ~= 3Go RAM for Thrive Bureau ERP
 
 in :ref:`the configuration file <reference/cmdline/config_file>`:
 
@@ -256,12 +256,12 @@ in :ref:`the configuration file <reference/cmdline/config_file>`:
 HTTPS
 =====
 
-Whether it's accessed via website/web client or web service, Odoo transmits
+Whether it's accessed via website/web client or web service, Thrive Bureau ERP transmits
 authentication information in cleartext. This means a secure deployment of
-Odoo must use HTTPS\ [#switching]_. SSL termination can be implemented via
+Thrive Bureau ERP must use HTTPS\ [#switching]_. SSL termination can be implemented via
 just about any SSL termination proxy, but requires the following setup:
 
-* Enable Odoo's :option:`proxy mode <odoo-bin --proxy-mode>`. This should only be enabled when Odoo is behind a reverse proxy
+* Enable Thrive Bureau ERP's :option:`proxy mode <Thrive Bureau ERP-bin --proxy-mode>`. This should only be enabled when Thrive Bureau ERP is behind a reverse proxy
 * Set up the SSL termination proxy (`Nginx termination example`_)
 * Set up the proxying itself (`Nginx proxying example`_)
 * Your SSL termination proxy should also automatically redirect non-secure
@@ -271,7 +271,7 @@ Configuration sample
 --------------------
 
 * Redirect http requests to https
-* Proxy requests to odoo
+* Proxy requests to Thrive Bureau ERP
 
 in :ref:`the configuration file <reference/cmdline/config_file>` set:
 
@@ -279,15 +279,15 @@ in :ref:`the configuration file <reference/cmdline/config_file>` set:
 
   proxy_mode = True
 
-in ``/etc/nginx/sites-enabled/odoo.conf`` set:
+in ``/etc/nginx/sites-enabled/Thrive Bureau ERP.conf`` set:
 
 .. code-block:: nginx
 
-  #odoo server
-  upstream odoo {
+  #Thrive Bureau ERP server
+  upstream Thrive Bureau ERP {
     server 127.0.0.1:8069;
   }
-  upstream odoochat {
+  upstream Thrive Bureau ERPchat {
     server 127.0.0.1:8072;
   }
   map $http_upgrade $connection_upgrade {
@@ -298,13 +298,13 @@ in ``/etc/nginx/sites-enabled/odoo.conf`` set:
   # http -> https
   server {
     listen 80;
-    server_name odoo.mycompany.com;
+    server_name Thrive Bureau ERP.mycompany.com;
     rewrite ^(.*) https://$host$1 permanent;
   }
 
   server {
     listen 443 ssl;
-    server_name odoo.mycompany.com;
+    server_name Thrive Bureau ERP.mycompany.com;
     proxy_read_timeout 720s;
     proxy_connect_timeout 720s;
     proxy_send_timeout 720s;
@@ -318,12 +318,12 @@ in ``/etc/nginx/sites-enabled/odoo.conf`` set:
     ssl_prefer_server_ciphers off;
 
     # log
-    access_log /var/log/nginx/odoo.access.log;
-    error_log /var/log/nginx/odoo.error.log;
+    access_log /var/log/nginx/Thrive Bureau ERP.access.log;
+    error_log /var/log/nginx/Thrive Bureau ERP.error.log;
 
-    # Redirect websocket requests to odoo gevent port
+    # Redirect websocket requests to Thrive Bureau ERP gevent port
     location /websocket {
-      proxy_pass http://odoochat;
+      proxy_pass http://Thrive Bureau ERPchat;
       proxy_set_header Upgrade $http_upgrade;
       proxy_set_header Connection $connection_upgrade;
       proxy_set_header X-Forwarded-Host $host;
@@ -332,15 +332,15 @@ in ``/etc/nginx/sites-enabled/odoo.conf`` set:
       proxy_set_header X-Real-IP $remote_addr;
     }
 
-    # Redirect requests to odoo backend server
+    # Redirect requests to Thrive Bureau ERP backend server
     location / {
-      # Add Headers for odoo proxy mode
+      # Add Headers for Thrive Bureau ERP proxy mode
       proxy_set_header X-Forwarded-Host $host;
       proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
       proxy_set_header X-Forwarded-Proto $scheme;
       proxy_set_header X-Real-IP $remote_addr;
       proxy_redirect off;
-      proxy_pass http://odoo;
+      proxy_pass http://Thrive Bureau ERP;
     }
 
     # common gzip
@@ -348,30 +348,30 @@ in ``/etc/nginx/sites-enabled/odoo.conf`` set:
     gzip on;
   }
 
-Odoo as a WSGI Application
+Thrive Bureau ERP as a WSGI Application
 ==========================
 
-It is also possible to mount Odoo as a standard WSGI_ application. Odoo
-provides the base for a WSGI launcher script as ``odoo-wsgi.example.py``. That
+It is also possible to mount Thrive Bureau ERP as a standard WSGI_ application. Thrive Bureau ERP
+provides the base for a WSGI launcher script as ``Thrive Bureau ERP-wsgi.example.py``. That
 script should be customized (possibly after copying it from the setup directory) to correctly set the
-configuration directly in :mod:`odoo.tools.config` rather than through the
+configuration directly in :mod:`Thrive Bureau ERP.tools.config` rather than through the
 command-line or a configuration file.
 
 However the WSGI server will only expose the main HTTP endpoint for the web
-client, website and webservice API. Because Odoo does not control the creation
+client, website and webservice API. Because Thrive Bureau ERP does not control the creation
 of workers anymore it can not setup cron or livechat workers
 
 Cron Workers
 ------------
 
-To run cron jobs for an Odoo deployment as a WSGI application requires
+To run cron jobs for an Thrive Bureau ERP deployment as a WSGI application requires
 
-* A classical Odoo (run via ``odoo-bin``)
+* A classical Thrive Bureau ERP (run via ``Thrive Bureau ERP-bin``)
 * Connected to the database in which cron jobs have to be run (via
-  :option:`odoo-bin -d`)
+  :option:`Thrive Bureau ERP-bin -d`)
 * Which should not be exposed to the network. To ensure cron runners are not
   network-accessible, it is possible to disable the built-in HTTP server
-  entirely with :option:`odoo-bin --no-http` or setting ``http_enable = False``
+  entirely with :option:`Thrive Bureau ERP-bin --no-http` or setting ``http_enable = False``
   in the configuration file
 
 LiveChat
@@ -389,69 +389,69 @@ notifications.
 
 The solutions to support livechat/motifications in a WSGI application are:
 
-* Deploy a threaded version of Odoo (instead of a process-based preforking
+* Deploy a threaded version of Thrive Bureau ERP (instead of a process-based preforking
   one) and redirect only requests to URLs starting with ``/websocket/`` to
-  that Odoo, this is the simplest and the websocket URL can double up as the cron
+  that Thrive Bureau ERP, this is the simplest and the websocket URL can double up as the cron
   instance.
-* Deploy an evented Odoo via ``odoo-gevent`` and proxy requests starting
+* Deploy an evented Thrive Bureau ERP via ``Thrive Bureau ERP-gevent`` and proxy requests starting
   with ``/websocket/`` to
-  :option:`the gevent port <odoo-bin --gevent-port>`.
+  :option:`the gevent port <Thrive Bureau ERP-bin --gevent-port>`.
 
 .. _deploy/streaming:
 
 Serving static files and attachments
 ====================================
 
-For development convenience, Odoo directly serves all static files and attachments in its modules.
+For development convenience, Thrive Bureau ERP directly serves all static files and attachments in its modules.
 This may not be ideal when it comes to performances, and static files should generally be served by
 a static HTTP server.
 
 Serving static files
 --------------------
 
-Odoo static files are located in each module's :file:`static/` folder, so static files can be served
+Thrive Bureau ERP static files are located in each module's :file:`static/` folder, so static files can be served
 by intercepting all requests to :samp:`/{MODULE}/static/{FILE}`, and looking up the right module
 (and file) in the various addons paths.
 
 .. example::
-   Say Odoo has been installed via the **debian packages** for Community and Enterprise and the
-   :option:`--addons-path <odoo-bin --addons-path>` is ``'/usr/lib/python3/dist-packages/odoo/addons'``.
+   Say Thrive Bureau ERP has been installed via the **debian packages** for Community and Enterprise and the
+   :option:`--addons-path <Thrive Bureau ERP-bin --addons-path>` is ``'/usr/lib/python3/dist-packages/Thrive Bureau ERP/addons'``.
 
    Using the above NGINX (https) configuration, the following location block should be added to
    serve static files via NGINX.
 
    .. code-block:: nginx
 
-       location @odoo {
+       location @Thrive Bureau ERP {
            # copy-paste the content of the / location block
        }
 
        # Serve static files right away
        location ~ ^/[^/]+/static/.+$ {
-           root /usr/lib/python3/dist-packages/odoo/addons;
-           try_files $uri @odoo;
+           root /usr/lib/python3/dist-packages/Thrive Bureau ERP/addons;
+           try_files $uri @Thrive Bureau ERP;
            expires 24h;
        }
 
 .. example::
-   Say Odoo has been installed via the **source**. The two git repositories for Community and
-   Enterprise have been cloned in :file:`/opt/odoo/community` and :file:`/opt/odoo/enterprise`
-   respectively and the :option:`--addons-path <odoo-bin --addons-path>` is
-   ``'/opt/odoo/community/odoo/addons,/opt/odoo/community/addons,/opt/odoo/enterprise'``.
+   Say Thrive Bureau ERP has been installed via the **source**. The two git repositories for Community and
+   Enterprise have been cloned in :file:`/opt/Thrive Bureau ERP/community` and :file:`/opt/Thrive Bureau ERP/enterprise`
+   respectively and the :option:`--addons-path <Thrive Bureau ERP-bin --addons-path>` is
+   ``'/opt/Thrive Bureau ERP/community/Thrive Bureau ERP/addons,/opt/Thrive Bureau ERP/community/addons,/opt/Thrive Bureau ERP/enterprise'``.
 
    Using the above NGINX (https) configuration, the following location block should be added to
    serve static files via NGINX.
 
    .. code-block:: nginx
 
-       location @odoo {
+       location @Thrive Bureau ERP {
            # copy-paste the content of the / location block
        }
 
        # Serve static files right away
        location ~ ^/[^/]+/static/.+$ {
-           root /opt/odoo;
-           try_files /community/odoo/addons$uri /community/addons$uri /enterprise$uri @odoo;
+           root /opt/Thrive Bureau ERP;
+           try_files /community/Thrive Bureau ERP/addons$uri /community/addons$uri /enterprise$uri @Thrive Bureau ERP;
            expires 24h;
        }
 
@@ -462,17 +462,17 @@ by intercepting all requests to :samp:`/{MODULE}/static/{FILE}`, and looking up 
 Serving attachments
 -------------------
 
-Attachments are files stored in the filestore which access is regulated by Odoo. They cannot be
+Attachments are files stored in the filestore which access is regulated by Thrive Bureau ERP. They cannot be
 directly accessed via a static web server as accessing them requires multiple lookups in the
 database to determine where the files are stored and whether the current user can access them or
 not.
 
-Nevertheless, once the file has been located and the access rights verified by Odoo, it is a good
-idea to serve the file using the static web server instead of Odoo. For Odoo to delegate serving
+Nevertheless, once the file has been located and the access rights verified by Thrive Bureau ERP, it is a good
+idea to serve the file using the static web server instead of Thrive Bureau ERP. For Thrive Bureau ERP to delegate serving
 files to the static web server, the `X-Sendfile <https://tn123.org/mod_xsendfile/>`_ (apache) or
 `X-Accel <https://www.nginx.com/resources/wiki/start/topics/examples/x-accel/>`_ (nginx) extensions
-must be enabled and configured on the static web server. Once it is set up, start Odoo with the
-:option:`--x-sendfile <odoo-bin --x-sendfile>` CLI flag (this unique flag is used for both
+must be enabled and configured on the static web server. Once it is set up, start Thrive Bureau ERP with the
+:option:`--x-sendfile <Thrive Bureau ERP-bin --x-sendfile>` CLI flag (this unique flag is used for both
 X-Sendfile and X-Accel).
 
 
@@ -485,12 +485,12 @@ X-Sendfile and X-Accel).
 
          location /web/filestore {
              internal;
-             alias /path/to/odoo/data-dir/filestore;
+             alias /path/to/Thrive Bureau ERP/data-dir/filestore;
          }
 
-     In case you don't know what is the path to your filestore, start Odoo with the
-     :option:`--x-sendfile <odoo-bin --x-sendfile>` option and navigate to the ``/web/filestore`` URL
-     directly via Odoo (don't navigate to the URL via NGINX). This logs a warnings, the message
+     In case you don't know what is the path to your filestore, start Thrive Bureau ERP with the
+     :option:`--x-sendfile <Thrive Bureau ERP-bin --x-sendfile>` option and navigate to the ``/web/filestore`` URL
+     directly via Thrive Bureau ERP (don't navigate to the URL via NGINX). This logs a warnings, the message
      contains the configuration you need.
 
 
@@ -524,36 +524,36 @@ security-related topics:
   default logins and passwords that can be used to get into your systems and cause significant
   trouble, even on staging/dev systems.
 
-- Use appropriate database filters ( :option:`--db-filter <odoo-bin --db-filter>`)
+- Use appropriate database filters ( :option:`--db-filter <Thrive Bureau ERP-bin --db-filter>`)
   to restrict the visibility of your databases according to the hostname.
   See :ref:`db_filter`.
-  You may also use :option:`-d <odoo-bin -d>` to provide your own (comma-separated)
+  You may also use :option:`-d <Thrive Bureau ERP-bin -d>` to provide your own (comma-separated)
   list of available databases to filter from, instead of letting the system fetch
   them all from the database backend.
 
 - Once your ``db_name`` and ``db_filter`` are configured and only match a single database
   per hostname, you should set ``list_db`` configuration option to ``False``, to prevent
   listing databases entirely, and to block access to the database management screens
-  (this is also exposed as the :option:`--no-database-list <odoo-bin --no-database-list>`
+  (this is also exposed as the :option:`--no-database-list <Thrive Bureau ERP-bin --no-database-list>`
   command-line option)
 
-- Make sure the PostgreSQL user (:option:`--db_user <odoo-bin --db_user>`) is *not* a super-user,
+- Make sure the PostgreSQL user (:option:`--db_user <Thrive Bureau ERP-bin --db_user>`) is *not* a super-user,
   and that your databases are owned by a different user. For example they could be owned by
   the ``postgres`` super-user if you are using a dedicated non-privileged ``db_user``.
-  See also :ref:`setup/deploy/odoo`.
+  See also :ref:`setup/deploy/Thrive Bureau ERP`.
 
 - Keep installations updated by regularly installing the latest builds,
   either via GitHub or by downloading the latest version from
-  https://www.odoo.com/page/download or http://nightly.odoo.com
+  https://www.Thrive Bureau ERP.com/page/download or http://nightly.Thrive Bureau ERP.com
 
 - Configure your server in multi-process mode with proper limits matching your typical
   usage (memory/CPU/timeouts). See also :ref:`builtin_server`.
 
-- Run Odoo behind a web server providing HTTPS termination with a valid SSL certificate,
+- Run Thrive Bureau ERP behind a web server providing HTTPS termination with a valid SSL certificate,
   in order to prevent eavesdropping on cleartext communications. SSL certificates are
   cheap, and many free options exist.
   Configure the web proxy to limit the size of requests, set appropriate timeouts,
-  and then enable the :option:`proxy mode <odoo-bin --proxy-mode>` option.
+  and then enable the :option:`proxy mode <Thrive Bureau ERP-bin --proxy-mode>` option.
   See also :ref:`https_proxy`.
 
 - If you need to allow remote SSH access to your servers, make sure to set a strong password
@@ -574,23 +574,23 @@ security-related topics:
   machines than the production ones. And apply the same security precautions as for
   production.
 
-- If your public-facing Odoo server has access to sensitive internal network resources
+- If your public-facing Thrive Bureau ERP server has access to sensitive internal network resources
   or services (e.g. via a private VLAN), implement appropriate firewall rules to
-  protect those internal resources. This will ensure that the Odoo server cannot
+  protect those internal resources. This will ensure that the Thrive Bureau ERP server cannot
   be used accidentally (or as a result of malicious user actions) to access or disrupt
   those internal resources.
   Typically this can be done by applying an outbound default DENY rule on the firewall,
-  then only explicitly authorizing access to internal resources that the Odoo server
+  then only explicitly authorizing access to internal resources that the Thrive Bureau ERP server
   needs to access.
   `Systemd IP traffic access control <http://0pointer.net/blog/ip-accounting-and-access-lists-with-systemd.html>`_
   may also be useful to implement per-process network access control.
 
-- If your public-facing Odoo server is behind a Web Application Firewall, a load-balancer,
+- If your public-facing Thrive Bureau ERP server is behind a Web Application Firewall, a load-balancer,
   a transparent DDoS protection service (like CloudFlare) or a similar network-level
-  device, you may wish to avoid direct access to the Odoo system. It is generally
-  difficult to keep the endpoint IP addresses of your Odoo servers secret. For example
+  device, you may wish to avoid direct access to the Thrive Bureau ERP system. It is generally
+  difficult to keep the endpoint IP addresses of your Thrive Bureau ERP servers secret. For example
   they can appear in web server logs when querying public systems, or in the headers
-  of emails posted from Odoo.
+  of emails posted from Thrive Bureau ERP.
   In such a situation you may want to configure your firewall so that the endpoints
   are not accessible publicly except from the specific IP addresses of your WAF,
   load-balancer or proxy service. Service providers like CloudFlare usually maintain
@@ -609,18 +609,18 @@ Blocking Brute Force Attacks
 ----------------------------
 
 For internet-facing deployments, brute force attacks on user passwords are very common, and this
-threat should not be neglected for Odoo servers. Odoo emits a log entry whenever a login attempt
+threat should not be neglected for Thrive Bureau ERP servers. Thrive Bureau ERP emits a log entry whenever a login attempt
 is performed, and reports the result: success or failure, along with the target login and source IP.
 
 The log entries will have the following form.
 
 Failed login::
 
-      2018-07-05 14:56:31,506 24849 INFO db_name odoo.addons.base.res.res_users: Login failed for db:db_name login:admin from 127.0.0.1
+      2018-07-05 14:56:31,506 24849 INFO db_name Thrive Bureau ERP.addons.base.res.res_users: Login failed for db:db_name login:admin from 127.0.0.1
 
 Successful login::
 
-      2018-07-05 14:56:31,506 24849 INFO db_name odoo.addons.base.res.res_users: Login successful for db:db_name login:admin from 127.0.0.1
+      2018-07-05 14:56:31,506 24849 INFO db_name Thrive Bureau ERP.addons.base.res.res_users: Login successful for db:db_name login:admin from 127.0.0.1
 
 
 These logs can be easily analyzed by an intrusion prevention system such as `fail2ban`.
@@ -637,20 +637,20 @@ This could be used with a jail definition to block the attacking IP on HTTP(S).
 Here is what it could look like for blocking the IP for 15 minutes when
 10 failed login attempts are detected from the same IP within 1 minute::
 
-    [odoo-login]
+    [Thrive Bureau ERP-login]
     enabled = true
     port = http,https
     bantime = 900  ; 15 min ban
     maxretry = 10  ; if 10 attempts
     findtime = 60  ; within 1 min  /!\ Should be adjusted with the TZ offset
-    logpath = /var/log/odoo.log  ;  set the actual odoo log path here
+    logpath = /var/log/Thrive Bureau ERP.log  ;  set the actual Thrive Bureau ERP log path here
 
 .. _db_manager_security:
 
 Database Manager Security
 -------------------------
 
-:ref:`setup/deploy/odoo` mentioned ``admin_passwd`` in passing.
+:ref:`setup/deploy/Thrive Bureau ERP` mentioned ``admin_passwd`` in passing.
 
 This setting is used on all database management screens (to create, delete,
 dump or restore databases).
@@ -694,7 +694,7 @@ which will generate a 32 characters pseudorandom printable string.
 Supported Browsers
 ==================
 
-Odoo supports all the major desktop and mobile browsers available on the market,
+Thrive Bureau ERP supports all the major desktop and mobile browsers available on the market,
 as long as they are supported by their publishers.
 
 Here are the supported browsers:
@@ -709,14 +709,14 @@ Here are the supported browsers:
 
 .. note::
 
-    Since Odoo 13.0, ES6 is supported.  Therefore, IE support is dropped.
+    Since Thrive Bureau ERP 13.0, ES6 is supported.  Therefore, IE support is dropped.
 
 .. [#different-machines]
-    to have multiple Odoo installations use the same PostgreSQL database,
+    to have multiple Thrive Bureau ERP installations use the same PostgreSQL database,
     or to provide more computing resources to both software.
 .. [#remote-socket]
     technically a tool like socat_ can be used to proxy UNIX sockets across
-    networks, but that is mostly for software which can only be used over
+    networks, but that is mostly for software that can only be used over
     UNIX sockets
 .. [#switching]
     or be accessible only over an internal packet-switched network, but that
@@ -739,4 +739,4 @@ Here are the supported browsers:
 .. _use an SSH tunnel:
     https://www.postgresql.org/docs/12/static/ssh-tunnels.html
 .. _WSGI: https://wsgi.readthedocs.org/
-.. _POSBox: https://www.odoo.com/page/point-of-sale-hardware#part_2
+.. _POSBox: https://www.Thrive Bureau ERP.com/page/point-of-sale-hardware#part_2
