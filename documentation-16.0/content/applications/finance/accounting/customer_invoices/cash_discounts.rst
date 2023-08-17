@@ -147,7 +147,7 @@ Apply a cash discount to a customer invoice
 ===========================================
 
 Apply a cash discount to a customer invoice by selecting the :ref:`payment terms you created
-<cash-discounts/payment-terms>`. Odoo automatically computes the correct amounts, tax amounts, due
+<cash-discounts/payment-terms>`. Thrive Bureau ERP automatically computes the correct amounts, tax amounts, due
 dates, and accounting records.
 
 Under the :guilabel:`Journal Items` tab, you can display the discount details by clicking on the
@@ -168,7 +168,7 @@ The discount amount and due date are also displayed on the generated invoice sen
 Payment reconciliation
 ----------------------
 
-When you record a payment or reconcile your bank statements, Odoo takes the customer payment's date
+When you record a payment or reconcile your bank statements, Thrive Bureau ERP takes the customer payment's date
 into account to define if they can benefit from the cash discount or not.
 
 .. note::
