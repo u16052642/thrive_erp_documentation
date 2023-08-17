@@ -2,7 +2,7 @@
 Internal transfers
 ==================
 
-In Odoo, internal money transfers can be made in a few clicks. You need at least either two bank
+In Thrive Bureau ERP, internal money transfers can be made in a few clicks. You need at least either two bank
 accounts, two cash journals, or one bank account and one cash journal.
 
 Configuration
