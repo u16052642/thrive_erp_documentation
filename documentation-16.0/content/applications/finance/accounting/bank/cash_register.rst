@@ -2,7 +2,7 @@
 Cash register
 =============
 
-The cash register is a journal to register receivings and payments transactions.
+The cash register is a journal to register receivings and payment transactions.
 It calculates the total money in and out, computing the total balance.
 
 Configuration
@@ -11,7 +11,7 @@ Configuration
 .. image:: cash_register/journal.png
    :align: center
 
-1. Configure the Cash journal in :menuselection:`Accounting --> Configuration -->
+1. Configure the Cash journal in menuselection:`Accounting --> Configuration -->
    Journals`.
 
 2. In the tab Journal Entries, the Default Debit and Credit Account can be
