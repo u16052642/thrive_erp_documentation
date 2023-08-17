@@ -4,7 +4,7 @@
 Get started
 ===========
 
-When you first open your Odoo Accounting app, the *Accounting Overview* page welcomes you with a
+When you first open your Thrive Bureau ERP Accounting app, the *Accounting Overview* page welcomes you with a
 step-by-step onboarding banner, a wizard that helps you get started. This onboarding banner is
 displayed until you choose to close it.
 
@@ -12,7 +12,7 @@ The settings visible in the onboarding banner can still be modified later by goi
 :menuselection:`Accounting --> Configuration --> Settings`.
 
 .. note::
-   Odoo Accounting automatically installs the appropriate **Fiscal Localization Package** for your
+   Thrive Bureau ERP Accounting automatically installs the appropriate **Fiscal Localization Package** for your
    company, according to the country selected at the creation of the database. This way, the right
    accounts, reports, and taxes are ready-to-go. :ref:`Click here <fiscal_localizations/packages>`
    for more information about Fiscal Localization Packages.
@@ -23,7 +23,7 @@ Accounting onboarding banner
 The step-by-step Accounting onboarding banner is composed of four steps:
 
 .. image:: get_started/setup_accounting_onboarding.png
-   :alt: Step-by-step onboarding banner in Odoo Accounting
+   :alt: Step-by-step onboarding banner in Thrive Bureau ERP Accounting
 
 #. :ref:`accounting-setup-company`
 #. :ref:`accounting-setup-bank`
@@ -40,7 +40,7 @@ number, email address, and Tax ID, or VAT number. These details are then display
 such as on invoices.
 
 .. image:: get_started/setup_company.png
-   :alt: Add your company's details in Odoo Accounting and Odoo Invoicing
+   :alt: Add your company's details in Thrive Bureau ERP Accounting and Thrive Bureau ERP Invoicing
 
 .. note::
    You can also change these settings by going to :menuselection:`Settings --> General Settings -->
@@ -61,11 +61,11 @@ If your Bank Institution can’t be synchronized automatically, or if you prefer
 your database, you may also configure your bank account manually by clicking on *Create it*, and
 filling out the form.
 
-- **Name**: the bank account's name, as displayed on Odoo.
+- **Name**: the bank account's name, as displayed on Thrive Bureau ERP.
 - **Account Number**: your bank account number (IBAN in Europe).
 - **Bank**: click on *Create and Edit* to configure the bank's details. Add the bank institution's
   name and its Identifier Code (BIC or SWIFT).
-- **Code**: this code is your Journal's *Short Code*, as displayed on Odoo. By default, Odoo creates
+- **Code**: this code is your Journal's *Short Code*, as displayed on Thrive Bureau ERP. By default, Thrive Bureau ERP creates
   a new Journal with this Short Code.
 - **Journal**: This field is displayed if you have an existing Bank Journal that is not linked yet
   to a bank account. If so, then select the *Journal* you want to use to record the financial
@@ -105,7 +105,7 @@ Basic settings are displayed on this page to help you review your Chart of Accou
 the settings of an account, click on the *double arrow button* at the end of the line.
 
 .. image:: get_started/setup_chart_of_accounts.png
-   :alt: Setup of the Chart of Accounts and their opening balances in Odoo Accounting
+   :alt: Setup of the Chart of Accounts and their opening balances in Thrive Bureau ERP Accounting
 
 .. note::
    :doc:`Click here <get_started/chart_of_accounts>` for more information on how to configure your Chart of
@@ -114,17 +114,17 @@ the settings of an account, click on the *double arrow button* at the end of the
 Invoicing onboarding banner
 ===========================
 
-There is another step-by-step onboarding banner that helps you take advantage of your Odoo Invoicing
+There is another step-by-step onboarding banner that helps you take advantage of your Thrive Bureau ERP Invoicing
 and Accounting apps. The *Invoicing onboarding banner* is the one that welcomes you if you use the
 Invoicing app rather than the Accounting app.
 
-If you have Odoo Accounting installed on your database, you can reach it by going to
+If you have Thrive Bureau ERP Accounting installed on your database, you can reach it by going to
 :menuselection:`Accounting --> Customers --> Invoices`.
 
 The Invoicing onboarding banner is composed of four main steps:
 
 .. image:: get_started/setup_invoicing_onboarding.png
-   :alt: Step-by-step onboarding banner in Odoo Invoicing
+   :alt: Step-by-step onboarding banner in Thrive Bureau ERP Invoicing
 
 #. :ref:`invoicing-setup-company`
 #. :ref:`invoicing-setup-layout`
@@ -147,13 +147,13 @@ Invoice Layout
 With this tool, you can design the appearance of your documents by selecting which layout template,
 paper format, colors, font, and logo you want to use.
 
-You can also add your *Company Tagline* and the content of the documents’ *footer*. Note that Odoo
+You can also add your *Company Tagline* and the content of the documents’ *footer*. Note that Thrive Bureau ERP
 automatically adds the company's phone number, email, website URL, and Tax ID (or VAT number) to the
 footer, according to the values you previously configured in the :ref:`Company Data
 <accounting-setup-company>`.
 
 .. image:: get_started/setup_document_layout.png
-   :alt: Document layout configuration in Odoo Invoicing
+   :alt: Document layout configuration in Thrive Bureau ERP Invoicing
 
 .. tip::
    Add your **bank account number** and a link to your **General Terms & Condition** in the footer.
@@ -187,7 +187,7 @@ Send yourself a sample invoice by email to make sure everything is correctly con
    * :doc:`get_started/chart_of_accounts`
    * :doc:`bank/bank_synchronization`
    * :doc:`../fiscal_localizations`
-   * `Odoo Tutorials: Accounting Basics <https://www.odoo.com/r/lsZ>`_
+   * `Thrive Bureau ERP Tutorials: Accounting Basics <https://www.Thrive Bureau ERP.com/r/lsZ>`_
 
 .. toctree::
    :titlesonly:
