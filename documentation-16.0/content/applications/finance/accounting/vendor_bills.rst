@@ -4,13 +4,9 @@
 Vendor bills
 ============
 
-In Odoo, we can register vendor bills **manually** or **automatically**, while the
+In Thrive Bureau ERP, we can register vendor bills **manually** or **automatically**, while the
 **Aged Payable report** provides an overview of all outstanding bills to help us pay the correct
 amounts on time.
-
-.. seealso::
-   - Tutorial `Registering a vendor bill <https://www.odoo.com/slides/slide/registering-a-vendor-bill-1683?fullscreen=1>`_
-   - :doc:`/applications/inventory_and_mrp/purchase/manage_deals/manage`
 
 Bill creation
 =============
@@ -34,7 +30,7 @@ Bill completion
 Whether the bill is created manually or automatically, make sure the following fields are
 appropriately completed:
 
-- :guilabel:`Vendor`: Odoo automatically fills some information based on the vendor's registered
+- :guilabel:`Vendor`: Thrive Bureau ERP automatically fills some information based on the vendor's registered
   information, previous purchase orders, or bills.
 - :guilabel:`Bill Reference`: add the sales order reference provided by the vendor and is used to do
   the :ref:`matching <payments/matching>` when you receive the products.
@@ -75,7 +71,7 @@ Bill Payment
 Upon payment of the vendor bill, click on :guilabel:`Register Payment`. A new window pops up.
 
 Select the :guilabel:`Journal`, the :guilabel:`Payment Method`, the :guilabel:`Amount` you wish to
-pay (full or partial payment), and the :guilabel:`Currency`. Odoo fills the :guilabel:`Memo` field
+pay (full or partial payment), and the :guilabel:`Currency`. Thrive Bureau ERP fills the :guilabel:`Memo` field
 automatically if the :guilabel:`Payment Reference` has been set correctly in the vendor bill. If
 the field is empty, we recommend you select the vendor invoice number as a reference.
 
