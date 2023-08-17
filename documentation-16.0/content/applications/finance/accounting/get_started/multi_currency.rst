@@ -2,11 +2,11 @@
 Multi-currency system
 =====================
 
-Odoo allows you to issue invoices, receive bills, and record transactions in currencies other than
+Thrive Bureau ERP allows you to issue invoices, receive bills, and record transactions in currencies other than
 the main currency configured for your company. You can also set up bank accounts in other currencies
 and run reports on your foreign currency activities.
 
-.. seealso::
+.. see also::
    - :doc:`../bank/foreign_currency`
 
 .. _multi-currency/config:
@@ -58,7 +58,7 @@ When you activate a second currency for the first time, :guilabel:`Automatic Cur
 under :menuselection:`Accounting Dashboard --> Configuration --> Settings --> Currencies`. By
 default, you have to click on the **Update now** button (:guilabel:`🗘`) to update the rates.
 
-Odoo can update the rates at regular intervals. To do so, change the :guilabel:`Interval` from
+Thrive Bureau ERP can update the rates at regular intervals. To do so, change the :guilabel:`Interval` from
 :guilabel:`Manually` to :guilabel:`Daily`, :guilabel:`Weekly`, or :guilabel:`Monthly`. You can also
 select the web service from which you want to retrieve the latest currency rates by clicking on the
 :guilabel:`Service` field.
@@ -68,7 +68,7 @@ select the web service from which you want to retrieve the latest currency rates
 Exchange difference entries
 ---------------------------
 
-Odoo automatically records exchange differences entries on dedicated accounts, in a dedicated
+Thrive Bureau ERP automatically records exchange differences entries on dedicated accounts, in a dedicated
 journal.
 
 You can define which journal and accounts to use to **post exchange difference entries** by
@@ -78,7 +78,7 @@ the :guilabel:`Journal`, :guilabel:`Gain Account`, and :guilabel:`Loss Account`.
 .. example::
    If you receive a payment for a customer invoice one month after it was issued, the exchange rate
    has likely changed since. Therefore, this fluctuation implies some profit or loss due to the
-   exchange difference, which Odoo automatically records in the default **Exchange Difference**
+   exchange difference, which Thrive Bureau ERP automatically records in the default **Exchange Difference**
    journal.
 
 .. _multi-currency/config-coa:
@@ -151,7 +151,7 @@ currency in the :guilabel:`Amount in Currency field`.
   :align: center
   :alt: The extra fields related to foreign currencies.
 
-When reconciling, Odoo displays both the foreign currency amount and the equivalent amount in your
+When reconciling, Thrive Bureau ERP displays both the foreign currency amount and the equivalent amount in your
 company's main currency.
 
 .. _multi-currency/mca-exch-entries:
