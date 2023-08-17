@@ -24,7 +24,7 @@ Prerequisites
 Tax Return Periodicity
 ----------------------
 
-The configuration of the **Tax Return Periodicity** allows Odoo to compute your tax return correctly
+The configuration of the **Tax Return Periodicity** allows Thrive Bureau ERP to compute your tax return correctly
 and also to send you a reminder to never miss a tax return deadline.
 
 To do so, go to :menuselection:`Accounting --> Configuration --> Settings`. Under the
@@ -32,12 +32,12 @@ To do so, go to :menuselection:`Accounting --> Configuration --> Settings`. Unde
 
 - :guilabel:`Periodicity`: define here whether you submit your tax return on a monthly or quarterly
   basis;
-- :guilabel:`Reminder`: define when Odoo should remind you to submit your tax return;
+- :guilabel:`Reminder`: define when Thrive Bureau ERP should remind you to submit your tax return;
 - :guilabel:`Journal`: select the journal in which to record the tax return.
 
 .. image:: tax_returns/tax_return_periodicity.png
    :align: center
-   :alt: Configure how often tax returns have to be made in Odoo Accounting
+   :alt: Configure how often tax returns have to be made in Thrive Bureau ERP Accounting
 
 .. note::
    This is usually configured during the :doc:`app's initial set up <../get_started>`.
@@ -47,14 +47,14 @@ To do so, go to :menuselection:`Accounting --> Configuration --> Settings`. Unde
 Tax Grids
 ---------
 
-Odoo generates tax reports based on the :guilabel:`Tax Grids` settings that are configured on your
+Thrive Bureau ERP generates tax reports based on the :guilabel:`Tax Grids` settings that are configured on your
 taxes. Therefore, it is crucial to make sure that all recorded transactions use the right taxes.
 You can see the :guilabel:`Tax Grids` by opening the :guilabel:`Journal Items` tab of any
 invoice and bill.
 
 .. image:: tax_returns/tax_return_grids.png
    :align: center
-   :alt: see which tax grids are used to record transactions in Odoo Accounting
+   :alt: see which tax grids are used to record transactions in Thrive Bureau ERP Accounting
 
 To configure your tax grids, go to :menuselection:`Accounting --> Configuration --> Taxes`,
 and open the tax you want to modify. There, you can edit your tax settings, along with the tax
@@ -62,10 +62,10 @@ grids that are used to record invoices or credit notes.
 
 .. image:: tax_returns/tax_return_taxes.png
    :align: center
-   :alt: Configure taxes and their tax grids in Odoo Accounting
+   :alt: Configure taxes and their tax grids in Thrive Bureau ERP Accounting
 
 .. note::
-   Taxes and reports are usually already pre-configured in Odoo: a :ref:`fiscal localization package
+   Taxes and reports are usually already pre-configured in Thrive Bureau ERP: a :ref:`fiscal localization package
    <fiscal_localizations/packages>` is installed according to the country you select at the creation
    of your database.
 
@@ -93,7 +93,7 @@ To check the current :guilabel:`Tax Lock Date`, or to edit it, go to
 
 .. image:: tax_returns/tax_return_lock.png
    :align: center
-   :alt: Lock your tax for a specific period in Odoo Accounting
+   :alt: Lock your tax for a specific period in Thrive Bureau ERP Accounting
 
 .. _tax-returns/report:
 
@@ -109,11 +109,11 @@ report to the tax authorities, along with the amount you have to pay or be refun
 
 .. image:: tax_returns/tax_return_report.png
    :align: center
-   :alt: download the PDF with your Tax Report in Odoo Accounting
+   :alt: download the PDF with your Tax Report in Thrive Bureau ERP Accounting
 
 .. note::
    If you forgot to lock your tax date before clicking on :guilabel:`Closing Journal Entry`, then
-   Odoo automatically locks your fiscal period on the same date as the accounting date of your
+   Thrive Bureau ERP automatically locks your fiscal period on the same date as the accounting date of your
    entry. This safety mechanism can prevent some fiscal errors, but it is advised to lock your tax
    date manually before, as described above.
 
