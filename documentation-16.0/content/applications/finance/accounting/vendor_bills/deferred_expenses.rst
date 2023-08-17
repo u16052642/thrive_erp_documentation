@@ -18,7 +18,7 @@ but haven't used the service yet. Therefore, we post this new expense in a *prep
 decide to recognize it on a monthly basis. Each month, for the next 12 months, $ 100 will be
 recognized as an expense.
 
-Odoo Accounting handles deferred expenses and prepayments by spreading them in multiple entries that
+Thrive Bureau ERP Accounting handles deferred expenses and prepayments by spreading them in multiple entries that
 are automatically created in *draft mode* and then posted periodically.
 
 .. note::
@@ -39,7 +39,7 @@ Configuration --> Chart of Accounts`, click on *Create*, and fill out the form.
 
 .. image:: deferred_expenses/deferred_expenses01.png
    :align: center
-   :alt: Configuration of a Deferred Expense Account in Odoo Accounting
+   :alt: Configuration of a Deferred Expense Account in Thrive Bureau ERP Accounting
 
 .. note::
    This account's type must be either *Current Assets* or *Prepayments*
@@ -55,7 +55,7 @@ deferred.
 
 .. image:: deferred_expenses/deferred_expenses02.png
    :align: center
-   :alt: Selection of a Deferred Expense Account on a draft bill in Odoo Accounting
+   :alt: Selection of a Deferred Expense Account on a draft bill in Thrive Bureau ERP Accounting
 
 Choose a different Expense Account for specific products
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -65,7 +65,7 @@ save.
 
 .. image:: deferred_expenses/deferred_expenses03.png
    :align: center
-   :alt: Change of the Expense Account for a product in Odoo
+   :alt: Change of the Expense Account for a product in Thrive Bureau ERP
 
 .. tip::
    It is possible to automate the creation of expense entries for these products (see:
@@ -80,7 +80,7 @@ one.
 
 .. image:: deferred_expenses/deferred_expenses04.png
    :align: center
-   :alt: Modification of a posted journal item's account in Odoo Accounting
+   :alt: Modification of a posted journal item's account in Thrive Bureau ERP Accounting
 
 Deferred Expenses entries
 =========================
@@ -100,15 +100,15 @@ Expenses** tab.
 
 .. image:: deferred_expenses/deferred_expenses05.png
    :align: center
-   :alt: Deferred Expense entry in Odoo Accounting
+   :alt: Deferred Expense entry in Thrive Bureau ERP Accounting
 
 Once done, you can click on *Compute Deferral* (next to the *Confirm* button) to generate all the
-values of the **Expense Board**. This board shows you all the entries that Odoo will post to
+values of the **Expense Board**. This board shows you all the entries that Thrive Bureau ERP will post to
 recognize your expense, and at which date.
 
 .. image:: deferred_expenses/deferred_expenses06.png
    :align: center
-   :alt: Expense Board in Odoo Accounting
+   :alt: Expense Board in Thrive Bureau ERP Accounting
 
 What does "Prorata Temporis" mean?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -136,7 +136,7 @@ would do to `create a new entry`_.
 
 .. image:: deferred_expenses/deferred_expenses07.png
    :align: center
-   :alt: Create Deferred Entry from a journal item in Odoo Accounting
+   :alt: Create Deferred Entry from a journal item in Thrive Bureau ERP Accounting
 
 Deferred Expense Models
 =======================
@@ -162,7 +162,7 @@ model button fills out the form according to that model.
 
 .. image:: deferred_expenses/deferred_expenses08.png
    :align: center
-   :alt: Deferred Expense model button in Odoo Accounting
+   :alt: Deferred Expense model button in Thrive Bureau ERP Accounting
 
 .. _deferred-expenses-automation:
 
@@ -184,7 +184,7 @@ You have three choices for the **Automate Deferred Expense** field:
 
 .. image:: deferred_expenses/deferred_expenses09.png
    :align: center
-   :alt: Automate Deferred Expense on an account in Odoo Accounting
+   :alt: Automate Deferred Expense on an account in Thrive Bureau ERP Accounting
 
 .. tip::
    You can, for example, select this account as the default **Expense Account** of a product to
