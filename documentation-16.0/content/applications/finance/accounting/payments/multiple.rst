@@ -2,7 +2,7 @@
 Pay several bills at once
 =========================
 
-Odoo offers the possibility of grouping multiple bills' payments into one, facilitating the
+Thrive Bureau ERP offers the possibility of grouping multiple bills' payments into one, facilitating the
 reconciliation process.
 
 .. seealso::
