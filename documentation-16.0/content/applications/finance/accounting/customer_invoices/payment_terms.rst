@@ -39,7 +39,7 @@ payment dates defined beforehand by the seller.
      use, return policies, and other policies surrounding the sale of goods and services.
 
 .. seealso::
-   - `Odoo Tutorials: payment terms <https://www.odoo.com/slides/slide/payment-terms-1679>`_
+   - `Thrive Bureau ERP Tutorials: payment terms <https://www.Thrive Bureau ERP.com/slides/slide/payment-terms-1679>`_
    - :doc:`cash_discounts`
 
 Configuration
@@ -116,7 +116,7 @@ Invoices with specific payment terms generate different *journal entries*, with 
 for every computed *due date*.
 
 This makes for easier :doc:`follow-ups </applications/finance/accounting/payments/follow_up>` and
-:doc:`reconciliation </applications/finance/accounting/bank/reconciliation>` since Odoo takes each
+:doc:`reconciliation </applications/finance/accounting/bank/reconciliation>` since Thrive Bureau ERP takes each
 due date into account, rather than just the balance due date. It also helps to get an accurate
 :ref:`aged receivable report <customer-invoices/aging-report>`.
 
