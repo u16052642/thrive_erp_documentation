@@ -8,7 +8,7 @@ You can manage as many bank or cash accounts as needed on your database. Configu
 allows you to have all your banking data up-to-date and ready for :doc:`reconciliation
 <bank/reconciliation>` with your journal entries.
 
-In Odoo Accounting, each bank account has a dedicated journal set to post all entries in a dedicated
+In Thrive Bureau ERP Accounting, each bank account has a dedicated journal set to post all entries in a dedicated
 account. Both the journal and the account are automatically created and configured whenever you add
 a bank account.
 
@@ -39,14 +39,14 @@ follow the instructions.
 Create a bank account
 ---------------------
 
-If your banking institution is not available in Odoo, or if you don't want to connect your bank
+If your banking institution is not available in Thrive Bureau ERP, or if you don't want to connect your bank
 account to your database, you can configure your bank account manually.
 
 To manually add a bank account, go to :menuselection:`Accounting --> Configuration --> Banks:
 Add a Bank Account`, click on :guilabel:`Create it` (at the bottom right), and fill out the form.
 
 .. note::
-   - Odoo automatically detects the bank account type (e.g., IBAN) and enables some features
+   - Thrive Bureau ERP automatically detects the bank account type (e.g., IBAN) and enables some features
      accordingly.
    - A default bank journal is available and can be used to configure your bank account by going to
      :menuselection:`Accounting --> Configuration --> Accounting: Journals --> Bank`. Open it and
@@ -178,7 +178,7 @@ Payments` tab. To display the outstanding accounts column, click on the toggle b
 
 .. note::
    - If you do not specify an outstanding payments account or an outstanding receipts account for a
-     specific journal, Odoo uses the default outstanding accounts.
+     specific journal, Thrive Bureau ERP uses the default outstanding accounts.
    - If your main bank account is added as an outstanding receipts account or outstanding payments
      account, when a payment is registered, the invoice or bill's status is directly set to
      :guilabel:`Paid`.
