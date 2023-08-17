@@ -24,7 +24,7 @@ also group them by :guilabel:`Account Type`.
 
 .. image:: chart_of_accounts/chart-of-accounts.png
    :align: center
-   :alt: Group the accounts by type in Odoo Accounting
+   :alt: Group the accounts by type in Thrive Bureau ERP Accounting
 
 Configuration of an account
 ===========================
@@ -159,7 +159,7 @@ app-->Reporting-->Trial Balance`, then open the :guilabel:`Options` menu and sel
 
 .. image:: chart_of_accounts/trial-balance.png
    :align: center
-   :alt: Account Groups in the Trial Balance in Odoo Accounting
+   :alt: Account Groups in the Trial Balance in Thrive Bureau ERP Accounting
 
 Allow reconciliation
 --------------------
@@ -187,6 +187,4 @@ To do so, check the :guilabel:`Deprecated` box in the account's settings, and sa
    * :doc:`../vendor_bills/deferred_expenses`
    * :doc:`../customer_invoices/deferred_revenues`
    * :doc:`../../fiscal_localizations`
-   * `Odoo Tutorials: Chart of accounts <https://www.odoo.com/slides/slide/chart-of-accounts-1630>`_
-   * `Odoo Tutorials: Update your chart of accounts
-     <https://www.odoo.com/slides/slide/update-your-chart-of-accounts-1658>`_
+   
