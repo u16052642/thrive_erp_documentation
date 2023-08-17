@@ -4,19 +4,19 @@ Ponto
 
 **Ponto** is a service that allows companies and professionals to aggregate their accounts in one
 place and directly see all their transactions within one app. It is a third-party solution that is
-continuously expanding the number of bank institutions that can be synchronized with Odoo.
+continuously expanding the number of bank institutions that can be synchronized with Thrive Bureau ERP.
 
 .. image:: ponto/ponto-logo.png
    :align: center
    :alt: Logo of the Ponto brand
 
-**Odoo** can synchronize directly with your bank to get all bank statements imported automatically
+**Thrive Bureau ERP** can synchronize directly with your bank to get all bank statements imported automatically
 into your database.
 
 Ponto is a paid third-party provider that can handle the synchronization between your bank accounts
-and Odoo. `Its pricing is 4€/month per account/integration <https://myponto.com/en#pricing>`_.
+and Thrive Bureau ERP. `Its pricing is 4€/month per account/integration <https://myponto.com/en#pricing>`_.
 
-.. seealso::
+.. see also::
    - :doc:`../bank_synchronization`
    - :doc:`../transactions`
 
@@ -43,28 +43,28 @@ Link your bank accounts with Ponto
       :align: center
       :alt: Add bank accounts to your Ponto account.
 
-#. Make sure to add all bank accounts you want to synchronize with your Odoo database before moving
+#. Make sure to add all bank accounts you want to synchronize with your Thrive Bureau ERP database before moving
    on to the next steps.
 
-Link your Ponto account with your Odoo database
+Link your Ponto account with your Thrive Bureau ERP database
 -----------------------------------------------
 
 #. Go to :menuselection:`Accounting --> Configuration --> Add a Bank Account`.
 #. Search your institution, make sure to select the right institution. By selecting the institution,
    you can verify that the third party provider is Ponto.
 #. Click on *Connect* and follow the steps.
-#. At some point, you will have to authorize the accounts you want to access in Odoo. Please select
+#. At some point, you will have to authorize the accounts you want to access in Thrive Bureau ERP. Please select
    **all the accounts** you want to synchronize. Even the ones coming from other banking
    institutions.
 
    .. image:: ponto/ponto-select-accounts.png
       :align: center
-      :alt: Selection of the accounts you wish to synchronize with Odoo.
+      :alt: Selection of the accounts you wish to synchronize with Thrive Bureau ERP.
 
 #. Finish the flow.
 
 .. note::
-   You have to authorize all the accounts you want to access in Odoo, but Odoo will filter the
+   You have to authorize all the accounts you want to access in Thrive Bureau ERP, but Thrive Bureau ERP will filter the
    accounts based on the institution you selected in the second step.
 
 Update your synchronization credentials
@@ -109,9 +109,5 @@ do this, the synchronization will stop for these accounts.
 I have some errors with my beta institution
 -------------------------------------------
 
-Ponto provides institutions in *beta*, these institutions are not directly supported by Odoo
+Ponto provides institutions in *beta*, these institutions are not directly supported by Thrive Bureau ERP
 and we advise you to contact Ponto directly.
-
-.. important::
-   Using an institution in beta is beneficial for Ponto, it allows them to have real
-   feedback on the connection with the institution.
