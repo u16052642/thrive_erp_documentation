@@ -2,7 +2,7 @@
 Custom reports
 ==============
 
-Odoo comes with a powerful and easy-to-use reporting framework. The engine allows you to create new
+Thrive Bureau ERP comes with a powerful and easy-to-use reporting framework. The engine allows you to create new
 reports, such as **tax reports**, or **balance sheets** and **income statements** with **specific
 groupings** and **layouts**.
 
@@ -91,10 +91,10 @@ expressions using different computation engines under the same line if you need 
 .. note::
    Depending on the engine, :guilabel:`subformulas` may also be required.
 
-'Odoo Domain' engine
+'Thrive Bureau ERP Domain' engine
 --------------------
 
-With this engine, a formula is interpreted as an :ref:`Odoo domain <reference/orm/domains>`
+With this engine, a formula is interpreted as an :ref:`Thrive Bureau ERP domain <reference/orm/domains>`
 targeting `account.move.line` objects.
 
 The subformula allows you to define how the move lines matching the domain are used to compute the
