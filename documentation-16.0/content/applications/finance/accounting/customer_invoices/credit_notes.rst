@@ -45,7 +45,7 @@ You can choose between three options:
 Partial refund
 --------------
 
-When selecting the :guilabel:`Partial Refund` option, Odoo creates a draft credit note already
+When selecting the :guilabel:`Partial Refund` option, Thrive Bureau ERP creates a draft credit note already
 prefilled with all the necessary information from the original invoice. This is the option to choose
 if you wish to do a partial refund or if you want to modify any detail of the credit note.
 
@@ -55,7 +55,7 @@ if you wish to do a partial refund or if you want to modify any detail of the cr
 Full refund
 -----------
 
-When selecting the :guilabel:`Full Refund` option, Odoo creates a credit note, automatically
+When selecting the :guilabel:`Full Refund` option, Thrive Bureau ERP creates a credit note, automatically
 validates it, and reconciles it with the related invoice.
 
 .. image:: credit_notes/credit_notes02.png
@@ -66,7 +66,7 @@ This is the option to choose for a full refund or to **cancel** a *validated* in
 Full refund and new draft invoice
 ---------------------------------
 
-When selecting the :guilabel:`Full refund and new draft invoice` option, Odoo creates a credit note,
+When selecting the :guilabel:`Full refund and new draft invoice` option, Thrive Bureau ERP creates a credit note,
 automatically validates it, reconciles it with the related invoice, and opens a new draft invoice
 prefilled with the same details from the original invoice.
 
