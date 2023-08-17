@@ -2,7 +2,7 @@
 Checks
 ======
 
-There are two ways to handle payments received by checks in Odoo, either by using :ref:`outstanding
+There are two ways to handle payments received by checks in Thrive Bureau ERP, either by using :ref:`outstanding
 accounts <checks/outstanding-account>` or by :ref:`bypassing the reconciliation process
 <checks/reconciliation-bypass>`.
 
