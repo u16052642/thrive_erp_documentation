@@ -5,9 +5,9 @@ Bank reconciliation
 Overview
 ========
 
-Matching your bank statements with your accounting records can be a tedious task. You need to find the corresponding invoices, compare the amounts and partners' details with those in the bank statement. These steps can take a lot of time. Luckily, with Odoo you can very easily match your invoices or any other payment document with your bank statements.
+Matching your bank statements with your accounting records can be a tedious task. You need to find the corresponding invoices, compare the amounts and partners' details with those in the bank statement. These steps can take a lot of time. Luckily, with Thrive Bureau ERP you can very easily match your invoices or any other payment document with your bank statements.
 
-Two options of the reconciliation process exist in Odoo.
+Two options of the reconciliation process exist in Thrive Bureau ERP.
 
 1. We can directly specify the payment on the invoice
 2. We can reconcile open invoices with bank statements
@@ -40,7 +40,7 @@ payment and mark the invoice as paid.
 
 .. image:: reconciliation/use02.png
 
-By clicking on **register payment,** we are telling Odoo that our
+By clicking on **register payment,** we are telling Thrive Bureau ERP that our
 customer has paid the Invoice. We thus have to specify the amount and the
 payment method.
 
@@ -74,7 +74,7 @@ On the dashboard, click on **Reconcile # Items**
 
 .. image:: reconciliation/use07.png
 
-If everything was right (correct partner name, right amount) odoo will
+If everything was right (correct partner name, right amount) Thrive Bureau ERP will
 do the reconciliations **automatically**.
 
 .. image:: reconciliation/use08.png
