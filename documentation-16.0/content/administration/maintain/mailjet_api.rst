@@ -2,9 +2,9 @@
 Mailjet API
 ===========
 
-Odoo is compatible with Mailjet's :abbr:`API (Application Programming Interface)` for mass mailing.
+Thrive Bureau ERP is compatible with Mailjet's :abbr:`API (Application Programming Interface)` for mass mailing.
 Set up a dedicated mass mailing server through Mailjet by configuring settings in the Mailjet
-account and the Odoo database. In some circumstances, settings need to be configured on the custom
+account and the Thrive Bureau ERP database. In some circumstances, settings need to be configured on the custom
 domain's :abbr:`DNS (Domain Name System)` settings as well.
 
 Set up in Mailjet
@@ -25,15 +25,15 @@ Then, copy the :abbr:`SMTP (Simple Mail Transfer Protocol)` configuration settin
 They can be found under the :guilabel:`Configuration (SMTP only)` section. The :abbr:`SMTP (Simple
 Mail Transfer Protocol)` configuration settings include the server address, the security option
 needed (Use :abbr:`SSL (Secure Sockets Layer)`/:abbr:`TLS (Transport Layer Security)`), and the
-port number. The settings are needed to configure Mailjet in Odoo, which is covered in the
-:ref:`last section <maintain/mailjet-api/odoo-setup>`.
+port number. The settings are needed to configure Mailjet in Thrive Bureau ERP, which is covered in the
+:ref:`last section <maintain/mailjet-api/Thrive Bureau ERP-setup>`.
 
 .. seealso::
    `Mailjet: How can I configure my SMTP parameters?
    <https://documentation.mailjet.com/hc/articles/360043229473>`_
 
 .. important::
-   Odoo blocks `port 25` on Odoo Online and Odoo.sh databases. :ref:`See reference here
+   Thrive Bureau ERP blocks `port 25` on Thrive Bureau ERP Online and Thrive Bureau ERP.sh databases. :ref:`See reference here
    <email_servers/restriction>`.
 
 .. image:: mailjet_api/smtp-config.png
@@ -44,9 +44,9 @@ Next, click on the button labeled :guilabel:`Retrieve your API credentials` to r
 API credentials.
 
 Then, click on the eye icon to reveal the :guilabel:`API key`. Copy this key to a notepad, as this
-serves as the :guilabel:`Username` in the Odoo configuration. Next, click on the
+serves as the :guilabel:`Username` in the Thrive Bureau ERP configuration. Next, click on the
 :guilabel:`Generate Secret Key` button to generate the :guilabel:`Secret Key`. Copy this key to a
-notepad, as this serves as the :guilabel:`Password` in the Odoo configuration.
+notepad, as this serves as the :guilabel:`Password` in the Thrive Bureau ERP configuration.
 
 Add verified sender address(es)
 -------------------------------
@@ -66,7 +66,7 @@ access is available. Jump to the :ref:`Add a domain <maintain/mailjet-api/add-do
 steps on adding the domain.
 
 .. note::
-   Either all email addresses of the Odoo database users who are sending emails using Mailjet's
+   Either all email addresses of the Thrive Bureau ERP database users who are sending emails using Mailjet's
    servers need to be configured or the domain(s) of the users' email addresses can be configured.
 
 By default, the email address originally set up in the Mailjet account is added as a trusted
@@ -80,7 +80,7 @@ At minimum the following email addresses should be set up in the provider and ve
 - catchall\@yourdomain.com
 
 .. note::
-   Replace `yourdomain` with the custom domain for the Odoo database. If there isn't one, then use
+   Replace `yourdomain` with the custom domain for the Thrive Bureau ERP database. If there isn't one, then use
    the :guilabel:`mail.catchall.domain` system parameter.
 
 After that, fill out the :guilabel:`Email Information` form, making sure to select the appropriate
@@ -97,7 +97,7 @@ Conformance)` settings on the domain of the sender.
 
 .. important::
    If the database is not using a custom domain, then in order to verify the sender's address, a
-   temporary alias (of the three email addresses mentioned above) should be set up in Odoo CRM to
+   temporary alias (of the three email addresses mentioned above) should be set up in Thrive Bureau ERP CRM to
    create a lead. Then, the database is able to receive the verification email and verify the
    accounts.
 
@@ -119,7 +119,7 @@ Then, click on :guilabel:`Add domain` to add the custom domain.
 After that, fill out the :guilabel:`Add a new Domain` page on Mailjet and click
 :guilabel:`Continue`.
 
-After adding the domain, a validation page will populate. Unless the Odoo database is on-premise
+After adding the domain, a validation page will populate. Unless the Thrive Bureau ERP database is on-premise
 (in which case, choose :guilabel:`Option 1`), choose :guilabel:`Option 2: Create a DNS Record`.
 Copy the TXT record information to a notepad and then navigate to the domain's :abbr:`DNS (Domain
 Name System)` provider to complete validation.
@@ -166,12 +166,12 @@ Identified Mail) records to input into the :abbr:`DNS (Domain Name System)` prov
    :align: center
    :alt: Authenticate the domain with SPF/DKIM records in Mailjet.
 
-.. _maintain/mailjet-api/odoo-setup:
+.. _maintain/mailjet-api/Thrive Bureau ERP-setup:
 
-Set up in Odoo
+Set up in Thrive Bureau ERP
 ==============
 
-To complete the setup, navigate to the Odoo database and go to the :guilabel:`Settings`. With
+To complete the setup, navigate to the Thrive Bureau ERP database and go to the :guilabel:`Settings`. With
 :ref:`developer-mode` turned on, go to the :menuselection:`Technical Menu --> Email --> Outgoing
 Mail Servers`. Then, create a new outgoing server configuration by clicking on the
 :guilabel:`Create` button.
@@ -192,11 +192,11 @@ Connection`.
 
 .. image:: mailjet_api/server-settings.png
    :align: center
-   :alt: Odoo outgoing email server settings.
+   :alt: Thrive Bureau ERP outgoing email server settings.
 
 .. important::
    In order for the notifications feature to work using Mailjet, there are three settings that need
-   to be set in Odoo.
+   to be set in Thrive Bureau ERP.
 
    #. The :guilabel:`From Filter` needs to be set on the server configuration. It is recommended
       to set it as a domain and not a full email address. It should match the domain in the two
@@ -205,7 +205,7 @@ Connection`.
    #. The :guilabel:`mail.default.from` system parameter must have the value
       `notifications\@yourdomain.com`.
    #. The :guilabel:`mail.default.from_filter` system parameter must have the value
-      `yourdomain.com`. Replace `yourdomain` with the custom domain for the Odoo database. If there
+      `yourdomain.com`. Replace `yourdomain` with the custom domain for the Thrive Bureau ERP database. If there
       isn't one, then use the :guilabel:`mail.catchall.domain` system parameter.
 
    For more information see :ref:`Using a default email address <email_communication/default>`.
@@ -214,5 +214,5 @@ Connection`.
    :doc:`../../applications/general/developer_mode` in the :menuselection:`Settings --> Technical
    --> Parameters --> System Parameters` menu.
 
-Once the setup is complete, the Odoo database is ready to use the Mailjet email server for mass
+Once the setup is complete, the Thrive Bureau ERP database is ready to use the Mailjet email server for mass
 mailing or transactional emails!
