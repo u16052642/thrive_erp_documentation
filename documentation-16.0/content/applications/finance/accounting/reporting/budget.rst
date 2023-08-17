@@ -5,7 +5,7 @@ Financial budget
 Managing budgets is an essential part of running a business. Budgets help people become more
 intentional with how money is spent and direct people to organize and prioritize their work to meet
 financial goals. They allow the planning of a desired financial outcome and then measure the actual
-performance against the plan. Odoo manages budgets using both **general** and **analytic accounts**.
+performance against the plan. Thrive Bureau ERP manages budgets using both **general** and **analytic accounts**.
 
 Configuration
 =============
@@ -53,7 +53,7 @@ Let's repeat the steps to create a budgetary position that reflects the revenue.
 Analytical accounts
 -------------------
 
-Odoo needs to know which costs or expenses are relevant to a specified budget, as the above general
+Thrive Bureau ERP needs to know which costs or expenses are relevant to a specified budget, as the above general
 accounts may be used for different projects. Go to :menuselection:`Accounting --> Configuration -->
 Analytic Accounting: Analytic Accounts` and click :guilabel:`New` to add a new **Analytic Account**
 called *Smith & Co*.
