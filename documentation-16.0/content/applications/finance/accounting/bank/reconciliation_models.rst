@@ -37,7 +37,7 @@ reconciliation. Each button is a different Reconciliation Model.
 
 .. image:: reconciliation_models/reconciliation_models_button.png
    :align: center
-   :alt: Example of a Reconciliation Model with a write-off button in Thrive Bureau ERP Accounting
+   :alt: Example of a Reconciliation Model with a write-off button in Odoo Accounting
 
 .. _reconciliation_models_suggestion:
 
@@ -49,7 +49,7 @@ validated. This automation is based on a set of rules defined in the reconciliat
 
 .. image:: reconciliation_models/reconciliation_models_suggestion.png
    :align: center
-   :alt: Example of a Reconciliation Model that suggests counterpart values in Thrive Bureau ERP Accounting
+   :alt: Example of a Reconciliation Model that suggests counterpart values in Odoo Accounting
 
 .. _reconciliation_models_match:
 
@@ -63,7 +63,7 @@ on a set of rules defined in the reconciliation model.
 .. image:: reconciliation_models/reconciliation_models_match.png
    :align: center
    :alt: Example of a Reconciliation Model that matches existing invoices and bills automatically
-         in Thrive Bureau ERP Accounting
+         in Odoo Accounting
 
 Configuration
 =============
@@ -75,7 +75,7 @@ on *Reconciliation Models*.
 
 .. image:: reconciliation_models/reconciliation_models_overview.png
    :align: center
-   :alt: Open the Reconciliation Model menu from the overview dashboard in Thrive Bureau ERP Accounting
+   :alt: Open the Reconciliation Model menu from the overview dashboard in Odoo Accounting
 
 .. important::
    The first entry, named *Invoices Matching Rule*, is the one responsible for the current matching
@@ -108,7 +108,7 @@ Define here all the conditions that are required for a Reconciliation Model to b
 
 .. image:: reconciliation_models/reconciliation_models_conditions.png
    :align: center
-   :alt: Conditions for the Reconciliation Model to be applied in Thrive Bureau ERP Accounting
+   :alt: Conditions for the Reconciliation Model to be applied in Odoo Accounting
 
 Counterpart Values
 ------------------
@@ -120,7 +120,7 @@ line*.
 
 .. image:: reconciliation_models/reconciliation_models_counterparts.png
    :align: center
-   :alt: Counterparts values of a Reconciliation Model in Thrive Bureau ERP Accounting
+   :alt: Counterparts values of a Reconciliation Model in Odoo Accounting
 
 .. seealso::
 
