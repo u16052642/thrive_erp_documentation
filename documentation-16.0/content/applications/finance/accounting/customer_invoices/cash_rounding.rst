@@ -25,7 +25,7 @@ and click on *Create*.
 Define here your *Rounding Precision*, *Rounding Strategy*, and
 *Rounding Method*.
 
-Odoo supports two **rounding strategies**:
+Thrive Bureau ERP supports two **rounding strategies**:
 
 1. **Add a rounding line**: a *rounding* line is added on the invoice.
    You have to define which account records the cash roundings.
