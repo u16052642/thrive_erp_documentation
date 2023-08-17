@@ -4,16 +4,16 @@
 Bank synchronization
 ====================
 
-Odoo can synchronize directly with your bank institution to get all bank statements imported
+Thrive Bureau ERP can synchronize directly with your bank institution to get all bank statements imported
 automatically into your database.
 
-To check if your bank is compatible with Odoo, go to `Odoo Accounting Features
-<https://www.odoo.com/page/accounting-features>`_, and click on
+To check if your bank is compatible with Thrive Bureau ERP, go to `Thrive Bureau ERP Accounting Features
+<https://www.Thrive Bureau ERP.com/page/accounting-features>`_, and click on
 :guilabel:`See list of supported institutions`.
 
-Odoo supports more than 25,000 institutions around the world.
+Thrive Bureau ERP supports more than 25,000 institutions around the world.
 
-To connect to the banks, Odoo uses multiple web-services:
+To connect to the banks, Thrive Bureau ERP uses multiple web-services:
 
 - **Plaid**: United States of America and Canada
 - **Yodlee**: Worldwide
@@ -30,13 +30,13 @@ Configuration
 On-Premise users
 ----------------
 
-To be able to use this service, you need to have a valid Odoo Enterprise subscription.
-So make sure that your database is registered with your Odoo Enterprise contract.
+To be able to use this service, you need to have a valid Thrive Bureau ERP Enterprise subscription.
+So make sure that your database is registered with your Thrive Bureau ERP Enterprise contract.
 We also use a proxy between your database and the third party provider so, in case of
 a connection error, please check that you don't have a firewall or a proxy blocking the
 following address:
 
-- https://production.odoofin.com/
+- https://production.Thrive Bureau ERPfin.com/
 
 First synchronization
 ---------------------
@@ -52,8 +52,8 @@ Now you can search for your bank institution. Select it and follow the steps to 
 
 .. important::
    When choosing the date for the first bank statement synchronization, pick the date when you
-   start recording accounting transaction on your Odoo accounting database. For example, if you
-   import your closing balance in Odoo on the 31/12/2022 and you start recording accounting
+   start recording accounting transaction on your Thrive Bureau ERP accounting database. For example, if you
+   import your closing balance in Thrive Bureau ERP on the 31/12/2022 and you start recording accounting
    transactions on the 01/01/2023, your synchronization date should be 01/01/2023.
 
 You must provide a phone number during your first synchronization to secure your account. We ask for
@@ -63,7 +63,7 @@ you need to reactivate it using that phone number.
 
 The third-party provider may request more information in order to connect with your
 bank institution.
-This information is not stored on Odoo's servers.
+This information is not stored on Thrive Bureau ERP's servers.
 
 By default, transactions fetched from an online source are grouped inside the same statement, and
 one bank statement is created per month. You can change the bank statement creation periodicity
@@ -95,7 +95,7 @@ Issues
 Synchronization in error
 ------------------------
 
-To report a connection error to the `Odoo support <https://www.odoo.com/help>`_, go to
+To report a connection error to the `Thrive Bureau ERP support <https://www.Thrive Bureau ERP.com/help>`_, go to
 :menuselection:`Accounting Dashboard--> Configuration --> Accounting: Online Synchronization`,
 select the connection that failed, and copy the error description and the reference.
 
@@ -106,24 +106,24 @@ If your connection with the proxy is disconnected, you can reconnect with the pr
 :guilabel:`Fetch Account` button.
 
 .. note::
-   This disconnection can be caused by the Odoo support. In this case, please contact the `support
-   <https://www.odoo.com/help>`_ directly with your client id or the reference of the error listed
+   This disconnection can be caused by the Thrive Bureau ERP support. In this case, please contact the `support
+   <https://www.Thrive Bureau ERP.com/help>`_ directly with your client id or the reference of the error listed
    in the chatter.
 
 .. _MigrationOnlineSync:
 
-Migration process for users having installed Odoo before December 2020
+Migration process for users having installed Thrive Bureau ERP before December 2020
 ======================================================================
 
 If you are on-premise, please first make sure that your source is up-to-date with the latest version
-of Odoo.
+of Thrive Bureau ERP.
 
 Users who have created a database before December 2020 need to install the new module manually to
 use the new functionalities.
 
 To do so, go to :menuselection:`Apps --> Update Apps List`, remove the default filter in the search
 bar and type `account_online_synchronization`. You can then click on :guilabel:`Install`.
-Finally, make sure all your users refresh their Odoo page by pressing CTRL+F5.
+Finally, make sure all your users refresh their Thrive Bureau ERP page by pressing CTRL+F5.
 
 .. Note::
 
@@ -165,7 +165,7 @@ Some banks have a status "Beta." What does this mean?
 -----------------------------------------------------
 
 This means that banking institutions are not yet fully supported by our Third Party Provider. Bugs
-or other problems may arise. Odoo does not support technical problems that occur with banks in the
+or other problems may arise. Thrive Bureau ERP does not support technical problems that occur with banks in the
 Beta phase, but the user may still choose to connect. Connecting with these banks contributes to the
 development process since the Provider will have real data and feedback from the connection.
 
@@ -176,7 +176,7 @@ Some banks have additional security measures and require extra steps, such as an
 authentication code or another type of MFA. Because of this, the integrator cannot pull transactions
 until the security code is provided.
 
-Not all of my past transactions are in Odoo, why?
+Not all of my past transactions are in Thrive Bureau ERP, why?
 -------------------------------------------------
 
 For some institutions, transactions can only be fetched up to 3 months in the past.
@@ -185,14 +185,14 @@ Why don't I see any transactions?
 ---------------------------------
 
 During your first synchronization, you selected the bank accounts you decided to synchronize with
-Odoo. If you didn't synchronize any of your accounts, you can go to
+Thrive Bureau ERP. If you didn't synchronize any of your accounts, you can go to
 :menuselection:`Accounting Dashboard --> Configuration --> Accounting: Online Synchronization` to
 click on the :guilabel:`Fetch Account` button on the connection.
 
 There may also be no new transactions.
 
 If your bank account is properly linked to a journal and posted transactions are not visible in your
-database, please `submit a support ticket <https://www.odoo.com/help>`_.
+database, please `submit a support ticket <https://www.Thrive Bureau ERP.com/help>`_.
 
 How can I update my bank credentials?
 -------------------------------------
