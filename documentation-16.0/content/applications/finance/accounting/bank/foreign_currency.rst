@@ -2,15 +2,15 @@
 Manage a bank account in a foreign currency
 ===========================================
 
-In Odoo, every transaction is recorded in the default currency of the company, and reports are all
+In Thrive Bureau ERP, every transaction is recorded in the default currency of the company, and reports are all
 based on that default currency. When you have a bank account in a foreign currency, for every
-transaction, Odoo stores two values:
+transaction, Thrive Bureau ERP stores two values:
 
 -  The debit/credit in the currency of the *company*;
 -  The debit/credit in the currency of the *bank account*.
 
 Currency rates are updated automatically using the web services of a banking institution. By
-default, Odoo uses the European Central Bank's web services but other options are available.
+default, Thrive Bureau ERP uses the European Central Bank's web services but other options are available.
 
 Configuration
 =============
@@ -26,7 +26,7 @@ and then click on :guilabel:`Save`.
 Configure currencies
 --------------------
 
-Once Odoo is configured to support multiple currencies, they are all created by default, but not
+Once Thrive Bureau ERP is configured to support multiple currencies, they are all created by default, but not
 necessarily active. To activate the new currencies, click on :guilabel:`Activate Other Currencies`
 under the :guilabel:`Multi-Currencies` setting or go to :menuselection:`Accounting --> Configuration
 --> Accounting: Currencies`.
@@ -56,14 +56,14 @@ save.
    :align: center
    :alt: Example of a created bank journal.
 
-Upon creation of the journal, Odoo automatically links the bank account to the journal. It can be
+Upon creation of the journal, Thrive Bureau ERP automatically links the bank account to the journal. It can be
 found under :menuselection:`Accounting --> Configuration --> Accounting: Chart of Accounts`.
 
 Vendor bill in a foreign currency
 =================================
 
 To pay a bill in a foreign currency, simply select the currency next to the :guilabel:`Journal`
-field and register the payment. Odoo automatically creates and posts the foreign **exchange gain or
+field and register the payment. Thrive Bureau ERP automatically creates and posts the foreign **exchange gain or
 loss** as a new journal entry.
 
 .. image:: foreign_currency/foreign-bill-currency.png
@@ -71,7 +71,7 @@ loss** as a new journal entry.
    :alt: How to set a bill currency.
 
 .. note::
-   Note that you can pay a foreign bill with another currency. In that case, Odoo automatically
+   Note that you can pay a foreign bill with another currency. In that case, Thrive Bureau ERP automatically
    converts between the two currencies.
 
 Unrealized Currency Gains/Losses Report
@@ -95,18 +95,18 @@ the rate of the foreign currencies in the report.
    :alt: Menu to manually change exchange rates.
 
 When manually changing **exchange rates**, a yellow banner appears allowing you to reset back to
-Odoo's rate. To do so, simply click on :guilabel:`Reset to Odoo's Rate`.
+Thrive Bureau ERP's rate. To do so, simply click on :guilabel:`Reset to Thrive Bureau ERP's Rate`.
 
 .. image:: foreign_currency/foreign-reset-rates.png
    :align: center
-   :alt: Banner to reset back to Odoo's rates.
+   :alt: Banner to reset back to Thrive Bureau ERP's rates.
 
 In order to update your **balance sheet** with the amount of the :guilabel:`adjustment` column,
 click on the :guilabel:`Adjustment Entry` button. In the pop-up window, select a
 :guilabel:`Journal`, :guilabel:`Expense Account` and :guilabel:`Income Account` to calculate and
 process the **unrealized gains and losses**.
 
-You can set the date of the report in the :guilabel:`Date` field. Odoo automatically reverses the
+You can set the date of the report in the :guilabel:`Date` field. Thrive Bureau ERP automatically reverses the
 booking entry to the date set in :guilabel:`Reversal Date`.
 
 Once posted, the :guilabel:`adjustment` column should indicate `0.00`, meaning all **unrealized
