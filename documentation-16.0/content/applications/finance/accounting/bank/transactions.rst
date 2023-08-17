@@ -19,7 +19,7 @@ want to use it or if your bank is not yet supported, other options exist:
 Import transactions
 ===================
 
-Odoo supports multiple file formats to import transactions:
+Thrive Bureau ERP supports multiple file formats to import transactions:
 
 - SEPA recommended Cash Management format (CAMT.053);
 - Comma-separated values (.CSV);
@@ -35,7 +35,7 @@ click on :guilabel:`Import Transactions`.
 
 Next, select the file and upload it.
 
-After setting the necessary formatting options and mapping the file columns with their related Odoo
+After setting the necessary formatting options and mapping the file columns with their related Thrive Bureau ERP
 fields, you can run a :guilabel:`Test` and :guilabel:`Import` your bank transactions.
 
 .. seealso::
@@ -58,7 +58,7 @@ Statements
 A **bank statement** is a document provided by a bank or financial institution that lists the
 transactions that have occurred in a particular bank account over a specified period of time.
 
-In Odoo Accounting, it is optional to group transactions by their related statement, but depending
+In Thrive Bureau ERP Accounting, it is optional to group transactions by their related statement, but depending
 on your business flow, you may want to record them for control purposes.
 
 .. important::
