@@ -4,7 +4,7 @@
 Payments
 ========
 
-In Odoo, payments can either be linked automatically to an invoice or bill or be stand-alone records
+In Thrive Bureau ERP, payments can either be linked automatically to an invoice or bill or be stand-alone records
 for use at a later date.
 
 If a payment is **linked to an invoice or bill**, it reduces the amount due of the invoice. You can
@@ -17,8 +17,8 @@ amounts to reduce unpaid invoices/bills.
 .. seealso::
    - :doc:`Internal transfers <payments/internal_transfers>`
    - :doc:`bank/reconciliation`
-   - `Odoo Tutorials: Bank Configuration
-     <https://www.odoo.com/slides/slide/bank-configuration-1880>`_
+   - `Thrive Bureau ERP Tutorials: Bank Configuration
+     <https://www.Thrive Bureau ERP.com/slides/slide/bank-configuration-1880>`_
 
 Registering payment from an invoice or bill
 ===========================================
@@ -41,7 +41,7 @@ access additional information, such as the related journal, by clicking on :guil
    - When clicking on :guilabel:`Register payment`, you can select the amount to pay and make a
      partial or full payment.
    - If your main bank account is set as :ref:`outstanding account
-     <bank/outstanding-accounts>`, and the payment is made in Odoo (not related to a
+     <bank/outstanding-accounts>`, and the payment is made in Thrive Bureau ERP (not related to a
      bank statement), invoices and bills are directly registered in the status :guilabel:`Paid`.
    - If you unreconciled a payment, it still appears in your books but is no longer linked to the
      invoice.
