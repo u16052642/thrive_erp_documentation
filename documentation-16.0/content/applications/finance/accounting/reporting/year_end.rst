@@ -22,7 +22,7 @@ Years`. From there, click :guilabel:`Create`, give it a :guilabel:`Name`, and bo
 :guilabel:`Start Date` and :guilabel:`End Date`.
 
 .. note::
-   Once the set fiscal period is over, Odoo automatically reverts to the default periodicity, taking
+   Once the set fiscal period is over, Thrive Bureau ERP automatically reverts to the default periodicity, taking
    into account the value specified in the :guilabel:`Last Day` field.
 
 .. _year-end/checklist:
@@ -55,7 +55,7 @@ Then, to close the fiscal year:
 - Run a :ref:`tax report <reporting/tax-report>`, and verify that all tax information is correct.
 - Reconcile all accounts on the :ref:`balance sheet <reporting/balance-sheet>`:
 
-  - Update the bank balances in Odoo according to the actual balances found on the bank statements.
+  - Update the bank balances in Thrive Bureau ERP according to the actual balances found on the bank statements.
   - Reconcile all transactions in the cash and bank accounts by running the :ref:`aged receivables
     <reporting/aged-receivable>` and :ref:`aged payables <reporting/aged-payable>` reports.
   - Audit all accounts, being sure to fully understand all transactions and their nature, making
@@ -76,7 +76,7 @@ Next, the accountant likely verifies balance sheet items and book entries for:
 
 If the accountant is going through the year-end audit, they may want to have paper copies of all
 balance sheet items (such as loans, bank accounts, prepayments, sales tax statements, etc.) to
-compare these with the balances in Odoo.
+compare these with the balances in Thrive Bureau ERP.
 
 .. tip::
    During this process, it is good practice to set a :guilabel:`Journal Entries Lock Date` to the
@@ -88,7 +88,7 @@ compare these with the balances in Odoo.
 Current year's earnings
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Odoo uses a unique account type called **current year's earnings** to display the amount difference
+Thrive Bureau ERP uses a unique account type called **current year's earnings** to display the amount difference
 between the **income** and **expenses** accounts.
 
 .. note::
@@ -107,6 +107,6 @@ Dates`.
 .. note::
    A specific year-end closing entry is **optional** in order to close out the **profit and loss
    statement**. The reports are created in real-time, meaning that the profit and loss statement
-   corresponds directly with the year-end date specified in Odoo. Therefore, any time the **income
+   corresponds directly with the year-end date specified in Thrive Bureau ERP. Therefore, any time the **income
    statement** is generated, the beginning date corresponds with the beginning of the **fiscal
    year** and all account balances should equal zero.
