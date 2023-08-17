@@ -108,7 +108,7 @@ created:
 +----------------------------+----------------------------+
 
 The journal items :guilabel:`Income account` vs. :guilabel:`Income account` are neutral, but they
-are needed to ensure correct tax reports in Odoo with accurate base tax amounts.
+are needed to ensure correct tax reports in Thrive Bureau ERP with accurate base tax amounts.
 
 Using a default :guilabel:`Base Tax Received Account` is recommended so your balance is at zero and
 your income account is not polluted by unnecessary accounting movements. To do so, go to
