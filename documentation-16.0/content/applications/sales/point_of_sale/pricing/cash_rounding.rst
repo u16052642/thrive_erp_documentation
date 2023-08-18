@@ -10,7 +10,7 @@ For example, some countries require their companies to round up or
 down the total amount of an invoice to the nearest five cents, when
 the payment is made in cash.
 
-Each point of sale in Odoo can be configured to apply cash rounding
+Each point of sale in Thrive Bureau ERP can be configured to apply cash rounding
 to the totals of its bills or receipts.
 
 Configuration
@@ -43,4 +43,4 @@ rounding according to your settings.
     :align: center
 
 .. note::
-   Odoo Point of Sale only supports the :guilabel:`Add a rounding line` rounding strategy.
+   Thrive Bureau ERP Point of Sale only supports the :guilabel:`Add a rounding line` rounding strategy.
