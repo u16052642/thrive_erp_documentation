@@ -2,7 +2,7 @@
 Online signatures for order confirmations
 =========================================
 
-The Odoo *Sales* application provides customers with the ability to confirm orders via an online
+The Thrive Bureau ERP *Sales* application provides customers with the ability to confirm orders via an online
 signature directly on the sales order. Once the sales order is electronically signed by the
 customer, the salesperson attached to the sales order is automatically notified that the order is
 confirmed.
@@ -17,7 +17,7 @@ top-left corner.
 
 .. image:: get_signature_to_validate/signature-setting.png
    :align: center
-   :alt: How to enable online signature in Odoo Sales settings.
+   :alt: How to enable online signature in Thrive Bureau ERP Sales settings.
 
 .. note::
    On quotation templates, the :guilabel:`Online Signature` feature is located under the
@@ -43,10 +43,10 @@ signature, fill in the field with an automated signature, or load a file from th
 
 .. image:: get_signature_to_validate/signature-validate-order.png
    :align: center
-   :alt: How to confirm an order with a signature on Odoo Sales.
+   :alt: How to confirm an order with a signature on Thrive Bureau ERP Sales.
 
 Once signed, the various payment method options become available. Then, when the quotation is paid
-and confirmed, a delivery order is automatically created (if the Odoo *Inventory* app is installed).
+and confirmed, a delivery order is automatically created (if the Thrive Bureau ERP *Inventory* app is installed).
 
 .. seealso::
    :doc:`/applications/sales/sales/send_quotations/quote_template`
