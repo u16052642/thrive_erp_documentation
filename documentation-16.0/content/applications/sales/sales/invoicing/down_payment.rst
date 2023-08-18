@@ -41,7 +41,7 @@ reused for future down payments.
 
 .. image:: down_payment/create-invoices-popup-form.png
    :align: center
-   :alt: How to configure a down payment on Odoo Sales.
+   :alt: How to configure a down payment on Thrive Bureau ERP Sales.
 
 .. important::
    When a down payment is first requested, a new product called :guilabel:`Down payment` is created.
@@ -70,13 +70,13 @@ Then, on the :guilabel:`Create invoices` pop-up window that appears, select :gui
 
 .. image:: down_payment/create-invoices-popup.png
    :align: center
-   :alt: Create invoices pop up window in Odoo Sales.
+   :alt: Create invoices pop up window in Thrive Bureau ERP Sales.
 
 Doing so reveals the draft invoice, which mentions the down payment.
 
 .. image:: down_payment/draft-invoice.png
    :align: center
-   :alt: A sample draft invoice with down payment mentioned in Odoo Sales.
+   :alt: A sample draft invoice with down payment mentioned in Thrive Bureau ERP Sales.
 
 From there, the invoice can be confirmed/posted, and the payment can be registered. Return to the
 sales order, via the breadcrumbs.
@@ -87,7 +87,7 @@ invoice. In either case, the down payment is mentioned on both the sales order a
 
 .. image:: down_payment/down-payment-line-item.png
    :align: center
-   :alt: How the down payment is mentioned on the sales order in Odoo Sales.
+   :alt: How the down payment is mentioned on the sales order in Thrive Bureau ERP Sales.
 
 To confirm and register the first payment of the down payment, click the :guilabel:`Invoices` smart
 button to return to the invoice. On the :guilabel:`Customer Invoice` page, click
@@ -96,18 +96,18 @@ pop-up form.
 
 .. image:: down_payment/register-payment-popup.png
    :align: center
-   :alt: How the register payment pop up looks in Odoo Sales.
+   :alt: How the register payment pop up looks in Thrive Bureau ERP Sales.
 
 On this form, select the appropriate :guilabel:`Journal` and confirm that the down payment amount
 is correct in the :guilabel:`Amount` field. Then, make any other modifications to the other fields,
 if necessary, before clicking :guilabel:`Create Payment`.
 
-Odoo returns to the invoice, which now has a green :guilabel:`In Payment` banner visible in the
+Thrive Bureau ERP returns to the invoice, which now has a green :guilabel:`In Payment` banner visible in the
 upper-right corner.
 
 .. image:: down_payment/paid-banner-invoice-1.png
    :align: center
-   :alt: How the initial down payment invoice has a green paid banner in Odoo Sales.
+   :alt: How the initial down payment invoice has a green paid banner in Thrive Bureau ERP Sales.
 
 Now, when the customer wants to pay the remaining amount of the order, another invoice must be
 created. To do that, return to the sales order, and click :guilabel:`Create Invoice`.
@@ -117,7 +117,7 @@ payments`, which is selected by default.
 
 .. image:: down_payment/deduct-down-payments-option.png
    :align: center
-   :alt: The deduct down payment option on the create invoices pop up in Odoo Sales.
+   :alt: The deduct down payment option on the create invoices pop up in Thrive Bureau ERP Sales.
 
 If the remaining amount is ready to be paid, the :guilabel:`Regular Invoice` option should be
 selected, and the :guilabel:`Deduct down payments` option should *stay* selected. Then, click
@@ -129,7 +129,7 @@ along with the current :guilabel:`Payment Status`.
 
 .. image:: down_payment/down-payment-invoices-page.png
    :align: center
-   :alt: The down payment invoices page in Odoo Sales.
+   :alt: The down payment invoices page in Thrive Bureau ERP Sales.
 
 To complete the flow, select the invoice with the :guilabel:`Not Paid` status, which opens that
 invoice. On the invoice page, click :guilabel:`Confirm`, then :guilabel:`Register Payment`, and
