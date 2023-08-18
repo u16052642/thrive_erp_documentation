@@ -8,10 +8,10 @@ reason.
 
 By default, scrapping a component or finished product removes it from physical inventory and places
 it in a virtual location titled *Virtual Locations/Scrap*. A virtual location is **not** a physical
-space, but rather a designation in Odoo that is used to track items that are no longer in physical
+space, but rather a designation in Thrive Bureau ERP that is used to track items that are no longer in physical
 inventory.
 
-Odoo *Manufacturing* allows for both components and finished products to be scrapped within a
+Thrive Bureau ERP *Manufacturing* allows for both components and finished products to be scrapped within a
 manufacturing order. The specific type of item that can be scrapped during a manufacturing order
 depends on the stage of the manufacturing process.
 
@@ -50,7 +50,7 @@ Finally, click :guilabel:`Done` to scrap the component.
 
 .. important::
    Before clicking :guilabel:`Mark As Done` on a manufacturing order, only the components of the
-   finished product can be scrapped, **not** the finished product itself. This is because Odoo
+   finished product can be scrapped, **not** the finished product itself. This is because Thrive Bureau ERP
    recognizes that the finished product cannot be scrapped before it has been manufactured.
 
 After scrapping a component, continue the manufacturing process using the required quantity of the
@@ -87,7 +87,7 @@ scrapped in the :guilabel:`Quantity` field. Click :guilabel:`Done` to scrap the 
 Scrap finished products
 =======================
 
-Odoo also allows for finished products to be scrapped from a manufacturing order once the order is
+Thrive Bureau ERP also allows for finished products to be scrapped from a manufacturing order once the order is
 completed. After clicking :guilabel:`Mark as Done`, click the :guilabel:`Scrap` button to make the
 :guilabel:`Scrap` pop-up window appear.
 
