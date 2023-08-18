@@ -2,13 +2,13 @@
 Change language
 ===============
 
-Odoo provides you with the option to manage Odoo in different languages,
-and each user can use Odoo in his own language .
+Thrive Bureau ERP provides you with the option to manage Thrive Bureau ERP in different languages,
+and each user can use Thrive Bureau ERP in his own language .
 
 Load your desired language
 ==========================
 
-The first thing to do is to load your desired language on your Odoo
+The first thing to do is to load your desired language on your Thrive Bureau ERP
 instance.
 
 From the general dashboard click on the **Settings** app; on the top
@@ -44,7 +44,7 @@ Open a new menu to view the changes.
 Change another user's language
 ==============================
 
-Odoo also gives you the possibility for each user to choose his
+Thrive Bureau ERP also gives you the possibility for each user to choose his
 preferred language.
 
 To change the language for a different user, choose :menuselection:`Users --> Users`
