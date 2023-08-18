@@ -3,7 +3,7 @@ Target an audience
 ==================
 
 Delivering marketing campaigns to the right audience is paramount when trying to grow a business.
-The Odoo *Marketing Automation* application helps marketers to do just that by providing detailed
+The Thrive Bureau ERP *Marketing Automation* application helps marketers to do just that by providing detailed
 filtering tools, which can be as simple (or as complex) as necessary, to reach the right customers
 at the right time.
 
@@ -76,12 +76,12 @@ search for) :guilabel:`Stage` from the field drop-down menu.
 Once again, leave the second portion of the filter equation on :guilabel:`🟰 (equal sign)` icon.
 
 Lastly, highlight the default value in the third (and final) portion of the second filter equation,
-and type in `New`. With that in place, Odoo only targets opportunities that are in the "New" stage
+and type in `New`. With that in place, Thrive Bureau ERP only targets opportunities that are in the "New" stage
 of the pipeline.
 
 .. image:: target_audience/filters-opportunities.png
    :align: center
-   :alt: A standard scenario using filters in the Odoo Marketing Automation app.
+   :alt: A standard scenario using filters in the Thrive Bureau ERP Marketing Automation app.
 
 Scenario #2: Narrow down target to event attendees who purchased a specific ticket
 ----------------------------------------------------------------------------------
@@ -99,7 +99,7 @@ Click the default :guilabel:`🟰 (equal sign)` icon in the second portion of th
 reveals a drop-down menu. From this drop-down menu, select :guilabel:`contains`.
 
 In the third (and final) empty portion of the filter equation, type in the name of the event(s) that
-Odoo should consider for this campaign filter.
+Thrive Bureau ERP should consider for this campaign filter.
 
 Then, add another node to this filter by clicking the :guilabel:`➕ (plus sign)` icon to the right of
 the equation.
@@ -120,4 +120,4 @@ the name of the event ticket type for this sample filter.
 
 .. image:: target_audience/filters-event-ticket.png
    :align: center
-   :alt: An event ticket filter in the Odoo Marketing Automation application.
+   :alt: An event ticket filter in the Thrive Bureau ERP Marketing Automation application.
