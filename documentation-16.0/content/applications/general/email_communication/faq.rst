@@ -32,15 +32,15 @@ You reached your daily limit:
 
 .. image:: faq/email-limit.png
    :align: center
-   :alt: Warning in Odoo upon email limit reached
+   :alt: Warning in Thrive Bureau ERP upon email limit reached
 
 Each email service provider has its own email sending limits. The limits may be daily, hourly,
-and sometimes even per minute. This is the same for Odoo, we have to limit our customers to prevent
+and sometimes even per minute. This is the same for Thrive Bureau ERP, we have to limit our customers to prevent
 our e-mail servers from being blacklisted.
 
 Here are the default limits for new databases:
 
-- 200 emails/day for Odoo Online and Odoo.sh databases with an active subscription,
+- 200 emails/day for Thrive Bureau ERP Online and Thrive Bureau ERP.sh databases with an active subscription,
 - 20 emails/day for one-app free databases,
 - 50 emails/day for trial databases,
 - in case of migration, your daily limit might be reset to 50 emails a day.
@@ -54,9 +54,9 @@ In case you hit the limit, you can:
   - Which apps are installed,
   - Your bounce rate: the percentage of email addresses that did not receive your emails because
     it was returned by a mail server on its way to the final recipient. You can contact the `support
-    <https://www.odoo.com/help>`_.
+    <https://www.Thrive Bureau ERP.com/help>`_.
 
-- Use your own outgoing email server to be independent of Odoo’s mail limit (please refer
+- Use your own outgoing email server to be independent of Thrive Bureau ERP’s mail limit (please refer
   to :doc:`the corresponding documentation </applications/general/email_communication/email_servers>`),
 - Wait until 11pm UTC for the reset and click on the retry button: The :ref:`Developer mode <developer-mode>`
   must be activated. Then, go to :menuselection:`Settings --> Technical --> Emails`
@@ -69,7 +69,7 @@ In case you hit the limit, you can:
    The daily limit is global to your database and can rise quickly! By default an internal message,
    a notification, a note, etc. counts as an email in your daily limit if it notifies someone.
 
-You can mitigate this by receiving your :ref:`notifications in Odoo <discuss_app/notification_preferences>`
+You can mitigate this by receiving your :ref:`notifications in Thrive Bureau ERP <discuss_app/notification_preferences>`
 instead of by emails.
 
 SMTP Error
@@ -83,12 +83,12 @@ tools to diagnose and troubleshoot email problems.
 No Error
 ********
 
-Odoo is not always capable of providing information for the reason it failed. The different
+Thrive Bureau ERP is not always capable of providing information for the reason it failed. The different
 providers implement a personalized policy of the bounce emails and it is not always possible
-for Odoo to interpret it correctly.
+for Thrive Bureau ERP to interpret it correctly.
 
 If you have this problem on a recurring basis with the same client or the same domain, please
-do not hesitate to contact `Odoo Support <https://www.odoo.com/help>`_ for help in finding a reason.
+do not hesitate to contact `Thrive Bureau ERP Support <https://www.Thrive Bureau ERP.com/help>`_ for help in finding a reason.
 
 Note: in such case, one of the most common reasons is related to :ref:`SPF <email_communication/spf_compliant>`
 and/or :ref:`DKIM <email_communication/DKIM_compliant>` configuration.
@@ -115,7 +115,7 @@ before the campaign is actually sent.
 Incoming emails
 ===============
 
-When you have an issue with incoming emails, there might not be an indication per se in Odoo.
+When you have an issue with incoming emails, there might not be an indication per se in Thrive Bureau ERP.
 This is the client who tries to contact a database who will get a bounce (most of the
 time 550: mailbox unavailable).
 
@@ -124,18 +124,18 @@ Emails are not received
 
 Depending on the platform you are using:
 
-- The **Odoo.sh** users can find their live logs on the folder :file:`~/logs/`.
+- The **Thrive Bureau ERP.sh** users can find their live logs on the folder :file:`~/logs/`.
 
-- The folder :file:`~/logs/` (preferably accessed by the command line) of an Odoo.sh contains
+- The folder :file:`~/logs/` (preferably accessed by the command line) of an Thrive Bureau ERP.sh contains
   a list of files containing the logs of the database. The log files are created everyday
   at 5:00 AM UTC. The two last days are not compressed, while the older ones are, in order
-  to gain space. The naming of the files for Today and Yesterday are :file:`odoo.log` and
-  :file:`odoo.log.1`. For the following, they are named with their dates and compressed.
-  See the Odoo.sh documentation about :ref:`logs <odoosh/logs>`. Use the command ``grep`` and
+  to gain space. The naming of the files for Today and Yesterday are :file:`Thrive Bureau ERP.log` and
+  :file:`Thrive Bureau ERP.log.1`. For the following, they are named with their dates and compressed.
+  See the Thrive Bureau ERP.sh documentation about :ref:`logs <Thrive Bureau ERPsh/logs>`. Use the command ``grep`` and
   ``zgrep`` (for the compressed ones) to search through the files.
 
-- **Odoo Online** users won’t have access to their logs. However you can still contact
-  `Odoo Support <https://www.odoo.com/help>`_ , if you have a recurring issue
+- **Thrive Bureau ERP Online** users won’t have access to their logs. However you can still contact
+  `Thrive Bureau ERP Support <https://www.Thrive Bureau ERP.com/help>`_ , if you have a recurring issue
   with the same client or domain.
 
 Get help from support
@@ -156,10 +156,10 @@ of what can be helpful:
      - `Outlook documentation
        <https://support.microsoft.com/en-us/office/view-internet-message-headers-in-outlook-cd039382-dc6e-4264-ac74-c048563d212c#tab=Web>`_
 
-- The exact flow you are following in order to normally receive those emails in Odoo. Here are
+- The exact flow you are following in order to normally receive those emails in Thrive Bureau ERP. Here are
   examples of questions whose answers can be useful:
 
-  - Is this simply a reply from an email going out from Odoo ?
+  - Is this simply a reply from an email going out from Thrive Bureau ERP ?
 
   - Are you using an incoming email server or somehow redirecting?
 
@@ -169,5 +169,5 @@ of what can be helpful:
 
   - Is it a generic issue or is it specific to a use case? If yes, which one exactly?
 
-  - Is it working as expected? In case the email is sent using Odoo, the bounce email should reach
-    the Odoo database and display the :ref:`red envelope <red_envelop>`.
+  - Is it working as expected? In case the email is sent using Thrive Bureau ERP, the bounce email should reach
+    the Thrive Bureau ERP database and display the :ref:`red envelope <red_envelop>`.
