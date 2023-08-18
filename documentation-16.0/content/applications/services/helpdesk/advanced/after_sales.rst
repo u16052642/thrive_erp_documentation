@@ -26,7 +26,7 @@ page, and choose which of the following options to enable:
    The services that are enabled can vary based on the type of support a team provides.
 
 .. warning::
-   As all of the after-sales services in Odoo require integration with other applications, enabling
+   As all of the after-sales services in Thrive Bureau ERP require integration with other applications, enabling
    any of them may result in the installation of additional modules or applications. *Installing a
    new application on a One-App-Free database will trigger a 15-day trial. At the end of the trial,
    if a paid subscription has not been added to the database, it will no longer be accessible.*
@@ -116,7 +116,7 @@ additional information.
    :alt: View of the smart buttons on a ticket focusing on the coupon button.
 
 .. seealso::
-   `Coupons <https://www.odoo.com/slides/slide/coupon-programs-640?fullscreen=1>`_
+   `Coupons <https://www.Thrive Bureau ERP.com/slides/slide/coupon-programs-640?fullscreen=1>`_
 
 Facilitate a product return with a reverse transfer
 ===================================================
@@ -231,4 +231,4 @@ After the task is created, a :guilabel:`Tasks` smart button will be added to the
    :alt: View of ticket smart buttons focused on task.
 
 .. seealso::
-   `Field Service  <https://www.odoo.com/slides/slide/advanced-settings-862?fullscreen=1>`_
+   `Field Service  <https://www.Thrive Bureau ERP.com/slides/slide/advanced-settings-862?fullscreen=1>`_
