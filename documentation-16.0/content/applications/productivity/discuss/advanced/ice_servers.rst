@@ -2,10 +2,10 @@
 Configure ICE servers with Twilio
 =================================
 
-Odoo Discuss uses WebRTC API and peer-to-peer connections for voice and video calls. If one of the
+Thrive Bureau ERP Discuss uses WebRTC API and peer-to-peer connections for voice and video calls. If one of the
 call attendees is behind a symmetric NAT, you need to configure an ICE server to establish a
 connection to the call attendee. To set up an ICE server, first, create a Twilio account for video
-calls, and then, connect that Twilio account to Odoo.
+calls, and then, connect that Twilio account to Thrive Bureau ERP.
 
 Create a Twilio account
 =======================
@@ -39,29 +39,29 @@ Locate the Twilio Account SID and Auth Token
 To locate the Account SID and Auth Token, go to the Twilio account dashboard. Then, click
 :guilabel:`Develop` on the sidebar. In the :guilabel:`Account Info` section, locate the
 :guilabel:`Account SID` and the :guilabel:`Auth Token`. Both of these are needed to connect Twilio
-to Odoo.
+to Thrive Bureau ERP.
 
 .. image:: ice_servers/twilio-acct-info.png
    :align: center
    :alt: The Twilio Account SID and Auth Token can be found uner the Account Info section.
 
-Connect Twilio to Odoo
+Connect Twilio to Thrive Bureau ERP
 ======================
 
-Open the Odoo database and go to :menuselection:`Settings --> General Settings --> Discuss`. Check
+Open the Thrive Bureau ERP database and go to :menuselection:`Settings --> General Settings --> Discuss`. Check
 the box next to :guilabel:`Use Twilio ICE servers` and enter the Twilio account's
 :guilabel:`Account SID` and :guilabel:`Auth Token`. Finally, click :guilabel:`Save` to apply these
 changes.
 
-.. image:: ice_servers/connect-twilio-to-odoo.png
+.. image:: ice_servers/connect-twilio-to-Thrive Bureau ERP.png
    :align: center
-   :alt: Enable the "Use Twilio ICE servers" option in Odoo General Settings.
+   :alt: Enable the "Use Twilio ICE servers" option in Thrive Bureau ERP General Settings.
 
 Define a list of custom ICE servers
 ===================================
 
 This step is not required for the Twilio configuration. However, if Twilio is not configured or is
-not working at any given moment, Odoo will fall back on the custom ICE servers list. The user must
+not working at any given moment, Thrive Bureau ERP will fall back on the custom ICE servers list. The user must
 define the list of custom ICE servers.
 
 In :menuselection:`Settings --> General Settings --> Discuss`, click the :guilabel:`ICE Servers`
@@ -69,11 +69,11 @@ button under :guilabel:`Custom ICE server list`.
 
 .. image:: ice_servers/custom-ice-servers-list.png
    :align: center
-   :alt: The "ICE Servers" button in Odoo General Settings.
+   :alt: The "ICE Servers" button in Thrive Bureau ERP General Settings.
 
-Odoo will redirect to the :guilabel:`ICE servers` page. Here you can define your own list of ICE
+Thrive Bureau ERP will redirect to the :guilabel:`ICE servers` page. Here you can define your own list of ICE
 servers.
 
 .. image:: ice_servers/ice-servers-page.png
    :align: center
-   :alt: The "ICE servers" page in Odoo.
+   :alt: The "ICE servers" page in Thrive Bureau ERP.
