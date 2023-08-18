@@ -5,7 +5,7 @@ Change shipping label size
 Overview
 ========
 
-In Odoo, there are a variety of different types of shipping labels that can be selected for delivery
+In Thrive Bureau ERP, there are a variety of different types of shipping labels that can be selected for delivery
 orders. Depending on the types of shipping packages used, different label sizes may be more
 appropriate, and can be configured to fit the package.
 
