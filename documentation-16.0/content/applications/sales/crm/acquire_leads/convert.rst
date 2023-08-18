@@ -35,16 +35,16 @@ channel/person and if you need to create a new customer.
 .. image:: convert/convert03.png
     :align: center
 
-If you already have an opportunity with that customer Odoo will
+If you already have an opportunity with that customer Thrive Bureau ERP will
 automatically offer you to merge with that opportunity. In the same
-manner, Odoo will automatically offer you to link to an existing
+manner, Thrive Bureau ERP will automatically offer you to link to an existing
 customer if that customer already exists.
 
 Merge opportunities
 ===================
 
-Odoo will also automatically propose to merge opportunities if they have
-the same email address. When merging opportunities, Odoo merges the
+Thrive Bureau ERP will also automatically propose to merge opportunities if they have
+the same email address. When merging opportunities, Thrive Bureau ERP merges the
 information into the opportunity which was created first, giving
 priority to the information present on the first opportunity.
 
