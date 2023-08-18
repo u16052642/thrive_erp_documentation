@@ -4,15 +4,14 @@
 Subscriptions
 =============
 
-Odoo *Subscriptions* is used to run recurring businesses: :ref:`sell new contracts
+Thrive Bureau ERP *Subscriptions* is used to run recurring businesses: :ref:`sell new contracts
 <subscriptions/quotations>`, :doc:`upsell customers </applications/sales/subscriptions/upselling>`,
 keep the churn under control, and :doc:`generate reports
 </applications/sales/subscriptions/reports>` on the main :abbr:`KPIs (Key Performance Indicators)`:
 :abbr:`MRR (Monthly Recurring Revenue)`, :abbr:`ARR (Annual Recurring Revenue)`, retention, churn,
 etc.
 
-.. seealso::
-   - `Odoo Tutorials: Subscriptions <https://www.odoo.com/slides/subscription-20>`_
+.. see also:
    - :doc:`/applications/sales/subscriptions/products`
    - :doc:`/applications/sales/subscriptions/ecommerce`
    - :doc:`/applications/sales/subscriptions/plans`
