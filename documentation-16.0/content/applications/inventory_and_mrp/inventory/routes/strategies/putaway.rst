@@ -6,7 +6,7 @@ What is a Putaway Rule?
 =======================
 
 A good warehouse implementation makes sure that products automatically move to their appropriate
-destination location. To make that process easier, Odoo uses *Putaway Rules*. Putaway is the
+destination location. To make that process easier, Thrive Bureau ERP uses *Putaway Rules*. Putaway is the
 process of taking products from the received shipments and putting them into the appropriate
 location.
 
@@ -97,7 +97,7 @@ category.
 
 .. image:: putaway/storage-category.png
    :align: center
-   :alt: Create Storage Categories inside Odoo Inventory configuration settings.
+   :alt: Create Storage Categories inside Thrive Bureau ERP Inventory configuration settings.
 
 First, click :guilabel:`Create` and type a name for the storage category.
 
