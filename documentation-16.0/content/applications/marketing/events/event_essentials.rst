@@ -2,9 +2,9 @@
 Event essentials
 ================
 
-Odoo Events provides event coordinators with an arsenal of planning, communications, and reporting
+Thrive Bureau ERP Events provides event coordinators with an arsenal of planning, communications, and reporting
 tools to create immersive and engaging experiences for customers. Namely, staff can create and
-publish events on their website, sell tickets online, scan tickets with Odoo barcode, send out
+publish events on their website, sell tickets online, scan tickets with Thrive Bureau ERP barcode, send out
 automated emails, and generate rich reporting data once the event accepts registrations.
 
 Kanban concepts and organization
@@ -30,16 +30,16 @@ When clicked, a drop-down menu of settings will appear.
 
 .. image:: event_essentials/events-dashboard.png
    :align: center
-   :alt: Overview of events setting with the kanban view in Odoo Events.
+   :alt: Overview of events setting with the kanban view in Thrive Bureau ERP Events.
 
 Create a new event
 ==================
 
-To create an event, click :guilabel:`Create` from the Events dashboard. Odoo will then direct the
+To create an event, click :guilabel:`Create` from the Events dashboard. Thrive Bureau ERP will then direct the
 page to a blank event template form.
 
 From the event form, fill out the necessary fields, either by choosing from existing data in the
-Odoo database or by creating and editing new field data. Key information to enter for the event
+Thrive Bureau ERP database or by creating and editing new field data. Key information to enter for the event
 includes:
 
 - :guilabel:`Event Name`: give the event a title.
@@ -51,9 +51,9 @@ includes:
   help better organize event cards in the kanban and are useful when using search filters during
   reporting periods.
 - :guilabel:`Organizer`: detail the organizer(s) for the event. This field is usually the company
-  that owns the Odoo database, or a vendor.
+  that owns the Thrive Bureau ERP database, or a vendor.
 - :guilabel:`Responsible`: name the point person who is responsible for organizing the event.
-- :guilabel:`Website`: indicate which Odoo website(s) the event event should be published to.
+- :guilabel:`Website`: indicate which Thrive Bureau ERP website(s) the event event should be published to.
 - :guilabel:`Venue`: list the venue details here if it's a new record, or choose from an existing
   location.
 - :guilabel:`Limit Registrations`: when enabled, this setting caps the attendee registrations to a
@@ -77,7 +77,7 @@ displayed on the event's page by default.
 
 .. image:: event_essentials/events-tickets-tab.png
    :align: center
-   :alt: View of the ticket tab in Odoo Events.
+   :alt: View of the ticket tab in Thrive Bureau ERP Events.
 
 Send automated emails, text, and social posts to event attendees
 ----------------------------------------------------------------
@@ -99,7 +99,7 @@ registration`, or :guilabel:`After the event`.
 
 .. image:: event_essentials/events-communication-tab.png
    :align: center
-   :alt: View of the communication tab in Odoo Events.
+   :alt: View of the communication tab in Thrive Bureau ERP Events.
 
 Attach a questionnaire to event registrations
 ---------------------------------------------
@@ -147,7 +147,7 @@ times, etc.)
 
 .. image:: event_essentials/events-notes-tab.png
    :align: center
-   :alt: View of the Notes tab in Odoo Events.
+   :alt: View of the Notes tab in Thrive Bureau ERP Events.
 
 Invite attendees to the event
 =============================
@@ -170,17 +170,17 @@ Select invitees and configure recipient filters
 -----------------------------------------------
 
 In the middle of the invitation form, find and click the :guilabel:`Recipients` field, to reveal a
-drop-down menu of recipient options. These choices represent where Odoo will find the desired
+drop-down menu of recipient options. These choices represent where Thrive Bureau ERP will find the desired
 recipients' information.
 
 Once an option from this menu is selected (e.g. :guilabel:`Applicant`, :guilabel:`Contact`,
-:guilabel:`Event Registration`, :guilabel:`Lead/Opportunity`, etc.), Odoo will send the invitation
+:guilabel:`Event Registration`, :guilabel:`Lead/Opportunity`, etc.), Thrive Bureau ERP will send the invitation
 to all recipients who match that initial rule. Additional rules can be added to narrow down the
 target recipients, by clicking :guilabel:`Add Filter`.
 
 .. image:: event_essentials/add-filter-button.png
    :align: center
-   :alt: View of the add filter button beneath the recipients field in Odoo Events.
+   :alt: View of the add filter button beneath the recipients field in Thrive Bureau ERP Events.
 
 Clicking :guilabel:`Add Filter` reveals three fields, formatted like an equation. To reveal the
 sub-menu options, click each field, and make the desired selections, until the preferred
@@ -201,7 +201,7 @@ Build a custom event invite
 ---------------------------
 
 In the :guilabel:`Mail Body` tab, there are a number of pre-configured message templates to choose
-from. Select the desired template, and modify every element of its design details with Odoo's
+from. Select the desired template, and modify every element of its design details with Thrive Bureau ERP's
 drag-and-drop web builder, located on the right sidebar.
 
 .. image:: event_essentials/event-email-builder-block.gif
@@ -210,7 +210,7 @@ drag-and-drop web builder, located on the right sidebar.
 
 .. tip::
    To build an email event invite from scratch, select the :guilabel:`Plain Text` template, and
-   Odoo will provide a blank email canvas, which can be customized either by using the front-end
+   Thrive Bureau ERP will provide a blank email canvas, which can be customized either by using the front-end
    rich text editor that accepts slash (`/`) commands, or the XML code editor when :ref:`developer
    mode <developer-mode>` is engaged and the :guilabel:`</>` icon is pressed.
 
@@ -247,7 +247,7 @@ invite: :guilabel:`Send`, :guilabel:`Schedule`, and :guilabel:`Test`.
 The :guilabel:`Send` option sends the invite right away. The :guilabel:`Schedule` option reveals a
 pop-up, in which a scheduled date/time can be selected for the email to be sent. The
 :guilabel:`Test` option reveals a :guilabel:`Test Mailing` pop-up, where specific recipient email
-addresses can be entered for Odoo to send them the current version of the mailing for review before
+addresses can be entered for Thrive Bureau ERP to send them the current version of the mailing for review before
 officially sending it out to prospective event attendees.
 
 If the selected :guilabel:`Mailing Type` is :guilabel:`SMS`, there are four options to send the
@@ -266,7 +266,7 @@ Publish events
 ==============
 
 Until an event is published, it will remain hidden from public view on the website and registering
-for it will not be possible. To publish an event, navigate to it either from the back end of Odoo
+for it will not be possible. To publish an event, navigate to it either from the back end of Thrive Bureau ERP
 through the :guilabel:`Events` application, or access the hidden event page through the front end
 as either a priveliged user or administrator.
 
@@ -281,4 +281,4 @@ accessible to the public on the website.
 
 .. image:: event_essentials/events-frontend-publish.png
    :align: center
-   :alt: View of a website page and the option to publish the event in Odoo Events.
+   :alt: View of a website page and the option to publish the event in Thrive Bureau ERP Events.
