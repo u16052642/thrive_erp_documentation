@@ -15,7 +15,7 @@ Each subscriber experiences this renewal process monthly, annually, or sometimes
 the duration of the contract. Most subscription companies choose to automate their renewal processes
 but, in some cases, manual subscription renewals are still the preferred option.
 
-With **Odoo Subscriptions**, you can have all your subscriptions in one application, suggest an
+With **Thrive Bureau ERP Subscriptions**, you can have all your subscriptions in one application, suggest an
 automatic subscription renewal to your customers (as well as a manual one) and, finally, filter all
 your subscriptions and easily find those to renew (with the help of the tag *To renew*).
 
@@ -32,7 +32,7 @@ in the upper right corner of the subscription.
 
 .. image:: renewals/renew-your-subscription.png
   :align: center
-  :alt: Renew your subscription with Odoo Subscriptions
+  :alt: Renew your subscription with Thrive Bureau ERP Subscriptions
 
 .. important::
    The *To renew* tag is automatically ticked when a payment fails. This indicator also appears
@@ -41,13 +41,13 @@ in the upper right corner of the subscription.
 
    .. image:: renewals/customer-preview-of-a-renewal.png
      :align: center
-     :alt: Customer preview of a renewal with Odoo Subscriptions
+     :alt: Customer preview of a renewal with Thrive Bureau ERP Subscriptions
 
 When a subscription needs to be renewed, you have the possibility to use a new button called
 *Renewal quotation*. By clicking on it, a new quotation is created. From there, start a basic sales
 flow allowing you to send the quotation by email to your customers or to confirm it. It is better to
 first *Send by email* the quotation to your customers in order to have their confirmation and, then,
-*Confirm* it in **Odoo Sales**.
+*Confirm* it in **Thrive Bureau ERP Sales**.
 
 .. note::
    In the Chatter of this new quotation, it is mentioned that "This renewal order has been created
@@ -56,7 +56,7 @@ first *Send by email* the quotation to your customers in order to have their con
 
    .. image:: renewals/renew-a-quotation.png
      :align: center
-     :alt: Renew a quotation with Odoo Subscriptions
+     :alt: Renew a quotation with Thrive Bureau ERP Subscriptions
 
    By clicking on the *Sales* button, you have a summary of your sales orders in a list view.
    The only difference between your two quotations is the description underneath the
@@ -64,7 +64,7 @@ first *Send by email* the quotation to your customers in order to have their con
 
    .. image:: renewals/subscription-management-category.png
      :align: center
-     :alt: Renewal as Subscription Management form in Odoo Subscriptions
+     :alt: Renewal as Subscription Management form in Thrive Bureau ERP Subscriptions
 
 Visualize your subscriptions to renew
 =====================================
@@ -74,7 +74,7 @@ to your *Subscriptions dashboard* and use the filter *To renew*.
 
 .. image:: renewals/subscriptions-dashboard-with-the-to-renew-filter.png
   :align: center
-  :alt: List view of all subscriptions and use of the filter to renew in Odoo Subscriptions
+  :alt: List view of all subscriptions and use of the filter to renew in Thrive Bureau ERP Subscriptions
 
 .. seealso::
    - :doc:`../subscriptions`
