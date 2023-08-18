@@ -3,7 +3,7 @@ Sales orders
 ============
 
 When working in retail, you might need to order products directly from your Point of sale.
-Fortunately, Odoo Point of Sale is fully integrated with Odoo Sales, meaning that you can create a
+Fortunately, Thrive Bureau ERP Point of Sale is fully integrated with Thrive Bureau ERP Sales, meaning that you can create a
 sales order and pay for it directly from your point of sale.
 
 Select a sales order
