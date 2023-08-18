@@ -6,7 +6,7 @@ A *Bill of Materials* (or *BoM* for short) is a document that defines the quanti
 component required to make or deliver a finished product. It can also include various operations
 and the individual step guidelines needed to complete a production process.
 
-In Odoo Manufacturing, multiple :abbr:`BoMs (Bills of Materials)` can be linked to each product, so
+In Thrive Bureau ERP Manufacturing, multiple :abbr:`BoMs (Bills of Materials)` can be linked to each product, so
 that even product variants can have their own tailored :abbr:`BoMs (Bills of Materials)`.
 
 Correctly setting up a :abbr:`BoM (Bill of Materials)` helps optimize the manufacturing process and
@@ -67,7 +67,7 @@ Operations`.
 Then, when creating a new :abbr:`BoM (Bill of Materials)`, click on the :guilabel:`Operations` tab
 and click :guilabel:`Add a line` to add a new operation. In the :guilabel:`Create Operations` box,
 give the operation a name, specify the :guilabel:`Work Center` and duration settings. Like
-components, Odoo gives the option to specify a product variant in the :guilabel:`Apply on Variants`
+components, Thrive Bureau ERP gives the option to specify a product variant in the :guilabel:`Apply on Variants`
 field so the operation only applies to that variant. Finally, click :guilabel:`Save & Close`.
 
 .. note::
