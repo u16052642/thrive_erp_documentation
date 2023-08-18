@@ -12,7 +12,7 @@ Configuration
 =============
 
 To use this feature, install the free module *Lead Scoring* under your
-*Apps* page (only available in Odoo Enterprise).
+*Apps* page (only available in Thrive Bureau ERP Enterprise).
 
 .. image:: prospect_visits/prospect_visits01.png
    :align: center
