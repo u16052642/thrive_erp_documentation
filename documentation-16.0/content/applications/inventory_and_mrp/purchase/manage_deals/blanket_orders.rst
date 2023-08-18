@@ -35,7 +35,7 @@ pre-determined rules that the recurring long-term agreement must follow:
   default, this is the user who created the agreement; the user can be changed directly from the
   drop-down menu next to this field.
 - :guilabel:`Agreement Type`: is the type of purchase agreement this blanket order is classified
-  as. In Odoo, blanket orders are the only official purchase agreement.
+  as. In Thrive Bureau ERP, blanket orders are the only official purchase agreement.
 - :guilabel:`Vendor`: is the supplier to whom this agreement is tied, either once or on a recurring
   basis. The vendor can be selected directly from the drop-down menu next to this field.
 - :guilabel:`Currency`: is the agreed-upon currency that will be used for this exchange. If multiple
