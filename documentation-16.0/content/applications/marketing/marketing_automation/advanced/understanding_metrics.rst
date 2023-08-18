@@ -3,7 +3,7 @@ Understanding metrics
 =====================
 
 Metrics are detailed statistics that measure the progress and success of marketing campaigns. When
-creating marketing activities in a workflow, Odoo visually displays various metrics related to the
+creating marketing activities in a workflow, Thrive Bureau ERP visually displays various metrics related to the
 campaign with detailed graphs and in-depth data.
 
 .. example::
@@ -11,13 +11,13 @@ campaign with detailed graphs and in-depth data.
 
    .. image:: understanding_metrics/commercial-prospection-campaign-example.png
       :align: center
-      :alt: An example of a marketing automation campaign in Odoo.
+      :alt: An example of a marketing automation campaign in Thrive Bureau ERP.
 
 In this case, the :guilabel:`Target` of this campaign is set to :guilabel:`Lead/Opportunity`, and
 was narrowed down to *only* focus on the leads (or opportunities) whose :guilabel:`Tag Name`
 contains a value of `product` — and *also* have an email address set up in the database.
 
-Beneath the filter nodes, Odoo displays how many records in the database fall into the
+Beneath the filter nodes, Thrive Bureau ERP displays how many records in the database fall into the
 previously-specified criteria filter.
 
 .. example::
@@ -25,7 +25,7 @@ previously-specified criteria filter.
 
    .. image:: understanding_metrics/marketing-automation-lead-filters.png
       :align: center
-      :alt: Lead generation filters used to refine records on automation campaigns in Odoo.
+      :alt: Lead generation filters used to refine records on automation campaigns in Thrive Bureau ERP.
 
 At the top of the marketing automation campaign form, there are a series of smart buttons. The
 :guilabel:`Participations` smart button in this example indicates that, out of those 18 records, 25
@@ -38,7 +38,7 @@ interacted with the campaign in one way or another.
 
    This means there will be real-time updates to the number of :guilabel:`Records`, but such updates
    do *not* change the number of :guilabel:`Participants`, as the metric *will not* exclude
-   opportunities that have already been set as :guilabel:`Participants` before — Odoo just adds new
+   opportunities that have already been set as :guilabel:`Participants` before — Thrive Bureau ERP just adds new
    ones.
 
    That's why the number of :guilabel:`Records` can be different from the number of
@@ -79,7 +79,7 @@ number of participants. If a participant does *not* match the conditions, it wil
    :align: center
    :alt: Overview showing participants who do or do not match filtering criteria on an activity.
 
-Hovering over the graph on an automation activity block, Odoo displays the number of successful and
+Hovering over the graph on an automation activity block, Thrive Bureau ERP displays the number of successful and
 rejected participants, per day, over the last 15 days.
 
 .. note::
