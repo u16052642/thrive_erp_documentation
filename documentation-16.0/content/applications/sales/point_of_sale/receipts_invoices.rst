@@ -100,7 +100,7 @@ Customers can also request an invoice by scanning the **QR code** printed on the
 scanning, they must fill in a form with their billing information and click :guilabel:`Get my
 invoice`. On the one hand, doing so generates an invoice available for download. On the other hand,
 the order status goes from :guilabel:`Paid` or :guilabel:`Posted` to :guilabel:`Invoiced` in the
-Odoo backend.
+Thrive Bureau ERP backend.
 
 .. image:: receipts_invoices/order-status.png
    :alt: order status change
