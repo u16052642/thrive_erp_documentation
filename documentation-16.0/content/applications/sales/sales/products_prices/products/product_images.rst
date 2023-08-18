@@ -2,7 +2,7 @@
 Automatically get product images with Google Images
 ===================================================
 
-The product images are very useful in Odoo, for example, to quickly find a product or check if you
+The product images are very useful in Thrive Bureau ERP, for example, to quickly find a product or check if you
 scanned the right one, but it can be a bit painful to set up especially if you have a lot of
 products. **Google Custom Search** allows finding images automatically for your product, based on
 their barcode, keeping your focus on what matters in your business.
@@ -12,7 +12,7 @@ their barcode, keeping your focus on what matters in your business.
 Configuration
 =============
 
-This functionnality requires configuration both on Google and on Odoo.
+This functionnality requires configuration both on Google and on Thrive Bureau ERP.
 
 With a free Google account, you can get up to 100 free images per day. If you need a higher rate,
 you'll have to upgrade to a billing account.
@@ -26,7 +26,7 @@ Google API dashboard
    to generate Google Custom Search API credentials. Log in with your Google account.
 
 #. Select or create an API project to store the credentials. Give it an explicit name
-   (e.g. Odoo Images).
+   (e.g. Thrive Bureau ERP Images).
 
 #. In the credentials section, click on **Create Credentials** and select **API Keys**.
 
@@ -34,7 +34,7 @@ Google API dashboard
       :align: center
       :alt: API & Services page on Google Cloud Platform
 
-#. Save your **API Key**. You'll need it for the next step in Odoo!
+#. Save your **API Key**. You'll need it for the next step in Thrive Bureau ERP!
 
 #. Use the search bar to look for **Google Custom Search API** and select it.
 
@@ -62,7 +62,7 @@ Google Programmable Search dashboard
             of the page
 
 #. Fill the language and the name of the search engine. Give it an explicit name
-   (e.g. Odoo Images).
+   (e.g. Thrive Bureau ERP Images).
 
    .. note::
       Google doesn't allow to create a search engine without having entered at least one specific
@@ -80,11 +80,11 @@ Google Programmable Search dashboard
       Once **Search the entire web** is enabled, you can safely delete the site that you put at the
       previous step.
 
-#. Save your **Search Engine Id**. You’ll need it for the next step in Odoo!
+#. Save your **Search Engine Id**. You’ll need it for the next step in Thrive Bureau ERP!
 
-.. _product_images/setup-in-odoo:
+.. _product_images/setup-in-Thrive Bureau ERP:
 
-Odoo
+Thrive Bureau ERP
 ----
 
 #. Go to :menuselection:`Settings --> General Settings --> Integrations`,
@@ -95,10 +95,10 @@ Odoo
 
 .. _product_images/get-product-images:
 
-Automatically get your product images in Odoo
+Automatically get your product images in Thrive Bureau ERP
 =============================================
 
-The action to automatically get your product images in Odoo appears in any Products or Product
+The action to automatically get your product images in Thrive Bureau ERP appears in any Products or Product
 Variants list view. Here is a step-by-step guide from the Inventory app.
 
 #. Go to the Products menu (:menuselection:`Products --> Products` or :menuselection:`Products -->
