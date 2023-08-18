@@ -4,7 +4,7 @@ Invoice based on delivered or ordered quantities
 
 Different business policies might require different options for invoicing:
 
-- The *Invoice what is ordered* rule is used as the default mode in Odoo *Sales*, which means
+- The *Invoice what is ordered* rule is used as the default mode in Thrive Bureau ERP *Sales*, which means
   customers are invoiced once the sales order is confirmed.
 - The *Invoice what is delivered* rule invoices customers once the delivery is done. This rule is
   often used for businesses that sell materials, liquids, or food in large quantities. In these
@@ -23,7 +23,7 @@ delivered`.
 
 .. image:: invoicing_policy/invoicing-policy-setting.png
    :align: center
-   :alt: Choosing an invoicing policy on Odoo Sales.
+   :alt: Choosing an invoicing policy on Thrive Bureau ERP Sales.
 
 .. important::
    If the :guilabel:`Invoice what is delivered` rule is chosen, it is **not** possible to activate
@@ -39,12 +39,12 @@ can be changed manually using the drop-down menu.
 
 .. image:: invoicing_policy/invoicing-policy-general-info-tab.png
    :align: center
-   :alt: How to change your invoicing policy on a product form on Odoo Sales.
+   :alt: How to change your invoicing policy on a product form on Thrive Bureau ERP Sales.
 
 Impact on sales flow
 ====================
 
-In Odoo *Sales*, the basic sales flow starts with the creation of a quotation. Then, that quotation
+In Thrive Bureau ERP *Sales*, the basic sales flow starts with the creation of a quotation. Then, that quotation
 is sent to a customer. Next, it needs to be confirmed, which turns the quotation into a sales order.
 This, in turn, creates an invoice.
 
@@ -72,9 +72,9 @@ The following is a breakdown of how invoicing policy rules impact the aforementi
 
    .. image:: invoicing_policy/invoicing-policy-order-lines.png
       :align: center
-      :alt: How to see your delivered and invoiced quantities on Odoo Sales.
+      :alt: How to see your delivered and invoiced quantities on Thrive Bureau ERP Sales.
 
-   Odoo automatically adds the quantities to the invoice, both :guilabel:`Delivered` and
+   Thrive Bureau ERP automatically adds the quantities to the invoice, both :guilabel:`Delivered` and
    :guilabel:`Invoiced`, even if it's a partial delivery, when the quotation is confirmed.
 
 Finally, there are a few different options to create an invoice: :guilabel:`Regular invoice`,
