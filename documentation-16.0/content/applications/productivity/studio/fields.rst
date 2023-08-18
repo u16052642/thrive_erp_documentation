@@ -7,7 +7,7 @@ are the columns where data is stored in the records (i.e., the rows). Fields als
 data that is stored within them. How the data is presented and formatted on the :abbr:`UI (User
 Interface)` is defined by their widget.
 
-From a technical point of view, there are 15 field types in Odoo. However, you can choose from 20
+From a technical point of view, there are 15 field types in Thrive Bureau ERP. However, you can choose from 20
 fields in Studio, as some field types are available more than once with a different default widget.
 
 .. tip::
@@ -42,14 +42,14 @@ displayed when filling out the field.
 
   .. note::
      This works differently than selecting the :ref:`Image field
-     <studio/fields/simple-fields/image>` directly, as the image is not stored in Odoo when using a
+     <studio/fields/simple-fields/image>` directly, as the image is not stored in Thrive Bureau ERP when using a
      :guilabel:`Text` field with the :guilabel:`Image` widget. For example, it can be useful if you
      want to save disk space.
 
 - :guilabel:`Phone`: the value becomes a clickable *tel* link.
 
   .. tip::
-     Tick :guilabel:`Enable SMS` to add an option to send an SMS directly from Odoo next to the
+     Tick :guilabel:`Enable SMS` to add an option to send an SMS directly from Thrive Bureau ERP next to the
      field.
 
 - :guilabel:`URL`: the value becomes a clickable URL.
@@ -134,7 +134,7 @@ The :guilabel:`Monetary` field is used for all monetary values.
 
 .. note::
    When you first add a :guilabel:`Monetary` field, you are prompted to add a :guilabel:`Currency`
-   field if none exists already on the model. Odoo offers to add the :guilabel:`Currency` field for
+   field if none exists already on the model. Thrive Bureau ERP offers to add the :guilabel:`Currency` field for
    you. Once it is added, add the :guilabel:`Monetary` field again.
 
 .. example::
@@ -148,9 +148,9 @@ The :guilabel:`Monetary` field is used for all monetary values.
 Html (`html`)
 -------------
 
-The :guilabel:`Html` field is used to add text that can be edited using the Odoo HTML editor.
+The :guilabel:`Html` field is used to add text that can be edited using the Thrive Bureau ERP HTML editor.
 
-- :guilabel:`Multiline Text`: disables the Odoo HTML editor to allow editing raw HTML.
+- :guilabel:`Multiline Text`: disables the Thrive Bureau ERP HTML editor to allow editing raw HTML.
 
 .. example::
 
