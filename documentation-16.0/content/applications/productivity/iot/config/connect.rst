@@ -1,21 +1,21 @@
 ==========================
-Connect an IoT box to Odoo
+Connect an IoT box to Thrive Bureau ERP
 ==========================
 
 An Internet of Things (IoT) box is a micro-computer device that allows for the connection of input
-and output devices to an Odoo database. An :abbr:`IoT (Internet of Things)` box subscription is
+and output devices to an Thrive Bureau ERP database. An :abbr:`IoT (Internet of Things)` box subscription is
 required in order to use the :abbr:`IoT (Internet of Things)` box with a secured connection. A
 computer is also required to set up the :abbr:`IoT (Internet of Things)` box.
 
 .. seealso::
-   `IoT Box FAQ <https://www.odoo.com/app/iot-faq>`_
+   `IoT Box FAQ <https://www.Thrive Bureau ERP.com/app/iot-faq>`_
 
 Begin the :abbr:`IoT (Internet of Things)` configuration process by :ref:`installing the IoT app
-<general/install>` on the Odoo database through the :menuselection:`Apps` application.
+<general/install>` on the Thrive Bureau ERP database through the :menuselection:`Apps` application.
 
 .. image:: connect/install-iot-app.png
    :align: center
-   :alt: The Internet of Things (IoT) app on the Odoo database.
+   :alt: The Internet of Things (IoT) app on the Thrive Bureau ERP database.
 
 Next, after the *IoT app* is installed, navigate to :menuselection:`IoT app --> IoT Boxes`, and then
 click on the :guilabel:`Connect` button located in the upper-left corner of the :menuselection:`IoT
@@ -23,7 +23,7 @@ Boxes` dashboard.
 
 .. image:: connect/connect-iot.png
    :align: center
-   :alt: Connecting an IoT box to the Odoo database.
+   :alt: Connecting an IoT box to the Thrive Bureau ERP database.
 
 There are two recommended ways to connect the :abbr:`IoT (Internet of Things)` box to the database
 once the *IoT app* is installed. Follow the steps in either of the next two sections to connect the
@@ -36,7 +36,7 @@ via :ref:`WiFi <iot_connect/wifi>`.
 
 .. important::
    The disk image that the :abbr:`IoT (Internet of Things)` box SD card is formatted with is unique
-   to the version of the Odoo database that the :abbr:`IoT (Internet of Things)` box is running on.
+   to the version of the Thrive Bureau ERP database that the :abbr:`IoT (Internet of Things)` box is running on.
    Ensure that the :abbr:`IoT (Internet of Things)` box is :doc:`flashed <flash_sdcard>` with the
    most up-to-date disk image.
 
@@ -46,7 +46,7 @@ Ethernet connection
 ===================
 
 The following is the process to connect the :abbr:`IoT (Internet of Things)` box via an ethernet
-cable to the Odoo database (by way of the ethernet port; RJ-45).
+cable to the Thrive Bureau ERP database (by way of the ethernet port; RJ-45).
 
 First, connect all wired devices to the :abbr:`IoT (Internet of Things)` box (ethernet, :abbr:`USB
 (Universal Serial Bus)` devices, etc.). At minimum, an HDMI screen should be connected. Then, plug
@@ -79,7 +79,7 @@ WiFi connection
 ===============
 
 The following is the process to connect the :abbr:`IoT (Internet of Things)` box via a WiFi
-connection to the Odoo database.
+connection to the Thrive Bureau ERP database.
 
 First, ensure there is no ethernet cable plugged into the :abbr:`IoT (Internet of Things)` box.
 Then, connect all wired devices to the :abbr:`IoT (Internet of Things)` box (:abbr:`USB (Universal
@@ -89,7 +89,7 @@ After connecting the devices, plug the :abbr:`IoT (Internet of Things)` box into
 On the computer, navigate to :menuselection:`IoT app --> IoT Boxes`, and then click on the
 :guilabel:`Connect` button located in the upper-left corner of the the :menuselection:`IoT Boxes`
 dashboard. Then copy the :guilabel:`Token` from the :guilabel:`WiFi connection` section as this will
-later be used to link the Odoo database to the :abbr:`IoT (Internet of Things)` box.
+later be used to link the Thrive Bureau ERP database to the :abbr:`IoT (Internet of Things)` box.
 
 Back on the computer, navigate to the available WiFi networks and connect to the :abbr:`IoT
 (Internet of Things)` box WiFi network. The WiFi network dispersed by the :abbr:`IoT (Internet of
@@ -122,15 +122,15 @@ manually re-connected back to the original WiFi connection, if this does not hap
    :alt: Configuring the WiFi for the IoT box.
 
 After completing each step, the :abbr:`IoT (Internet of Things)` box should appear when navigating
-to :menuselection:`IoT app --> IoT Boxes` on the Odoo database.
+to :menuselection:`IoT app --> IoT Boxes` on the Thrive Bureau ERP database.
 
 .. image:: connect/iot-box-connected.png
    :align: center
-   :alt: The IoT box has been successfully configured on the Odoo database.
+   :alt: The IoT box has been successfully configured on the Thrive Bureau ERP database.
 
 .. important::
    The :abbr:`IoT (Internet of Things)` box may need to be manually rebooted upon successfully
-   connecting via WiFi for the box to appear in the *IoT app* on the Odoo database. To do so, simply
+   connecting via WiFi for the box to appear in the *IoT app* on the Thrive Bureau ERP database. To do so, simply
    unplug the device and plug it back into the power source after ten seconds.
 
 .. _iot_connect/token:
@@ -159,7 +159,7 @@ on the same network as the :abbr:`IoT (Internet of Things)` box (preferably by e
 On the :abbr:`IoT (Internet of Things)` box homepage, enter the *token* under the :guilabel:`Server`
 section by clicking on :guilabel:`Configure`. Then, paste the *token* into the :guilabel:`Server
 Token` field and click :guilabel:`Connect`. The :abbr:`IoT (Internet of Things)` box will then link
-to the Odoo database.
+to the Thrive Bureau ERP database.
 
 .. _iot/connect_schema:
 
@@ -171,11 +171,11 @@ Raspberry Pi 4
 
 .. figure:: connect/iot-box-schema.png
 
-   The Odoo IoT box (Raspberry Pi 4) schema with labels.
+   The Thrive Bureau ERP IoT box (Raspberry Pi 4) schema with labels.
 
 Raspberry Pi 3
 --------------
 
 .. figure:: connect/iox-box-schema-3.png
 
-   The Odoo IoT box (Raspberry Pi 3) schema with labels.
+   The Thrive Bureau ERP IoT box (Raspberry Pi 3) schema with labels.
