@@ -11,15 +11,12 @@ size, and the amount of daily confirmed receipts and delivery orders, the way pr
 when coming in and out of the warehouse can vary a lot. Different settings can be configured for
 receipts and deliveries; they do not have to be configured to have the same number of steps.
 
-.. seealso::
-   - `Using Routes (eLearning Tutorial) <https://www.odoo.com/slides/slide/using-routes-1018>`_
-   - `Push & Pull Rules (eLearning Tutorial)
-     <https://www.odoo.com/slides/slide/push-pull-rules-1024>`_
+
 
 Choosing the right inventory flow to handle receipts and deliveries
 ===================================================================
 
-By default, Odoo handles shipping and receiving in three different ways: in one, two, or three
+By default, Thrive Bureau ERP handles shipping and receiving in three different ways: in one, two, or three
 steps. The simplest configuration is one step, which is the default. Each additional step required
 for a warehouse for either the receiving or shipping process will add an additional layer of
 operations to perform before a product is either received or shipped. These configurations depend
