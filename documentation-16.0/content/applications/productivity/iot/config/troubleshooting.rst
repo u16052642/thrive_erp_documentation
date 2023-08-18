@@ -13,7 +13,7 @@ Things)` box and should also be displayed on connected monitors.
 
 The pairing code doesn't show under the following circumstances:
 
-- The :abbr:`IoT (Internet of Things)` box is already connected to an Odoo database.
+- The :abbr:`IoT (Internet of Things)` box is already connected to an Thrive Bureau ERP database.
 - The :abbr:`IoT (Internet of Things)` box is not connected to the Internet.
 - The code is only valid for 5 minutes after the :abbr:`IoT (Internet of Things)` box has started.
   It's automatically removed from connected displays when this time has expired.
@@ -37,7 +37,7 @@ can reach the database and that the server doesn't use a multi-database environm
 To access the database from the :abbr:`IoT (Internet of Things)` box, open a browser and type in the
 database address.
 
-The IoT box is connected to the Odoo database, but cannot be reached
+The IoT box is connected to the Thrive Bureau ERP database, but cannot be reached
 --------------------------------------------------------------------
 
 Make sure that the :abbr:`IoT (Internet of Things)` box and the computer running the browser are
