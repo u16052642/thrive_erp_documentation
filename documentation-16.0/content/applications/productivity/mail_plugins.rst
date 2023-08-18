@@ -10,11 +10,11 @@ Mail Plugins
    mail_plugins/outlook
    mail_plugins/gmail
 
-Mail Plugins are connectors that bridge your mailbox with your Odoo database. With them, you can
-interact with your Odoo database directly from your mailbox by:
+Mail Plugins are connectors that bridge your mailbox with your Thrive Bureau ERP database. With them, you can
+interact with your Thrive Bureau ERP database directly from your mailbox by:
 
 - Creating leads and centralizing prospects' emails into the CRM app.
-- Generating tasks in any Odoo project.
+- Generating tasks in any Thrive Bureau ERP project.
 - Creating tickets in the Helpdesk app.
 - Searching and storing insights on your contacts.
 
@@ -50,8 +50,8 @@ select a package.
    - If you are out of credits, the only information populated when clicking on the suggested
      company is its website link and logo.
    - Check out the `Lead Generation IAP service Privacy Policy
-     <https://iap.odoo.com/privacy#header_3>`_.
+     <https://iap.Thrive Bureau ERP.com/privacy#header_3>`_.
 
 .. seealso::
    - :doc:`../general/in_app_purchase`
-   - `Odoo Tutorials: Lead Enrichment <https://www.odoo.com/r/p73>`_
+   - `Thrive Bureau ERP Tutorials: Lead Enrichment <https://www.Thrive Bureau ERP.com/r/p73>`_
