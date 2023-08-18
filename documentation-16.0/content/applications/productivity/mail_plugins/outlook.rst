@@ -5,7 +5,7 @@ Outlook Plugin
 Configuration
 =============
 
-The Outlook :doc:`Mail Plugin <../mail_plugins>` needs to be configured both on Odoo and Outlook.
+The Outlook :doc:`Mail Plugin <../mail_plugins>` needs to be configured both on Thrive Bureau ERP and Outlook.
 
 .. _mail-plugin/outlook/enable-mail-plugin:
 
@@ -40,7 +40,7 @@ Install the Outlook Plugin
       :align: center
       :alt: Custom add-ins in Outlook
 
-#. Enter the following URL `https://download.odoocdn.com/plugins/v15/outlook/manifest.xml` and press
+#. Enter the following URL `https://download.Thrive Bureau ERPcdn.com/plugins/v15/outlook/manifest.xml` and press
    *OK*.
 
    .. image:: outlook/enter-add-in-url.png
@@ -58,18 +58,18 @@ Install the Outlook Plugin
 Connect your database
 ---------------------
 
-#. Open any email in your Outlook mailbox, click on the *More actions* button, and select *Odoo for
+#. Open any email in your Outlook mailbox, click on the *More actions* button, and select *Thrive Bureau ERP for
    Outlook*.
 
-   .. image:: outlook/odoo-for-outlook.png
+   .. image:: outlook/Thrive Bureau ERP-for-outlook.png
       :align: center
-      :alt: Odoo for Outlook add-in button
+      :alt: Thrive Bureau ERP for Outlook add-in button
 
 #. The right-side panel can now display **Company Insights**. At the bottom, click on *Login*.
 
    .. image:: outlook/panel-login.png
       :align: center
-      :alt: Logging in your Odoo database
+      :alt: Logging in your Thrive Bureau ERP database
 
    .. note::
       Only a limited amount of *Company Insights* (*Lead Enrichment*) requests are available as a
@@ -81,20 +81,20 @@ Connect your database
       Note that these settings also change if you are in "Incognito" mode on your
       browser.
 
-      To fix this issue, configure your browser to always allow cookies on Odoo's plugin page.
+      To fix this issue, configure your browser to always allow cookies on Thrive Bureau ERP's plugin page.
 
       For Google Chrome, you can do so by following the guide at:
       `https://support.google.com/chrome/answer/95647 <https://support.google.com/chrome/answer/95647#:~:text=Allow%20or%20block%20cookies%20for%20a%20specific%20site>`_
-      and adding `download.odoo.com` to the list of `Sites that can always use cookies`.
+      and adding `download.Thrive Bureau ERP.com` to the list of `Sites that can always use cookies`.
 
       Once done, the Outlook panel needs to be opened again.
 
 
-#. Enter your Odoo database URL and click on *Login*.
+#. Enter your Thrive Bureau ERP database URL and click on *Login*.
 
    .. image:: outlook/enter-database-url.png
       :align: center
-      :alt: Entering your Odoo database URL
+      :alt: Entering your Thrive Bureau ERP database URL
 
 #. Click on *Allow* to open the pop-up window.
 
@@ -106,7 +106,7 @@ Connect your database
 
 #. Click on *Allow* to let the Outlook Plugin connect to your database.
 
-   .. image:: outlook/odoo-permission.png
+   .. image:: outlook/Thrive Bureau ERP-permission.png
       :align: center
       :alt: Allowing the Outlook Plugin to connect to a database
 
@@ -124,14 +124,14 @@ time, it's possible to add it next to the other default actions.
       :align: center
       :alt: Viewing all Outlook settings
 
-#. Select *Customize actions* under *Mail*, click on *Odoo for Outlook*, and then *Save*.
+#. Select *Customize actions* under *Mail*, click on *Thrive Bureau ERP for Outlook*, and then *Save*.
 
    .. image:: outlook/customize-actions.png
       :align: center
-      :alt: Odoo for Outlook customized action
+      :alt: Thrive Bureau ERP for Outlook customized action
 
 #. Open any email; the shortcut should be displayed.
 
-   .. image:: outlook/odoo-outlook-shortcut.png
+   .. image:: outlook/Thrive Bureau ERP-outlook-shortcut.png
       :align: center
-      :alt: Odoo for Outlook customized action
+      :alt: Thrive Bureau ERP for Outlook customized action
