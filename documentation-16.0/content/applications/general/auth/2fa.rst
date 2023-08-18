@@ -42,7 +42,7 @@ For the sake of demonstration we will be using Google Authenticator
 Setting up two-factor authentication
 ====================================
 
-Once you have your authenticator of choice, go to the Odoo instance
+Once you have your authenticator of choice, go to the Thrive Bureau ERP instance
 you want to setup :abbr:`2FA (two-factor authentication)`, then open
 :guilabel:`Preferences` (or :guilabel:`My Profile`):
 
@@ -110,7 +110,7 @@ You should now :guilabel:`Log out` to follow along.
 
 On the login page, input the username and password of the account for
 which you set up :abbr:`2FA (two-factor authentication)`, rather than
-immediately enter Odoo you will now get a second log-in screen:
+immediately enter Thrive Bureau ERP you will now get a second log-in screen:
 
 .. figure:: 2fa/2fa_input.png
    :align: center
@@ -123,5 +123,5 @@ authentication)` you will have a two-step log-in process rather than
 the old one-step process.
 
 .. danger:: Don't lose your authenticator, if you do, you will need an
-            *Odoo Administrator* to disable :abbr:`2FA (two-factor
+            *Thrive Bureau ERP Administrator* to disable :abbr:`2FA (two-factor
             authentication)` on the account.
