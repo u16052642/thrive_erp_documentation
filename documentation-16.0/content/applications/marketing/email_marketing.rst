@@ -9,7 +9,7 @@ Emails are an effective, fully-customizable form of communication that are able 
 audience - large or small. The success of an email is easily measurable, especially when a creative
 call-to-action is involved.
 
-Odoo *Email Marketing* provides professional-grade email design tools, templates, and features,
+Thrive Bureau ERP *Email Marketing* provides professional-grade email design tools, templates, and features,
 designed to simplify the otherwise complex process required to create engaging emails, build
 successful campaigns, and track their overall effectiveness in a single application.
 
@@ -20,7 +20,7 @@ successful campaigns, and track their overall effectiveness in a single applicat
 Email marketing dashboard
 =========================
 
-To get started, click on the :menuselection:`Email Marketing` app icon, located on the main Odoo
+To get started, click on the :menuselection:`Email Marketing` app icon, located on the main Thrive Bureau ERP
 dashboard, which leads to the main :guilabel:`Email Marketing` dashboard (in the default kanban
 view).
 
@@ -29,7 +29,7 @@ search bar.
 
 .. image:: email_marketing/dashboard.png
    :align: center
-   :alt: View of the main dashboard of the Odoo Email Marketing application.
+   :alt: View of the main dashboard of the Thrive Bureau ERP Email Marketing application.
 
 .. note::
    In the search bar, by default, the filter: :guilabel:`My Mailings` is present. That means the
@@ -65,7 +65,7 @@ future use.
 
 .. image:: email_marketing/three-dot-dropdown.png
    :align: center
-   :alt: View of the three-dot drop-down menu on the Odoo Email Marketing dashboard.
+   :alt: View of the three-dot drop-down menu on the Thrive Bureau ERP Email Marketing dashboard.
 
 In the upper-right corner of the main :guilabel:`Email Marketing` dashboard, there are other view
 options to choose from: :guilabel:`List` and :guilabel:`Graph`.
@@ -78,7 +78,7 @@ the same key information, but in a classic list format.
 
 .. image:: email_marketing/list-view.png
    :align: center
-   :alt: How the List view appears in the Odoo Email Marketing application.
+   :alt: How the List view appears in the Thrive Bureau ERP Email Marketing application.
 
 Graph view
 ----------
@@ -88,7 +88,7 @@ key information, but in a variety of customizable graph (and chart) layouts.
 
 .. image:: email_marketing/graph-view.png
    :align: center
-   :alt: How the Graph view appears in the Odoo Email Marketing application.
+   :alt: How the Graph view appears in the Thrive Bureau ERP Email Marketing application.
 
 In the upper-left corner, there is a :guilabel:`Measures`  menu, providing even more filter options
 to further customize the graph views.
@@ -111,23 +111,23 @@ These options provide various ways to specify and organize the information seen 
 
       This drop-down menu provides different ways to filter email campaigns on the dashboard. The
       options are: :guilabel:`My Mailings`, :guilabel:`Sent Date`, :guilabel:`Archived`, and
-      :guilabel:`Add Custom Filter`. If :guilabel:`Add Custom Filter` is selected, Odoo reveals an
+      :guilabel:`Add Custom Filter`. If :guilabel:`Add Custom Filter` is selected, Thrive Bureau ERP reveals an
       additional drop-down menu, with three customizable fields to fill in, in order to retrieve
       results that fit more specific criteria.
 
       .. image:: email_marketing/filters-dropdown.png
-         :alt: View of filters drop-down menu options on the Odoo Email Marketing dashboard.
+         :alt: View of filters drop-down menu options on the Thrive Bureau ERP Email Marketing dashboard.
 
    .. tab:: Group By
 
       This drop-down menu provides different ways to filter email information on the dashboard. The
       options are: :guilabel:`My Mailings`, :guilabel:`Sent Date`, :guilabel:`Archived`, and
-      :guilabel:`Add Custom Filter`. If :guilabel:`Add Custom Filter` is selected, Odoo reveals an
-      additional drop-down menu, with three customizable fields to fill in, and Odoo reveals the
+      :guilabel:`Add Custom Filter`. If :guilabel:`Add Custom Filter` is selected, Thrive Bureau ERP reveals an
+      additional drop-down menu, with three customizable fields to fill in, and Thrive Bureau ERP reveals the
       appropriate results that fit that specific criteria.
 
       .. image:: email_marketing/group-by-dropdown.png
-         :alt: View of the Group By drop-down menu on the Odoo Email Marketing application.
+         :alt: View of the Group By drop-down menu on the Thrive Bureau ERP Email Marketing application.
 
    .. tab:: Favorites
 
@@ -137,7 +137,7 @@ These options provide various ways to specify and organize the information seen 
       Google Spreadsheet`.
 
       .. image:: email_marketing/favorites-dropdown.png
-         :alt: View of the Favorites drop-down menu on the Odoo Email Marketing application.
+         :alt: View of the Favorites drop-down menu on the Thrive Bureau ERP Email Marketing application.
 
 Settings
 ========
@@ -147,7 +147,7 @@ application --> Configuration --> Settings`.
 
 .. image:: email_marketing/settings-page.png
    :align: center
-   :alt: View of the Settings page in the Odoo Email Marketing application.
+   :alt: View of the Settings page in the Thrive Bureau ERP Email Marketing application.
 
 On this :guilabel:`Settings` page, there are three features available. The features are:
 :guilabel:`Mailing Campaigns`, :guilabel:`Blacklist Option when Unsubscribing`, and
@@ -157,8 +157,8 @@ On this :guilabel:`Settings` page, there are three features available. The featu
 - :guilabel:`Blacklist Option when Unsubscribing`: allows recipients to blacklist themselves from
   future mailings during the unsubscribing process.
 - :guilabel:`Dedicated Server`: provides the option to utilize a separate, dedicated server for
-  mailings. When enabled, Odoo reveals a new field (and link), in which the specific server
-  configurations must be entered, in order for it to connect properly to Odoo.
+  mailings. When enabled, Thrive Bureau ERP reveals a new field (and link), in which the specific server
+  configurations must be entered, in order for it to connect properly to Thrive Bureau ERP.
 
 Create an email
 ===============
@@ -170,7 +170,7 @@ Clicking :guilabel:`Create` reveals a blank email detail form.
 
 .. image:: email_marketing/blank-email-detail-form.png
    :align: center
-   :alt: View of a blank email detail form in Odoo Email Marketing application.
+   :alt: View of a blank email detail form in Thrive Bureau ERP Email Marketing application.
 
 First, enter a :guilabel:`Subject` to the email. The :guilabel:`Subject` is visible in the
 recipients' inbox, allowing them to get quickly see what the message is about.
@@ -200,19 +200,19 @@ After that, it's time to choose the recipients of this email, which can be compl
 
 .. image:: email_marketing/recipients-dropdown.png
    :align: center
-   :alt: View of recipients drop-down menu in the Odoo Email Marketing application.
+   :alt: View of recipients drop-down menu in the Thrive Bureau ERP Email Marketing application.
 
 The default option is :guilabel:`Mailing List`. If :guilabel:`Mailing List` option is selected, a
 specific :guilabel:`Mailing List` needs to be chosen from the adjacent :guilabel:`Select mailing
 lists` field drop-down menu.
 
-Then, Odoo will only send this email to contacts on that specific mailing list.
+Then, Thrive Bureau ERP will only send this email to contacts on that specific mailing list.
 
 .. seealso::
    :doc:`/applications/marketing/email_marketing/mailing_lists`
 
 When the :guilabel:`Recipients` field is clicked, a drop-down menu of other options is revealed.
-Each option provides different ways Odoo can create a target audience for the email.
+Each option provides different ways Thrive Bureau ERP can create a target audience for the email.
 
 Those options (excluding the default :guilabel:`Mailing List`) provide the option to create a more
 specified recipient filter, in an equation-like format.
@@ -230,7 +230,7 @@ The :guilabel:`Recipients` field options are as follows:
 - :guilabel:`Sales Order`: filter focuses on a specific sales orders in the database.
 
 If the specified recipient fields don't automatically reveal themselves, simply click the
-:guilabel:`Add Filter` button beneath the :guilabel:`Recipients` field, and Odoo reveals the
+:guilabel:`Add Filter` button beneath the :guilabel:`Recipients` field, and Thrive Bureau ERP reveals the
 necessary equation fields to further drill down the target recipients for this mailing.
 
 Add a recipient filter
@@ -246,7 +246,7 @@ are indicated to the right of the :guilabel:`Recipients` field, in green.
 
 .. image:: email_marketing/add-filter-button.png
    :align: center
-   :alt: View of how recipient filters can be customized in Odoo Email Marketing.
+   :alt: View of how recipient filters can be customized in Thrive Bureau ERP Email Marketing.
 
 .. note::
    Some sub-menu options in the first rule field allow for a second choice to provide even more
@@ -267,16 +267,16 @@ At the bottom of the email form are two tabs: :guilabel:`Mail Body` and :guilabe
 focus on :guilabel:`Mail Body` tab first.
 
 In the :guilabel:`Mail Body` tab, there are a number of pre-configured message templates to choose
-from. Select the desired template, and modify every element of its design details with Odoo's
+from. Select the desired template, and modify every element of its design details with Thrive Bureau ERP's
 drag-and-drop building blocks, located on the right sidebar. Each building block provides unique
 features and professional design elements.
 
 .. image:: email_marketing/mail-blocks.png
    :align: center
-   :alt: View of the building blocks used to create mailings in Odoo Email Marketing application.
+   :alt: View of the building blocks used to create mailings in Thrive Bureau ERP Email Marketing application.
 
 .. tip::
-   To build an email from scratch, select the :guilabel:`Plain Text` template, and Odoo provides a
+   To build an email from scratch, select the :guilabel:`Plain Text` template, and Thrive Bureau ERP provides a
    blank email canvas, which can be customized in a number of ways - either by using the front-end
    rich text editor that accepts slash (:guilabel:`/`) commands, or with the XML code editor when
    :ref:`Developer Mode (debug mode) <developer-mode>` is engaged, and the :guilabel:`</>` icon is
@@ -298,7 +298,7 @@ email detail form looks like this:
 
 .. image:: email_marketing/settings-without-features.png
    :align: center
-   :alt: View of settings tab in Odoo Email Marketing app, without settings activated.
+   :alt: View of settings tab in Thrive Bureau ERP Email Marketing app, without settings activated.
 
 - :guilabel:`Responsible`: choose an employee (in the database) to be responsible for this
   particular email.
@@ -315,7 +315,7 @@ options appear in the :guilabel:`Settings` tab, which look like this:
 
 .. image:: email_marketing/settings-tab-with-settings.png
    :align: center
-   :alt: View of settings tab in Odoo Email Marketing when settings are activated.
+   :alt: View of settings tab in Thrive Bureau ERP Email Marketing when settings are activated.
 
 The additional features are: :guilabel:`Mailing Campaign`, :guilabel:`Allow A/B Testing`, and
 :guilabel:`A/B Testing percentage`.
@@ -329,11 +329,11 @@ containing all previously-made mailing campaigns in the database.
 
 .. image:: email_marketing/mailing-campaign-dropdown.png
    :align: center
-   :alt: View of a mailing campaign drop-down menu in Odoo Email Marketing application.
+   :alt: View of a mailing campaign drop-down menu in Thrive Bureau ERP Email Marketing application.
 
 If the desired campaign isn't available in the initial drop-down menu, select :guilabel:`Search
 More` to reveal a complete list of all mailing campaigns in the database. Or, type the name of the
-desired mailing campaign in the :guilabel:`Mailing Campaign` field, until Odoo reveals the desired
+desired mailing campaign in the :guilabel:`Mailing Campaign` field, until Thrive Bureau ERP reveals the desired
 campaign in the drop-down menu. Then, select the desired campaign.
 
 Create new mailing campaign (from Settings tab)
@@ -344,17 +344,17 @@ new campaign, and select :guilabel:`Create [Campaign Name]` or :guilabel:`Create
 
 Click :guilabel:`Create` to add this new mailing campaign to the database, and modify its settings
 in the future. And click :guilabel:`Create and Edit...` to add this new mailing campaign to the
-database, and Odoo reveals a pop-up window.
+database, and Thrive Bureau ERP reveals a pop-up window.
 
 .. image:: email_marketing/mailing-campaign-popup.png
    :align: center
-   :alt: View of the email mailing campaign pop-up window in Odoo Email Marketing application.
+   :alt: View of the email mailing campaign pop-up window in Thrive Bureau ERP Email Marketing application.
 
 Here, the new mailing campaign can be further customized. Adjust the :guilabel:`Campaign Name`,
 assign a :guilabel:`Responsible`, and add :guilabel:`Tags`.
 
 The top row of the :guilabel:`Create: Mailing Campaign` pop-up window is filled with analytical
-smart buttons. Each of which displays various metrics related to the campaign. When clicked, Odoo
+smart buttons. Each of which displays various metrics related to the campaign. When clicked, Thrive Bureau ERP
 reveals a separate, more detailed page with even more in-depth statistics.
 
 The option to instantly a new communication from this pop-up window is available in the upper-left
@@ -376,10 +376,10 @@ and :guilabel:`Tags` can be added directly on the :guilabel:`Campaigns` dashboar
 
 .. image:: email_marketing/campaigns-page-popup.png
    :align: center
-   :alt: View of the campaign pop-up window in Odoo Email Marketing.
+   :alt: View of the campaign pop-up window in Thrive Bureau ERP Email Marketing.
 
 Click :guilabel:`Add` to add the campaign to the database, and freely edit it later on. Or, click
-:guilabel:`Edit` and Odoo reveals the campaign template form on a separate page, providing the
+:guilabel:`Edit` and Thrive Bureau ERP reveals the campaign template form on a separate page, providing the
 opportunity to further edit the campaign, send communications related to the campaign, and analyze
 various metrics related to the campaign, via the smart buttons at the top of the form.
 
@@ -398,19 +398,19 @@ between `1-100`. The recipients are randomly chosen.
 Send, schedule, or test
 =======================
 
-After finalizing the mailing, Odoo provides the following options in the upper-left corner of the
+After finalizing the mailing, Thrive Bureau ERP provides the following options in the upper-left corner of the
 email template page. Those options are: :guilabel:`Send`, :guilabel:`Schedule`, and
 :guilabel:`Test`.
 
 While in :guilabel:`Edit` mode, there are also buttons to :guilabel:`Save` or :guilabel:`Discard`
 the mailing, as well.
 
-- :guilabel:`Send` - Click to have Odoo send the email to the desired recipients. When Odoo has sent
+- :guilabel:`Send` - Click to have Thrive Bureau ERP send the email to the desired recipients. When Thrive Bureau ERP has sent
   the mailing, the status changes to *Sent*.
 - :guilabel:`Schedule` - Click to reveal a pop-up window, in which a future date-time is chosen.
-  Odoo sends the mailing to the desired recipients at that specified date-time. When a date-time is
+  Thrive Bureau ERP sends the mailing to the desired recipients at that specified date-time. When a date-time is
   chosen, the status of the mailing changes to *In Queue*.
-- :guilabel:`Test` - Click to reveal a pop-up window, in which Odoo allows a sample email to be sent
+- :guilabel:`Test` - Click to reveal a pop-up window, in which Thrive Bureau ERP allows a sample email to be sent
   for testing purposes. Enter the desired recipient's email address in the :guilabel:`Recipients`
   field, and click :guilabel:`Send Sample Mail`.
 - :guilabel:`Save` - Click to save the mailing as a draft, which can be edited (and sent) at a later
