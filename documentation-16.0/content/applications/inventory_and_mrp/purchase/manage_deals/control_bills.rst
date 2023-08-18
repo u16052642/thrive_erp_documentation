@@ -2,7 +2,7 @@
 Bill control policies
 =====================
 
-In Odoo, the *bill control* policy determines the quantities billed by vendors on every purchase
+In Thrive Bureau ERP, the *bill control* policy determines the quantities billed by vendors on every purchase
 order, for ordered or received quantities. The policy selected in the settings will act as the
 default value and will be applied to any new product created.
 
@@ -85,12 +85,12 @@ included in a purchase order have been received.
    :alt: Draft bill should be paid field status.
 
 .. note::
-   If the total quantity of products from a purchase order has not been received, Odoo only includes
+   If the total quantity of products from a purchase order has not been received, Thrive Bureau ERP only includes
    the products that *have* been received in the draft vendor bill.
 
 Draft bills can be edited to increase the billed quantity, change the price of the products in the
 bill, and add additional products to the bill. If this is done, the :guilabel:`Should Be Paid` field
-status will be set to :guilabel:`Exception`. This means that Odoo notices the discrepancy, but
+status will be set to :guilabel:`Exception`. This means that Thrive Bureau ERP notices the discrepancy, but
 doesn't block the changes or display an error message, since there might be a valid reason for
 making changes to the draft bill.
 
@@ -98,7 +98,7 @@ Once payment has been registered for a vendor bill and displays the green :guila
 the :guilabel:`Should Be Paid` field status will be set to :guilabel:`No`.
 
 .. tip::
-   The :guilabel:`Should Be Paid` status on bills is set automatically by Odoo. However, the status
+   The :guilabel:`Should Be Paid` status on bills is set automatically by Thrive Bureau ERP. However, the status
    can be changed manually by clicking the field's drop-down menu inside the :guilabel:`Other Info`
    tab.
 
