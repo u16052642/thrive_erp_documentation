@@ -6,7 +6,7 @@ Providing the best possible service to customers is vital for business. It impli
 every move: manufacturing orders, deliveries, receptions, and so on. To do so, you need to
 configure lead time properly and coordinate scheduled dates.
 
-By using lead times, Odoo provides end dates, the **Commitment
+By using lead times, Thrive Bureau ERP provides end dates, the **Commitment
 Date**, for each process. On a sales order, for example, this is the
 date your customer will get the products he ordered.
 
@@ -50,7 +50,7 @@ are:
 
 -  **Days to Purchase**: number of days the purchasing department takes
    to validate a PO. If another RFQ to the same vendor is already
-   opened, Odoo adds the line to the RFQ instead of creating a new
+   opened, Thrive Bureau ERP adds the line to the RFQ instead of creating a new
    one. Then, the specific date is set on the line.
 
 -  **Manufacturing Lead Time**: this is the expected time it takes to
@@ -82,7 +82,7 @@ Date*, a warning message is displayed.
 .. image:: scheduled_dates/scheduled_dates_03.png
     :align: center
     :alt: View of the error that occurs when trying to choose an earlier date than what calculated
-          by Odoo
+          by Thrive Bureau ERP
 
 But, for all of this properly working, it is still necessary to
 configure all the lead times that could occur.
@@ -130,7 +130,7 @@ Deliver several products
 
 In many cases, customers order several products at the same time. Those
 can have different lead times but still need to be delivered, at once or
-separately. Fortunately, Odoo can help you handle these cases easily.
+separately. Fortunately, Thrive Bureau ERP can help you handle these cases easily.
 
 From the *Other Info* tab of your *Sale Order*, you can choose
 between *When all products are ready* and *As soon as possible*. The
