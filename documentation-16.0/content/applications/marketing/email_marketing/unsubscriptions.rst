@@ -15,10 +15,10 @@ Unsubscribing`, and click :guilabel:`Save`.
 
 .. image:: unsubscriptions/blacklist-feature.png
    :align: center
-   :alt: View of the blacklist feature in the Settings page of the Odoo Email Marketing app.
+   :alt: View of the blacklist feature in the Settings page of the Thrive Bureau ERP Email Marketing app.
 
 With that feature activated, an *Unsubscribe* link appears in mailings. If a recipient clicks that
-link, Odoo reveals a :guilabel:`Unsubscriptions` page, where they can directly manage their
+link, Thrive Bureau ERP reveals a :guilabel:`Unsubscriptions` page, where they can directly manage their
 subscriptions.
 
 .. note::
@@ -40,14 +40,14 @@ Marketing app --> Configuration --> Blacklisted Email Addresses`.
 
 .. image:: unsubscriptions/blacklisted-email-addresses.png
    :align: center
-   :alt: View of the blacklisted email addresses page in Odoo Email Marketing.
+   :alt: View of the blacklisted email addresses page in Thrive Bureau ERP Email Marketing.
 
-When a blacklisted record is selected from this page, Odoo reveals a separate page with that
+When a blacklisted record is selected from this page, Thrive Bureau ERP reveals a separate page with that
 blacklisted recipient's contact information.
 
 .. image:: unsubscriptions/blacklisted-contact-form.png
    :align: center
-   :alt: View of a blacklisted contact detail form in Odoo Email Marketing.
+   :alt: View of a blacklisted contact detail form in Thrive Bureau ERP Email Marketing.
 
 In the :guilabel:`Chatter` of this page, there's a time-stamped message, informing the user when
 that recipient blacklisted themselves (via a :guilabel:`Mail Blacklist created` log note).
@@ -64,7 +64,7 @@ explaining why this particular contact was removed from the blacklist.
 
 .. image:: unsubscriptions/unblacklist-popup.png
    :align: center
-   :alt: View of the unblacklist pop-up window in the Odoo Email Marketing application.
+   :alt: View of the unblacklist pop-up window in the Thrive Bureau ERP Email Marketing application.
 
 After filling in the fields, click :guilabel:`Confirm` to officially remove that particular contact
 from the blacklist.
