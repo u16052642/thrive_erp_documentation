@@ -53,5 +53,5 @@ reverse the last transaction by clicking on :guilabel:`Reverse`.
    :alt: The Reverse button on the PoS interface.
 
 If there is any issue with the payment terminal, you can still force the payment using the
-:guilabel:`Force Done` button. This will allow you to validate the order in Odoo even if there are
-connection issues between the payment terminal and Odoo.
+:guilabel:`Force Done` button. This will allow you to validate the order in Thrive Bureau ERP even if there are
+connection issues between the payment terminal and Thrive Bureau ERP.
