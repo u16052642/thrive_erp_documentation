@@ -6,7 +6,7 @@ Sometimes, companies might want to request offers from multiple vendors at the s
 inviting those vendors to submit offers for similar goods or services all at once. This helps
 companies to select the cheapest (and fastest) vendors, depending on their specific business needs.
 
-In Odoo, this can be done by adding alternative requests for quotation (RFQs) for different
+In Thrive Bureau ERP, this can be done by adding alternative requests for quotation (RFQs) for different
 vendors. Once a response is received from each vendor, the product lines from each :abbr:`RFQ
 (Request for Quotation)` can be compared, and a decision can be made for which products to purchase
 from which vendors.
