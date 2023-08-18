@@ -15,7 +15,7 @@ Install the *Gamification* module, or the *CRM gamification* one, which adds som
 
 .. image:: gamification/gamification_module_install.png
    :align: center
-   :alt: View of the gamification module being installed in Odoo
+   :alt: View of the gamification module being installed in Thrive Bureau ERP
 
 Create a challenge
 ==================
@@ -30,7 +30,7 @@ Now, create your first challenge by going to :menuselection:`Settings --> Gamifi
 
 .. image:: gamification/gamification_tools_menu.png
    :align: center
-   :alt: View if the gamification tools menu in Odoo Settings
+   :alt: View if the gamification tools menu in Thrive Bureau ERP Settings
 
 A challenge is a mission that you send to your sales team. It can include one or several goals, set
 for a specific period of time. Configure your challenge as follows:
@@ -52,7 +52,7 @@ month, the winner will be granted with a badge.
 
 .. image:: gamification/challenges.png
    :align: center
-   :alt: View of the challenge form and a challenge being created for Odoo Sales
+   :alt: View of the challenge form and a challenge being created for Thrive Bureau ERP Sales
 
 Set up goals
 ------------
@@ -67,7 +67,7 @@ Set up goals
 
 .. image:: gamification/goal_definitions.png
    :align: center
-   :alt: View of the goal definition form and a goal definition being created for Odoo Sales
+   :alt: View of the goal definition form and a goal definition being created for Thrive Bureau ERP Sales
 
 .. note::
    Goals may include your database setup as well (e.g. set your company data and a timezone,
@@ -83,4 +83,4 @@ To create and grant badges to your employees based on their performance, go to
 
 .. image:: gamification/badges.png
    :align: center
-   :alt: View of the badges page in Odoo
+   :alt: View of the badges page in Thrive Bureau ERP
