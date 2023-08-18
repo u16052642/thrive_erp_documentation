@@ -4,8 +4,8 @@ Purchase in different units of measure than sales
 
 When you purchase a product, it may happen that your vendor uses a different unit of measure than
 you do when you sell it. This can cause confusion between sales and purchase representatives. It is
-also time-consuming to convert measures manually every time. With Odoo, you can configure your
-product once and let Odoo handle the conversion.
+also time-consuming to convert measures manually every time. With Thrive Bureau ERP, you can configure your
+product once and let Thrive Bureau ERP handle the conversion.
 
 Consider the following examples:
 
@@ -23,7 +23,7 @@ enable *Units of Measure*.
 
 .. image:: uom/uom-enable-option.png
    :align: center
-   :alt: Enable the units of measure option in Odoo Sales
+   :alt: Enable the units of measure option in Thrive Bureau ERP Sales
 
 Specify sales and purchase units of measure
 ===========================================
@@ -50,13 +50,13 @@ to your customers in **liters**, first select *L* (liters) as the *Unit of Measu
 
 .. image:: uom/uom-product-configuration.png
    :align: center
-   :alt: Configure a product's units of measure in Odoo
+   :alt: Configure a product's units of measure in Thrive Bureau ERP
 
 Create new units of measure and units of measure categories
 -----------------------------------------------------------
 
 Sometimes you need to create your own units and categories, either because the measure is not
-pre-configured in Odoo or because the units do not relate with each other (e.g. kilos and
+pre-configured in Thrive Bureau ERP or because the units do not relate with each other (e.g. kilos and
 centimeters).
 
 If you take the second example where you buy curtains from a vendor in the form of **rolls** and you
@@ -68,7 +68,7 @@ and name the category.
 
 .. image:: uom/uom-new-category.png
    :align: center
-   :alt: Create a new units of measure category in Odoo Purchase
+   :alt: Create a new units of measure category in Thrive Bureau ERP Purchase
 
 The next step is to create the two units of measures. To do so, go to :menuselection:`Configuration
 --> Units of Measure`.
@@ -76,7 +76,7 @@ The next step is to create the two units of measures. To do so, go to :menuselec
 First, create the unit of measure used as the reference point for converting to other units of
 measure inside the category by clicking on *Create*. Name the unit and select the units of measure
 category you just created. For the *Type*, select *Reference Unit of Measure for this category
-type*. Enter the *Rounding Precision* you would like to use. The quantity computed by Odoo is always
+type*. Enter the *Rounding Precision* you would like to use. The quantity computed by Thrive Bureau ERP is always
 a multiple of this value.
 
 In the example, as you cannot purchase less than 1 roll and won't use fractions of a roll as a unit
@@ -84,7 +84,7 @@ of measure, you can enter 1.
 
 .. image:: uom/uom-new-reference-unit.png
    :align: center
-   :alt: Create a new reference unit of measure in Odoo Purchase
+   :alt: Create a new reference unit of measure in Thrive Bureau ERP Purchase
 
 .. note:: If you use a *Rounding Precision* inferior to 0.01, a warning message might appear stating
    that it is higher than the *Decimal Accuracy* and that it might cause inconsistencies. If you
@@ -107,10 +107,10 @@ For your curtain roll, the ratio should be set to 100.
 
 .. image:: uom/uom-second-unit.png
    :align: center
-   :alt: Create a second unit of measure in Odoo Purchase
+   :alt: Create a second unit of measure in Thrive Bureau ERP Purchase
 
-You can now configure your product just as you would using Odoo's standard units of measure.
+You can now configure your product just as you would using Thrive Bureau ERP's standard units of measure.
 
 .. image:: uom/uom-product-configuration-new-units.png
    :align: center
-   :alt: Set a product's units of measure using your own units in Odoo Purchase
+   :alt: Set a product's units of measure using your own units in Thrive Bureau ERP Purchase
