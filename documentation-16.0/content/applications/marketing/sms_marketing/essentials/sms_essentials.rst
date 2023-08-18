@@ -6,7 +6,7 @@ Utilizing :abbr:`SMS (Short Message Service)` outreach in communication strategi
 companies expand their market reach, especially in some countries, where emails might not be very
 common, or even used at all.
 
-Odoo's *SMS Marketing* application can also help boost conversion rates around valuable actions,
+Thrive Bureau ERP's *SMS Marketing* application can also help boost conversion rates around valuable actions,
 such as event registrations, free trials, purchases, etc., since text and mobile-based marketing
 channels typically yield higher :abbr:`CTOR (click-to-open rate)` and :abbr:`CTR (click-through
 rate)` outcomes.
@@ -14,11 +14,11 @@ rate)` outcomes.
 SMS marketing dashboard
 =======================
 
-When the application is opened, Odoo displays the main :guilabel:`SMS Marketing` dashboard, which
+When the application is opened, Thrive Bureau ERP displays the main :guilabel:`SMS Marketing` dashboard, which
 showcases the various SMS mailings that have been created, along with pertinent information and data
 related to that specific message.
 
-The :guilabel:`Kanban` view is the default Odoo uses when the application is opened, which provides
+The :guilabel:`Kanban` view is the default Thrive Bureau ERP uses when the application is opened, which provides
 an organized display of the SMS mailings that have been created, and what their current status is at
 the moment.
 
@@ -33,16 +33,16 @@ The :guilabel:`List` view provides the same useful data related to SMS mailings,
 traditional list layout.
 
 The :guilabel:`Calendar` view provides a simple calendar, making it easy to see when SMS mailings
-are going to be sent (or have been sent). If a future date is clicked, Odoo reveals a blank SMS
+are going to be sent (or have been sent). If a future date is clicked, Thrive Bureau ERP reveals a blank SMS
 template that, when completed, will be scheduled to be sent on that specific future date.
 
 Lastly, the :guilabel:`Graph` view visualizes that same SMS-related data in series of graphs and
-charts. Odoo also provides various ways to sort and group the data for more detailed analysis.
+charts. Thrive Bureau ERP also provides various ways to sort and group the data for more detailed analysis.
 
 Create SMS messages
 ===================
 
-To start, click :guilabel:`Create` on the main :guilabel:`SMS Marketing` dashboard, and Odoo reveals
+To start, click :guilabel:`Create` on the main :guilabel:`SMS Marketing` dashboard, and Thrive Bureau ERP reveals
 a blank SMS template form, which can be configured in a number of different ways.
 
 .. image:: sms_essentials/sms-create.png
@@ -52,13 +52,13 @@ a blank SMS template form, which can be configured in a number of different ways
 First, give the mailing a :guilabel:`Subject`, which describes what the mailing is about.
 
 Next, in the :guilabel:`Recipients` field, choose to whom this :abbr:`SMS (Short Message Service)`
-will be sent. By default, Odoo has :guilabel:`Mailing List` selected. If this is the desired
-:guilabel:`Recipients` field option, specify which mailing list Odoo should send this :abbr:`SMS
+will be sent. By default, Thrive Bureau ERP has :guilabel:`Mailing List` selected. If this is the desired
+:guilabel:`Recipients` field option, specify which mailing list Thrive Bureau ERP should send this :abbr:`SMS
 (Short Message Service)` to in the :guilabel:`Select Mailing List` field.
 
 .. note::
    To create (or edit) a mailing list, go to :menuselection:`Mailing Lists --> Mailing List`. There,
-   Odoo displays all previously created mailing lists, along with various types of data related to
+   Thrive Bureau ERP displays all previously created mailing lists, along with various types of data related to
    that specific list (e.g. number of contacts, mailings, recipients, etc.).
 
    To learn more about mailing lists and contacts, check out
@@ -69,7 +69,7 @@ will be sent. By default, Odoo has :guilabel:`Mailing List` selected. If this is
    :alt: View of the mailing list page in the SMS marketing application.
 
 To reveal all the possible options in the :guilabel:`Recipients` field, click the field to see all
-the choices Odoo makes avaialble.
+the choices Thrive Bureau ERP makes avaialble.
 
 When another field (other than :guilabel:`Mailing List`) is selected, the option to specify that
 chosen field even further becomes available — either with a default recipient filter equation that
@@ -79,11 +79,11 @@ recipient filter equation is present, an :guilabel:`Add Filter` button will appe
 Clicking the :guilabel:`Add Filter` button, reveals fully customizable domain rule fields, which can
 be configured similar to an equation. You can create multiple recipient rules, if necessary.
 
-Then, Odoo will only send the :abbr:`SMS (Short Message Service)` to recipients who fit into
+Then, Thrive Bureau ERP will only send the :abbr:`SMS (Short Message Service)` to recipients who fit into
 whatever criteria is configured in those fields. Multiple rules can be added.
 
 .. example::
-   If :guilabel:`Contact` is chosen, all of the *Contacts* records in the Odoo database (vendors,
+   If :guilabel:`Contact` is chosen, all of the *Contacts* records in the Thrive Bureau ERP database (vendors,
    customers, etc.) will receive the :abbr:`SMS (Short Message Service)`, by default — unless more
    specific recipient rules are entered.
 
@@ -99,7 +99,7 @@ Writing SMS messages
 --------------------
 
 Enter the content of the :abbr:`SMS (Short Message Service)` in the text field, found in the
-:guilabel:`SMS Content` tab. Links and emojis can also be included. Beneath the text field, Odoo
+:guilabel:`SMS Content` tab. Links and emojis can also be included. Beneath the text field, Thrive Bureau ERP
 displays how many characters are used in the message, along with how many :abbr:`SMS (Short Message
 Service)` mailings it will take to deliver the complete message.
 
@@ -112,16 +112,16 @@ Service)` mailings it will take to deliver the complete message.
    :alt: SMS price check icon.
 
 .. note::
-   Credits must be purchased from Odoo in order to take advantage of the *SMS Marketing* app;
+   Credits must be purchased from Thrive Bureau ERP in order to take advantage of the *SMS Marketing* app;
    :abbr:`SMS (Short Message Service)` messages will not be sent without credits.
 
 .. seealso::
-   `Odoo SMS - FAQ <https://iap-services.odoo.com/iap/sms/pricing>`_
+   `Thrive Bureau ERP SMS - FAQ <https://iap-services.Thrive Bureau ERP.com/iap/sms/pricing>`_
 
 Track links used in SMS messages
 --------------------------------
 
-When links are used in :abbr:`SMS (Short Message Service)` messages, Odoo automatically generates
+When links are used in :abbr:`SMS (Short Message Service)` messages, Thrive Bureau ERP automatically generates
 link trackers to gather analytical data and metrics related to those specific links, which can be
 found by going to :menuselection:`Configuration --> Link Tracker`.
 
@@ -146,11 +146,11 @@ the :guilabel:`Settings` tab, as well.
 Send SMS messages
 =================
 
-Once a mailing is created, choose when Odoo should deliver the message from the following options:
+Once a mailing is created, choose when Thrive Bureau ERP should deliver the message from the following options:
 
 - :guilabel:`Send`: sends the message immediately. Consider using this option if the recipient list
   is highly refined, or in cases that involve fast approaching deadlines, such as a "flash sale."
-- :guilabel:`Schedule`: choose a day (and time) for Odoo to send the mailing. This is typically the
+- :guilabel:`Schedule`: choose a day (and time) for Thrive Bureau ERP to send the mailing. This is typically the
   best option for mailings related to a specific event. Such a method can also be used to promote a
   limited-time offer, or to help plan a company's content strategy in advance.
 - :guilabel:`Test`: allows for an :abbr:`SMS (Short Message Service)` to be sent to one or multiple
