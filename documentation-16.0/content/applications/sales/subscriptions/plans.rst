@@ -12,7 +12,7 @@ Configure subscription plans
 To configure subscription plans, go to :menuselection:`Subscriptions --> Configuration --> Plans`.
 Then, click :guilabel:`New` to create a new plan, or select an existing plan to edit it.
 
-Since the Odoo *Subscriptions* app is integrated closely with the *Sales* app, subscription plans
+Since the Thrive Bureau ERP *Subscriptions* app is integrated closely with the *Sales* app, subscription plans
 use the same form as quotation templates.
 
 .. image:: plans/subplan-quotation-template.png
