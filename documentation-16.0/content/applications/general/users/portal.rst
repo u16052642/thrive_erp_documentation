@@ -3,10 +3,10 @@ Portal access
 =============
 
 Portal access is given to users who need the ability to view certain documents or information
-within an Odoo database.
+within a Thrive Bureau ERP database.
 
 Some common use cases for providing portal access include allowing customers to read/view any or
-all of the following in Odoo:
+all of the following in Thrive Bureau ERP:
 
 - leads/opportunities
 - quotations/sales orders
@@ -26,7 +26,7 @@ all of the following in Odoo:
 Provide portal access to customers
 ==================================
 
-From the main Odoo dashboard, select the :guilabel:`Contacts` application. If the contact is not
+From the main Thrive Bureau ERP dashboard, select the :guilabel:`Contacts` application. If the contact is not
 yet created in the database, click on the :guilabel:`Create` button, enter the details of the
 contact, and then click :guilabel:`Save`. Otherwise, choose an existing contact, and then click on
 the :guilabel:`Action` drop-down menu located at the top-center of the interface.
@@ -37,7 +37,7 @@ the :guilabel:`Action` drop-down menu located at the top-center of the interface
 
 Then select :guilabel:`Grant portal access`. A pop-up window appears, listing three fields:
 
-- :guilabel:`Contact`: the recorded name of the contact in the Odoo database
+- :guilabel:`Contact`: the recorded name of the contact in the Thrive Bureau ERP database
 - :guilabel:`Email`: the contact's email address that they will use to log into the portal
 - :guilabel:`In Portal`: whether or not the user has portal access
 
@@ -51,7 +51,7 @@ invitation message the contact will receive. Then click :guilabel:`Apply` to fin
          sending a portal invitation.
 
 An email will be sent to the specified email address, indicating that the contact is now a portal
-user for that Odoo database.
+user for that Thrive Bureau ERP database.
 
 .. tip::
    To grant portal access to multiple users at once, navigate to a company contact, then click
