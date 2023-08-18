@@ -4,10 +4,10 @@ Create quality alerts
 
 Configuring quality control points is a great way to ensure that quality checks are performed at
 routine stages during specific operations. However, quality issues can often appear outside of these
-scheduled checks. Using Odoo *Quality*, users can create quality alerts for issues that are not
+scheduled checks. Using Thrive Bureau ERP *Quality*, users can create quality alerts for issues that are not
 detected by automated processes.
 
-.. seealso::
+.. see also::
    :doc:`Add quality control points <quality_control_points>`
 
 Find and fill out the quality alerts form
@@ -53,7 +53,7 @@ The tabs at the bottom of the form can be used to provide additional information
 Add quality alerts during the manufacturing process
 ===================================================
 
-Odoo enables manufacturing employees to create quality alerts within a work order without accessing
+Thrive Bureau ERP enables manufacturing employees to create quality alerts within a work order without accessing
 the *Quality* module. From the work order tablet view, click the :guilabel:` ☰ ` hamburger menu
 icon in the top left corner and select :guilabel:`Quality Alert`.
 
