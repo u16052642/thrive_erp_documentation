@@ -26,7 +26,7 @@ underneathe the :guilabel:`Product Name` field. Finally, set the :guilabel:`Prod
 
 .. image:: reordering/product-configured-for-reordering.png
    :align: center
-   :alt: Configure a product for reordering in Odoo.
+   :alt: Configure a product for reordering in Thrive Bureau ERP.
 
 Add a reordering rule to a product
 ==================================
@@ -37,7 +37,7 @@ visible :guilabel:`Reordering Rules` tab at the top of that product's form, and 
 
 .. image:: reordering/reordering-rules-tab.png
    :align: center
-   :alt: Access reordering rules for a product from the product page in Odoo.
+   :alt: Access reordering rules for a product from the product page in Thrive Bureau ERP.
 
 Once created, the reordering rule can be configured to generate purchase orders automatically by
 defining the following fields:
@@ -68,7 +68,7 @@ defining the following fields:
 
 .. image:: reordering/reordering-rule-configuration.png
    :align: center
-   :alt: Configure the reordering rule in Odoo.
+   :alt: Configure the reordering rule in Thrive Bureau ERP.
 
 Manually trigger reordering rules using the scheduler
 =====================================================
@@ -88,7 +88,7 @@ To manage the reordering rules for a single product, navigate to that product pa
 the :guilabel:`Reordering Rules` tab at the top of the form.
 
 To manage all reordering rules for every product, go to :menuselection:`Inventory --> Configuration
---> Reordering Rules`. From this dashboard, typical bulk actions in Odoo can be performed such as
+--> Reordering Rules`. From this dashboard, typical bulk actions in Thrive Bureau ERP can be performed such as
 exporting data or archiving rules that are no longer needed. As well, the :guilabel:`Filters`,
 :guilabel:`Group By` or triple-dotted menu on the form are available to search for and/or organize
 the reordering rules as desired.
