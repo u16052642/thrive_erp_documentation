@@ -6,8 +6,8 @@ Usually, *Removal Strategies* are defined in picking operations to select the be
 optimize the distance for the worker, for quality control purposes, or to first move products
 with the closest expiration date.
 
-When a product movement needs to be done, Odoo finds available products that can be assigned to
-the transfer. The way Odoo assigns these products depends on the *Removal Strategy* defined in
+When a product movement needs to be done, Thrive Bureau ERP finds available products that can be assigned to
+the transfer. The way Thrive Bureau ERP assigns these products depends on the *Removal Strategy* defined in
 the *Product Category* or on the *Location*.
 
 What happens inside the warehouse?
@@ -31,7 +31,7 @@ date. After that, products are stored in their respective locations.
 
 Next, several orders for the same product are made, but in this example, the goods weren't received
 on the same day and they don't have the same expiration date. In that situation, logically, sending
-those with the closest date first is preferred. Depending on the chosen removal strategy, Odoo
+those with the closest date first is preferred. Depending on the chosen removal strategy, Thrive Bureau ERP
 generates a transfer with the products that fit the settings the best.
 
 .. image:: removal/packing-products.png
@@ -63,7 +63,7 @@ the five boxes of :guilabel:`00001` and one of the boxes in :guilabel:`00002`, b
 because it has the oldest reception date after :guilabel:`00001`.
 
 So, for every order of a product with the :abbr:`FIFO (First In, First Out)` strategy selected,
-Odoo requests a transfer for the products that have been in the stock for the longest period.
+Thrive Bureau ERP requests a transfer for the products that have been in the stock for the longest period.
 
 Last In, First Out (LIFO)
 -------------------------
@@ -247,7 +247,7 @@ For this particular case, the stock has hand cream. There are three lots of them
 | 0000003               | Hand Cream    | 10/31/2019            |
 +-----------------------+---------------+-----------------------+
 
-When a sales order for 25 units of Hand Cream is created, Odoo automatically reserves the lots with
+When a sales order for 25 units of Hand Cream is created, Thrive Bureau ERP automatically reserves the lots with
 the closest expiration date, :guilabel:`0000001` and :guilabel:`0000003`.
 
 .. image:: removal/reserved-hand-cream.png
