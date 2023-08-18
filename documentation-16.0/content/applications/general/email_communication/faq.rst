@@ -54,8 +54,7 @@ In case you hit the limit, you can:
   - Which apps are installed,
   - Your bounce rate: the percentage of email addresses that did not receive your emails because
     it was returned by a mail server on its way to the final recipient. You can contact the `support
-    <https://www.Thrive Bureau ERP.com/help>`_.
-
+   
 - Use your own outgoing email server to be independent of Thrive Bureau ERP’s mail limit (please refer
   to :doc:`the corresponding documentation </applications/general/email_communication/email_servers>`),
 - Wait until 11pm UTC for the reset and click on the retry button: The :ref:`Developer mode <developer-mode>`
@@ -88,7 +87,7 @@ providers implement a personalized policy of the bounce emails and it is not alw
 for Thrive Bureau ERP to interpret it correctly.
 
 If you have this problem on a recurring basis with the same client or the same domain, please
-do not hesitate to contact `Thrive Bureau ERP Support <https://www.Thrive Bureau ERP.com/help>`_ for help in finding a reason.
+do not hesitate to contact Thrive Bureau ERP Support for help in finding a reason.
 
 Note: in such case, one of the most common reasons is related to :ref:`SPF <email_communication/spf_compliant>`
 and/or :ref:`DKIM <email_communication/DKIM_compliant>` configuration.
