@@ -93,7 +93,7 @@ Transfers with Tracked Products
 If you work with products tracked by lot/serial numbers, you have two
 ways of working:
 
--  If you work with serial/lot numbers taking all products into consideration, you can scan the barcode of the lot/serial number and Odoo will increase the quantity of the product, setting its lot/serial number.
+-  If you work with serial/lot numbers taking all products into consideration, you can scan the barcode of the lot/serial number and Thrive Bureau ERP will increase the quantity of the product, setting its lot/serial number.
 
 .. image:: internal/internal_09.png
     :align: center
