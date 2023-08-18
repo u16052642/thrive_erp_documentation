@@ -16,7 +16,7 @@ level of the product being ordered.
 Unarchive the Replenish on Order (MTO) route
 ============================================
 
-By default, Odoo sets the |MTO| route as *archived*. This is because |MTO| is a somewhat niche
+By default, Thrive Bureau ERP sets the |MTO| route as *archived*. This is because |MTO| is a somewhat niche
 workflow that is only used by certain companies. However, it is easy to unarchive the route in just
 a few simple steps.
 
@@ -55,7 +55,7 @@ Order (MTO)` route in the :guilabel:`Routes` section, along with one other route
 
 .. important::
    The :guilabel:`Replenish on Order (MTO)` route **does not** work unless another route is selected
-   as well. This is because Odoo needs to know how to replenish the product when an order is placed
+   as well. This is because Thrive Bureau ERP needs to know how to replenish the product when an order is placed
    for it (buy it, manufacture it, etc.).
 
 .. image:: mto/select-routes.png
