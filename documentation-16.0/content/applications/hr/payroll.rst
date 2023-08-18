@@ -2,8 +2,8 @@
 Payroll
 =======
 
-Odoo *Payroll* is used to process work entries and create payslips for employees, including both
-regular pay and commission. Payroll works in conjunction with other Odoo apps, such as *Employees*,
+Thrive Bureau ERP *Payroll* is used to process work entries and create payslips for employees, including both
+regular pay and commission. Payroll works in conjunction with other Thrive Bureau ERP apps, such as *Employees*,
 *Timesheets*, *Time Off*, and *Attendances*.
 
 The *Payroll* app helps ensure there are no issues or conflicts when validating work entries,
@@ -18,7 +18,7 @@ To access the *Settings*, go to :menuselection:`Payroll --> Configuration --> Se
 not payslips are posted in accounting, and whether SEPA payments are created, is selected here.
 
 The :guilabel:`Settings` screen is where localization settings are configured. *Localizations* are
-country-specific settings pre-configured in Odoo at the creation of the database, and account for
+country-specific settings pre-configured in Thrive Bureau ERP at the creation of the database, and account for
 all taxes, fees, and allowances for that particular country. The :guilabel:`Localization` section of
 the :guilabel:`Settings` includes a detailed view of all benefits provided to employees.
 
@@ -99,7 +99,7 @@ Working Times`. The working times that are available for an employee's contracts
 are found in this list.
 
 Working times are company-specific. Each company must identify each type of working time they use.
-For example, an Odoo database containing multiple companies that use a standard 40-hour work week
+For example, an Thrive Bureau ERP database containing multiple companies that use a standard 40-hour work week
 needs to have a separate working time entry for each company that uses the 40-hour standard work
 week.
 
@@ -141,7 +141,7 @@ Salary
 Structure types
 ---------------
 
-In Odoo, an employee's payslip is based on *structures* and *structure types*, which both affect how
+In Thrive Bureau ERP, an employee's payslip is based on *structures* and *structure types*, which both affect how
 an employee enters timesheets. Each structure type is an individual set of rules for processing a
 timesheet entry, which consists of different structures nested within it. Structure types define how
 often an employee gets paid, the working hours, and if wages are based on a salary (fixed) or how
@@ -156,7 +156,7 @@ within the `Employee` structure type.
 The different structure types can be seen by going to :menuselection:`Payroll --> Configuration -->
 Structure Types`.
 
-There are two default structure types configured in Odoo: *Employee* and *Worker*. Typically,
+There are two default structure types configured in Thrive Bureau ERP: *Employee* and *Worker*. Typically,
 *Employee* is used for salaried employees, which is why the wage type is *Monthly Fixed Wage*, and
 *Worker* is typically used for employees paid by the hour, so the wage type is *Hourly Wage*.
 
@@ -282,7 +282,7 @@ what is populated as the applicant enters information.
 Advantages
 ----------
 
-When offering potential employees a position, there can be certain *advantages* set in Odoo in
+When offering potential employees a position, there can be certain *advantages* set in Thrive Bureau ERP in
 addition to the salary to make the offer more appealing (such as extra time off, access to a company
 car, reimbursement for a phone or internet, etc.).
 
@@ -315,7 +315,7 @@ The required fields for an advantage are:
 Personal info
 -------------
 
-Every employee in Odoo has an *employee card* that includes all of their personal information,
+Every employee in Thrive Bureau ERP has an *employee card* that includes all of their personal information,
 resume, work information, and documents. To view an employee's card, go to the main
 :menuselection:`Payroll` app dashboard, and click on the employee's card, or go to
 :menuselection:`Payroll --> Employees --> Employees` and click on the employee's card. Employee
