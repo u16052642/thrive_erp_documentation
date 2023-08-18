@@ -20,7 +20,7 @@ Then, click :guilabel:`Save` to save all changes.
 
 .. image:: proforma/pro-forma-setting.png
    :align: center
-   :alt: The Pro-Forma Invoice feature setting in the Odoo Sales application.
+   :alt: The Pro-Forma Invoice feature setting in the Thrive Bureau ERP Sales application.
 
 Send a pro-forma invoice
 ========================
@@ -30,19 +30,19 @@ now available on any quotation or sales order, via the :guilabel:`Send Pro-Forma
 
 .. image:: proforma/send-pro-forma-invoice-button.png
    :align: center
-   :alt: The Send Pro-Forma Invoice button on a typical sales order in Odoo Sales.
+   :alt: The Send Pro-Forma Invoice button on a typical sales order in Thrive Bureau ERP Sales.
 
 When the :guilabel:`Send Pro-Forma Invoice` button is clicked, an email pop-up appears. The
 :guilabel:`Recipients` field is auto-populated with the customer from the sales order or quotation.
 Then, if needed, modify the :guilabel:`Subject` field and the body of the email. The pro-forma
 invoice is automatically added as an attachment to the email.
 
-When ready, click :guilabel:`Send`, and Odoo instantly sends the email, with the attached pro-forma
+When ready, click :guilabel:`Send`, and Thrive Bureau ERP instantly sends the email, with the attached pro-forma
 invoice, to the customer.
 
 .. image:: proforma/pro-forma-email-message-popup.png
    :align: center
-   :alt: The email pop-up window that appears with pro-forma invoice attached in Odoo Sales.
+   :alt: The email pop-up window that appears with pro-forma invoice attached in Thrive Bureau ERP Sales.
 
 .. tip::
    To preview what the pro-forma invoice looks like, click on the PDF at the bottom of the email
@@ -51,4 +51,4 @@ invoice, to the customer.
 
    .. image:: proforma/pro-forma-pdf.png
       :align: center
-      :alt: Sample pro-forma invoice PDF from Odoo Sales.
+      :alt: Sample pro-forma invoice PDF from Thrive Bureau ERP Sales.
