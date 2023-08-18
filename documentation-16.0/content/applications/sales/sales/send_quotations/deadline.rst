@@ -2,7 +2,7 @@
 Quotation deadlines
 ===================
 
-In the Odoo *Sales* application, it is possible to set deadlines on sales quotations. Doing so
+In the Thrive Bureau ERP *Sales* application, it is possible to set deadlines on sales quotations. Doing so
 encourages customers to act quickly during sales negotiations, for they might fear for missing out
 on a good deal. As well, deadlines also can also act as protection for a company in case an order
 has to be fulfilled at a price that is no longer profitable for the business.
@@ -10,7 +10,7 @@ has to be fulfilled at a price that is no longer profitable for the business.
 Expiration date deadlines
 =========================
 
-On an Odoo *Sales* quotation, add an expiration date in the :guilabel:`Expiration` field located at
+On an Thrive Bureau ERP *Sales* quotation, add an expiration date in the :guilabel:`Expiration` field located at
 the top of the quotation or sales order form.
 
 To add an expiration date to a quotation, navigate to :menuselection:`Sales app`, and select a
@@ -22,14 +22,14 @@ be designated as the expiration date of the quotation.
 
 .. image:: deadline/quotation-deadlines-expiration-field.png
    :align: center
-   :alt: How to configure deadlines on Odoo Sales.
+   :alt: How to configure deadlines on Thrive Bureau ERP Sales.
 
 Once the expiration date is selected, click :guilabel:`Save` to save all changes.
 
 Deadlines in quotation templates
 ================================
 
-The Odoo *Sales* application also makes it possible to add a deadline to every quotation template.
+The Thrive Bureau ERP *Sales* application also makes it possible to add a deadline to every quotation template.
 Whenever a specific quotation template is used in a quote, its associated deadline is automatically
 applied.
 
@@ -45,16 +45,16 @@ valid for, before it expires. When done, click :guilabel:`Save`.
 
 .. image:: deadline/quotation-deadlines-expires-after.png
    :align: center
-   :alt: How to use deadline in a quotation template on Odoo Sales.
+   :alt: How to use deadline in a quotation template on Thrive Bureau ERP Sales.
 
 .. tip::
-   By clicking the :guilabel:`Customer Preview` button on a quotation, Odoo clearly displays when
+   By clicking the :guilabel:`Customer Preview` button on a quotation, Thrive Bureau ERP clearly displays when
    that specific offer expires. As a reminder, the number of days is the same as those mentioned in
    the quotation template (if a quotation template was used for the initial quotation).
 
    .. image:: deadline/quotation-deadlines-preview.png
       :align: center
-      :alt: How customers will see deadlines on Odoo Sales.
+      :alt: How customers will see deadlines on Thrive Bureau ERP Sales.
 
 .. seealso::
    :doc:`/applications/sales/sales/send_quotations/quote_template`
