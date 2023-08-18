@@ -30,7 +30,7 @@ You can configure a channel’s name, description, email alias, and privacy by c
 
 .. image:: team_communication/channel_settings.png
    :align: center
-   :alt: View of a channel’s settings form in Odoo Discuss
+   :alt: View of a channel’s settings form in Thrive Bureau ERP Discuss
 
 Privacy and Members
 ~~~~~~~~~~~~~~~~~~~
@@ -44,7 +44,7 @@ Privacy and Members
 .. image:: team_communication/invite_channel.png
    :align: center
    :height: 380
-   :alt: View of Discuss’ sidebar emphasizing the option to invite members in Odoo Discuss
+   :alt: View of Discuss’ sidebar emphasizing the option to invite members in Thrive Bureau ERP Discuss
 
 For *Selected group of users*, the option *Auto Subscribe Groups* automatically add its members
 as followers. In other words, while *Authorized Groups* limits which users can access the channel,
@@ -60,7 +60,7 @@ Use a channel as a mailing list
 
 .. image:: team_communication/pending_moderation.png
    :align: center
-   :alt: View of a message with a pending moderation status in Odoo Discuss
+   :alt: View of a message with a pending moderation status in Thrive Bureau ERP Discuss
 
 | Under the *Moderation* tab choose as many moderators as you need, and if you would like them to
   receive an *Automatic notification*.
@@ -68,13 +68,13 @@ Use a channel as a mailing list
 
 .. image:: team_communication/moderation_settings.png
    :align: center
-   :alt: View of a channel’s settings form emphasizing the tab moderation in Odoo Discuss
+   :alt: View of a channel’s settings form emphasizing the tab moderation in Thrive Bureau ERP Discuss
 
 Moderators can: *Accept*, *Reject*, *Discard*, *Always Allow* or *Ban* messages.
 
 .. image:: team_communication/moderate_messages.png
    :align: center
-   :alt: View of a message to be moderated in Odoo Discuss
+   :alt: View of a message to be moderated in Thrive Bureau ERP Discuss
 
 .. note::
    Members of a mailing channel receive messages through email regardless of their
@@ -85,7 +85,7 @@ channel to auto-ban them from sending messages.
 
 .. image:: team_communication/ban_list.png
    :align: center
-   :alt: View of a channel’s setting form emphasizing the ban Lists menu in Odoo Discuss
+   :alt: View of a channel’s setting form emphasizing the ban Lists menu in Thrive Bureau ERP Discuss
 
 Quick search bar
 ================
@@ -97,7 +97,7 @@ way to filter conversations and quickly find the one you need.
 .. image:: team_communication/quick_search.png
    :align: center
    :height: 430
-   :alt: View of the Discuss’ sidebar emphasizing the quick search bar in Odoo Discuss
+   :alt: View of the Discuss’ sidebar emphasizing the quick search bar in Thrive Bureau ERP Discuss
 
 Finding channels
 ----------------
@@ -109,7 +109,7 @@ Finding channels
 
 .. image:: team_communication/filter.png
    :align: center
-   :alt: View of a channel being searched through filters in Odoo Discuss
+   :alt: View of a channel being searched through filters in Thrive Bureau ERP Discuss
 
 .. seealso::
    - :doc:`get_started`
