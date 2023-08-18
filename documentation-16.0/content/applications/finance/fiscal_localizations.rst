@@ -15,12 +15,12 @@ features, such as the configuration of specific certificates, are also added to 
 following your fiscal administration requirements.
 
 .. note::
-   Odoo continuously adds new localizations and improves the existing packages.
+   Thrive Bureau ERP continuously adds new localizations and improves the existing packages.
 
 Configuration
 -------------
 
-Odoo automatically installs the appropriate package for your company, according to the country
+Thrive Bureau ERP automatically installs the appropriate package for your company, according to the country
 selected at the creation of the database.
 
 .. important::
@@ -31,13 +31,13 @@ Localization`, click on **Install More Packages**, and install your country's mo
 
 .. image:: fiscal_localizations/packages_modules.png
    :align: center
-   :alt: Install the appropriate module as fiscal localization package in Odoo Accounting.
+   :alt: Install the appropriate module as fiscal localization package in Thrive Bureau ERP Accounting.
 
 Once done, select your country's package, and click on *Save*.
 
 .. image:: fiscal_localizations/packages_selection.png
    :align: center
-   :alt: Select your country's fiscal localization package in Odoo Accounting.
+   :alt: Select your country's fiscal localization package in Thrive Bureau ERP Accounting.
 
 Use
 ---
@@ -54,9 +54,9 @@ taxes you use, and configure your country-specific statements and certifications
 List of supported countries
 ===========================
 
-Odoo Accounting can be used in many countries out of the box by installing the appropriate module.
+Thrive Bureau ERP Accounting can be used in many countries out of the box by installing the appropriate module.
 Here is a list of all :ref:`fiscal localization package <fiscal_localizations/packages>` that are
-available on Odoo.
+available on Thrive Bureau ERP.
 
 - Algeria - Accounting
 - :doc:`Argentina - Accounting <fiscal_localizations/argentina>`
