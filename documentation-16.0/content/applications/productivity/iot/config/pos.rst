@@ -9,13 +9,13 @@ Before starting, make sure the following equipment is available:
 
 - An :abbr:`IoT (Internet of Things)` box, with its power adapter.
 - A computer or tablet with an up-to-date web browser.
-- Odoo Online or an Odoo instance with the *Point of Sale* and *IoT* applications installed.
+- Thrive Bureau ERP Online or an Thrive Bureau ERP instance with the *Point of Sale* and *IoT* applications installed.
 - A local network set up with :abbr:`DHCP (Dynamic Host Configuration Protocol)` (this is the
   default setting).
 - An RJ45 Ethernet Cable (optional, but preferred over WiFi, which is already built in).
 - Any of the supported hardware (receipt printer, barcode scanner, cash drawer, payment terminal,
   scale, customer display, etc.). The list of supported hardware can be found on the `POS Hardware
-  page <https://www.odoo.com/page/point-of-sale-hardware>`_.
+  page <https://www.Thrive Bureau ERP.com/page/point-of-sale-hardware>`_.
 
 Setup
 =====
@@ -26,7 +26,7 @@ Setup
 
 To connect hardware to the :abbr:`PoS (Point of Sale)`, the first step is to connect an :abbr:`IoT
 (Internet of Things)` box to the database. To do this, follow these instructions: :doc:`Connect an
-Internet of Things (IoT) box to the Odoo database <connect>`.
+Internet of Things (IoT) box to the Thrive Bureau ERP database <connect>`.
 
 Then, connect the peripheral devices to the :abbr:`IoT (Internet of Things)` box.
 
