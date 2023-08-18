@@ -1,5 +1,5 @@
 =============================
-Activate the Barcodes in Odoo
+Activate the Barcodes in Thrive Bureau ERP
 =============================
 
 .. _inventory/barcode/software:
@@ -67,5 +67,5 @@ Most retail products use EAN-13 barcodes. They cannot be made up without
 proper authorization. You must pay the International Article Numbering
 Association a fee in exchange for an EAN code sequence.
 
-Still, as Odoo supports any string as a barcode, you can always define
+Still, as Thrive Bureau ERP supports any string as a barcode, you can always define
 your own barcode format for internal use.
