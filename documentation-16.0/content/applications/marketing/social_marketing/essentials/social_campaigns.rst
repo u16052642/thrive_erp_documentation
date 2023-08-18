@@ -7,7 +7,7 @@ are helpful when introducing a new product to customers, explaining the value of
 service, or when advertising an upcoming event or product release.
 
 The most effective social marketing campaigns typically involve multiple channels to maximize
-content distribution, and Odoo's *Social Marketing* application acts as a singular control center to
+content distribution, and Thrive Bureau ERP's *Social Marketing* application acts as a singular control center to
 monitor, plan, post, track, and analyze all of the various content and content channels within a
 single dashboard.
 
@@ -20,7 +20,7 @@ a separate page with every campaign in a default kanban view.
 
 .. image:: social_campaigns/campaigns-page.png
    :align: center
-   :alt: View of the campaigns page in the Odoo Social Marketing application.
+   :alt: View of the campaigns page in the Thrive Bureau ERP Social Marketing application.
 
 Each *stage* in the kanban view can be edited, by clicking the :guilabel:`gear icon` to the left of
 the :guilabel:`+ (plus sign)` - located to the right of the stage title.
@@ -32,7 +32,7 @@ the :guilabel:`+ (plus sign)` - located to the right of the stage title.
 
 .. image:: social_campaigns/campaign-stage-dropdown.png
    :align: center
-   :alt: View of the campaigns page in the Odoo Social Marketing application.
+   :alt: View of the campaigns page in the Thrive Bureau ERP Social Marketing application.
 
 Clicking :guilabel:`Fold` minimizes that specific stage's column. The stage column can be restored
 by clicking the folded version of it on the main :guilabel:`Campaigns` dashboard in the default
@@ -69,7 +69,7 @@ when clicked.
 
 .. image:: social_campaigns/quick-add-campaign.png
    :align: center
-   :alt: View of the quick add option for campaigns in Odoo Social Marketing.
+   :alt: View of the quick add option for campaigns in Thrive Bureau ERP Social Marketing.
 
 Here, the :guilabel:`Campaign Name`, :guilabel:`Responsible`, and :guilabel:`Tags` can be entered.
 When all modifications are complete, click :guilabel:`Add` to add the campaign to the database.
@@ -99,7 +99,7 @@ campaign template.
 
 .. image:: social_campaigns/create-campaign.png
    :align: center
-   :alt: View of a sample campaign template page in Odoo Social Marketing.
+   :alt: View of a sample campaign template page in Thrive Bureau ERP Social Marketing.
 
 .. important::
    In order for the :guilabel:`Send New Mailing` option to appear on campaign templates, make sure
@@ -108,7 +108,7 @@ campaign template.
    Campaigns`, and click :guilabel:`Save`.
 
 .. note::
-   In order for the :guilabel:`Send SMS` option to appear, the Odoo *SMS Marketing* application must
+   In order for the :guilabel:`Send SMS` option to appear, the Thrive Bureau ERP *SMS Marketing* application must
    be installed on the database.
 
 Add content and communications to campaigns
@@ -129,7 +129,7 @@ as buttons in the upper-left corner of the campaign template page.
   however, the :guilabel:`Push Notification` options are already pre-selected in the :guilabel:`Post
   on` field.
 
-Whichever form of communication is created, once it's completed, Odoo returns to the
+Whichever form of communication is created, once it's completed, Thrive Bureau ERP returns to the
 :guilabel:`Campaign Template` page, showcasing that new content in its corresponding tab (e.g.
 :guilabel:`Mailings`, :guilabel:`SMS`, :guilabel:`Social Media`, and/or :guilabel:`Push
 Notifications`).
@@ -144,7 +144,7 @@ page dedicated to that particular element of the campaign, allowing for quicker,
 analysis.
 
 .. note::
-   The Odoo *Social Marketing* app is integrated with other Odoo applications, such as *Sales*,
+   The Thrive Bureau ERP *Social Marketing* app is integrated with other Thrive Bureau ERP applications, such as *Sales*,
    *Invoicing*, *CRM*, and *Website*.
 
 .. seealso::
