@@ -23,7 +23,7 @@ as country, language, or campaign.
 
 .. image:: multi_sales_team/sales-team-creation.png
    :align: center
-   :alt: Create a sales team in Odoo CRM.
+   :alt: Create a sales team in Thrive Bureau ERP CRM.
 
 Add members to a sales team
 ---------------------------
@@ -35,7 +35,7 @@ that they do not overwork.
 
 .. image:: multi_sales_team/add-a-salesperson.png
    :align: center
-   :alt: Add a salesperson in Odoo CRM.
+   :alt: Add a salesperson in Thrive Bureau ERP CRM.
 
 One person can be added as a team member or :guilabel:`Team Leader` to multiple sales teams,
 allowing them to access all of the pipelines that they need to.
@@ -43,7 +43,7 @@ allowing them to access all of the pipelines that they need to.
 Sales team dashboard
 ====================
 
-To view the sales team dashboard, go to :menuselection:`CRM --> Sales --> Teams`. Odoo users will
+To view the sales team dashboard, go to :menuselection:`CRM --> Sales --> Teams`. Thrive Bureau ERP users will
 see any teams that they are a part of as dashboard tiles.
 
 Each tile gives an overview of the sales team's open opportunities, quotations, sales orders, and
@@ -52,7 +52,7 @@ bar.
 
 .. image:: multi_sales_team/sales-team-overview.png
    :align: center
-   :alt: Sales team overview dashboard in Odoo CRM.
+   :alt: Sales team overview dashboard in Thrive Bureau ERP CRM.
 
 Click on the three dots in the corner of a tile to open a navigational menu that lets users quickly
 view documents or reports, create new quotations or opportunities, pick a color for this team, or
@@ -60,6 +60,6 @@ access the team's configuration page.
 
 .. image:: multi_sales_team/team-overview-three-dot-menu.png
    :align: center
-   :alt: Click the Three Dot Menu in Odoo CRM dashboard to view documents and create opportunities.
+   :alt: Click the Three Dot Menu in Thrive Bureau ERP CRM dashboard to view documents and create opportunities.
 
 Click on the :guilabel:`Pipeline` button to go directly to that team's CRM pipeline.
