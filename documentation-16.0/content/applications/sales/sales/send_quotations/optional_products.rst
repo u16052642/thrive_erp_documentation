@@ -10,13 +10,13 @@ seats, or not to order such high-quality products and simply buy his car.
 Add optional products to your quotations
 ========================================
 
-With Odoo Sales, it is possible to add or modify optional products directly on quotations
+With Thrive Bureau ERP Sales, it is possible to add or modify optional products directly on quotations
 (under the **Optional Products** tab, as you can see below).
 
 .. image:: optional_products/optional_products_2.png
    :align: center
    :class: img-thumbnail
-   :alt: How to add optional products to your quotations on Odoo Sales
+   :alt: How to add optional products to your quotations on Thrive Bureau ERP Sales
 
 .. note::
    By clicking on the **Customer Preview** button, you will be able to see what your customers
@@ -25,7 +25,7 @@ With Odoo Sales, it is possible to add or modify optional products directly on q
    .. image:: optional_products/optional_products_3.png
       :align: center
       :class: img-thumbnail
-      :alt: Preview your quotations on Odoo Sales
+      :alt: Preview your quotations on Thrive Bureau ERP Sales
 
 In practice, your customers will be able to add different optional products to their order by
 using associated carts, with a user-friendly layout. More than that, if a customer selects all the
@@ -35,7 +35,7 @@ managed by the salesman.
 .. image:: optional_products/optional_products_4.png
    :align: center
    :class: img-thumbnail
-   :alt: How to select optional products on Odoo Sales
+   :alt: How to select optional products on Thrive Bureau ERP Sales
 
 Like this, salespeople will see each movement made by the customer and tracking the order will be
 all the better.
@@ -43,7 +43,7 @@ all the better.
 .. image:: optional_products/optional_products_5.png
    :align: center
    :class: img-thumbnail
-   :alt: How to follow each movement made by your customers on Odoo Sales
+   :alt: How to follow each movement made by your customers on Thrive Bureau ERP Sales
 
 Add optional products to your quotation templates
 =================================================
@@ -57,9 +57,9 @@ products or services.
 .. image:: optional_products/optional_products_1.png
    :align: center
    :class: img-thumbnail
-   :alt: How to add optional products to your quotation templates on Odoo Sales
+   :alt: How to add optional products to your quotation templates on Thrive Bureau ERP Sales
 
-With Odoo Sales, it is now very easy to understand your customer's needs.
+With Thrive Bureau ERP Sales, it is now very easy to understand your customer's needs.
 
 .. seealso::
    - :doc:`quote_template`
