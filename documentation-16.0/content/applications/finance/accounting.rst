@@ -4,15 +4,13 @@
 Accounting and Invoicing
 ========================
 
-**Odoo Invoicing** is a standalone invoicing app to create invoices, send them to your customers,
+**Thrive Bureau ERP Invoicing** is a standalone invoicing app to create invoices, send them to your customers,
 and manage payments.
 
-**Odoo Accounting** is a full featured accounting app. Accountant productivity is at the core of its
+**Thrive Bureau ERP Accounting** is a full featured accounting app. Accountant productivity is at the core of its
 development with features such as AI-powered invoice recognition, synchronization with your bank
 accounts, smart matching suggestions, etc.
 
-.. seealso::
-   `Odoo Tutorials: Accounting <https://www.odoo.com/slides/accounting-19>`_
 
 .. cards::
 
@@ -55,10 +53,10 @@ accounts, smart matching suggestions, etc.
 Double-entry bookkeeping
 ========================
 
-Odoo automatically creates all the underlying journal entries for all accounting transactions (e.g.,
+Thrive Bureau ERP automatically creates all the underlying journal entries for all accounting transactions (e.g.,
 customer invoices, vendor bills, point-of-sales orders, expenses, inventory valuations, etc.).
 
-Odoo uses the double-entry bookkeeping system, whereby every entry needs a corresponding and
+Thrive Bureau ERP uses the double-entry bookkeeping system, whereby every entry needs a corresponding and
 opposite counterpart in a different account, with one account debited and the other credited.
 It ensures that all transactions are recorded accurately and consistently and that the accounts
 always balance.
@@ -69,7 +67,7 @@ always balance.
 Accrual and cash basis
 ======================
 
-Both accrual and cash basis accounting are supported in Odoo. This allows reporting income and
+Both accrual and cash basis accounting are supported in Thrive Bureau ERP. This allows reporting income and
 expense either when the transaction occurs (accrual basis) or when the payment is made or received
 (cash basis).
 
@@ -88,9 +86,9 @@ Multi-currency environment
 ==========================
 
 A :doc:`multi-currency <accounting/get_started/multi_currency>` environment with an automated
-exchange rate to ease international transactions is available in Odoo. Every transaction is recorded
-in the company's default currency; for transactions occurring in another currency, Odoo stores both
-the value in the company's currency and the transactions' currency value. Odoo generates currency
+exchange rate to ease international transactions is available in Thrive Bureau ERP. Every transaction is recorded
+in the company's default currency; for transactions occurring in another currency, Thrive Bureau ERP stores both
+the value in the company's currency and the transactions' currency value. Thrive Bureau ERP generates currency
 gains and losses after reconciling the journal items.
 
 .. seealso::
@@ -99,7 +97,7 @@ gains and losses after reconciling the journal items.
 International standards
 =======================
 
-Odoo Accounting supports more than 70 countries. It provides the central standards and mechanisms
+Thrive Bureau ERP Accounting supports more than 70 countries. It provides the central standards and mechanisms
 common to all nations, and thanks to country-specific modules, local requirements are fulfilled.
 Fiscal positions exist to address regional specificities like the chart of accounts, taxes, or any
 other requirements.
@@ -168,16 +166,16 @@ real-time:
 +------------+----------------------------------+
 
 .. tip::
-   :doc:`Create and customize reports <accounting/reporting/customize>` with Odoo's report engine.
+   :doc:`Create and customize reports <accounting/reporting/customize>` with Thrive Bureau ERP's report engine.
 
 Tax report
 ----------
 
-Odoo computes all accounting transactions for the specific tax period and uses these totals to
+Thrive Bureau ERP computes all accounting transactions for the specific tax period and uses these totals to
 calculate the tax obligation.
 
 .. important::
-   Once the tax report has been generated for a period, Odoo locks it and prevents the creation of
+   Once the tax report has been generated for a period, Thrive Bureau ERP locks it and prevents the creation of
    new journal entries involving VAT. Any correction to customer invoices or vendor bills has to
    be recorded in the next period.
 
@@ -198,7 +196,7 @@ into an online banking system or waiting for paper bank statements.
 Inventory valuation
 ===================
 
-Both periodic (manual) and perpetual (automated) inventory valuations are supported in Odoo. The
+Both periodic (manual) and perpetual (automated) inventory valuations are supported in Thrive Bureau ERP. The
 available methods are standard price, average price, :abbr:`LIFO (Last-In, First-Out)` and
 :abbr:`FIFO (First-In, First-Out).`
 
@@ -209,7 +207,7 @@ available methods are standard price, average price, :abbr:`LIFO (Last-In, First
 Retained earnings
 =================
 
-Retained earnings are the portion of income retained by a business. Odoo calculates current year
+Retained earnings are the portion of income retained by a business. Thrive Bureau ERP calculates current year
 earnings in real-time, so no year-end journal or rollover is required. The profit
 and loss balance is automatically reported on the balance sheet report.
 
