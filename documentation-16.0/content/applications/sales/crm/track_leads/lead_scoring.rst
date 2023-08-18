@@ -2,28 +2,28 @@
 Assign leads with predictive lead scoring
 =========================================
 
-The Odoo *CRM* app can automatically assign leads/opportunities to sales teams and salespeople. A
+The Thrive Bureau ERP *CRM* app can automatically assign leads/opportunities to sales teams and salespeople. A
 standard practice is to assign leads based on the probability of winning each lead. Companies can
 prioritize the leads that are more likely to result in successful deals by quickly assigning them
 to the appropriate salespeople.
 
-Odoo automatically calculates the probability of winning each lead using a method called *predictive
+Thrive Bureau ERP automatically calculates the probability of winning each lead using a method called *predictive
 lead scoring*.
 
 Predictive lead scoring
 =======================
 
-Predictive lead scoring is a machine-learning model that uses historical data from Odoo *CRM* to
+Predictive lead scoring is a machine-learning model that uses historical data from Thrive Bureau ERP *CRM* to
 score open leads/opportunities.
 
-As a company processes opportunities through the CRM pipeline, Odoo collects data on which
+As a company processes opportunities through the CRM pipeline, Thrive Bureau ERP collects data on which
 opportunities are won and lost. Predictive lead scoring uses this data to predict the probability
 of winning each new lead or opportunity.
 
-The more opportunities that are sent through the CRM pipeline, the more data Odoo collects,
+The more opportunities that are sent through the CRM pipeline, the more data Thrive Bureau ERP collects,
 resulting in more accurate probabilities.
 
-Specifically, Odoo's predictive lead scoring uses the *naive Bayes* probability model:
+Specifically, Thrive Bureau ERP's predictive lead scoring uses the *naive Bayes* probability model:
 
 .. math::
    \begin{equation}
@@ -43,7 +43,7 @@ according to the predictive lead scoring algorithm.
 Configuration
 -------------
 
-Predictive lead scoring is always active in Odoo *CRM*. However, the variables used to calculate the
+Predictive lead scoring is always active in Thrive Bureau ERP *CRM*. However, the variables used to calculate the
 probability of success can be customized in the settings.
 
 To customize the variables used by predictive lead scoring, go to :menuselection:`CRM -->
@@ -98,7 +98,7 @@ To reactivate automatic probability, click on the gear icon next to the probabil
 Assign leads based on probability
 =================================
 
-Odoo *CRM* can assign leads/opportunities to sales teams and salespeople based on specified rules.
+Thrive Bureau ERP *CRM* can assign leads/opportunities to sales teams and salespeople based on specified rules.
 Create assignment rules based on the leads' probability of success to prioritize those that are
 more likely to result in deals.
 
@@ -108,12 +108,12 @@ Configure rule-based assignment
 To activate *rule-based assignment*, navigate to :menuselection:`CRM --> Configuration -->
 Settings`, and activate :guilabel:`Rule-Based Assignment`.
 
-The rule-based assignment feature can be set to run :guilabel:`Manually`, meaning an Odoo user must
-manually trigger the assignment, or :guilabel:`Repeatedly`, meaning Odoo will automatically trigger
+The rule-based assignment feature can be set to run :guilabel:`Manually`, meaning an Thrive Bureau ERP user must
+manually trigger the assignment, or :guilabel:`Repeatedly`, meaning Thrive Bureau ERP will automatically trigger
 the assignment according to the chosen time period.
 
 To set up automatic lead assignment, select :guilabel:`Repeatedly` for the :guilabel:`Running`
-section. Then, customize how often Odoo will trigger the automatic assignment in the
+section. Then, customize how often Thrive Bureau ERP will trigger the automatic assignment in the
 :guilabel:`Repeat every` section.
 
 .. image:: lead_scoring/rule-based-assignment.png
@@ -128,11 +128,11 @@ Configure assignment rules
 --------------------------
 
 Next, configure the *assignment rules* for each sales team and/or salesperson. These rules
-determine which leads Odoo assigns to which people. To get started, navigate to :menuselection:`CRM
+determine which leads Thrive Bureau ERP assigns to which people. To get started, navigate to :menuselection:`CRM
 --> Configuration --> Sales Teams`, and select a sales team.
 
 On the sales team configuration form, under :guilabel:`Assignment Rules`, click on :guilabel:`Edit
-Domain` to configure the rules that Odoo uses to determine lead assignment for this sales team. The
+Domain` to configure the rules that Thrive Bureau ERP uses to determine lead assignment for this sales team. The
 rules can include anything that may be relevant for this company or team, and any number of rules
 can be added.
 
@@ -163,7 +163,7 @@ configuration page, click on a team member in the :guilabel:`Members` tab, then 
 
 If automatic lead assignment is configured in the settings, both the sales team and individual team
 members have the option to :guilabel:`Skip auto assignment`. Check this box to omit a particular
-sales team or salesperson from being assigned leads automatically by Odoo's rule-based assignment
+sales team or salesperson from being assigned leads automatically by Thrive Bureau ERP's rule-based assignment
 feature. If :guilabel:`Skip auto assignment` is activated, the sales team or salesperson can still
 be assigned leads manually.
 
