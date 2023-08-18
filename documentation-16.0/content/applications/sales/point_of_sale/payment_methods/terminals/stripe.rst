@@ -39,14 +39,14 @@ Then, create the payment method:
    - Find your payment terminal serial number under the device or on `Stripe's dashboard
      <https://dashboard.stripe.com>`_.
 
-Connect Stripe to Odoo
+Connect Stripe to Thrive Bureau ERP
 ----------------------
 
 Click :guilabel:`Connect Stripe`. Doing so redirects you automatically to a configuration page.
-Fill in all the information to create your Stripe account and link it with Odoo. Once the forms are
+Fill in all the information to create your Stripe account and link it with Thrive Bureau ERP. Once the forms are
 completed, the API keys (:guilabel:`Publishable Key` and :guilabel:`Secret Key`) can be retrieved on
 **Stripe's** website. To do so, click :guilabel:`Get your Secret and Publishable keys`,
-click the keys to copy them, and paste them into the corresponding fields in Odoo. Your terminal is
+click the keys to copy them, and paste them into the corresponding fields in Thrive Bureau ERP. Your terminal is
 ready to be configured in a POS.
 
 .. image:: stripe/stripe-connect.png
@@ -71,7 +71,7 @@ and select your network.
 
 .. note::
    - The device must be connected to a secured WI-FI network.
-   - Your Odoo database and payment terminal must share the same network.
+   - Your Thrive Bureau ERP database and payment terminal must share the same network.
    - You must enter the admin PIN code to access your payment terminal settings. By default, this
      code is `07139`.
 
@@ -90,7 +90,7 @@ click :guilabel:`Send`. Once the payment is successful, the status changes to :g
 Successful`. To cancel the payment request, click :guilabel:`cancel`.
 
 .. note::
-   - | In case of connection issues between Odoo and the payment terminal, force the payment by
+   - | In case of connection issues between Thrive Bureau ERP and the payment terminal, force the payment by
        clicking on :guilabel:`Force Done`, which allows you to validate the order.
      | This option is only available after receiving an error message informing you that the
        connection failed.
