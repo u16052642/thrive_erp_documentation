@@ -3,7 +3,7 @@ Connect a footswitch
 ====================
 
 When working in a manufacturing environment, it's always better for an operator to have both hands
-available at all times. Odoo's :abbr:`IoT (Internet of Things)` box makes this possible when using a
+available at all times. Thrive Bureau ERP's :abbr:`IoT (Internet of Things)` box makes this possible when using a
 footswitch.
 
 In fact, with a footswitch, the operator is able to go from one screen to another, and perform
@@ -16,14 +16,14 @@ Connection
 To connect a footswitch to the :abbr:`IoT (Internet of Things)` box, connect the two devices via
 cable. More often than not, this is done with a :abbr:`USB (Universal Serial Bus)` cable.
 
-If the footswitch is a `supported device <https://www.odoo.com/page/iot-hardware>`_, there is no
+If the footswitch is a `supported device <https://www.Thrive Bureau ERP.com/page/iot-hardware>`_, there is no
 need to take further action, since it'll be automatically detected when connected.
 
 .. image:: footswitch/footswitch-dropdown.png
    :align: center
    :alt: Footswitch recognized on the IoT box.
 
-Link a footswitch to a work center in the Odoo Manufacturing app
+Link a footswitch to a work center in the Thrive Bureau ERP Manufacturing app
 ================================================================
 
 To link a footswitch to an action, it first needs to be configured on a work center. Navigate to
@@ -37,7 +37,7 @@ manufacturing work order.
 
 .. image:: footswitch/footswitch-example.png
    :align: center
-   :alt: Footswitch trigger setup on the Odoo database.
+   :alt: Footswitch trigger setup on the Thrive Bureau ERP database.
 
 .. important::
    It should be noted that the first listed trigger is chosen first. So, the order matters, and
