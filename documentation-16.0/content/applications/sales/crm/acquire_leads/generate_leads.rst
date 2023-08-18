@@ -3,7 +3,7 @@ Generate leads/opportunities
 ============================
 
 Two key ways to generate new leads or opportunities for your business are through email aliases and
-website contact forms. Odoo automatically creates leads in your CRM whenever someone sends a
+website contact forms. Thrive Bureau ERP automatically creates leads in your CRM whenever someone sends a
 message to a Sales Team email alias or fills out a contact form on your website.
 
 Configure email aliases
@@ -22,7 +22,7 @@ Configuration --> Sales Teams`.
 Use Contact Forms on your website
 =================================
 
-By default, your website's *Contact Us* page displays Odoo's ready-to-use Contact Form. Whenever
+By default, your website's *Contact Us* page displays Thrive Bureau ERP's ready-to-use Contact Form. Whenever
 someone submits this form, a lead or an opportunity is generated in your database.
 
 .. image:: generate_leads/default-contact-us-page.png
@@ -65,7 +65,7 @@ the Website Builder. It can also be installed manually from the :guilabel:`Apps`
    :alt: Form Builder building blocks
 
 .. tip::
-   Forms can be created from scratch to serve a wide variety of purposes. However, Odoo's default
+   Forms can be created from scratch to serve a wide variety of purposes. However, Thrive Bureau ERP's default
    *Contact Us* page is designed to fit most users' needs. Start with the default form and modify
    from there.
 
