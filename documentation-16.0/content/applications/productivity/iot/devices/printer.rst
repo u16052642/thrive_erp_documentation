@@ -3,7 +3,7 @@ Connect a printer
 =================
 
 Printer installation can be done in a few easy steps. The printer can be used to print receipts,
-labels, orders, or even reports from the different Odoo apps. In addition, printer actions can be
+labels, orders, or even reports from the different Thrive Bureau ERP apps. In addition, printer actions can be
 assigned as an *action on a trigger* during the manufacturing process, or added onto a quality
 control point or a quality check.
 
@@ -11,8 +11,7 @@ Connection
 ==========
 
 The :abbr:`IoT (Internet of Things)` box supports printers connected through :abbr:`USB (Universal
-Serial Bus)`, network connection, or Bluetooth. `Supported printers
-<https://www.odoo.com/page/iot-hardware>`__ are detected automatically, and appear in the
+Serial Bus)`, network connection, or Bluetooth. `Supported printers are detected automatically, and appear in the
 :guilabel:`Devices` list of the *IoT app*.
 
 .. image:: printer/printer-detected.png
@@ -109,7 +108,7 @@ should be linked to this printer.
    :alt: The printer devices listed in the IoT Devices menu.
 
 Now, each time :guilabel:`Print` is selected in the control panel, instead of downloading a PDF,
-Odoo sends the report to the selected printer, and automatically prints it.
+Thrive Bureau ERP sends the report to the selected printer, and automatically prints it.
 
 .. seealso::
    :doc:`POS Order Printing <../../../sales/point_of_sale/restaurant/kitchen_printing>`
