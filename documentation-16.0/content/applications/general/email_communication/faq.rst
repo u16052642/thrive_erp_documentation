@@ -25,7 +25,6 @@ date and time of the message.
 Common error messages
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. _email_communication/daily_limit_mail:
 
 You reached your daily limit:
 *****************************
