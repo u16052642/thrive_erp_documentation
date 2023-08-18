@@ -1,8 +1,8 @@
 =====================================================
-How to get DHL credentials for integration with Odoo?
+How to get DHL credentials for integration with Thrive Bureau ERP?
 =====================================================
 
-In order to use the Odoo DHL API, you will need:
+In order to use the Thrive Bureau ERP DHL API, you will need:
 
 - A DHL.com SiteID
 
