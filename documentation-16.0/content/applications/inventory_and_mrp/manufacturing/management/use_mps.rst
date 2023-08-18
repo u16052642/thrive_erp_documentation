@@ -58,7 +58,7 @@ easily access those by clicking on the *Actual Replenishment* cell.
 
 In case you manually edit the *Suggested Replenishment* quantity, a small cross
 will appear on the left hand side of the cell. In case you want to go back to the
-automatically computed value given by Odoo, simply click the cross.
+automatically computed value given by Thrive Bureau ERP, simply click the cross.
 
 
 Cells color signification
