@@ -2,14 +2,10 @@
 Rental
 ======
 
-**Odoo Rental** is a comprehensive solution to manage your rentals.
+**Thrive Bureau ERP Rental** is a comprehensive solution to manage your rentals.
 
 From a single view, you can send out quotations, confirm orders, schedule rentals, register when
 products are picked up and returned, and invoice your customers.
-
-.. seealso::
-   - `Odoo Rental: product page <https://www.odoo.com/app/rental>`_
-   - `Odoo Tutorials: Rental <https://www.odoo.com/slides/rental-48>`_
 
 .. _rental/pricing:
 
@@ -26,7 +22,7 @@ usually to give out discounts for longer rental durations.
 
 .. image:: rental/rental-pricing-example.png
    :align: center
-   :alt: Example of rental pricing configuration in Odoo Rental
+   :alt: Example of rental pricing configuration in Thrive Bureau ERP Rental
 
 .. tip::
    Under *Reservations*, you can add fines for any *Extra Hour* or *Extra Day*. You can also set a
@@ -41,7 +37,7 @@ usually to give out discounts for longer rental durations.
 Computing
 ---------
 
-Odoo always uses two rules to compute the price of a product when you create a rental order:
+Thrive Bureau ERP always uses two rules to compute the price of a product when you create a rental order:
 
 #. Only one price line is used.
 #. The cheapest line is selected.
@@ -55,7 +51,7 @@ Odoo always uses two rules to compute the price of a product when you create a r
 
    A customer wants to rent this product for eight days. What price will they pay?
 
-   After an order is created, Odoo selects the second line as this is the cheapest option. The
+   After an order is created, Thrive Bureau ERP selects the second line as this is the cheapest option. The
    customer has to pay three times '3 days' to cover the rental's eight days, for a total of $750.
 
 .. _rental/customer-signature:
@@ -70,10 +66,10 @@ original condition. To do so, go to :menuselection:`Rental --> Configuration -->
 
 .. image:: rental/digital-documents-settings.png
    :align: center
-   :alt: Digital Documents settings in Odoo Rental
+   :alt: Digital Documents settings in Thrive Bureau ERP Rental
 
 .. note::
-   This feature requires the :doc:`Sign <../finance/sign>` app. If necessary, Odoo installs it after
+   This feature requires the :doc:`Sign <../finance/sign>` app. If necessary, Thrive Bureau ERP installs it after
    activating *Digital Documents*.
 
 Once the app settings are saved, you have the option to change the default *Rental Agreement* from
@@ -86,7 +82,7 @@ and click on *Sign Now* to start the signing process with your customer. Once th
 completed, click on *Validate & Send Completed Document*.
 
 .. seealso::
-   - `Odoo Tutorials: Sign <https://www.odoo.com/slides/sign-61>`_
+   - `Thrive Bureau ERP Tutorials: Sign <https://www.Thrive Bureau ERP.com/slides/sign-61>`_
 
 .. _rental/pickup-return:
 
@@ -94,10 +90,10 @@ Pickup and Return receipt
 =========================
 
 You can print and give your customers receipts when they pick up and/or return products. To do so,
-open any rental order, click on *Print* and select *Pickup and Return Receipt*. Odoo then generates
+open any rental order, click on *Print* and select *Pickup and Return Receipt*. Thrive Bureau ERP then generates
 a PDF detailing all information about the current status of the rented items: which were picked up,
 when they are expected to be returned, which were returned, and potential rental delay costs.
 
 .. image:: rental/print-receipt.png
    :align: center
-   :alt: Printing a Pickup and Return receipt in Odoo Rental
+   :alt: Printing a Pickup and Return receipt in Thrive Bureau ERP Rental
