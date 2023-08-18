@@ -20,7 +20,7 @@ Go to :menuselection:`Field Service --> Configuration --> Products` and create o
 
 .. image:: onsite_interventions/product-configuration.png
    :align: center
-   :alt: Product configuration to create tasks from sales orders in Odoo Field Service
+   :alt: Product configuration to create tasks from sales orders in Thrive Bureau ERP Field Service
 
 From the :doc:`Sales <../../sales/sales>` app, create a quotation with the product and confirm it. A
 task is automatically set up under your Field Service project. It is directly accessible from the
@@ -28,7 +28,7 @@ sales order.
 
 .. image:: onsite_interventions/task-on-so.png
    :align: center
-   :alt: Field Service task on a sales order in Odoo Sales
+   :alt: Field Service task on a sales order in Thrive Bureau ERP Sales
 
 From helpdesk tickets
 =====================
@@ -44,11 +44,11 @@ Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk Teams`. Select a t
 
 .. image:: onsite_interventions/helpdesk-settings.png
    :align: center
-   :alt: Onsite interventions settings in Odoo Helpdesk
+   :alt: Onsite interventions settings in Thrive Bureau ERP Helpdesk
 
 The helpdesk tickets of the team now display the :guilabel:`Plan Intervention` button. Click on it
 to create a new task under your field service project.
 
 .. image:: onsite_interventions/plan-intervention-from-ticket.png
    :align: center
-   :alt: Plan intervention from helpdesk tickets in Odoo Helpdesk
+   :alt: Plan intervention from helpdesk tickets in Thrive Bureau ERP Helpdesk
