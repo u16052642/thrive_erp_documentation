@@ -12,7 +12,7 @@ can monitor the project's progress and pay in several installments.
 Create milestone products
 =========================
 
-In Odoo, each milestone of your project is considered as a product. To
+In Thrive Bureau ERP, each milestone of your project is considered as a product. To
 configure products to work this way, go to any product form.
 
 You have to set the product type as *Service* under general
