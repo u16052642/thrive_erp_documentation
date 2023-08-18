@@ -2,7 +2,7 @@
 Getting started with Helpdesk
 =============================
 
-Odoo :guilabel:`Helpdesk` is a ticket-based customer support application. Teams can track,
+Thrive Bureau ERP :guilabel:`Helpdesk` is a ticket-based customer support application. Teams can track,
 prioritize, and solve customer issues from their pipeline, which is organized in customizable
 stages. Multiple teams can be configured and managed in one dashboard.
 
@@ -18,7 +18,7 @@ form.
 
 .. image:: getting_started/helpdesk-teams-list.png
    :align: center
-   :alt: View of the Helpdesk teams page in Odoo Helpdesk
+   :alt: View of the Helpdesk teams page in Thrive Bureau ERP Helpdesk
 
 Assignment & Visibility
 -----------------------
@@ -51,7 +51,7 @@ box next to :guilabel:`Automatic Assignment` to enable the feature for this team
 .. image:: getting_started/assignment-visibility.png
    :align: center
    :alt: View of a Helpdesk team settings page emphasizing the assignment and visibility features
-         in Odoo Helpdesk
+         in Thrive Bureau ERP Helpdesk
 
 Select one of the following assignment methods, based on how workload should be allocated across
 the team:
@@ -107,7 +107,7 @@ Fill out the remaining fields following the steps below.
 
 .. image:: getting_started/stage-settings.png
    :align: center
-   :alt: View of a stage's settings page in Odoo Helpdesk
+   :alt: View of a stage's settings page in Thrive Bureau ERP Helpdesk
 
 Add email and SMS templates to stages
 -------------------------------------
@@ -118,7 +118,7 @@ customer when a ticket reaches that specific stage in the helpdesk pipeline. Lik
 
 .. important::
    SMS Text Messaging is an In-App Purchase (IAP) service that requires prepaid credits to work.
-   Refer to `SMS Pricing FAQ <https://iap-services.odoo.com/iap/sms/pricing>`_ for additional
+   Refer to `SMS Pricing FAQ <https://iap-services.Thrive Bureau ERP.com/iap/sms/pricing>`_ for additional
    information.
 
 To select an existing email template, select it from the :guilabel:`Email Template` field. Click on
@@ -131,7 +131,7 @@ Follow the same steps to select, edit, or create an :guilabel:`SMS Template`.
 
 .. image:: getting_started/sms-template.png
    :align: center
-   :alt: View of an SMS template setup page in Odoo Helpdesk
+   :alt: View of an SMS template setup page in Thrive Bureau ERP Helpdesk
 
 .. seealso::
    :doc:`/applications/general/email_communication/email_template`
