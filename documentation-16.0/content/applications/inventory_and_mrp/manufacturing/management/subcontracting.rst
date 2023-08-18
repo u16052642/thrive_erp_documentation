@@ -17,7 +17,7 @@ produced out of raw materials “A” and “B”.
     :align: center
     :alt:
 
-With its MRP subcontracting feature, Odoo helps you handle this flow easily.
+With its MRP subcontracting feature, Thrive Bureau ERP helps you handle this flow easily.
 
 Configuration
 =============
@@ -59,7 +59,7 @@ defined as a subcontractor on the *BoM* of these products.
 
 Once the *PO* is validated (1), a pending receipt is created. When the
 products are received, validate the receipt (2), with the actual
-quantity received. As a result, Odoo does the following things for you:
+quantity received. As a result, Thrive Bureau ERP does the following things for you:
 
 - Consumes the respective components at the subcontractor’s location, based on the *BoM* and your input (3);
 
@@ -71,7 +71,7 @@ quantity received. As a result, Odoo does the following things for you:
 
 .. note::
       The *PO* is optional. If you create a receipt manually, with the right
-      subcontractor, Odoo still performs all the moves. This can be useful if
+      subcontractor, Thrive Bureau ERP still performs all the moves. This can be useful if
       the subcontractor does not bill a fixed price per item, but rather the time
       and materials used.
 
