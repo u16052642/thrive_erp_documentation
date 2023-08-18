@@ -24,7 +24,7 @@ Payment providers (credit cards, online payments)
    payment_providers/sips
    payment_providers/stripe
 
-Odoo embeds several **payment providers** that allow your customers to pay on their *Customer
+Thrive Bureau ERP embeds several **payment providers** that allow your customers to pay on their *Customer
 Portals* or your *eCommerce website*. They can pay sales orders, invoices, or subscriptions with
 recurring payments with their favorite payment methods such as **Credit Cards**.
 
@@ -37,11 +37,11 @@ trust.
    :alt: Pay online in the customer portal and select which payment provider to use.
 
 .. note::
-   Odoo apps delegate the handling of sensitive information to the certified payment provider so
+   Thrive Bureau ERP apps delegate the handling of sensitive information to the certified payment provider so
    that you don't ever have to worry about PCI compliance.
 
-   This means that no sensitive information (such as credit card numbers) is stored on Odoo servers
-   or Odoo databases hosted elsewhere. Instead, Odoo apps use a unique reference number to the data
+   This means that no sensitive information (such as credit card numbers) is stored on Thrive Bureau ERP servers
+   or Thrive Bureau ERP databases hosted elsewhere. Instead, Thrive Bureau ERP apps use a unique reference number to the data
    stored safely in the payment providers' systems.
 
 .. _payment_providers/supported_providers:
@@ -71,7 +71,7 @@ Online payment providers
      - :ref:`Express checkout <payment_providers/features/express_checkout>`
      - :ref:`Extra fees <payment_providers/features/extra_fees>`
    * - :doc:`Adyen <payment_providers/adyen>`
-     - Odoo
+     - Thrive Bureau ERP
      - |V|
      - Full only
      - Full and partial
@@ -92,7 +92,7 @@ Online payment providers
      -
      -
    * - :doc:`Authorize.Net <payment_providers/authorize>`
-     - Odoo
+     - Thrive Bureau ERP
      - |V|
      - Full only
      - Full only
@@ -166,7 +166,7 @@ Online payment providers
 
 .. tip::
    In addition to the regular payment providers that integrate with an API such as Stripe, PayPal,
-   or Adyen, Odoo bundles the :doc:`Demo payment provider <payment_providers/demo>`. This payment
+   or Adyen, Thrive Bureau ERP bundles the :doc:`Demo payment provider <payment_providers/demo>`. This payment
    provider allows you to make demo payments to test business flows involving online payments. No
    credentials are required as the demo payments are fake.
 
@@ -176,7 +176,7 @@ Bank payments
 -------------
 
 - | :doc:`Wire Transfer <payment_providers/wire_transfer>`
-  | When selected, Odoo displays your payment information with a payment reference. You have to
+  | When selected, Thrive Bureau ERP displays your payment information with a payment reference. You have to
     approve the payment manually once you have received it on your bank account.
 - | :doc:`SEPA Direct Debit <../finance/accounting/payments/batch_sdd>`
   | Your customers can sign a SEPA Direct Debit mandate online and get their bank account charged
@@ -197,7 +197,7 @@ Tokenization
 ------------
 
 If your payment provider supports this feature, customers can choose to save their card for later. A
-**payment token** is created in Odoo and can be used as a payment method for subsequent payments
+**payment token** is created in Thrive Bureau ERP and can be used as a payment method for subsequent payments
 without having to enter the card details again. This is particularly useful for the eCommerce
 conversion rate and for subscriptions that use recurring payments.
 
@@ -205,7 +205,7 @@ Enable this feature by navigating to the :guilabel:`Configuration` tab from your
 and by ticking the :guilabel:`Allow Saving Payment Methods` checkbox.
 
 .. note::
-   You remain fully PCI-compliant when you enable this feature because Odoo does not store the card
+   You remain fully PCI-compliant when you enable this feature because Thrive Bureau ERP does not store the card
    details directly. Instead, it creates a payment token that only holds a reference to the card
    details stored on the payment provider's server.
 
@@ -243,7 +243,7 @@ TRANSACTION` button.
    - The funds are likely not reserved forever. After a certain time, they may be automatically
      released back to the customer's payment method. Refer to your payment provider's documentation
      for the exact reservation duration.
-   - Odoo does not support this feature for all payment providers but some allow the manual capture
+   - Thrive Bureau ERP does not support this feature for all payment providers but some allow the manual capture
      from their website interface.
 
 .. _payment_providers/features/refund:
@@ -251,7 +251,7 @@ TRANSACTION` button.
 Refunds
 -------
 
-If your payment provider supports this feature, you can refund payments directly from Odoo. It does
+If your payment provider supports this feature, you can refund payments directly from Thrive Bureau ERP. It does
 not need to be enabled first. To refund a customer payment, navigate to it and click on the
 :guilabel:`REFUND` button.
 
@@ -260,7 +260,7 @@ not need to be enabled first. To refund a customer payment, navigate to it and c
      optionally be refunded too. These providers have the value **Full and partial** in the
      :ref:`table above <payment_providers/online_providers>`. The providers that only support
      refunding the full amount have the value **Full only**.
-   - Odoo does not support this feature for all payment providers but some allow to refund payments
+   - Thrive Bureau ERP does not support this feature for all payment providers but some allow to refund payments
      from their website interface.
 
 .. _payment_providers/features/express_checkout:
@@ -317,11 +317,11 @@ state from *Disabled* to *Enabled*.
 
 .. image:: payment_providers/activation.png
    :align: center
-   :alt: Click on install, then on activate to make the payment provider available on Odoo.
+   :alt: Click on install, then on activate to make the payment provider available on Thrive Bureau ERP.
 
 .. warning::
    We recommend using the *Test Mode* on a duplicated database or a test database. The Test Mode is
-   meant to be used with your test/sandbox credentials, but Odoo generates Sales Orders and Invoices
+   meant to be used with your test/sandbox credentials, but Thrive Bureau ERP generates Sales Orders and Invoices
    as usual. It isn't always possible to cancel an invoice, and this could create some issues with
    your invoices numbering if you were to test your payment providers on your main database.
 
@@ -331,7 +331,7 @@ Credentials tab
 ~~~~~~~~~~~~~~~
 
 If not done yet, go to the online payment provider website, create an account, and make sure to have
-the credentials required for third-party use. Odoo requires these credentials to communicate with
+the credentials required for third-party use. Thrive Bureau ERP requires these credentials to communicate with
 the payment provider.
 
 The form in this section is specific to the payment provider you are configuring. Please refer to
