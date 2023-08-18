@@ -2,7 +2,7 @@
 Closing tickets
 ===============
 
-Once work has been completed on a *Helpdesk* ticket in Odoo, there are several ways it can be
+Once work has been completed on a *Helpdesk* ticket in Thrive Bureau ERP, there are several ways it can be
 closed. Manually closing solved tickets keeps the pipeline up to date, while automatically closing
 inactive tickets prevents unnecessary blocking issues. Allowing customers to close their own tickets
 minimizes confusion around whether an issue is considered solved or not. This results in increased
@@ -97,14 +97,14 @@ the team's settings page, scroll to the :guilabel:`Self-Service` section and che
 
 .. image:: close_tickets/closing-by-customer-setting.png
    :align: center
-   :alt: Customer closing setting in Odoo Helpdesk.
+   :alt: Customer closing setting in Thrive Bureau ERP Helpdesk.
 
 Once the ticket closing settings are enabled, a :guilabel:`Close Ticket` button will be available
 for customers when they view their ticket through the customer portal.
 
 .. image:: close_tickets/closing-customer-view.png
    :align: center
-   :alt: Customer view of ticket closing in Odoo Helpdesk.
+   :alt: Customer view of ticket closing in Thrive Bureau ERP Helpdesk.
 
 .. note::
    Customers are able to view their tickets by clicking the :guilabel:`View the ticket` link they
