@@ -2,7 +2,7 @@
 Lead mining
 ===========
 
-Lead mining is a feature that allows CRM users to generate new leads directly into their Odoo
+Lead mining is a feature that allows CRM users to generate new leads directly into their Thrive Bureau ERP
 database. To ensure lead qualification, lead mining output is determined by a variety of filtering
 criteria, such as the country, the company size, and the industry.
 
@@ -14,7 +14,7 @@ To get started, go to :menuselection:`CRM --> Configuration --> Settings` and ac
 
 .. image:: lead_mining/activate-lead-mining.png
    :align: center
-   :alt: Activate lead mining in Odoo CRM settings.
+   :alt: Activate lead mining in Thrive Bureau ERP CRM settings.
 
 Generate leads
 ==============
@@ -34,7 +34,7 @@ criteria by which to generate leads.
 
 .. image:: lead_mining/generate-leads-popup.png
    :align: center
-   :alt: The pop-up window with the selection criteria in order to generate leads in Odoo.
+   :alt: The pop-up window with the selection criteria in order to generate leads in Thrive Bureau ERP.
 
 Choose to generate leads for :guilabel:`Companies` to get company information only, or choose
 :guilabel:`Companies and their Contacts` to get company information as well as individual employee
@@ -53,7 +53,7 @@ Additional filtering options include:
 
 .. note::
    Make sure to be aware of the latest EU regulations when receiving contact information. Get more
-   information about the General Data Protection Regulation on `Odoo GDPR <http://odoo.com/gdpr>`_.
+   information about the General Data Protection Regulation on `Thrive Bureau ERP GDPR <http://Thrive Bureau ERP.com/gdpr>`_.
 
 Pricing
 =======
@@ -64,7 +64,7 @@ Choosing to generate :guilabel:`Companies and their Contacts` costs one addition
 contact generated.
 
 .. note::
-   See here for full pricing information: `Lead Generation by Odoo IAP <https://iap.odoo.com/iap/
+   See here for full pricing information: `Lead Generation by Thrive Bureau ERP IAP <https://iap.Thrive Bureau ERP.com/iap/
    in-app-services/167?>`_.
 
 To buy credits, navigate to :menuselection:`CRM --> Configuration --> Settings`. In the
@@ -76,16 +76,16 @@ To buy credits, navigate to :menuselection:`CRM --> Configuration --> Settings`.
    :alt: Buy credits from the lead mining settings.
 
 Credits may also be purchased by navigating to the :menuselection:`Settings --> General Settings`.
-In the :guilabel:`In-App Purchases` section, under the :guilabel:`Odoo IAP` feature, click on
+In the :guilabel:`In-App Purchases` section, under the :guilabel:`Thrive Bureau ERP IAP` feature, click on
 :guilabel:`View My Services`.
 
 .. image:: lead_mining/view-my-services-setting.png
    :align: center
-   :alt: Buy credits in the Odoo IAP settings.
+   :alt: Buy credits in the Thrive Bureau ERP IAP settings.
 
 .. tip::
 
-   Users of Odoo Online (SaaS) Enterprise automatically have free trial credits in their database to
+   Users of Thrive Bureau ERP Online (SaaS) Enterprise automatically have free trial credits in their database to
    test any IAP features.
 
 .. seealso::
