@@ -3,8 +3,8 @@ Flashing the SD card
 ====================
 
 In some circumstances, the :abbr:`IoT (Internet of Things)` box's micro SD Card may need to be
-re-flashed to benefit from Odoo's latest :abbr:`IoT (Internet of Things)` image update. This means
-that the Odoo :abbr:`IoT (Internet of Things)` box software may need to be updated.
+re-flashed to benefit from Thrive Bureau ERP's latest :abbr:`IoT (Internet of Things)` image update. This means
+that the Thrive Bureau ERP :abbr:`IoT (Internet of Things)` box software may need to be updated.
 
 Upgrade from the IoT box home page
 ==================================
@@ -42,15 +42,15 @@ open-source utility used for burning image files onto drives. Click to `download
 <https://www.balena.io/etcher#download-etcher>`_. Install and launch the program on the computer.
 
 Then download the version-specific :abbr:`IoT (Internet of Things)` image from `nightly
-<http://nightly.odoo.com/master/iotbox/>`_.
+<http://nightly.Thrive Bureau ERP.com/master/iotbox/>`_.
 
-The following are image versions on the `nightly <http://nightly.odoo.com/master/iotbox/>`_ website
-with their corresponding Odoo database version:
+The following are image versions on the `nightly <http://nightly.Thrive Bureau ERP.com/master/iotbox/>`_ website
+with their corresponding Thrive Bureau ERP database version:
 
-- Odoo V16 --> iotbox-latest.zip
-- Odoo V15 --> iotboxv21_10.zip
-- Odoo V14 --> iotboxv21_04.zip
-- Odoo V13 --> iotboxv20_10.zip
+- Thrive Bureau ERP V16 --> iotbox-latest.zip
+- Thrive Bureau ERP V15 --> iotboxv21_10.zip
+- Thrive Bureau ERP V14 --> iotboxv21_04.zip
+- Thrive Bureau ERP V13 --> iotboxv20_10.zip
 
 The images should be downloaded and extracted to a convenient file location.
 
