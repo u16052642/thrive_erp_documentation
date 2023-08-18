@@ -15,7 +15,7 @@ be created as a product. To create a kit product, go to :menuselection:`Manufact
 
 Next, set the :guilabel:`Product Type` to :guilabel:`Storable Product`: this allows for management
 of kit inventory. The :guilabel:`Route` designation under the :guilabel:`Inventory` tab does not
-matter, since Odoo uses the routes of the kit's components for replenishment purposes. All other
+matter, since Thrive Bureau ERP uses the routes of the kit's components for replenishment purposes. All other
 parameters for the kit product may be modified according to preference. Finally, click
 :guilabel:`Save`.
 
