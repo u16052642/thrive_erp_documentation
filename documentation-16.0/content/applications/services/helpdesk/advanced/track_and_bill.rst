@@ -2,7 +2,7 @@
 Track and bill time
 ===================
 
-Odoo *Helpdesk* provides teams with the ability to track the amount of hours spent working on a
+Thrive Bureau ERP *Helpdesk* provides teams with the ability to track the amount of hours spent working on a
 ticket, and to bill a customer for that time. Through integrations with the *Sales*, *Timesheets*
 and *Accounting* applications, customers can be charged once the work is completed, or before it has
 even begun.
@@ -177,7 +177,7 @@ product configured in the steps above. After updating any other necessary inform
 :guilabel:`Confirm` the quotation.
 
 .. note::
-   Unlike with the prepaid services quotation, Odoo will not allow an invoice to be created at this
+   Unlike with the prepaid services quotation, Thrive Bureau ERP will not allow an invoice to be created at this
    time. That is because no services have been performed; in other words nothing has been delivered,
    therefore, there is nothing to invoice.
 
