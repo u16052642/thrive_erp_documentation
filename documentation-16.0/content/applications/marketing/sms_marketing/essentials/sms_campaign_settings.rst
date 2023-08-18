@@ -2,7 +2,7 @@
 SMS campaign settings
 =====================
 
-Utilizing :abbr:`SMS (Short Message Service)` campaigns with Odoo *SMS Marketing* isn't just an
+Utilizing :abbr:`SMS (Short Message Service)` campaigns with Thrive Bureau ERP *SMS Marketing* isn't just an
 effective advertisement strategy, it's also a great way to remind people about upcoming events,
 issued invoices, and so much more.
 
@@ -12,13 +12,13 @@ settings and features must be enabled first.
 SMS campaign setting
 ====================
 
-To enable :abbr:`SMS (Short Message Service)` campaigns in Odoo, make sure the *Mailing Campaigns*
+To enable :abbr:`SMS (Short Message Service)` campaigns in Thrive Bureau ERP, make sure the *Mailing Campaigns*
 feature is activated by going to :menuselection:`Email Marketing --> Configuration --> Settings`,
 and then enable :guilabel:`Mailing Campaigns` and :guilabel:`Save` the changes.
 
 .. image:: sms_campaign_settings/sms-mailing-campaigns.png
    :align: center
-   :alt: View of the mailing campaigns setting in Odoo.
+   :alt: View of the mailing campaigns setting in Thrive Bureau ERP.
 
 .. note::
    Activating the *Mailing Campaigns* feature in the *General Settings* also enables the *A/B Test*
@@ -42,19 +42,19 @@ When clicked, a series of other options appear.
 
 .. image:: sms_campaign_settings/ab-tests-sms.png
    :align: center
-   :alt: The A/B Test tab is located on an Odoo SMS Marketing app campaign form.
+   :alt: The A/B Test tab is located on an Thrive Bureau ERP SMS Marketing app campaign form.
 
 In the first field, enter a desired percentage of recipients to conduct the A/B Test on.
 
-Beneath the percentage field is the :guilabel:`Winner Selection` field. This is what Odoo will use
-to determine the successful result of an A/B Test. In other words, this tells Odoo how to pick a
+Beneath the percentage field is the :guilabel:`Winner Selection` field. This is what Thrive Bureau ERP will use
+to determine the successful result of an A/B Test. In other words, this tells Thrive Bureau ERP how to pick a
 winning A/B test.
 
 The following sections are available: :guilabel:`Manual`, :guilabel:`Highest Click Rate`,
 :guilabel:`Leads`, :guilabel:`Quotations`, or :guilabel:`Revenues`.
 
-Finally, the :guilabel:`Send Final On` field is listed. This represents the date-time that Odoo uses
-as a deadline to determine the winning mailing variation. Then, Odoo sends that winning mailing
+Finally, the :guilabel:`Send Final On` field is listed. This represents the date-time that Thrive Bureau ERP uses
+as a deadline to determine the winning mailing variation. Then, Thrive Bureau ERP sends that winning mailing
 variation to the remaining recipients, who weren't involved in the test, at that prior date and
 time.
 
@@ -76,33 +76,33 @@ posts, SMSs, and push notifications).
 
 .. image:: sms_campaign_settings/campaigns-page.png
    :align: center
-   :alt: Dasbhoard view of different Campaigns in the Odoo SMS Marketing app, separated by stage.
+   :alt: Dasbhoard view of different Campaigns in the Thrive Bureau ERP SMS Marketing app, separated by stage.
 
 Campaign templates
 ==================
 
-Click :guilabel:`Create` to create a new campaign, and Odoo reveals a blank campaign template form
+Click :guilabel:`Create` to create a new campaign, and Thrive Bureau ERP reveals a blank campaign template form
 to fill out. Alternatively, select any previously-made campaign in order to duplicate, review, or
 edit its campaign template form.
 
 .. image:: sms_campaign_settings/sms-campaign-template.png
    :align: center
-   :alt: View of an SMS campaign template in Odoo SMS marketing.
+   :alt: View of an SMS campaign template in Thrive Bureau ERP SMS marketing.
 
 With each campaign, the options to :guilabel:`Send New Mailing`, :guilabel:`Send SMS`,
 :guilabel:`Send Social Post`, and :guilabel:`Push Notifications` are available above the template
 form.
 
-Whenever one of those communication options is added to the campaign, Odoo will create a new
+Whenever one of those communication options is added to the campaign, Thrive Bureau ERP will create a new
 corresponding tab on the template form, where those types of messages can be reviewed or edited,
 along with various data sets related to each specific mailing.
 
-At the top of the template, there are various analytical smart buttons. When clicked, Odoo reveals
+At the top of the template, there are various analytical smart buttons. When clicked, Thrive Bureau ERP reveals
 in-depth metrics related to that specific topic (e.g. :guilabel:`Engagement`,
 :guilabel:`Opportunities`, etc.) on a separate page.
 
 Beneath the smart buttons, are fields for :guilabel:`Campaign Name` and :guilabel:`Responsible`.
-Odoo also allows for various :guilabel:`Tags` to be added, as well (if necessary).
+Thrive Bureau ERP also allows for various :guilabel:`Tags` to be added, as well (if necessary).
 
 Sending SMSs through the Contacts app
 =====================================
@@ -116,7 +116,7 @@ In order to send an :abbr:`SMS (Short Message Service)` in this fashion, navigat
 
 .. image:: sms_campaign_settings/sms-contact-form.png
    :align: center
-   :alt: The SMS icon is located on an individual's contact form in Odoo Contacts.
+   :alt: The SMS icon is located on an individual's contact form in Thrive Bureau ERP Contacts.
 
 To send a message to multiple contacts at once, navigate to the main :menuselection:`Contacts` app
 main dashboard, choose the :guilabel:`List View`, and select all the desired contacts to whom the
@@ -130,11 +130,11 @@ Set up SMS templates for future use
 ===================================
 
 In order to set up :guilabel:`SMS Templates` for future use, activate :ref:`developer mode
-<developer-mode>`, by navigating to the main Odoo dashboard that is full of apps, and select the
+<developer-mode>`, by navigating to the main Thrive Bureau ERP dashboard that is full of apps, and select the
 :menuselection:`Settings app`. Then, scroll down to the :guilabel:`Developer Tools` section, and
 click :guilabel:`Activate the Developer Mode`.
 
-Once *developer mode* is activated, the main Odoo dashboard appears once more, with a now-visible
+Once *developer mode* is activated, the main Thrive Bureau ERP dashboard appears once more, with a now-visible
 bug icon, which is located at the top-right corner of the dashboard; this bug icon indicates that
 developer mode is currently active.
 
@@ -146,7 +146,7 @@ Service)` templates for future marketing campaigns.
    :align: center
    :alt: Select the SMS Template option in the Technical dropdown on the Settings app.
 
-Inside of the :guilabel:`SMS Templates` dashboard, Odoo reveals an entire page of :abbr:`SMS (Short
+Inside of the :guilabel:`SMS Templates` dashboard, Thrive Bureau ERP reveals an entire page of :abbr:`SMS (Short
 Message Service)` templates. The default :guilabel:`List` view showcases each template's name, and
 to which recipients it applies.
 
@@ -154,5 +154,5 @@ On this page, :abbr:`SMS (Short Message Service)` templates can be edited or cre
 
 .. image:: sms_campaign_settings/sms-template.png
    :align: center
-   :alt: The SMS Templates page in Odoo is available after enabling developer mode in the General
+   :alt: The SMS Templates page in Thrive Bureau ERP is available after enabling developer mode in the General
          Settings
