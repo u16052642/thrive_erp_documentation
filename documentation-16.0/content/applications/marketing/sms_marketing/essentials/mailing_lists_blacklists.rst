@@ -2,7 +2,7 @@
 Mailing lists and blacklists
 ============================
 
-Creating or importing mailing lists in Odoo is very useful when curating content to specific groups
+Creating or importing mailing lists in Thrive Bureau ERP is very useful when curating content to specific groups
 of people that already share similar demographics or interests. Mailing lists are also a great way
 to get started if a company is migrating from another system, and already has a established
 audience.
@@ -23,7 +23,7 @@ the database.
 
 .. image:: mailing_lists_blacklists/mailing-list-main-page.png
    :align: center
-   :alt: View of the main SMS mailing list page on the Odoo SMS Marketing application.
+   :alt: View of the main SMS mailing list page on the Thrive Bureau ERP SMS Marketing application.
 
 To edit any existing list, select the desired list from the :guilabel:`Mailing Lists` page, and
 proceed to modify it in a number of ways.
@@ -33,7 +33,7 @@ To create a new mailing list, click :guilabel:`Create` in the upper left corner 
 
 .. image:: mailing_lists_blacklists/sms-mailing-list-popup.png
    :align: center
-   :alt: View of the mailing list pop-up window in Odoo SMS Marketing.
+   :alt: View of the mailing list pop-up window in Thrive Bureau ERP SMS Marketing.
 
 First, choose a name for the :guilabel:`Mailing List`, and activate the option :guilabel:`Is
 Public`, to make the mailing list accessible to recipients on the :guilabel:`Subscription Management
@@ -61,7 +61,7 @@ corner of the mailing list detail form.
 
 .. image:: mailing_lists_blacklists/sms-mailing-list.png
    :align: center
-   :alt: View of the mailing list template form in Odoo SMS Marketing.
+   :alt: View of the mailing list template form in Thrive Bureau ERP SMS Marketing.
 
 .. note::
    Don't forget to hit the :guilabel:`Save` button once changes have been made.
@@ -75,10 +75,10 @@ more of the configured mailing lists in the database.
 
 .. image:: mailing_lists_blacklists/mailing-list-contacts-page.png
    :align: center
-   :alt: View of the mailing lists contact page in the Odoo SMS Marketing application.
+   :alt: View of the mailing lists contact page in the Thrive Bureau ERP SMS Marketing application.
 
 .. note::
-   By default, Odoo reveals the :guilabel:`Mailing List Contacts` page with the :guilabel:`Exclude
+   By default, Thrive Bureau ERP reveals the :guilabel:`Mailing List Contacts` page with the :guilabel:`Exclude
    Blacklisted Phone` filter in the search bar. Therefore only showing contact information for
    recipients who still want to receive communications and mailings.
 
@@ -96,12 +96,12 @@ Message Service)` mailing promotions a certain customer has received (or not rec
 
 .. image:: mailing_lists_blacklists/sms-marketing-chatter.png
    :align: center
-   :alt: View of what the chatter looks like in the Odoo Contacts app.
+   :alt: View of what the chatter looks like in the Thrive Bureau ERP Contacts app.
 
 Blacklist
 =========
 
-Odoo *SMS Marketing* has a :guilabel:`Blacklist` feature that provides recipients with the power to
+Thrive Bureau ERP *SMS Marketing* has a :guilabel:`Blacklist` feature that provides recipients with the power to
 add their phone number to a list of people who no longer want to receieve communications or
 mailings.
 
@@ -142,4 +142,4 @@ click :guilabel:`Import records`.
 
 .. image:: mailing_lists_blacklists/import-blacklist.png
    :align: center
-   :alt: View of how to import a blacklist in Odoo SMS Marketing.
+   :alt: View of how to import a blacklist in Thrive Bureau ERP SMS Marketing.
