@@ -2,16 +2,11 @@
 Documents
 =========
 
-**Odoo Documents** allows you to store, view and manage files within Odoo.
+**Thrive Bureau ERP Documents** allows you to store, view and manage files within Thrive Bureau ERP.
 
-You can upload any type of file (max 64MB per file on Odoo Online), and organize them in various
+You can upload any type of file (max 64MB per file on Thrive Bureau ERP Online), and organize them in various
 workspaces.
 
-.. seealso::
-   - `Odoo Documents: product page <https://www.odoo.com/app/documents>`_
-   - `Odoo Tutorials: Documents basics <https://www.odoo.com/slides/slide/documents-basics-674>`_
-   - `Odoo Tutorials: Using Documents with your Accounting App
-     <https://www.odoo.com/slides/slide/using-documents-with-your-accounting-app-675?fullscreen=1#>`_
 
 Configuration
 =============
@@ -131,7 +126,7 @@ There are three basic types of conditions you can set:
 
 .. image:: documents/basic-condition-example.png
    :align: center
-   :alt: Example of a workflow action's basic condition in Odoo Documents
+   :alt: Example of a workflow action's basic condition in Thrive Bureau ERP Documents
 
 .. tip::
    If you don't set any conditions, the action button appears for all files located inside the
@@ -141,7 +136,7 @@ Advanced condition type: domain
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. important::
-   It is recommended to have some knowledge of Odoo development to properly configure *Domain*
+   It is recommended to have some knowledge of Thrive Bureau ERP development to properly configure *Domain*
    filters.
 
 To access the *Domain* condition, the :ref:`developer mode <developer-mode>` needs to be activated.
@@ -149,7 +144,7 @@ Once that's done, select the :guilabel:`Domain` condition type, and click on :gu
 
 .. image:: documents/activate-domain-condition.png
    :align: center
-   :alt: Activating the domain condition type in Odoo Documents
+   :alt: Activating the domain condition type in Thrive Bureau ERP Documents
 
 To create a rule, you typically select a :guilabel:`field`, an :guilabel:`operator`, and a
 :guilabel:`value`. For example, if you want to add a workflow action to all the PDF files inside a
@@ -158,7 +153,7 @@ workspace, set the :guilabel:`field` to *Mime Type*, the :guilabel:`operator` to
 
 .. image:: documents/domain-condition-example.png
    :align: center
-   :alt: Example of a workflow action's domain condition in Odoo Documents
+   :alt: Example of a workflow action's domain condition in Thrive Bureau ERP Documents
 
 Click on :guilabel:`Add node` (plus-circle icon) and :guilabel:`Add branch` (ellipsis icon) to add
 conditions and sub-conditions. You can then specify if your rule should match :guilabel:`ALL` or
@@ -166,7 +161,7 @@ conditions and sub-conditions. You can then specify if your rule should match :g
 
 .. image:: documents/use-domain-condition.png
    :align: center
-   :alt: Add a node or a branch to a workflow action's condition in Odoo Documents
+   :alt: Add a node or a branch to a workflow action's condition in Thrive Bureau ERP Documents
 
 Configure the actions
 ---------------------
@@ -199,7 +194,7 @@ Select the :guilabel:`Actions` tab to set up your action. You can simultaneously
 
 .. image:: documents/workflow-action-example.png
    :align: center
-   :alt: Example of a workflow action Odoo Documents
+   :alt: Example of a workflow action Thrive Bureau ERP Documents
 
 Digitize documents with AI and optical character recognition (OCR)
 ==================================================================
