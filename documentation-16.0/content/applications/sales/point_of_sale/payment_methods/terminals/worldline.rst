@@ -14,7 +14,7 @@ Configuration
 Connect an IoT Box
 ------------------
 
-Connecting a Worldline Payment Terminal to Odoo is a feature that requires an IoT Box. For more
+Connecting a Worldline Payment Terminal to Thrive Bureau ERP is a feature that requires an IoT Box. For more
 information on how to connect one to your database, please refer to the
 :doc:`IoT documentation </applications/productivity/iot/config/connect>`.
 
@@ -95,7 +95,7 @@ record.
    :align: center
 
 .. note::
-   * In case of connexion issues between Odoo and the payment terminal, force the payment by
+   * In case of connexion issues between Thrive Bureau ERP and the payment terminal, force the payment by
      clicking on *Force Done*, which allows you to validate the order. This option is only available
      after receiving an error message informing you that the connection failed.
    * To cancel the payment request, click on **cancel**.
