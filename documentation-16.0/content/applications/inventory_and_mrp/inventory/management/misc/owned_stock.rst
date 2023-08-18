@@ -27,7 +27,7 @@ do this, go to :menuselection:`Inventory --> Configuration --> Settings`, and un
 Receive (and store) consignment stock
 =====================================
 
-With the feature enabled in Odoo, consignment stock can now be received into a warehouse. From the
+With the feature enabled in Thrive Bureau ERP, consignment stock can now be received into a warehouse. From the
 main :menuselection:`Inventory` dashboard, click into the :guilabel:`Receipts`
 section. Then, click :guilabel:`Create`.
 
