@@ -2,14 +2,14 @@
 Social marketing essentials
 ===========================
 
-Odoo's *Social Marketing* helps content marketers create and schedule posts, manage various social
+Thrive Bureau ERP's *Social Marketing* helps content marketers create and schedule posts, manage various social
 media accounts, analyze content effectiveness, and engage directly with social media followers in
 one, centralized location.
 
 Add social media accounts
 =========================
 
-In order to create posts, each social media account must be added as a stream in the Odoo *Social
+In order to create posts, each social media account must be added as a stream in the Thrive Bureau ERP *Social
 Marketing* application.
 
 Add a social media stream
@@ -23,23 +23,23 @@ social media outlets to choose from.
 
 .. image:: social_essentials/social-add-streams.png
    :align: center
-   :alt: View of the pop-up that appears when 'Add a Stream' is selected in Odoo.
+   :alt: View of the pop-up that appears when 'Add a Stream' is selected in Thrive Bureau ERP.
 
 .. note::
-   Additional social media outlet options are available depending on your version of Odoo.
+   Additional social media outlet options are available depending on your version of Thrive Bureau ERP.
 
 From this pop-up, select a social media option: :guilabel:`Facebook`, :guilabel:`LinkedIn`, or
 :guilabel:`Twitter`.
 
-Then, Odoo navigates directly to that specific social media outlet's authorization page, where
-permission must be granted, in order for Odoo to add that particular social media account to the
+Then, Thrive Bureau ERP navigates directly to that specific social media outlet's authorization page, where
+permission must be granted, in order for Thrive Bureau ERP to add that particular social media account to the
 *Social Marketing* application as a stream on the main dashboard of the app.
 
 .. note::
    A Facebook page can be added as long as the Facebook account that grants permission is the
    administrator for the page. Also, different pages can be added for different streams.
 
-Once permission is granted, Odoo navigates back to the :guilabel:`Feed` on the main
+Once permission is granted, Thrive Bureau ERP navigates back to the :guilabel:`Feed` on the main
 :guilabel:`Social Marketing` dashboard, and a new column with that account's posts are automatically
 added.
 
@@ -47,7 +47,7 @@ From here, new accounts and/or streams can be added and managed at any time.
 
 .. image:: social_essentials/feed.png
    :align: center
-   :alt: Example of how a populated stream-filled dashboard looks in Odoo Social Marketing
+   :alt: Example of how a populated stream-filled dashboard looks in Thrive Bureau ERP Social Marketing
 
 .. note::
    Adding social media accounts to the feed also links that specific social media platform's KPIs
@@ -56,9 +56,9 @@ From here, new accounts and/or streams can be added and managed at any time.
 
    .. image:: social_essentials/insights.png
       :align: center
-      :alt: The insights link that can be accessed for each social media stream added in Odoo.
+      :alt: The insights link that can be accessed for each social media stream added in Thrive Bureau ERP.
 
-Create and publish social media posts in Odoo
+Create and publish social media posts in Thrive Bureau ERP
 =============================================
 
 To create content for social media accounts in the :menuselection:`Social Marketing` application,
@@ -70,7 +70,7 @@ of different ways.
 
 .. image:: social_essentials/social-create-post.png
    :align: center
-   :alt: How to create a social media post directly through Odoo
+   :alt: How to create a social media post directly through Thrive Bureau ERP
 
 Post template
 -------------
@@ -89,7 +89,7 @@ media account(s), or on which website(s) via push notification, this post will b
    :menuselection:`Website --> Configuration --> Settings`, activate :guilabel:`Enable Web Push
    Notifications`, fill out the corresponding fields, and click :guilabel:`Save`.
 
-Odoo automatically provides every available social media account that's been linked to the database
+Thrive Bureau ERP automatically provides every available social media account that's been linked to the database
 as an option in this section, as well.
 
 .. note::
@@ -99,7 +99,7 @@ as an option in this section, as well.
 Next, there's the :guilabel:`Message` field. This is where the main content of the post is created.
 
 Type the desired message for the post in this field. To the right, as the :guilabel:`Message` field
-is populated, Odoo displays visual samples of how the post will look on all the previously selected
+is populated, Thrive Bureau ERP displays visual samples of how the post will look on all the previously selected
 social media accounts from the :guilabel:`Post on` field above.
 
 .. tip::
@@ -108,7 +108,7 @@ social media accounts from the :guilabel:`Post on` field above.
    far right. Clicking this icon reveals a drop-down containing numerous emojis to choose from.
 
 If images are to be used in the post, click the :guilabel:`ATTACH IMAGES` link beneath the
-:guilabel:`Message` field, and Odoo reveals a pop-up window. In this pop-up, the desired image must
+:guilabel:`Message` field, and Thrive Bureau ERP reveals a pop-up window. In this pop-up, the desired image must
 be chosen, and then uploaded.
 
 A preview of the entire post, text and image (if applicable), is instantly displayed in the visual
@@ -127,22 +127,22 @@ previously configured campaigns to choose from.
 .. note::
    A social post does *not* need to be attached to a campaign.
 
-Then, in the :guilabel:`When` field, choose either :guilabel:`Send Now` to have Odoo publish the
-post immediately, or :guilabel:`Schedule later` to have Odoo publish the post at a later date and
+Then, in the :guilabel:`When` field, choose either :guilabel:`Send Now` to have Thrive Bureau ERP publish the
+post immediately, or :guilabel:`Schedule later` to have Thrive Bureau ERP publish the post at a later date and
 time.
 
-If :guilabel:`Schedule later` is selected, Odoo reveals a new field beneath it (the
+If :guilabel:`Schedule later` is selected, Thrive Bureau ERP reveals a new field beneath it (the
 :guilabel:`Scheduled post date` field). Clicking that empty field reveals a pop-up calendar, in
-which a future date and time is designated. At which time, Odoo will promptly publish the post on
+which a future date and time is designated. At which time, Thrive Bureau ERP will promptly publish the post on
 the pre-determined social media accounts.
 
 Click on the desired date to schedule the post for that day. Then, either select and customize
 the default time in the :guilabel:`Scheduled post date` field manually. Or, adjust the desired post
 time, by clicking the :guilabel:`scheduling (clock) icon` located on the calendar pop-up, and choose
-the desired time for Odoo to publish this post on that future date.
+the desired time for Thrive Bureau ERP to publish this post on that future date.
 
 If scheduling a post, remember to hit :guilabel:`Schedule` in the upper left of the post template.
-Doing so, locks in that specific date/time for Odoo to send the post, and it changes the status of
+Doing so, locks in that specific date/time for Thrive Bureau ERP to send the post, and it changes the status of
 the post to :guilabel:`Scheduled`.
 
 .. note::
@@ -154,26 +154,26 @@ the post to :guilabel:`Scheduled`.
 'Web Notification Options' section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If any :guilabel:`Push Notifications` are selected in the :guilabel:`Post on` field, Odoo provides
+If any :guilabel:`Push Notifications` are selected in the :guilabel:`Post on` field, Thrive Bureau ERP provides
 another section of settings/options at the bottom of the post template. It should be noted that
 *none* of these fields are required.
 
 The first field is for a :guilabel:`Push Notification Title`. This is text that is displayed as the
-title of the push notification whenever it's sent. Odoo displays a visual preview of this title, if
+title of the push notification whenever it's sent. Thrive Bureau ERP displays a visual preview of this title, if
 one is created.
 
 To designate a specific page on the website that should trigger this push notification, enter that
 page's URL in the :guilabel:`Push Target URL` field. Then, once a visitor reaches that specific
-page, Odoo will display the push notification.
+page, Thrive Bureau ERP will display the push notification.
 
 Below that field is the option to add a custom :guilabel:`Push Icon Image`. This is an icon that
-appears beside the push notification. By default, Odoo uses a "smiley face" as the icon.
+appears beside the push notification. By default, Thrive Bureau ERP uses a "smiley face" as the icon.
 
 To upload a new image, click the :guilabel:`Edit (pencil) icon` when the :guilabel:`Push Icon Image`
 field is hovered over with the cursor. Then, proceed to locate and upload the desired image, and
-Odoo automatically displays a preview of how the icon will appear on the push notification.
+Thrive Bureau ERP automatically displays a preview of how the icon will appear on the push notification.
 
-Next, there is the option to :guilabel:`Send at Visitors' Timezone`. If enabled, Odoo will send it
+Next, there is the option to :guilabel:`Send at Visitors' Timezone`. If enabled, Thrive Bureau ERP will send it
 at the appropriate, pre-determined time, taking the visitor's location into consideration.
 
 Save, post, and test notification options
@@ -181,7 +181,7 @@ Save, post, and test notification options
 
 When all the modifications have been made, and the post is completed, either click :guilabel:`Save`
 to save the post as a *Draft*. Or, if the post is ready to be published immediately, click
-:guilabel:`Post`, and Odoo automatically publishes the post on the pre-determined social media
+:guilabel:`Post`, and Thrive Bureau ERP automatically publishes the post on the pre-determined social media
 accounts.
 
 There is also the option to :guilabel:`Test Notification`, if a :guilabel:`Push Notification` was
@@ -205,9 +205,9 @@ If the post is in the process of currently being published or sent, the status o
 Posts page
 ==========
 
-To see a complete overview of posts, go to Odoo :menuselection:`Social Marketing`, and click
+To see a complete overview of posts, go to Thrive Bureau ERP :menuselection:`Social Marketing`, and click
 :menuselection:`Posts` in the header menu. Here, every post that has been created and posted with
-Odoo is available.
+Thrive Bureau ERP is available.
 
 There are four different view options for :guilabel:`Posts` page data: *kanban*, *calendar*, *list*,
 and *pivot*. The view options are located in the upper right corner of the :guilabel:`Posts` page,
@@ -217,22 +217,22 @@ beneath the search bar.
 
    .. tab:: Kanban view
 
-      By default, Odoo displays the posts in a kanban view. The information on this page can be
+      By default, Thrive Bureau ERP displays the posts in a kanban view. The information on this page can be
       sorted even further, via the :guilabel:`Filters` and :guilabel:`Group by` drop-down menu.
 
       .. image:: social_essentials/posts-page.png
          :align: center
-         :alt: Kanban view of the posts page in the Odoo Social Marketing application.
+         :alt: Kanban view of the posts page in the Thrive Bureau ERP Social Marketing application.
 
    .. tab:: Calendar view
 
       The calendar view option displays a visual representation in a calendar format of when posts
       were published, or are scheduled to be published. This option provides a clear overview of any
-      planned day, week, or month, and Odoo displays all drafted, scheduled, and published posts.
+      planned day, week, or month, and Thrive Bureau ERP displays all drafted, scheduled, and published posts.
 
       .. image:: social_essentials/calendar-view.png
          :align: center
-         :alt: Example of the calendar view in Odoo Social Marketing.
+         :alt: Example of the calendar view in Thrive Bureau ERP Social Marketing.
 
    .. tab:: List view
 
@@ -242,7 +242,7 @@ beneath the search bar.
 
       .. image:: social_essentials/list-view.png
          :align: center
-         :alt: View of the list option on the posts page in Odoo Social Marketing.
+         :alt: View of the list option on the posts page in Thrive Bureau ERP Social Marketing.
 
    .. tab:: Pivot view
 
@@ -251,7 +251,7 @@ beneath the search bar.
 
       .. image:: social_essentials/pivot-view.png
          :align: center
-         :alt: View of the pivot option on the posts page in Odoo Social Marketing.
+         :alt: View of the pivot option on the posts page in Thrive Bureau ERP Social Marketing.
 
       The pivot view option provides numerous analytical options, allowing for in-depth, detailed
       analysis of various posts.
@@ -285,9 +285,9 @@ database, navigate to :menuselection:`Social Marketing --> Visitors` in the head
 
 .. image:: social_essentials/visitors.png
    :align: center
-   :alt: View of the Visitors page in the Odoo Social Marketing application.
+   :alt: View of the Visitors page in the Thrive Bureau ERP Social Marketing application.
 
-Here, Odoo provides a detailed layout of all the visitors' pertinent information in a default
+Here, Thrive Bureau ERP provides a detailed layout of all the visitors' pertinent information in a default
 kanban view. This same information can be sorted via the :guilabel:`Filters` and :guilabel:`Group
 By` options.
 
@@ -303,7 +303,7 @@ Notifications`.
 
 .. image:: social_essentials/social-media-page.png
    :align: center
-   :alt: View of the social media page in the Odoo Social Marketing application.
+   :alt: View of the social media page in the Thrive Bureau ERP Social Marketing application.
 
 If no account has been linked to any particular social media, click :guilabel:`Link Account` to
 proceed through the linking process.
@@ -317,7 +317,7 @@ Media` platform it is associated with.
 
 .. image:: social_essentials/social-accounts-page.png
    :align: center
-   :alt: View of the social accounts page in the Odoo Social Marketing application.
+   :alt: View of the social accounts page in the Thrive Bureau ERP Social Marketing application.
 
 To edit/modify any social accounts, simply select the desired account from the list on this page,
 and proceed to make any adjustments necessary. Don't forget to hit :guilabel:`Save` to secure any
@@ -332,7 +332,7 @@ app, accessible via the :guilabel:`Feed` option in the header menu.
 
 .. image:: social_essentials/social-streams-page.png
    :align: center
-   :alt: View of the social accounts page in the Odoo Social Marketing application.
+   :alt: View of the social accounts page in the Thrive Bureau ERP Social Marketing application.
 
 Here, the social stream information is organized in a list with the :guilabel:`Social Media`, the
 :guilabel:`Title` of the stream, and the :guilabel:`Type` of the stream (e.g. :guilabel:`Posts`,
