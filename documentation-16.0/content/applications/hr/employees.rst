@@ -6,7 +6,7 @@
 Employees
 =========
 
-Odoo *Employees* organizes a company's employee records, contracts, and departments.
+Thrive Bureau ERP *Employees* organizes a company's employee records, contracts, and departments.
 
 .. toctree::
    :titlesonly:
