@@ -17,7 +17,7 @@ Groups
 
 .. image:: access_rights/groups-users.png
    :align: center
-   :alt: View of a group’s form emphasizing the tab users in Odoo
+   :alt: View of a group’s form emphasizing the tab users in Thrive Bureau ERP
 
 *Inherited* means that users added to this application group are automatically added to the
 following ones. In the example below, users who have access to the group *Administrator* of *Sales*
@@ -26,7 +26,7 @@ also have access to *Website/Restricted Editor* and *Sales/User: All Documents*.
 .. image:: access_rights/groups-inherited.png
    :align: center
    :height: 330
-   :alt: View of a group’s form emphasizing the tab inherited in Odoo
+   :alt: View of a group’s form emphasizing the tab inherited in Thrive Bureau ERP
 
 .. important::
    Remember to always test the settings being changed in order to ensure that they are being applied
@@ -37,7 +37,7 @@ The *Menus* tab is where you define which menus (models) the user can have acces
 .. image:: access_rights/groups-menus.png
    :align: center
    :height: 330
-   :alt: View of a group’s form emphasizing the tab menus in Odoo
+   :alt: View of a group’s form emphasizing the tab menus in Thrive Bureau ERP
 
 *Access Rights* rules are the first level of rights. The field is composed of the object name, which
 is the technical name given to a model. For each model, enable the following options as appropriate:
@@ -49,7 +49,7 @@ is the technical name given to a model. For each model, enable the following opt
 
 .. image:: access_rights/groups-access-rights.png
    :align: center
-   :alt: View of a group’s form emphasizing the tab access rights in Odoo
+   :alt: View of a group’s form emphasizing the tab access rights in Thrive Bureau ERP
 
 | As a second layer of editing and visibility rules, *Record Rules* can be formed. They overwrite,
   or refine, the *Access Rights*.
@@ -59,9 +59,9 @@ is the technical name given to a model. For each model, enable the following opt
 
 .. image:: access_rights/groups-record-rules.png
    :align: center
-   :alt: View of a group’s form emphasizing the tab record rules in Odoo
+   :alt: View of a group’s form emphasizing the tab record rules in Thrive Bureau ERP
 
 .. important::
    Making changes in access rights can have a big impact on the database. For this reason, we
-   recommend you to contact your Odoo Business Analyst or our Support Team, unless you have
-   knowledge about Domains in Odoo.
+   recommend you to contact your Thrive Bureau ERP Business Analyst or our Support Team, unless you have
+   knowledge about Domains in Thrive Bureau ERP.
