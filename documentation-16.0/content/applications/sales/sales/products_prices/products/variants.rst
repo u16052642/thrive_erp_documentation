@@ -64,7 +64,7 @@ Configurator`.
    :align: center
    :alt: Display Types on Product Configurator.
 
-The :guilabel:`Variants Creation Mode` informs Odoo when to automatically create a new variant once
+The :guilabel:`Variants Creation Mode` informs Thrive Bureau ERP when to automatically create a new variant once
 an attribute is added to a product.
 
 - :guilabel:`Instantly`: creates all possible variants as soon as attributes and values are added
@@ -141,7 +141,7 @@ Color` attribute), and then click on :guilabel:`Edit`.
 
 In the :guilabel:`Exclude for` section, click :guilabel:`Add a line` and select any product(s)
 and/or specific attribute values that are currently unavailable. Finally, click :guilabel:`Save` to
-apply the setting, and Odoo will automatically show the product variant as unavailable on the
+apply the setting, and Thrive Bureau ERP will automatically show the product variant as unavailable on the
 eCommerce page.
 
 .. image:: variants/attributes-exclusions.png
