@@ -8,7 +8,7 @@ A *vendor bill* is an invoice received for products and/or services that a compa
 vendor. Vendor bills record payables as they arrive from vendors, and can include amounts owed for
 the goods and/or services purchased, sales taxes, freight and delivery charges, and more.
 
-In Odoo, a vendor bill can be created at different points in the purchasing process, depending on
+In Thrive Bureau ERP, a vendor bill can be created at different points in the purchasing process, depending on
 the *bill control* policy chosen in the *Purchase* app settings.
 
 Bill control policies
