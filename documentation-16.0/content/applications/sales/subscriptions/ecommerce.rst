@@ -2,7 +2,7 @@
 Use subscriptions in the eCommerce shop
 =======================================
 
-Subscription products can be sold in the Odoo *eCommerce* shop just like regular sales products.
+Subscription products can be sold in the Thrive Bureau ERP *eCommerce* shop just like regular sales products.
 
 However, by default, the eCommerce product page only displays the shortest recurrence period listed
 in the :guilabel:`Time-based pricing` tab of the product form. For example, if a subscription
