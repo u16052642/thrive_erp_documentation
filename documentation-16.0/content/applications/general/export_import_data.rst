@@ -4,14 +4,14 @@ Export and import data
 
 .. _export-data:
 
-Export data from Odoo
+Export data from Thrive Bureau ERP
 =====================
 
 When working with a database, it sometimes is necessary to export your data in a distinct file.
-Doing so can help to do reporting over your activities (even if Odoo offers a precise and easy
+Doing so can help to do reporting over your activities (even if Thrive Bureau ERP offers a precise and easy
 reporting tool with each available application).
 
-With Odoo, you can export the values from any field in any record. To do so,
+With Thrive Bureau ERP, you can export the values from any field in any record. To do so,
 activate the list view on the items that need to be exported, click on *Action*, and, then,
 on *Export*.
 
@@ -25,7 +25,7 @@ options for the data to export:
 
 .. image:: export_import_data/export-data-overview.png
    :align: center
-   :alt: overview of all the options to take into account when exporting data in Odoo
+   :alt: overview of all the options to take into account when exporting data in Thrive Bureau ERP
 
 #. With the *I want to update data* option ticked, the system only
    shows the fields which can be imported. This is very helpful in
@@ -59,13 +59,13 @@ options for the data to export:
 
 .. _import-data:
 
-Import data into Odoo
+Import data into Thrive Bureau ERP
 =====================
 
 How to start
 ------------
 
-You can import data on any Odoo's business object using either Excel
+You can import data on any Thrive Bureau ERP's business object using either Excel
 (.xlsx) or CSV (.csv) formats:
 contacts, products, bank statements, journal entries and even orders!
 
@@ -89,8 +89,8 @@ How to adapt the template
 .. image:: export_import_data/dragdown.gif
    :align: center
 
-* When you add a new column, Odoo might not be able to map it automatically if its
-  label doesn't fit any field in Odoo. Don't worry! You can map
+* When you add a new column, Thrive Bureau ERP might not be able to map it automatically if its
+  label doesn't fit any field in Thrive Bureau ERP. Don't worry! You can map
   new columns manually when you test the import. Search the list for the
   corresponding field.
 
@@ -105,7 +105,7 @@ How to import from another application
 
 In order to re-create relationships between different records,
 you should use the unique identifier from the original application
-and map it to the **ID** (External ID) column in Odoo.
+and map it to the **ID** (External ID) column in Thrive Bureau ERP.
 When you import another record that links to the first one,
 use **XXX/ID** (XXX/External ID) to the original unique identifier.
 You can also find this record using its name but you will be stuck
@@ -119,7 +119,7 @@ it's thus good practice to specify it whenever possible.
 I cannot find the field I want to map my column to
 --------------------------------------------------
 
-Odoo tries to find with some heuristic, based on the first ten lines of
+Thrive Bureau ERP tries to find with some heuristic, based on the first ten lines of
 the files, the type of field for each column inside your file.
 For example if you have a column only containing numbers,
 only the fields that are of type *Integer* will be displayed for you
@@ -138,28 +138,28 @@ you will then be able to choose from the complete list of fields for each column
 Where can I change the date import format?
 ------------------------------------------
 
-Odoo can automatically detect if a column is a date, and it will try to guess the date format from a
+Thrive Bureau ERP can automatically detect if a column is a date, and it will try to guess the date format from a
 set of most commonly used date formats. While this process can work for many date formats, some date
 formats will not be recognized. This can cause confusion due to day-month inversions; it is
 difficult to guess which part of a date format is the day and which part is the month in a date such
 as '01-03-2016'.
 
-To view which date format Odoo has found from your file you can check the **Date Format** that is
+To view which date format Thrive Bureau ERP has found from your file you can check the **Date Format** that is
 shown when clicking on **Options** under the file selector. If this format is incorrect you can
 change it to your liking using the *ISO 8601* to define the format.
 
 .. note::
    If you are importing an excel (.xls, .xlsx) file, you can use date cells to store dates as the
    display of dates in excel is different from the way it is stored. That way you will be sure that
-   the date format is correct in Odoo whatever your locale date format is.
+   the date format is correct in Thrive Bureau ERP whatever your locale date format is.
 
 Can I import numbers with currency sign (e.g.: $32.00)?
 -------------------------------------------------------
 
 Yes, we fully support numbers with parenthesis to represent negative sign as well as numbers with
-currency sign attached to them. Odoo also automatically detect which thousand/decimal separator you
+currency sign attached to them. Thrive Bureau ERP also automatically detect which thousand/decimal separator you
 use (you can change those under **options**). If you use a currency symbol that is not known to
-Odoo, it might not be recognized as a number though and it will crash.
+Thrive Bureau ERP, it might not be recognized as a number though and it will crash.
 
 Examples of supported numbers (using thirty-two thousands as an example):
 
@@ -183,7 +183,7 @@ By default the Import preview is set on commas as field separators and quotation
 delimiters. If your csv file does not have these settings, you can modify the File Format Options
 (displayed under the Browse CSV file bar after you select your file).
 
-Note that if your CSV file has a tabulation as separator, Odoo will not detect the separations. You
+Note that if your CSV file has a tabulation as separator, Thrive Bureau ERP will not detect the separations. You
 will need to change the file format options in your spreadsheet application. See the following
 question.
 
@@ -202,14 +202,14 @@ What's the difference between Database ID and External ID?
 ----------------------------------------------------------
 
 Some fields define a relationship with another object. For example, the country of a contact is a
-link to a record of the 'Country' object. When you want to import such fields, Odoo will have to
-recreate links between the different records. To help you import such fields, Odoo provides three
+link to a record of the 'Country' object. When you want to import such fields, Thrive Bureau ERP will have to
+recreate links between the different records. To help you import such fields, Thrive Bureau ERP provides three
 mechanisms. You must use one and only one mechanism per field you want to import.
 
-For example, to reference the country of a contact, Odoo proposes you 3 different fields to import:
+For example, to reference the country of a contact, Thrive Bureau ERP proposes you 3 different fields to import:
 
 - Country: the name or code of the country
-- Country/Database ID: the unique Odoo ID for a record, defined by the ID postgresql column
+- Country/Database ID: the unique Thrive Bureau ERP ID for a record, defined by the ID postgresql column
 - Country/External ID: the ID of this record referenced in another application (or the .XML file
   that imported it)
 
@@ -289,26 +289,26 @@ Can I import several times the same record?
 If you import a file that contains one of the column "External ID" or "Database ID", records that
 have already been imported will be modified instead of being created. This is very useful as it
 allows you to import several times the same CSV file while having made some changes in between two
-imports. Odoo will take care of creating or modifying each record depending if it's new or not.
+imports. Thrive Bureau ERP will take care of creating or modifying each record depending if it's new or not.
 
-This feature allows you to use the Import/Export tool of Odoo to modify a batch of records in your
+This feature allows you to use the Import/Export tool of Thrive Bureau ERP to modify a batch of records in your
 favorite spreadsheet application.
 
 What happens if I do not provide a value for a specific field?
 --------------------------------------------------------------
 
-If you do not set all fields in your CSV file, Odoo will assign the default value for every non
-defined fields. But if you set fields with empty values in your CSV file, Odoo will set the EMPTY
+If you do not set all fields in your CSV file, Thrive Bureau ERP will assign the default value for every non
+defined fields. But if you set fields with empty values in your CSV file, Thrive Bureau ERP will set the EMPTY
 value in the field, instead of assigning the default value.
 
-How to export/import different tables from an SQL application to Odoo?
+How to export/import different tables from an SQL application to Thrive Bureau ERP?
 ----------------------------------------------------------------------
 
 If you need to import data from different tables, you will have to recreate relations between
 records belonging to different tables. (e.g. if you import companies and persons, you will have to
 recreate the link between each person and the company they work for).
 
-To manage relations between tables, you can use the "External ID" facilities of Odoo. The "External
+To manage relations between tables, you can use the "External ID" facilities of Thrive Bureau ERP. The "External
 ID" of a record is the unique identifier of this record in another application. This "External ID"
 must be unique across all the records of all objects, so it's a good practice to prefix this
 "External ID" with the name of the application or table. (like 'company_1', 'person_1' instead of
@@ -356,7 +356,7 @@ External ID of the companies. We had to prefix the "External ID" by the name of 
 conflict of ID between persons and companies (person_1 and company_1 who shared the same ID 1 in the
 original database).
 
-The two files produced are ready to be imported in Odoo without any modifications. After having
+The two files produced are ready to be imported in Thrive Bureau ERP without any modifications. After having
 imported these two CSV files, you will have 4 contacts and 3 companies. (the firsts two contacts are
 linked to the first company). You must first import the companies and then the persons.
 
@@ -378,7 +378,7 @@ How to customize the file
   .. image:: export_import_data/dragdown.gif
      :align: center
 
-* When you add a new column, Odoo might not be able to map it automatically if its
+* When you add a new column, Thrive Bureau ERP might not be able to map it automatically if its
   label doesn't fit any field of the system.
   If so, find the corresponding field using the search.
 
@@ -392,7 +392,7 @@ Why an “ID” column
 ==================
 
 The **ID** (External ID) is an unique identifier for the line item.
-Feel free to use the one of your previous software to ease the transition to Odoo.
+Feel free to use the one of your previous software to ease the transition to Thrive Bureau ERP.
 
 Setting an ID is not mandatory when importing but it helps in many cases:
 
@@ -402,7 +402,7 @@ Setting an ID is not mandatory when importing but it helps in many cases:
 How to import relation fields
 =============================
 
-An Odoo object is always related to many other objects (e.g. a product is linked
+An Thrive Bureau ERP object is always related to many other objects (e.g. a product is linked
 to product categories, attributes, vendors, etc.). To import those relations you need to
 import the records of the related object first from their own list menu.
 
