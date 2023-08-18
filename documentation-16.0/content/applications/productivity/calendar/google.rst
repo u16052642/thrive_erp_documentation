@@ -1,8 +1,8 @@
 =====================================
-Synchronize Google calendar with Odoo
+Synchronize Google calendar with Thrive Bureau ERP
 =====================================
 
-Synchronize Google Calendar with Odoo to see and manage meetings from both platforms (updates go in
+Synchronize Google Calendar with Thrive Bureau ERP to see and manage meetings from both platforms (updates go in
 both directions). This integration helps organize schedules, so a meeting is never missed.
 
 .. seealso::
@@ -31,7 +31,7 @@ in, and store credentials. Click :guilabel:`New Project`.
    :alt: Create a new API project to store credentials.
 
 .. tip::
-   Give the API Project a clear name, like "Odoo Sync", so it can be easily identified.
+   Give the API Project a clear name, like "Thrive Bureau ERP Sync", so it can be easily identified.
 
 Enable Google calendar API
 --------------------------
@@ -64,7 +64,7 @@ Now that the API project has been created, OAuth should be configured. To do tha
    Note, as well, that while the API connection is in the *External* testing mode, then no approval is
    necessary from Google. User limits in this testing mode is set to 100 users.
 
-In the second step, :guilabel:`OAuth Consent Screen`, type `Odoo` in the :guilabel:`App name` field,
+In the second step, :guilabel:`OAuth Consent Screen`, type `Thrive Bureau ERP` in the :guilabel:`App name` field,
 select the email address for the :guilabel:`User support email` field, and type the email address
 for the :guilabel:`Developer contact information` section. Then, click :guilabel:`Save and
 Continue`.
@@ -82,18 +82,18 @@ Now, the OAuth consent has been configured, and it's time to create credentials.
 Create credentials
 ------------------
 
-The *Client ID* and the *Client Secret* are both needed to connect Google Calendar to Odoo. This is
+The *Client ID* and the *Client Secret* are both needed to connect Google Calendar to Thrive Bureau ERP. This is
 the last step in the Google console. Begin by clicking :guilabel:`Credentials` in the left menu.
 Then, click :guilabel:`Create Credentials`, and select :guilabel:`OAuth client ID`, Google will open
 a guide to create credentials.
 
 Under :menuselection:`Create OAuth Client ID`, select :guilabel:`Website application` for the
-:guilabel:`Application Type` field, and type `My Odoo Database` for the :guilabel:`Name`.
+:guilabel:`Application Type` field, and type `My Thrive Bureau ERP Database` for the :guilabel:`Name`.
 
 - Under the :guilabel:`Authorized JavaScript Origins` section, click :guilabel:`+ Add URI` and
-  type the company's Odoo full :abbr:`URL (Uniform Resource Locator)` address.
+  type the company's Thrive Bureau ERP full :abbr:`URL (Uniform Resource Locator)` address.
 - Under the :guilabel:`Authorized redirect URIs` section, click :guilabel:`+ Add URI` and type
-  the company's Odoo :abbr:`URL (Uniform Resource Locator)` address followed by
+  the company's Thrive Bureau ERP :abbr:`URL (Uniform Resource Locator)` address followed by
   `/google_account/authentication`. Finally, click :guilabel:`Create`.
 
 .. image:: google/uri.png
@@ -102,10 +102,10 @@ Under :menuselection:`Create OAuth Client ID`, select :guilabel:`Website applica
 
 A :guilabel:`Client ID` and :guilabel:`Client Secret` will appear, copy these to a notepad.
 
-Setup in Odoo
+Setup in Thrive Bureau ERP
 =============
 
-Once the *Client ID* and the *Client Secret* are located, open the Odoo database and go to
+Once the *Client ID* and the *Client Secret* are located, open the Thrive Bureau ERP database and go to
 :menuselection:`Settings --> General Settings --> Integrations --> Google Calendar`. Check the box
 next to :guilabel:`Google Calendar`.
 
@@ -117,37 +117,37 @@ Next, copy and paste the *Client ID* and the *Client Secret* from the Google Cal
 credentials page into their respective fields below the :guilabel:`Google Calendar` checkbox. Then,
 click :guilabel:`Save`.
 
-Sync calendar in Odoo
+Sync calendar in Thrive Bureau ERP
 =====================
 
-Finally, open the :menuselection:`Calendar` app in Odoo and click on the :guilabel:`Google` sync
-button to sync Google Calendar with Odoo.
+Finally, open the :menuselection:`Calendar` app in Thrive Bureau ERP and click on the :guilabel:`Google` sync
+button to sync Google Calendar with Thrive Bureau ERP.
 
 .. image:: google/sync-google.png
    :align: center
-   :alt: Click the Google sync button in Odoo Calendar to sync Google Calendar with Odoo.
+   :alt: Click the Google sync button in Thrive Bureau ERP Calendar to sync Google Calendar with Thrive Bureau ERP.
 
 .. note::
-   When syncing Google Calendar with Odoo for the first time, the page will redirect to the Google
+   When syncing Google Calendar with Thrive Bureau ERP for the first time, the page will redirect to the Google
    Account. From there, select the :guilabel:`Email Account` that should have access, then select
    :guilabel:`Continue` (should the app be unverifed), and finally select :guilabel:`Continue` (to
    give permission for the transfer of data)`.
 
-.. image:: google/trust-odoo.png
+.. image:: google/trust-Thrive Bureau ERP.png
    :align: center
-   :alt: Give Odoo permission to access Google Calendar.
+   :alt: Give Thrive Bureau ERP permission to access Google Calendar.
 
-Now, Odoo Calendar is successfully synced with Google Calendar!
+Now, Thrive Bureau ERP Calendar is successfully synced with Google Calendar!
 
 .. warning::
-   Odoo highly recommends testing the Google calendar synchronization on a test database and a test
+   Thrive Bureau ERP highly recommends testing the Google calendar synchronization on a test database and a test
    email address (that is not used for any other purpose) before attempting to sync the desired
    Google Calendar with the user's production database.
 
-   Once a user synchronizes their Google calendar with the Odoo calendar:
+   Once a user synchronizes their Google calendar with the Thrive Bureau ERP calendar:
 
-   - Creating an event in Odoo causes Google to send an invitation to all event attendees.
-   - Deleting an event in Odoo causes Google to send a cancellation to all event attendees.
+   - Creating an event in Thrive Bureau ERP causes Google to send an invitation to all event attendees.
+   - Deleting an event in Thrive Bureau ERP causes Google to send a cancellation to all event attendees.
    - Adding a contact to an event causes Google to send an invitation to all event attendees.
    - Removing a contact from an event causes Google to send a cancellation to all event attendees.
 
