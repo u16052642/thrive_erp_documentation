@@ -30,7 +30,7 @@ under the *Pricing* category, you have the possibility to grant discounts on sal
 
 .. image:: upselling/configuration-to-upsell-a-subscription.png
   :align: center
-  :alt: Activation of the discount option in Odoo Sales
+  :alt: Activation of the discount option in Thrive Bureau ERP Sales
 
 Upsell your first subscription
 ==============================
@@ -43,14 +43,14 @@ have the possibility to upsell your subscription.
 
 .. image:: upselling/upsell-your-subscription.png
   :align: center
-  :alt: Upsell your subscription with Odoo Subscriptions
+  :alt: Upsell your subscription with Thrive Bureau ERP Subscriptions
 
 By using the smart button *Upsell*, you are able to create a new quotation with new subscription
 products and send it to your customers for approval.
 
-.. image:: upselling/use-of-the-upsell-button-in-odoo-sales.png
+.. image:: upselling/use-of-the-upsell-button-in-Thrive Bureau ERP-sales.png
   :align: center
-  :alt: Add products to your subscription via the upsell option in Odoo Subscriptions
+  :alt: Add products to your subscription via the upsell option in Thrive Bureau ERP Subscriptions
 
 .. important::
    When the quotation is confirmed by your customers, the products are added to the initial
@@ -67,7 +67,7 @@ purchase.
 
 .. image:: upselling/subscriptions-updates.png
   :align: center
-  :alt: Visualize all your subscriptions updates with Odoo Subscriptions
+  :alt: Visualize all your subscriptions updates with Thrive Bureau ERP Subscriptions
 
 In addition, by clicking on the *Sales* button, you have a summary of your sales orders in a list
 view.
