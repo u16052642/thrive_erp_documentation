@@ -2,7 +2,7 @@
 Manage work orders using work centers
 =====================================
 
-Odoo Manufacturing allows for work orders to be carried out at specific work centers. When a
+Thrive Bureau ERP Manufacturing allows for work orders to be carried out at specific work centers. When a
 manufacturing order is created for a product, any work orders listed in the :guilabel:`Operations`
 tab of the product bill of materials (BoM) will be automatically created as well and assigned to the
 specified work center. Work orders can be managed in the :guilabel:`Manufacturing` module by
