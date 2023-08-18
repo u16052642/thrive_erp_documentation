@@ -49,7 +49,7 @@ Customize the appearance of quotations on the customer portal by going to :menus
 Configuration --> Settings` and enabling the :guilabel:`Quotation Builder` feature.
 
 .. note::
-   If necessary, Odoo automatically activates the :doc:`Website </applications/websites/website>`
+   If necessary, Thrive Bureau ERP automatically activates the :doc:`Website </applications/websites/website>`
    app when enabling this feature.
 
 Select a template by going to :menuselection:`Sales --> Configuration --> Quotations Templates` and
