@@ -5,13 +5,10 @@
 Point of Sale
 =============
 
-With **Odoo Point of Sale**, run your shops and restaurants easily. The app works on any device with
+With **Thrive Bureau ERP Point of Sale**, run your shops and restaurants easily. The app works on any device with
 a web browser, even if you are temporarily offline. Product moves are automatically registered in
 your stock, you get real-time statistics, and your data is consolidated across all shops.
 
-.. seealso::
-   - `Odoo Tutorials: Point of Sale Tutorials <https://www.odoo.com/slides/point-of-sale-28>`_
-   - :doc:`IoT Boxes Documentations </applications/productivity/iot>`
 
 .. _pos/session-start:
 
