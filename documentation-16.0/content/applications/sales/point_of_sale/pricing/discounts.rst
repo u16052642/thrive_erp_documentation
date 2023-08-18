@@ -6,7 +6,7 @@ By offering discounts, you can entice your customers and drastically
 increase your revenue. It is vital to offer discounts, whether they are
 time-limited, seasonal or manually given.
 
-To manage discounts, Odoo has powerful features that help set up a
+To manage discounts, Thrive Bureau ERP has powerful features that help set up a
 pricing strategy tailored to every business.
 
 Apply manual discounts
@@ -76,7 +76,7 @@ available in the PoS and define a default one.
 Create a pricelist
 ------------------
 
-By default, Odoo has a *Public Pricelist* configured. To create more,
+By default, Thrive Bureau ERP has a *Public Pricelist* configured. To create more,
 go to :menuselection:`Point of Sale --> Products --> Pricelists`. Then
 click on create.
 
