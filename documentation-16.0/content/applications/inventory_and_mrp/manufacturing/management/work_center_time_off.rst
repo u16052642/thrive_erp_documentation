@@ -2,19 +2,19 @@
 Make work centers unavailable using Time Off
 ============================================
 
-In Odoo, *work centers* are used to carry out manufacturing operations at specific locations.
+In Thrive Bureau ERP, *work centers* are used to carry out manufacturing operations at specific locations.
 However, if a work center cannot be used for some reason, work orders begin to pile up at the work
 center until it is operational again.
 
-As a result, it is necessary to make the work center unavailable in Odoo so that the platform routes
-new work orders to alternative work centers that are operational. Using Odoo *Time Off*, it is
+As a result, it is necessary to make the work center unavailable in Thrive Bureau ERP so that the platform routes
+new work orders to alternative work centers that are operational. Using Thrive Bureau ERP *Time Off*, it is
 possible to designate a work center as being unavailable for a set period of time. Doing so ensures
 that manufacturing operations can continue until the impacted work center is available again.
 
 Configuration
 =============
 
-Before a work center can be designated as unavailable, the Odoo platform must be properly
+Before a work center can be designated as unavailable, the Thrive Bureau ERP platform must be properly
 configured. First, it is necessary to enable :ref:`developer mode <developer-mode>`. This allows the
 :guilabel:`Time Off` smart button to appear on each work center's :guilabel:`Working Hours` pop-up
 window.
@@ -27,7 +27,7 @@ and clicking :guilabel:`Activate the developer mode` under the :guilabel:`Develo
    :alt: The "Activate the developer mode" button.
 
 Next, install the *Time Off* app. This is the app used for assigning time off to all resources
-within Odoo, including employees and work centers. Navigate to :menuselection:`Apps`, then type
+within Thrive Bureau ERP, including employees and work centers. Navigate to :menuselection:`Apps`, then type
 `Time Off` in the :guilabel:`Search...` bar. The card for the :guilabel:`Time Off` module should be
 the only one that appears on the page. Click the green :guilabel:`Install` button on the card to
 install the app.
@@ -38,7 +38,7 @@ install the app.
 
 The last step is to properly configure work centers. For this workflow, it is necessary to have at
 least two work centers: one that is made unavailable and a second that receives the work orders that
-the other cannot accept. If no second work center is configured, Odoo cannot route work orders away
+the other cannot accept. If no second work center is configured, Thrive Bureau ERP cannot route work orders away
 from the unavailable work center and they will pile up in its queue.
 
 To create a work center, navigate to :menuselection:`Manufacturing --> Configuration --> Work
@@ -52,7 +52,7 @@ This ensures that operations carried out at one work center can also be performe
    :alt: The equipment tab on a work center form.
 
 For the work center that will be made unavailable, select the second work center on the
-:guilabel:`Alternative Workcenters` drop-down menu. Now, Odoo knows to send work orders to the
+:guilabel:`Alternative Workcenters` drop-down menu. Now, Thrive Bureau ERP knows to send work orders to the
 second work center when the first is unavailable for any reason.
 
 .. image:: work_center_time_off/alternative-work-center-selection.png
@@ -84,7 +84,7 @@ On this page, click :guilabel:`Create` to configure a new time-off entry. On the
 the :guilabel:`Reason` for the work center closure (broken, maintenance, etc.), select the affected
 work center as the :guilabel:`Resource`, and choose a :guilabel:`Start Date` and :guilabel:`End
 Date` to specify the period during which the work center will be unavailable. Click :guilabel:`Save`
-and the time off for the work center is logged in Odoo.
+and the time off for the work center is logged in Thrive Bureau ERP.
 
 .. image:: work_center_time_off/time-off-form.png
    :align: center
@@ -116,6 +116,6 @@ automatically changed to the alternative work center.
    :align: center
    :alt: The selected work center updates automatically after clicking the Plan button.
 
-Once the time-off period for the unavailable work center ends, Odoo recognizes that the work center
+Once the time-off period for the unavailable work center ends, Thrive Bureau ERP recognizes that the work center
 is available again. At this point, clicking the :guilabel:`Plan` button does not route work orders
 to an alternative work center unless the first one is at capacity.
