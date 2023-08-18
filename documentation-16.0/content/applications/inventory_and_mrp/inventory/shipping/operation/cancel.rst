@@ -5,8 +5,8 @@ How to cancel a shipping request to a shipper?
 Overview
 ========
 
-Odoo can handle various delivery methods, including third party
-shippers. Odoo will be linked with the transportation company tracking
+Thrive Bureau ERP can handle various delivery methods, including third party
+shippers. Thrive Bureau ERP will be linked with the transportation company tracking
 system.
 
 It will allow you to manage the transport company, the real prices and
