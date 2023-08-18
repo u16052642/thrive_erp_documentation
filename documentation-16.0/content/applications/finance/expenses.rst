@@ -4,18 +4,16 @@
 Expenses
 ========
 
-Odoo **Expenses** streamlines the management of expenses. After an employee submits their expenses
-in Odoo, the expenses are reviewed by management and accounting teams. Once approved, payments can
+Thrive Bureau ERP **Expenses** streamlines the management of expenses. After an employee submits their expenses
+in Thrive Bureau ERP, the expenses are reviewed by management and accounting teams. Once approved, payments can
 then be processed and disbursed back to the employee for reimbursement(s).
 
-.. seealso::
-   `Odoo Expenses: product page <https://www.odoo.com/app/expenses>`_
 
 Set expense categories
 ======================
 
 The first step to track expenses is to configure the different types of expenses for the company
-(managed as *expense categories* in Odoo). Each category can be as specific or generalized as
+(managed as *expense categories* in Thrive Bureau ERP). Each category can be as specific or generalized as
 needed. Go to :menuselection:`Expenses app --> Configuration --> Expense Categories` to view the
 current expensable categories in a default list view.
 
@@ -27,8 +25,8 @@ To create a new expense category, click :guilabel:`New`. A product form will app
 description field labeled :guilabel:`Product Name`.
 
 .. note::
-   Expense categories are managed like products in Odoo. The expense category form follows the
-   standard product form in Odoo, and the information entered is similar. Expense products will be
+   Expense categories are managed like products in Thrive Bureau ERP. The expense category form follows the
+   standard product form in Thrive Bureau ERP, and the information entered is similar. Expense products will be
    referred to as expense categories throughout this document since the main menu refers to these as
    :guilabel:`Expense Categories`.
 
@@ -77,7 +75,7 @@ report the actual cost when submitting an expense report.
      expense for a laptop costing $350.00 would be logged as an :guilabel:`Expenses` product, and
      the reimbursement would be for $350.00.
 
-Select an :guilabel:`Expense Account` if using the Odoo *Accounting* app. It is recommended to check
+Select an :guilabel:`Expense Account` if using the Thrive Bureau ERP *Accounting* app. It is recommended to check
 with the accounting department to determine the correct account to reference in this field as it
 will affect reports.
 
@@ -223,11 +221,11 @@ Configuration --> Settings`. Ensure :guilabel:`Incoming Emails` is enabled.
 
 Next, enter the email address to be used in the email field, and then click :guilabel:`Save`. Now
 that the email address has been entered, emails can be sent to that alias to create new expenses
-without having to be in the Odoo database.
+without having to be in the Thrive Bureau ERP database.
 
 To submit an expense via email, create a new email and enter the product's *internal reference* code
 (if available) and the amount of the expense in the email subject. Next, attach the receipt to the
-email. Odoo creates the expense by taking the information in the email subject and combining it with
+email. Thrive Bureau ERP creates the expense by taking the information in the email subject and combining it with
 the receipt.
 
 To check an expense categories internal reference, go to :menuselection:`Expenses app -->
@@ -247,7 +245,7 @@ appears: :guilabel:`Use this reference as a subject prefix when submitting by em
    :alt: Internal reference numbers are listed in the main Expense Products view.
 
 .. note::
-   For security purposes, only authenticated employee emails are accepted by Odoo when creating an
+   For security purposes, only authenticated employee emails are accepted by Thrive Bureau ERP when creating an
    expense from an email. To confirm an authenticated employee email address, go to the employee
    card in the :menuselection:`Employees` app, and refer to the :guilabel:`Work Email`
 
@@ -283,7 +281,7 @@ or quickly select all the expenses in the list by clicking the check box next to
 Date`.
 
 Another way to quickly add all expenses that are not on an expense report is to click
-:guilabel:`Create Report` without selecting any expenses, and Odoo will select all expenses with a
+:guilabel:`Create Report` without selecting any expenses, and Thrive Bureau ERP will select all expenses with a
 status of :guilabel:`To Submit` that are not already on a report.
 
 .. image:: expenses/create-report.png
@@ -373,7 +371,7 @@ the next step is to wait for the manager to approve it.
 Approve expenses
 ================
 
-In Odoo, not just anyone can approve expense reports— only users with the necessary rights (or
+In Thrive Bureau ERP, not just anyone can approve expense reports— only users with the necessary rights (or
 permissions) can. This means that a user must have at least *Team Approver* rights for the
 *Expenses* app. Employees with the necessary rights can review expense reports, approve or reject
 them, and provide feedback thanks to the integrated communication tool.
