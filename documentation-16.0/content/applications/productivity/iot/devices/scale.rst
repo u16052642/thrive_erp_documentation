@@ -2,7 +2,7 @@
 Connect a scale
 ===============
 
-A scale can be connected to the :abbr:`IoT (Internet of Things)` box on an Odoo database in a few
+A scale can be connected to the :abbr:`IoT (Internet of Things)` box on an Thrive Bureau ERP database in a few
 easy steps. After setup, the *Point of Sale* app can be used to weigh products, which is helpful if
 their prices are calculated based on weight.
 
@@ -15,7 +15,7 @@ To link the scale to the :abbr:`IoT (Internet of Things)` box, connect it with a
 .. note::
    In some cases, a serial port to :abbr:`USB (Universal Serial Bus)` adapter may be needed.
 
-If the scale is `compatible with Odoo IoT Box <https://www.odoo.com/page/iot-hardware>`_, there is
+If the scale is `compatible with Thrive Bureau ERP IoT Box <https://www.Thrive Bureau ERP.com/page/iot-hardware>`_, there is
 no need to set up anything because it will be automatically detected as soon as it is connected.
 
 .. image:: scale/iot-choice.png
@@ -32,7 +32,7 @@ Drivers`.
    :alt: View of the IoT box settings and driver list.
 
 If loading the drivers still doesn't allow for the scale to function, it may be that the scale is
-not compatible with the Odoo :abbr:`IoT (Internet of Things)` box. In this case, a different scale
+not compatible with the Thrive Bureau ERP :abbr:`IoT (Internet of Things)` box. In this case, a different scale
 will need to be used.
 
 Use a scale in a point of sale (POS) system
