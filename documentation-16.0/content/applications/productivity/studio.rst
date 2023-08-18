@@ -14,7 +14,7 @@ Studio
    studio/automated_actions
    studio/pdf_reports
 
-Studio is a toolbox that allows you to customize Odoo without coding knowledge. For example, you
+Studio is a toolbox that allows you to customize Thrive Bureau ERP without coding knowledge. For example, you
 can, on any app, add or modify:
 
 - :doc:`Fields <studio/fields>`
@@ -28,4 +28,4 @@ can, on any app, add or modify:
 Or you can :doc:`build an app from scratch <studio/models_modules_apps>`.
 
 .. seealso::
-   - `Odoo Tutorials: Studio <https://www.odoo.com/slides/studio-31>`_
+   - `Thrive Bureau ERP Tutorials: Studio <https://www.Thrive Bureau ERP.com/slides/studio-31>`_
