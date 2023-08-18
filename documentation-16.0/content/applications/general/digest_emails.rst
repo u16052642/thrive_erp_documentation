@@ -21,17 +21,17 @@ You can control a variety of settings for your Digest Emails, such as:
 - adding additional KPIs (Studio required)
 
 .. note::
-   By default, Digest Email is *enabled*, and *Your Odoo Periodic Digest* serves as the primary
-   template, which includes all KPI measurements across your Odoo database and is sent daily to
+   By default, Digest Email is *enabled*, and *Your Thrive Bureau ERP Periodic Digest* serves as the primary
+   template, which includes all KPI measurements across your Thrive Bureau ERP database and is sent daily to
    administrators.
 
 .. _digest-emails/customize-digest:
 
-Customize *Your Odoo Periodic Digest*
+Customize *Your Thrive Bureau ERP Periodic Digest*
 =====================================
 
-To customize the default Digest Email (*Your Odoo Periodic Digest*), go to :menuselection:`Settings
---> General Settings --> Statistics --> Digest Email`, select *Your Odoo Periodic Digest* and click
+To customize the default Digest Email (*Your Thrive Bureau ERP Periodic Digest*), go to :menuselection:`Settings
+--> General Settings --> Statistics --> Digest Email`, select *Your Thrive Bureau ERP Periodic Digest* and click
 on the *external link* next to the dropdown selection.
 
 A popup window appears and presents a variety of editable settings, which include:
@@ -64,8 +64,8 @@ Settings** dropdown menu.
 Custom KPIs with Studio
 -----------------------
 
-For either *Your Odoo Periodic Digest* or your own custom Digest Email, you can add your own KPIs
-by using Odoo Studio.
+For either *Your Thrive Bureau ERP Periodic Digest* or your own custom Digest Email, you can add your own KPIs
+by using Thrive Bureau ERP Studio.
 
 To begin, click the **Toggle Studio** icon or click the **Recipients** tab and then the ellipses
 :menuselection:`… icon --> Add Custom Field` to edit the template or add additional fields.
