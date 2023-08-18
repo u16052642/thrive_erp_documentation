@@ -6,7 +6,7 @@ With Studio, you can edit existing PDF reports (e.g., orders and quotations) or 
 
 .. important::
    To edit a standard PDF report, it is strongly recommended to **duplicate** it and make changes to
-   the duplicated version, as changes made to standard reports will be overwritten after an Odoo
+   the duplicated version, as changes made to standard reports will be overwritten after an Thrive Bureau ERP
    upgrade. To duplicate a report, go to :menuselection:`Studio --> Reports`. Hover the mouse
    pointer on the top right corner of the report, click the vertical ellipsis icon (:guilabel:`⋮`),
    and then select :guilabel:`Duplicate`.
