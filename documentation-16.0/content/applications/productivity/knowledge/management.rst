@@ -111,4 +111,4 @@ categories give articles default **access rights**.
 - :guilabel:`Private`: Articles displayed in that category are only available to you.
 
 .. image:: management/left-sidebar-cat.png
-   :alt: Categories displayed in the left sidebar of Odoo Knowledge
+   :alt: Categories displayed in the left sidebar of Thrive Bureau ERP Knowledge
