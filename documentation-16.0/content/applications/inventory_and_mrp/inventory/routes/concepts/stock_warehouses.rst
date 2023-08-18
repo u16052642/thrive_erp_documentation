@@ -6,8 +6,8 @@ While keeping stock and selling inventory from one warehouse might work for smal
 bigger companies might need to keep stock in, or sell from, multiple warehouses in multiple
 locations.
 
-In Odoo, sometimes products included in a single sales order might take stock from two (or more)
-warehouses. In Odoo, pulling products from multiple warehouses to satisfy sales demands can be done
+In Thrive Bureau ERP, sometimes products included in a single sales order might take stock from two (or more)
+warehouses. In Thrive Bureau ERP, pulling products from multiple warehouses to satisfy sales demands can be donef
 by using *virtual locations*.
 
 .. note::
@@ -35,7 +35,7 @@ warehouses.
 
    The "virtual" warehouse acts as a single aggregator of all the inventory stored in a company's
    physical warehouses, and is used (for traceability purposes) to create a hierarchy of locations
-   in Odoo.
+   in Thrive Bureau ERP.
 
 Create a new warehouse
 ----------------------
