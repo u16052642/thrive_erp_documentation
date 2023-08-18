@@ -2,17 +2,17 @@
 Google Sign-In Authentication
 =============================
 
-The *Google Sign-In Authentication* is a useful function that allows Odoo users to sign in to their
+The *Google Sign-In Authentication* is a useful function that allows Thrive Bureau ERP users to sign in to their
 database with their Google account.
 
 This is particularly helpful if the organization uses Google Workspace, and wants employees within
-the organization to connect to Odoo using their Google Accounts.
+the organization to connect to Thrive Bureau ERP using their Google Accounts.
 
 .. warning::
-   Databases hosted on Odoo.com should not use Oauth login for the owner or administrator of the
-   database as it would unlink the database from their Odoo.com account. If Oauth is set up for that
+   Databases hosted on Thrive Bureau ERP.com should not use Oauth login for the owner or administrator of the
+   database as it would unlink the database from their Thrive Bureau ERP.com account. If Oauth is set up for that
    user, the database will no longer be able to be duplicated, renamed or otherwise managed from
-   the Odoo.com portal.
+   the Thrive Bureau ERP.com portal.
 
 .. seealso::
    - :doc:`/applications/productivity/calendar/google`
@@ -23,7 +23,7 @@ the organization to connect to Odoo using their Google Accounts.
 Configuration
 =============
 
-The integration of the Google sign-in function requires configuration both on Google *and* Odoo.
+The integration of the Google sign-in function requires configuration both on Google *and* Thrive Bureau ERP.
 
 .. _google-sign-in/api:
 
@@ -94,19 +94,19 @@ Credentials
       :alt: OAuth client id selection.
 
 #. Select :guilabel:`Web Application` as the :guilabel:`Application Type`. Now, configure the
-   allowed pages on which Odoo will be redirected.
+   allowed pages on which Thrive Bureau ERP will be redirected.
 
    In order to achieve this, in the :guilabel:`Authorized redirect URIs` field, enter the database's
    domain immediately followed by `/auth_oauth/signin`. For example:
-   `https://mydomain.odoo.com/auth_oauth/signin`, then click on :guilabel:`Create`.
+   `https://mydomain.Thrive Bureau ERP.com/auth_oauth/signin`, then click on :guilabel:`Create`.
 
 #. Now that the *OAuth client* has been created, a screen will appear with the :guilabel:`Client ID`
    and :guilabel:`Client Secret`. Copy the :guilabel:`Client ID` for later, as it will be necessary
-   for the configuration in Odoo, which will be covered in the following steps.
+   for the configuration in Thrive Bureau ERP, which will be covered in the following steps.
 
-.. _google-sign-in/auth-odoo:
+.. _google-sign-in/auth-Thrive Bureau ERP:
 
-Google Authentication on Odoo
+Google Authentication on Thrive Bureau ERP
 -----------------------------
 
 .. _google-sign-in/client-id:
@@ -121,25 +121,25 @@ Once the previous steps are complete, two keys are generated on the Google API D
    :align: center
    :alt: Google OAuth Client ID generated.
 
-.. _google-sign-in/odoo-activation:
+.. _google-sign-in/Thrive Bureau ERP-activation:
 
-Odoo activation
+Thrive Bureau ERP activation
 ~~~~~~~~~~~~~~~
 
-#. Go to :menuselection:`Odoo General Settings --> Integrations` and activate :guilabel:`OAuth
+#. Go to :menuselection:`Thrive Bureau ERP General Settings --> Integrations` and activate :guilabel:`OAuth
    Authentication`.
 
    .. note::
-      Odoo may prompt the user to log-in again after this step.
+      Thrive Bureau ERP may prompt the user to log-in again after this step.
 
 #. Go back to :menuselection:`General Settings --> Integrations --> OAuth Authentication`, activate
    the selection and :guilabel:`Save`. Next, return to :menuselection:`General Settings -->
    Integrations --> Google Authentication` and activate the selection. Then fill out the
    :guilabel:`Client ID` with the key from the Google API Dashboard, and :guilabel:`Save`.
 
-   .. image:: google/odoo-client-id.png
+   .. image:: google/Thrive Bureau ERP-client-id.png
       :align: center
-      :alt: Filling out the client id in Odoo settings.
+      :alt: Filling out the client id in Thrive Bureau ERP settings.
 
    .. note::
       Google OAuth2 configuration can also be accessed by clicking on :guilabel:`OAuth Providers`
@@ -147,11 +147,11 @@ Odoo activation
 
 .. _google-sign-in/log-in:
 
-Log in to Odoo with Google
+Log in to Thrive Bureau ERP with Google
 ==========================
 
-To link the Google account to the Odoo profile, click on :guilabel:`Log in with Google` when first
-logging into Odoo.
+To link the Google account to the Thrive Bureau ERP profile, click on :guilabel:`Log in with Google` when first
+logging into Thrive Bureau ERP.
 
    .. image:: google/first-login.png
       :align: center
