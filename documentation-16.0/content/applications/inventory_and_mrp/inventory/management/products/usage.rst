@@ -2,7 +2,7 @@
 Units of measure, packages, and packagings
 ==========================================
 
-In Odoo, there are a variety of ways to specify the amount of products being bought, stocked, and
+In Thrive Bureau ERP, there are a variety of ways to specify the amount of products being bought, stocked, and
 sold. *Units of measure*, *packages*, and *packagings* are all available to streamline inventory
 flows, allowing for a variety of configurations for products as they enter and leave the warehouse.
 
@@ -13,7 +13,7 @@ A *unit of measure (UoM)* refers to any of the different standards used to measu
 quanitifiable amount of products, such a units, weight, time, or size. Different :abbr:`UoMs (Units
 of Measure)` for weight, for example, can be kilos, pounds, ounces, grams, and so on.
 
-In Odoo, stock management and purchasing from suppliers are streamlined by specifying different
+In Thrive Bureau ERP, stock management and purchasing from suppliers are streamlined by specifying different
 :abbr:`UoMs (Units of Measure)` for both buying and selling products.
 
 .. image:: usage/uom-on-product-form.png
@@ -21,7 +21,7 @@ In Odoo, stock management and purchasing from suppliers are streamlined by speci
    :alt: Specify unit of measure for selling a product vs purchasing.
 
 Once a product has a default :guilabel:`Unit of Measure` and :guilabel:`Purchase Unit of Measure`
-set on the product form, Odoo automatically converts the different units in the product's
+set on the product form, Thrive Bureau ERP automatically converts the different units in the product's
 purchase/sales orders and the corresponding delivery orders/receipts.
 
 The only condition is that all of the units have to be in the *same category* (unit, weight, volume,
@@ -78,7 +78,7 @@ of erasers.
    Products do *not* have to be divided equally. Products can be divided into as many packages that
    are needed to accommodate the :abbr:`SO (Sales Order)`.
 
-In Odoo, the quantity of products in each package needs to be recorded, so there is a full history
+In Thrive Bureau ERP, the quantity of products in each package needs to be recorded, so there is a full history
 for each product, including which package each item is shipped out in.
 
 To use this method, ensure the :guilabel:`Packages` option is enabled, by navigating to
@@ -122,7 +122,7 @@ specify which products are intended for which package.
    Type in `10` under the :guilabel:`Done` field to package 10 products into the
    :guilabel:`Destination Package`. To specify the destination package, type the name of an existing
    package (such as `PACK0000006`) under the field, :guilabel:`Destination Package`. If the package
-   does not exist, Odoo displays the :guilabel:`Create` button to create a new package. Click
+   does not exist, Thrive Bureau ERP displays the :guilabel:`Create` button to create a new package. Click
    :guilabel:`Add a line` to assign the remaining products in another package, `PACK0000007`.
 
    .. image:: usage/add-destination-package.png
@@ -170,7 +170,7 @@ navigate to :menuselection:`Inventory app --> Configuration --> Settings`. Then,
 :guilabel:`Products` heading, check the box next to :guilabel:`Product Packagings`, and click
 :guilabel:`Save`.
 
-In Odoo, product packagings are used on sales/purchase orders and inventory transfers.
+In Thrive Bureau ERP, product packagings are used on sales/purchase orders and inventory transfers.
 
 Next, to create packagings, navigate to :menuselection:`Inventory app --> Products --> Products` and
 click on the desired product, then click :guilabel:`Edit` on the product page.
@@ -240,6 +240,6 @@ used for the product(s). The chosen packaging is displayed on the :abbr:`SO (Sal
       :alt: Assign packagings on the Sales Order Line.
 
 .. tip::
-   Packaging can be used in conjunction with Odoo :ref:`Barcode <inventory/barcode/software>`. When
+   Packaging can be used in conjunction with Thrive Bureau ERP :ref:`Barcode <inventory/barcode/software>`. When
    receiving products from suppliers, scanning the packaging barcode automatically adds the number
    of units in the packaging to the internal count of the product.
