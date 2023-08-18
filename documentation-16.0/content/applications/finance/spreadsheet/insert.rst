@@ -1,5 +1,5 @@
 ==============
-Link Odoo data
+Link Thrive Bureau ERP data
 ==============
 
 You can insert and link several elements from your database in your spreadsheets, namely:
