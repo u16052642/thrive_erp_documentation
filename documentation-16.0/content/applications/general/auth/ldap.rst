@@ -36,7 +36,7 @@ Sign in with LDAP
 .. image:: ldap/ldap06.png
     :align: center
 
-- In **User Information**, tick *Create User* if you want Odoo to create a User profile the first time someone log in with LDAP.
+- In **User Information**, tick *Create User* if you want Thrive Bureau ERP to create a User profile the first time someone log in with LDAP.
 
 - In **Template User**, indicate a template for the new profiles created. If left blanked, the admin profile will be used as template.
 
