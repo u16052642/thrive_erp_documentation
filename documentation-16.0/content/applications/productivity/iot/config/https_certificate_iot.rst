@@ -21,7 +21,7 @@ known as *Secure Sockets Layer* (SSL).
 particular provider is who they say they are.
 
 .. note::
-   In this documentation and throughout Odoo the term "HTTPS certificate" will be used to define the
+   In this documentation and throughout Thrive Bureau ERP the term "HTTPS certificate" will be used to define the
    fact that the :abbr:`SSL (Secure Sockets Layer)` certificate is valid and allows a :abbr:`HTTPS
    (Hypertext Transfer Protocol Secure)` connection.
 
@@ -38,7 +38,7 @@ How to obtain a Hypertext Transfer Protocol Secure (HTTPS) certificate
 
 The generation of the :abbr:`HTTPS (Hypertext Transfer Protocol Secure)` certificate is automatic.
 
-The :abbr:`IoT (Internet of Things)` Box will send a specific request to `<https://www.odoo.com>`_
+The :abbr:`IoT (Internet of Things)` Box will send a specific request to `<https://www.Thrive Bureau ERP.com>`_
 which will send back the :abbr:`HTTPS (Hypertext Transfer Protocol Secure)` certificate if the
 :abbr:`IoT (Internet of Things)` box and database are eligible.
 
@@ -49,17 +49,17 @@ Internet of Things (IoT) eligibility
 
  #. The database should be a **production** instance. The database instance should not be a copy, a
     duplicate, a staging, or a development environment.
- #. The Odoo subscription must:
+ #. The Thrive Bureau ERP subscription must:
 
      - Have an :guilabel:`IoT Box Subscription` line.
      - :guilabel:`Status` must be :guilabel:`In Progress`.
 
-    If the subscription is linked to a `<https://www.odoo.com>`_ portal user check the information
+    If the subscription is linked to a `<https://www.Thrive Bureau ERP.com>`_ portal user check the information
     on the portal subscription page.
 
     .. figure:: https_certificate_iot/sub-example-in-progress.png
        :align: center
-       :alt: Odoo.com portal subscriptions filtered by "in progress".
+       :alt: Thrive Bureau ERP.com portal subscriptions filtered by "in progress".
 
        In this case, both subscriptions are considered "in progress" as the :guilabel:`Filter By\:
        In Progress` was used.
@@ -84,7 +84,7 @@ specific error will code be given on the :abbr:`IoT (Internet of Things)` box ho
 -------------------------------
 
 Reason:
-    The configuration regarding the server is missing. In other words, the Odoo instance is not
+    The configuration regarding the server is missing. In other words, the Thrive Bureau ERP instance is not
     connected with the IoT box.
 
 Solution:
@@ -118,12 +118,12 @@ Solution:
 
 Reason:
     An unexpected error happened when the :abbr:`IoT (Internet of Things)` box tried to reach
-    `<https://www.odoo.com>`_. The causes are likely due to the network
+    `<https://www.Thrive Bureau ERP.com>`_. The causes are likely due to the network
     infrastructure/configuration:
 
      - The :abbr:`IoT (Internet of Things)` box does not have access to internet.
      - The network does not allow the :abbr:`IoT (Internet of Things)` box to communicate with
-       `<https://www.odoo.com>`_. This may be due to network devices preventing the communication
+       `<https://www.Thrive Bureau ERP.com>`_. This may be due to network devices preventing the communication
        (firewalls, etc.) or the network configuration (:abbr:`VPN (Virtual Private Network)`,
        etc.).
 
@@ -134,14 +134,14 @@ Reason:
 Solution:
     .. warning::
        Consult with your system or network administrator should this issue arise. This error code
-       depends on the network infrastructure and goes beyond :doc:`Odoo support's service scope
+       depends on the network infrastructure and goes beyond :doc:`Thrive Bureau ERP support's service scope
        </services/support/what_can_i_expect>`.
 
 `ERR_IOT_HTTPS_LOAD_REQUEST_STATUS`
 -----------------------------------
 
 Reason:
-    The IoT-box was able to reach `<https://www.odoo.com>`_ but received an unusual
+    The IoT-box was able to reach `<https://www.Thrive Bureau ERP.com>`_ but received an unusual
     `HTTP response (status codes)
     <https://developer.mozilla.org/en-US/docs/Web/HTTP/Status>`_.
 
@@ -150,20 +150,20 @@ Reason:
     the "Page Not Found" code.
 
 Solution:
-    Check if `<https://www.odoo.com>`_ is down using a web browser, as it's possible that it is down
+    Check if `<https://www.Thrive Bureau ERP.com>`_ is down using a web browser, as it's possible that it is down
     due to maintenance.
 
-     - If `<https://www.odoo.com>`_ is down due to maintenance, unfortunately there is nothing that
+     - If `<https://www.Thrive Bureau ERP.com>`_ is down due to maintenance, unfortunately there is nothing that
        can be done but instead wait for it to recover.
-     - If `<https://www.odoo.com>`_ is not down due to maintenance, open a `support ticket
-       <https://www.odoo.com/help>`_ on the matter. Ensure that the 3 digits status code next to the
+     - If `<https://www.Thrive Bureau ERP.com>`_ is not down due to maintenance, open a `support ticket
+       <https://www.Thrive Bureau ERP.com/help>`_ on the matter. Ensure that the 3 digits status code next to the
        code error is included in the support ticket.
 
 `ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT`
 --------------------------------------
 
 Reason:
-    The :abbr:`IoT (Internet of Things)` box was able to reach `<https://www.odoo.com>`_ but it
+    The :abbr:`IoT (Internet of Things)` box was able to reach `<https://www.Thrive Bureau ERP.com>`_ but it
     refused to deliver the :abbr:`HTTPS (Hypertext Transfer Protocol Secure)` certificate.
 
 Solution:
@@ -175,12 +175,12 @@ How to ensure that the HTTPS certificate is correct
 
 If the certificate has been applied successfully, a new :abbr:`HTTPS (Hypertext Transfer Protocol
 Secure)` :abbr:`URL (Uniform Resource Locator)` for the :abbr:`IoT (Internet of Things)` box ending
-with `.odoo-iot.com` will appear on the Odoo database, inside of the :menuselection:`IoT`
+with `.Thrive Bureau ERP-iot.com` will appear on the Thrive Bureau ERP database, inside of the :menuselection:`IoT`
 application on that specific device's form.
 
-.. image:: https_certificate_iot/odoo-new-domain.png
+.. image:: https_certificate_iot/Thrive Bureau ERP-new-domain.png
    :align: center
-   :alt: Odoo IoT app IoT box with .odoo-iot.com domain.
+   :alt: Thrive Bureau ERP IoT app IoT box with .Thrive Bureau ERP-iot.com domain.
 
 When navigating to the :abbr:`URL (Uniform Resource Locator)` in a browser a secured :abbr:`HTTPS
 (Hypertext Transfer Protocol Secure)` connection will be established.
@@ -203,7 +203,7 @@ Domain Name System (DNS) issue
 ==============================
 
 If the :abbr:`IoT (Internet of Things)` box can be accessed from its :abbr:`IP (Intrernet Protocol)`
-address but not the Odoo assigned domain: `.odoo-iot.com`; then the :abbr:`IoT (Internet of Things)`
+address but not the Thrive Bureau ERP assigned domain: `.Thrive Bureau ERP-iot.com`; then the :abbr:`IoT (Internet of Things)`
 box is likely running into a :abbr:`DNS (Domain Name System)` issue. On some browsers, it will give
 an error code mentioning :abbr:`DNS (Domain Name System)` (like `DNS_PROBE_FINISHED_NXDOMAIN`).
 
@@ -256,5 +256,5 @@ Domain Name System (DNS) issue solution
 
    .. warning::
       Consult with your system or network administrator should this issue arise. This error code
-      depends on the network infrastructure, and it goes beyond :doc:`Odoo support's service scope
+      depends on the network infrastructure, and it goes beyond :doc:`Thrive Bureau ERP support's service scope
       </services/support/what_can_i_expect>`.
