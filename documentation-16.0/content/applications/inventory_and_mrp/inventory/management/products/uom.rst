@@ -10,12 +10,12 @@ in a country that uses the imperial system, so the business needs to convert the
 case for unit conversion is when a business buys products in a big pack from a supplier and then
 sells those products in individual units.
 
-Odoo can be set up to use different units of measure for one product.
+Thrive Bureau ERP can be set up to use different units of measure for one product.
 
 Configuration
 =============
 
-To use different units of measure in Odoo, first go to :menuselection:`Inventory --> Configuration
+To use different units of measure in Thrive Bureau ERP, first go to :menuselection:`Inventory --> Configuration
 --> Settings --> Products` and activate the :guilabel:`Units of Measure` setting. Then, click
 :guilabel:`Save`.
 
@@ -28,7 +28,7 @@ Units of measure categories
 
 After enabling the units of measure setting, view the default units of measure categories in
 :menuselection:`Inventory --> Configuration --> Units of Measures --> UoM Categories`. The
-category is important for unit conversion, Odoo can only convert a product's units from one unit to
+category is important for unit conversion, Thrive Bureau ERP can only convert a product's units from one unit to
 another only if both units belong to the same category.
 
 .. image:: uom/uom-categories.png
@@ -36,7 +36,7 @@ another only if both units belong to the same category.
    :alt: Set units of measure categories.
 
 Each units of measure category has a reference unit. The reference unit is highlighted in blue in
-the :guilabel:`Uom` column of the :guilabel:`Units of Measure Categories` page. Odoo uses the
+the :guilabel:`Uom` column of the :guilabel:`Units of Measure Categories` page. Thrive Bureau ERP uses the
 reference unit as a base for any new units.
 
 To create a new unit, first select the correct category. For example, to sell a product in a box of
@@ -73,12 +73,12 @@ Unit conversion
 Buy products in the Purchase UoM
 --------------------------------
 
-When creating a new request for quotation (RFQ) in the Purchase app, Odoo automatically uses the
+When creating a new request for quotation (RFQ) in the Purchase app, Thrive Bureau ERP automatically uses the
 product's specified purchase unit of measure. However, if needed, the :guilabel:`UoM` can be
 manually edited on the RFQ.
 
 After the RFQ is confirmed into a purchase order (PO), click on the :guilabel:`Receipt` smart
-button at the top right corner of the PO. Odoo automatically converts the purchase unit of measure
+button at the top right corner of the PO. Thrive Bureau ERP automatically converts the purchase unit of measure
 into the product's sales/inventory unit of measure, so the :guilabel:`Demand` column of the
 delivery receipt shows the converted quantity.
 
@@ -101,11 +101,11 @@ to open the draft RFQ. The purchase UoM can also be edited here if needed.
 Sell in a different UoM
 -----------------------
 
-When creating a new quotation in the Sales app, Odoo automatically uses the product's specified
+When creating a new quotation in the Sales app, Thrive Bureau ERP automatically uses the product's specified
 unit of measure. However, if needed, the :guilabel:`UoM` can be manually edited on the quotation.
 
 After the quotation is sent to the customer and confirmed into a sales order (SO), click on the
-:guilabel:`Delivery` smart button at the top right corner of the SO. Odoo automatically converts
+:guilabel:`Delivery` smart button at the top right corner of the SO. Thrive Bureau ERP automatically converts
 the unit of measure into the product's inventory unit of measure, so the :guilabel:`Demand` column
 of the delivery shows the converted quantity.
 
