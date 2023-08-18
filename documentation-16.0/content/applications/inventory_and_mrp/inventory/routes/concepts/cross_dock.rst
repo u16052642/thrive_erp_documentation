@@ -12,7 +12,7 @@ to reorganize products and load another truck.
 .. note::
    For more information on how to organize your warehouse, read our blog: `What is cross-docking and
    is it for me?
-   <https://www.odoo.com/blog/business-hacks-1/post/what-is-cross-docking-and-is-it-for-me-270>`_
+
 
 Configuration
 =============
@@ -52,7 +52,7 @@ product and set a price for it.
 .. image:: cross_dock/cross6.png
    :align: center
 
-Once done, create a sale order for the product and confirm it. Odoo will automatically create two
+Once done, create a sale order for the product and confirm it. Thrive Bureau ERP will automatically create two
 transfers which will be linked to the sale order. The first one is the transfer from the *Input
 Location* to the *Output Location*, corresponding to the move of the product in the *Cross-Dock*
 area. The second one is the delivery order from the *Output Location* to your *Customer Location.
