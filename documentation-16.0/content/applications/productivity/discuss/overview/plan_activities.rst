@@ -9,12 +9,12 @@ activities and reduce the chance of having overlapping actions between team memb
 Where do I see my schedule activities?
 ======================================
 
-Access and manage your activities wherever you are in Odoo by the *Activities* menu.
+Access and manage your activities wherever you are in Thrive Bureau ERP by the *Activities* menu.
 
 .. image:: plan_activities/activities_menu.png
    :align: center
    :height: 300
-   :alt: View of crm leads page emphasizing the activities menu for Odoo Discuss
+   :alt: View of crm leads page emphasizing the activities menu for Thrive Bureau ERP Discuss
 
 Plan activities
 ===============
@@ -25,18 +25,18 @@ or through Kanban views.
 .. image:: plan_activities/schedule_activity.png
    :align: center
    :height: 300
-   :alt: View of crm leads and the option to schedule an activity for Odoo Discuss
+   :alt: View of crm leads and the option to schedule an activity for Thrive Bureau ERP Discuss
 
 Set your activity types
 -----------------------
 
-A number of activities types are available by default in Odoo (call, email, meeting, etc.). However,
+A number of activities types are available by default in Thrive Bureau ERP (call, email, meeting, etc.). However,
 you can set new ones going to :menuselection:`Settings --> Activity types`.
 
 .. image:: plan_activities/settings_activities_types.png
    :align: center
    :height: 300
-   :alt: View of the settings page emphasizing the menu activity types for Odoo Discuss
+   :alt: View of the settings page emphasizing the menu activity types for Thrive Bureau ERP Discuss
 
 .. tip::
    If you need to create an activity type with an available calendar, make sure to create
@@ -45,11 +45,11 @@ you can set new ones going to :menuselection:`Settings --> Activity types`.
 Recommend next activities
 -------------------------
 
-Odoo helps you to plan a flow of activities by allowing you to set *Recommended Next Activities*.
+Thrive Bureau ERP helps you to plan a flow of activities by allowing you to set *Recommended Next Activities*.
 
 .. image:: plan_activities/recommended_activities.png
    :align: center
-   :alt: View of an activity type form emphasizing the field recommended next activities for Odoo
+   :alt: View of an activity type form emphasizing the field recommended next activities for Thrive Bureau ERP
          Discuss
 
 Once the respective activity is completed, select *Done & Schedule Next* and next steps are
@@ -58,7 +58,7 @@ suggested to you.
 .. image:: plan_activities/schedule_recommended_activity.png
    :align: center
    :alt: View of an activity being schedule emphasizing the recommended activities field being
-         shown for Odoo Discuss
+         shown for Thrive Bureau ERP Discuss
 
 .. seealso::
    - :doc:`get_started`
