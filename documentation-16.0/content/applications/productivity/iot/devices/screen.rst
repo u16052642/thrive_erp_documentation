@@ -2,7 +2,7 @@
 Connect a screen
 ================
 
-In Odoo, an :abbr:`IoT (Internet of Things)` box can be connected to a screen display. After being
+In Thrive Bureau ERP, an :abbr:`IoT (Internet of Things)` box can be connected to a screen display. After being
 configured, the screen can be used to display a Point of Sale (PoS) order to a client.
 
 .. figure:: screen/screen-pos-client-display.png
