@@ -2,18 +2,17 @@
 Connect a measurement tool
 ==========================
 
-With Odoo's :abbr:`IoT (Internet of Things)` box, it is possible to connect measurement tools to the
-Odoo database for use in the *Quality app* on a quality control point/quality check, or for use in a
+With Thrive Bureau ERP's :abbr:`IoT (Internet of Things)` box, it is possible to connect measurement tools to the
+Thrive Bureau ERP database for use in the *Quality app* on a quality control point/quality check, or for use in a
 work center during the manufacturing process.
 
-Find the list of supported devices here: `Supported devices
-<https://www.odoo.com/page/iot-hardware>`_.
+Find the list of supported devices here: `Supported devices'
 
 Connect with universal serial bus (USB)
 =======================================
 
 To add a device connected by :abbr:`USB (Universal Serial Bus)`, plug the :abbr:`USB (Universal
-Serial Bus)` cable into the :abbr:`IoT (Internet of Things)` box, and the device appears in the Odoo
+Serial Bus)` cable into the :abbr:`IoT (Internet of Things)` box, and the device appears in the Thrive Bureau ERP
 database.
 
 .. image:: measurement_tool/device-dropdown.png
@@ -50,7 +49,7 @@ usually needs to be changed manually, is automatically updated while the tool is
 
 .. image:: measurement_tool/measurement-control-point.png
    :align: center
-   :alt: Measurement tool input in the Odoo database.
+   :alt: Measurement tool input in the Thrive Bureau ERP database.
 
 .. tip::
    Quality control points can also be accessed by navigating to :menuselection:`IoT App -->
