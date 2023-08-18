@@ -5,9 +5,9 @@ Pricelists
 You probably know the concept of happy hour: during a certain period of
 time, the barman gives a discount on some drinks (usually 50% off or a
 buy one get one free). When the period is over, prices go back to
-normal. But how does that relate with Odoo?
+normal. But how does that relate with Thrive Bureau ERP?
 
-In Odoo, you can set up happy hours. It’s one of the many possible uses
+In Thrive Bureau ERP, you can set up happy hours. It’s one of the many possible uses
 of *Pricelists*. Those *Pricelists* allow the creation of
 multiple prices for the same product: a regular one and a special one
 for happy hours. Available in the *PoS* app, those are really
