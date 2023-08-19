@@ -12,8 +12,8 @@ should have one and only one title ``<h1>``, meta tags
 consistent with the content, your website should have a
 ``/sitemap.xml`` file, etc.
 
-To guarantee Odoo Website and Odoo
-eCommerce users have a great SEO, Odoo abstracts all the technical
+To guarantee Thrive Bureau ERP Website and Thrive Bureau ERP
+eCommerce users have a great SEO, Thrive Bureau ERP abstracts all the technical
 complexities of SEO and handles everything for you, in the best possible
 way. This will be explained here below.
 
@@ -38,7 +38,7 @@ be downgraded by search engines.
 Keywords
 --------
 
-In order to write quality content and boost your traffic, Odoo provides
+In order to write quality content and boost your traffic, Thrive Bureau ERP provides
 a ``<keyword>`` finder. Those keywords are the searches you want to head
 towards your website. For each keyword, you see how it is used in the content
 (H1, H2, page title, page description, page content) and what are the related
@@ -55,27 +55,27 @@ searches in Google. The more keywords are used the better.
 Content is King
 ===============
 
-When it comes to SEO, content is usually king. Odoo provides several
+When it comes to SEO, content is usually king. Thrive Bureau ERP provides several
 modules to help you build your website content:
 
-- **Odoo Blogs**: write great contents.
+- **Thrive Bureau ERP Blogs**: write great contents.
 
-- **Odoo Slides**: publish all your Powerpoint or PDF presentations.
+- **Thrive Bureau ERP Slides**: publish all your Powerpoint or PDF presentations.
   Their content is automatically indexed on the web page. Example:
-  `odoo.com/slides/public-channel-1 <https://www.odoo.com/slides/public-channel-1>`_
+  `Thrive Bureau ERP.com/slides/public-channel-1 <https://www.Thrive Bureau ERP.com/slides/public-channel-1>`_
 
-- **Odoo Forum**: let your community create contents for you. Example:
-  `odoo.com/forum/1 <https://odoo.com/forum/1>`_
-  (accounts for 30% of Odoo.com landing pages)
+- **Thrive Bureau ERP Forum**: let your community create contents for you. Example:
+  `Thrive Bureau ERP.com/forum/1 <https://Thrive Bureau ERP.com/forum/1>`_
+  (accounts for 30% of Thrive Bureau ERP.com landing pages)
 
-- **Odoo Mailing List Archive**: publish mailing list archives on your
+- **Thrive Bureau ERP Mailing List Archive**: publish mailing list archives on your
   website. Example:
-  `odoo.com/groups/community-59 <https://www.odoo.com/groups/community-59>`_
+  `Thrive Bureau ERP.com/groups/community-59 <https://www.Thrive Bureau ERP.com/groups/community-59>`_
   (1000 pages created per month)
 
 .. note::
   The 404 page is a regular page, that you can edit like any other
-  page in Odoo. That way, you can build a great 404 page to redirect to
+  page in Thrive Bureau ERP. That way, you can build a great 404 page to redirect to
   the top content of your website when visitors get lost in invalid URLs.
 
 Use Social Networks
@@ -85,12 +85,12 @@ Social media is built for mass sharing. If lots of people share your content
 on social media, then it's likely more people will link to it,
 and links are a huge factor for SEO ranking.
 
-Odoo embeds several tools to share content through social media:
+Thrive Bureau ERP embeds several tools to share content through social media:
 
 Social Network
 --------------
 
-Odoo allows to link all your social network accounts in your website footer.
+Thrive Bureau ERP allows to link all your social network accounts in your website footer.
 All you have to do is to refer all your accounts in your company settings.
 
 .. image:: seo/seo03.png
@@ -107,7 +107,7 @@ wall.
    :align: center
 
 Most social media use a picture of the picture to decorate the share post.
-Odoo uses the website logo by default but you can choose any other image
+Thrive Bureau ERP uses the website logo by default but you can choose any other image
 of your page in the Promote tool.
 
 .. image:: seo/seo05.png
@@ -129,19 +129,19 @@ This will increase the number of tweets and shares.
 Test Your Website
 =================
 
-You can compare how your website rank, in terms of SEO, against Odoo
+You can compare how your website rank, in terms of SEO, against Thrive Bureau ERP
 using WooRank free services:
 `woorank.com <https://www.woorank.com>`_
 
 URLs Handling
 =============
 
-This section sheds some light on how Odoo makes URLs SEO-friendly.
+This section sheds some light on how Thrive Bureau ERP makes URLs SEO-friendly.
 
 URLs Structure
 --------------
 
-A typical Odoo URL will look like this:
+A typical Thrive Bureau ERP URL will look like this:
 
 - https://www.mysite.com/fr\_FR/shop/product/my-great-product-31
 
@@ -182,19 +182,19 @@ an example, the following URLs all do a 301 redirect to the above URL:
 Some URLs have several dynamic parts, like this one (a blog category and
 a post):
 
--  https://www.odoo.com/blog/company-news-5/post/the-odoo-story-56
+-  https://www.Thrive Bureau ERP.com/blog/company-news-5/post/the-Thrive Bureau ERP-story-56
 
 In the above example:
 
 -  *Company News* is the title of the blog
 
--  *The Odoo Story* is the title of a specific blog post
+-  *The Thrive Bureau ERP Story* is the title of a specific blog post
 
-When an Odoo page has a pager, the page number is set directly in the
+When an Thrive Bureau ERP page has a pager, the page number is set directly in the
 URL (does not have a GET argument). This allows every page to be indexed
 by search engines. Example:
 
--  https://www.odoo.com/blog/page/3
+-  https://www.Thrive Bureau ERP.com/blog/page/3
 
 Changes in URLs & Titles
 ------------------------
@@ -202,7 +202,7 @@ Changes in URLs & Titles
 When the URL of a page changes (e.g. a more SEO friendly version of your
 product name), you don't have to worry about updating all links:
 
--  Odoo will automatically update all its links to the new URL.
+-  Thrive Bureau ERP will automatically update all its links to the new URL.
 
 - If external websites still points to the old URL, a 301 redirect will
   be done to route visitors to the new address of the page.
@@ -224,7 +224,7 @@ HTTPS
 -----
 
 Search engines boost ranking of secure HTTPS/SSL websites.
-So, by default all Odoo Online instances are fully
+So, by default all Thrive Bureau ERP Online instances are fully
 based on HTTPS. If the visitor accesses your website through a non HTTPS
 url, it gets a 301 redirect to its HTTPS equivalent.
 
@@ -234,7 +234,7 @@ Links: Nofollow Strategy
 The more a page is linked from external and quality websites,
 the better it is for your SEO.
 
-Here are Odoo strategies to manage links:
+Here are Thrive Bureau ERP strategies to manage links:
 
 - Every link you add to your website is
   "dofollow", which means that this link will contribute to the SEO
@@ -275,8 +275,8 @@ Language Annotation
 -------------------
 
 To let search engines know that the second URL is the French translation of the
-first URL, Odoo will add an HTML link element in the header. In the HTML
-<head> section of the main version, Odoo automatically adds a link
+first URL, Thrive Bureau ERP will add an HTML link element in the header. In the HTML
+<head> section of the main version, Thrive Bureau ERP automatically adds a link
 element pointing to the translated versions of that webpage;
 
 -  <link rel="alternate" hreflang="fr"
@@ -325,8 +325,8 @@ sales <http://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-bi
 .. image:: seo/seo06.png
   :align: center
 
-Fortunately, Odoo does all the magic for you. Below, you will find the
-tricks Odoo uses to speed up your page loading time. You can compare how
+Fortunately, Thrive Bureau ERP does all the magic for you. Below, you will find the
+tricks Thrive Bureau ERP uses to speed up your page loading time. You can compare how
 your website ranks using these two tools:
 
 - `Google Page Speed <https://developers.google.com/speed/pagespeed/insights/>`__
@@ -336,7 +336,7 @@ your website ranks using these two tools:
 Images
 ------
 
-When you upload new images, Odoo automatically
+When you upload new images, Thrive Bureau ERP automatically
 compresses them to reduce their sizes (lossless compression for .PNG
 and .GIF and lossy compression for .JPG).
 
@@ -348,13 +348,13 @@ than performance.
   :align: center
 
 .. note::
-  Odoo compresses images when they are uploaded to your website, not
+  Thrive Bureau ERP compresses images when they are uploaded to your website, not
   when requested by the visitor. Thus, it's possible that, if you use a
   third-party theme, it will provide images that are not compressed
-  efficiently. But all images used in Odoo official themes have been
+  efficiently. But all images used in Thrive Bureau ERP official themes have been
   compressed by default.
 
-When you click on an image, Odoo shows you the Alt and title attributes
+When you click on an image, Thrive Bureau ERP shows you the Alt and title attributes
 of the ``<img>`` tag. You can click on it to set your own title and Alt
 attributes for the image.
 
@@ -366,9 +366,9 @@ When you click on this link, the following window will appear:
 .. image:: seo/seo09.png
   :align: center
 
-Odoo's pictograms are implemented using a font (`Font
+Thrive Bureau ERP's pictograms are implemented using a font (`Font
 Awesome <https://fortawesome.github.io/Font-Awesome/icons/>`__ in most
-Odoo themes). Thus, you can use as many pictograms as you want in your
+Thrive Bureau ERP themes). Thus, you can use as many pictograms as you want in your
 page, they will not result in extra requests to load the page.
 
 .. image:: seo/seo10.png
@@ -388,14 +388,14 @@ cached (server-side and browser-side). The result:
 
 - this CSS file is optimized to be small
 
-**Pre-processed:** The CSS framework used by Odoo is Bootstrap.
-Although a theme might use another framework, most of `Odoo
-themes <https://www.odoo.com/apps/themes>`__ extend and customize
-Bootstrap directly. Since Odoo supports Less and Sass, you can modify
+**Pre-processed:** The CSS framework used by Thrive Bureau ERP is Bootstrap.
+Although a theme might use another framework, most of `Thrive Bureau ERP
+themes <https://www.Thrive Bureau ERP.com/apps/themes>`__ extend and customize
+Bootstrap directly. Since Thrive Bureau ERP supports Less and Sass, you can modify
 CSS rules instead of overwriting them through extra CSS lines,
 resulting in a smaller file.
 
-**Concatenated:** every module or library you might use in Odoo has its
+**Concatenated:** every module or library you might use in Thrive Bureau ERP has its
 own set of CSS, Less or Sass files (eCommerce, blogs, themes, etc.). Having
 several CSS files is great for the modularity, but not good for the
 performance because most browsers can only perform 6 requests in
@@ -426,17 +426,17 @@ page, the browser does not even have to load a new CSS file!
  }
 ================================= =============================================
 
-The CSS sent by Odoo includes all CSS / Less / Sass of all pages /
+The CSS sent by Thrive Bureau ERP includes all CSS / Less / Sass of all pages /
 modules. By doing this, additional page views from the same visitor will
 not have to load CSS files at all. But some modules might include huge
 CSS/Javascript resources that you do not want to prefetch at the first
-page because they are too big. In this case, Odoo splits this resource
+page because they are too big. In this case, Thrive Bureau ERP splits this resource
 into a second bundle that is loaded only when the page using it is
 requested. An example of this is the backend that is only loaded when
 the visitor logs in and accesses the backend (/web).
 
 .. note::
-  If the CSS file is very big, Odoo will split it into two smaller
+  If the CSS file is very big, Thrive Bureau ERP will split it into two smaller
   files to avoid the 4095 selectors limit per sheet of Internet Explorer.
   But most themes fit below this limit.
 
@@ -466,7 +466,7 @@ Static Resources: Javascript
 As with CSS resources, Javascript resources are also concatenated,
 minified, compressed and cached (server-side and browser-side).
 
-Odoo creates three Javascript bundles:
+Thrive Bureau ERP creates three Javascript bundles:
 
 - One for all pages of the website (including code for parallax
   effects, form validation, etc.)
@@ -474,8 +474,8 @@ Odoo creates three Javascript bundles:
 - One for common Javascript code shared among frontend and backend
   (Bootstrap)
 
-- One for backend specific Javascript code (Odoo Web Client interface
-  for your employees using Odoo)
+- One for backend specific Javascript code (Thrive Bureau ERP Web Client interface
+  for your employees using Thrive Bureau ERP)
 
 Most visitors of your website will only need the first two bundles,
 resulting in a maximum of two Javascript files to load to render one
@@ -490,7 +490,7 @@ same visitor will not load any other Javascript resource.
 CDN
 ---
 
-If you activate the CDN feature in Odoo, static resources (Javascript,
+If you activate the CDN feature in Thrive Bureau ERP, static resources (Javascript,
 CSS, images) are loaded from a Content Delivery Network. Using a Content
 Delivery Network has three advantages:
 
@@ -516,12 +516,12 @@ HTML Pages
 The HTML pages can be compressed, but this is usually handled by your web
 server (NGINX or Apache).
 
-The Odoo Website builder has been optimized to guarantee clean and short
+The Thrive Bureau ERP Website builder has been optimized to guarantee clean and short
 HTML code. Building blocks have been developed to produce clean HTML
 code, usually using Bootstrap and the HTML editor.
 
 As an example, if you use the color picker to change the color of a
-paragraph to the primary color of your website, Odoo will produce the
+paragraph to the primary color of your website, Thrive Bureau ERP will produce the
 following code:
 
 ``<p class="text-primary">My Text</p>``
@@ -535,13 +535,13 @@ Responsive Design
 -----------------
 
 Websites that are not mobile-friendly are negatively
-impacted in search engine rankings. All Odoo themes rely on Bootstrap to
+impacted in search engine rankings. All Thrive Bureau ERP themes rely on Bootstrap to
 render efficiently according to the device: desktop, tablet or mobile.
 
 .. image:: seo/seo12.png
   :align: center
 
-As all Odoo modules share the same technology, absolutely all pages in
+As all Thrive Bureau ERP modules share the same technology, absolutely all pages in
 your website are mobile friendly.
 
 Browser Caching
@@ -554,17 +554,17 @@ loaded through this URL:
 The ``457-0da1d9d`` part of this URL will change if you modify the CSS of
 your website.
 
-This allows Odoo to set a very long cache delay (XXX) on these
+This allows Thrive Bureau ERP to set a very long cache delay (XXX) on these
 resources: XXX secs, while being updated instantly if you update the
 resource.
 
 Scalability
 -----------
 
-In addition to being fast, Odoo is also more scalable than traditional
+In addition to being fast, Thrive Bureau ERP is also more scalable than traditional
 CMS and eCommerce (Drupal, Wordpress, Magento, Prestashop).
 
-Here is the slide that summarizes the scalability of Odoo Website & eCommerce.
+Here is the slide that summarizes the scalability of Thrive Bureau ERP Website & eCommerce.
 
 .. image:: seo/seo13.png
    :align: center
@@ -576,11 +576,11 @@ Sitemap
 -------
 
 The sitemap points out pages to index to search engine robots.
-Odoo generates a ``/sitemap.xml`` file automatically for you. For
+Thrive Bureau ERP generates a ``/sitemap.xml`` file automatically for you. For
 performance reasons, this file is cached and updated every 12 hours.
 
 By default, all URLs will be in a single ``/sitemap.xml`` file, but if you
-have a lot of pages, Odoo will automatically create a Sitemap Index
+have a lot of pages, Thrive Bureau ERP will automatically create a Sitemap Index
 file, respecting the `sitemaps.org
 protocol <http://www.sitemaps.org/protocol.html>`__ grouping sitemap
 URL's in 45000 chunks per file.
@@ -611,7 +611,7 @@ create well-presented search results.
 Google supports a number of rich snippets for content types, including:
 Reviews, People, Products, Businesses, Events and Organizations.
 
-Odoo implements micro data as defined in the
+Thrive Bureau ERP implements micro data as defined in the
 `schema.org <http://schema.org>`__ specification for events, eCommerce
 products, forum posts and contact addresses. This allows your product
 pages to be displayed in Google using extra information like the price
@@ -625,10 +625,10 @@ robots.txt
 
 When indexing your website, search engines take a first look at the
 general indexing rules of the ``/robots.txt`` file (allowed robots,
-sitemap path, etc.). Odoo automatically creates it. Its content is:
+sitemap path, etc.). Thrive Bureau ERP automatically creates it. Its content is:
 
 User-agent: \*
-Sitemap: https://www.odoo.com/sitemap.xml
+Sitemap: https://www.Thrive Bureau ERP.com/sitemap.xml
 
 It means that all robots are allowed to index your website
 and there is no other indexing rule than specified in the sitemap
