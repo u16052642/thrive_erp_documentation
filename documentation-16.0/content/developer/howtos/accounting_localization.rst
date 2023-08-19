@@ -5,7 +5,7 @@ Accounting localization
 
 .. warning::
 
-    This tutorial requires knowledge about how to build a module in Odoo (see
+    This tutorial requires knowledge about how to build a module in Thrive Bureau ERP (see
     :doc:`../tutorials/getting_started`).
 
 
@@ -68,8 +68,8 @@ In the first file :file:`data/account_chart_template_data.xml`, we set the name 
 .. example::
   `addons/l10n_ch/data/l10n_ch_chart_data.xml <{GITHUB_PATH}/addons/l10n_ch/data/l10n_ch_chart_data.xml>`_
 
-  .. literalinclude:: {ODOO_RELPATH}/addons/l10n_ch/data/l10n_ch_chart_data.xml
-    :condition: odoo_dir_in_path
+  .. literalinclude:: {Thrive Bureau ERP_RELPATH}/addons/l10n_ch/data/l10n_ch_chart_data.xml
+    :condition: Thrive Bureau ERP_dir_in_path
     :language: xml
     :start-at: l10nch_chart_template
     :end-at: </record>
@@ -99,16 +99,16 @@ Put the tags in the :file:`data/account_account_tag_data.xml` file.
 .. example::
   `addons/l10n_lt/data/account.account.template.csv <{GITHUB_PATH}/addons/l10n_lt/data/account.account.template.csv>`_
 
-  .. literalinclude:: {ODOO_RELPATH}/addons/l10n_lt/data/account.account.template.csv
-    :condition: odoo_dir_in_path
+  .. literalinclude:: {Thrive Bureau ERP_RELPATH}/addons/l10n_lt/data/account.account.template.csv
+    :condition: Thrive Bureau ERP_dir_in_path
     :language: csv
     :end-at: account_account_template_1201
 
 .. example::
   `addons/l10n_at/data/account_account_template.xml <{GITHUB_PATH}/addons/l10n_at/data/account_account_template.xml>`_
 
-  .. literalinclude:: {ODOO_RELPATH}/addons/l10n_at/data/account_account_template.xml
-    :condition: odoo_dir_in_path
+  .. literalinclude:: {Thrive Bureau ERP_RELPATH}/addons/l10n_at/data/account_account_template.xml
+    :condition: Thrive Bureau ERP_dir_in_path
     :language: xml
     :start-at: chart_at_template_0010
     :end-at: </record>
@@ -127,8 +127,8 @@ Obviously, :guilabel:`Chart of Accounts` cannot exist without :guilabel:`Account
 .. example::
   `addons/l10n_ch/data/account.account.template.csv <{GITHUB_PATH}/addons/l10n_ch/data/account.account.template.csv>`_
 
-  .. literalinclude:: {ODOO_RELPATH}/addons/l10n_ch/data/account.account.template.csv
-    :condition: odoo_dir_in_path
+  .. literalinclude:: {Thrive Bureau ERP_RELPATH}/addons/l10n_ch/data/account.account.template.csv
+    :condition: Thrive Bureau ERP_dir_in_path
     :language: csv
     :end-at: ch_coa_1171
 
@@ -137,8 +137,8 @@ CSV is prefered but you may use XML format instead.
 .. example::
   `addons/l10n_at/data/account_account_template.xml <{GITHUB_PATH}/addons/l10n_at/data/account_account_template.xml>`_
 
-  .. literalinclude:: {ODOO_RELPATH}/addons/l10n_at/data/account_account_template.xml
-    :condition: odoo_dir_in_path
+  .. literalinclude:: {Thrive Bureau ERP_RELPATH}/addons/l10n_at/data/account_account_template.xml
+    :condition: Thrive Bureau ERP_dir_in_path
     :language: xml
     :start-at: chart_at_template_0010
     :end-at: </record>
@@ -157,8 +157,8 @@ Next settings for the chart of accounts are set in a separate file, because we n
 .. example::
   `addons/l10n_ch/data/l10n_ch_chart_post_data.xml <{GITHUB_PATH}/addons/l10n_ch/data/l10n_ch_chart_post_data.xml>`_
 
-  .. literalinclude:: {ODOO_RELPATH}/addons/l10n_ch/data/l10n_ch_chart_post_data.xml
-    :condition: odoo_dir_in_path
+  .. literalinclude:: {Thrive Bureau ERP_RELPATH}/addons/l10n_ch/data/l10n_ch_chart_post_data.xml
+    :condition: Thrive Bureau ERP_dir_in_path
     :language: xml
     :start-at: l10nch_chart_template
     :end-at: </record>
@@ -179,8 +179,8 @@ It works with the prefix *start*/*end*, so every account where the code starts w
   `addons/l10n_il/data/account.group.template.csv <{GITHUB_PATH}/addons/l10n_il/data/account.group.template.csv>`_
 
   .. csv-table::
-     :condition: odoo_dir_in_path
-     :file: {ODOO_RELPATH}/addons/l10n_il/data/account.group.template.csv
+     :condition: Thrive Bureau ERP_dir_in_path
+     :file: {Thrive Bureau ERP_RELPATH}/addons/l10n_il/data/account.group.template.csv
      :widths: 20,20,20,20,20
      :header-rows: 1
 
@@ -196,7 +196,7 @@ This model only has two required fields: *name* and *country*. Create the file :
 
 .. code-block:: xml
 
-    <odoo>
+    <Thrive Bureau ERP>
         <data noupdate="1">
             <record id="tax_group_tva_0" model="account.tax.group">
                 <field name="name">TVA 0%</field>
@@ -205,13 +205,13 @@ This model only has two required fields: *name* and *country*. Create the file :
 
             ...
         </data>
-    </odoo>
+    </Thrive Bureau ERP>
 
 .. example::
   `addons/l10n_ch/data/account_tax_group_data.xml <{GITHUB_PATH}/addons/l10n_ch/data/account_tax_group_data.xml>`_
 
-  .. literalinclude:: {ODOO_RELPATH}/addons/l10n_ch/data/account_tax_group_data.xml
-    :condition: odoo_dir_in_path
+  .. literalinclude:: {Thrive Bureau ERP_RELPATH}/addons/l10n_ch/data/account_tax_group_data.xml
+    :condition: Thrive Bureau ERP_dir_in_path
     :language: xml
     :start-after: <data
     :end-before: </data>
@@ -219,8 +219,8 @@ This model only has two required fields: *name* and *country*. Create the file :
 .. example::
   `addons/l10n_uk/data/account.tax.group.csv <{GITHUB_PATH}/addons/l10n_uk/data/account.tax.group.csv>`_
 
-  .. literalinclude:: {ODOO_RELPATH}/addons/l10n_uk/data/account.tax.group.csv
-    :condition: odoo_dir_in_path
+  .. literalinclude:: {Thrive Bureau ERP_RELPATH}/addons/l10n_uk/data/account.tax.group.csv
+    :condition: Thrive Bureau ERP_dir_in_path
     :language: csv
 
 
@@ -230,8 +230,8 @@ Now you can add the taxes via :file:`data/account_tax_template_data.xml` file.  
 .. example::
   `addons/l10n_ae/data/account_tax_template_data.xml <{GITHUB_PATH}/addons/l10n_ae/data/account_tax_template_data.xml>`_
 
-  .. literalinclude:: {ODOO_RELPATH}/addons/l10n_ae/data/account_tax_template_data.xml
-    :condition: odoo_dir_in_path
+  .. literalinclude:: {Thrive Bureau ERP_RELPATH}/addons/l10n_ae/data/account_tax_template_data.xml
+    :condition: Thrive Bureau ERP_dir_in_path
     :language: xml
     :start-at: uae_sale_tax_5_dubai
     :end-at: </record>
@@ -257,13 +257,13 @@ In the previous section, you noticed the fields `invoice_repartition_line_ids` o
     :class: overflow-auto
 
 The simple version is that, in the tax template, you indicate in the invoice/refund repartition lines whether the base or a percentage of the tax needs to be reported in which report line (through the *minus/plus_report_line_ids* fields).
-It becomes clear also when you check the tax configuration in the Odoo interface (or check the docs :ref:`Tax References <reference/account_tax>`, :ref:`Tax Repartition References <reference/account_tax_repartition>`).
+It becomes clear also when you check the tax configuration in the Thrive Bureau ERP interface (or check the docs :ref:`Tax References <reference/account_tax>`, :ref:`Tax Repartition References <reference/account_tax_repartition>`).
 
 So, once you have properly configured taxes, you just need to add the :file:`data/account_tax_report_data.xml` file with a record for your `account.report`. For it to be considered as a tax report, you need to provide it with the right `root_report_id`.
 
 .. code-block:: xml
 
-    <odoo>
+    <Thrive Bureau ERP>
         <record id="tax_report" model="account.report">
             <field name="name">Tax Report</field>
             <field name="root_report_id" ref="account.generic_tax_report"/>
@@ -271,15 +271,15 @@ So, once you have properly configured taxes, you just need to add the :file:`dat
         </record>
 
         ...
-    </odoo>
+    </Thrive Bureau ERP>
 
 ... followed by the declaration of its lines, as `account.report.line` records.
 
 .. example::
   `addons/l10n_au/data/account_tax_report_data.xml <{GITHUB_PATH}/addons/l10n_au/data/account_tax_report_data.xml>`_
 
-  .. literalinclude:: {ODOO_RELPATH}/addons/l10n_au/data/account_tax_report_data.xml
-    :condition: odoo_dir_in_path
+  .. literalinclude:: {Thrive Bureau ERP_RELPATH}/addons/l10n_au/data/account_tax_report_data.xml
+    :condition: Thrive Bureau ERP_dir_in_path
     :language: xml
     :start-at: tax_report
     :end-before: account_tax_report_gstrpt_g3
@@ -298,8 +298,8 @@ Specify fiscal positions in the :file:`data/account_fiscal_position_template_dat
 .. example::
   `addons/l10n_es/data/account_fiscal_position_template_data.xml <{GITHUB_PATH}/addons/l10n_es/data/account_fiscal_position_template_data.xml>`_
 
-  .. literalinclude:: {ODOO_RELPATH}/addons/l10n_es/data/account_fiscal_position_template_data.xml
-    :condition: odoo_dir_in_path
+  .. literalinclude:: {Thrive Bureau ERP_RELPATH}/addons/l10n_es/data/account_fiscal_position_template_data.xml
+    :condition: Thrive Bureau ERP_dir_in_path
     :language: xml
     :start-at: fp_nacional
     :end-before: fp_intra
@@ -313,8 +313,8 @@ The file :file:`data/account_chart_template_try_loading.xml` is responsible for 
 .. example::
   `addons/l10n_ch/data/account_chart_template_data.xml <{GITHUB_PATH}/addons/l10n_ch/data/account_chart_template_data.xml>`_
 
-  .. literalinclude:: {ODOO_RELPATH}/addons/l10n_ch/data/account_chart_template_data.xml
-    :condition: odoo_dir_in_path
+  .. literalinclude:: {Thrive Bureau ERP_RELPATH}/addons/l10n_ch/data/account_chart_template_data.xml
+    :condition: Thrive Bureau ERP_dir_in_path
     :language: xml
     :start-at: <function
     :end-at: </function>
@@ -324,11 +324,11 @@ Finally, you may add a demo company, so the localization can easily be tested in
 .. example::
   `addons/l10n_ch/demo/demo_company.xml <{GITHUB_PATH}/addons/l10n_ch/demo/demo_company.xml>`_
 
-  .. literalinclude:: {ODOO_RELPATH}/addons/l10n_ch/demo/demo_company.xml
-    :condition: odoo_dir_in_path
+  .. literalinclude:: {Thrive Bureau ERP_RELPATH}/addons/l10n_ch/demo/demo_company.xml
+    :condition: Thrive Bureau ERP_dir_in_path
     :language: xml
-    :start-after: <odoo>
-    :end-before: </odoo>
+    :start-after: <Thrive Bureau ERP>
+    :end-before: </Thrive Bureau ERP>
 
 Accounting reports
 ==================
