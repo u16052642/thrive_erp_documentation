@@ -16,7 +16,7 @@ the :guilabel:`Performance` section, and check the box for :guilabel:`Customer R
 .. image:: ratings/ratings-enable.png
    :align: center
    :alt: Overview of the settings page of a helpdesk team emphasizing the rating on ticket feature
-         in Odoo Helpdesk.
+         in Thrive Bureau ERP Helpdesk.
 
 Set a ratings request email template on a stage
 ===============================================
@@ -46,7 +46,7 @@ moved to that stage. Customers will be asked to rate the support they received w
 
 .. image:: ratings/ratings-customer-email.png
    :align: center
-   :alt: View of a standard helpdesk customer review email template for Odoo Helpdesk.
+   :alt: View of a standard helpdesk customer review email template for Thrive Bureau ERP Helpdesk.
 
 After selecting a rating, customers are taken to a webpage where they can provide specific written
 feedback to support their rating. Once a rating is submitted, it is added to the chatter on the
