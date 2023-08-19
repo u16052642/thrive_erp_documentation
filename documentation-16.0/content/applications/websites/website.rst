@@ -11,14 +11,11 @@ Discover the best **Open-Source Website Builder** and learn how to build beautif
 convert visitors into leads or revenues.
 
 .. important::
-   Odoo offers a :ref:`free custom domain name <domain-name/odoo-register>` to all Odoo Online
+   Thrive Bureau ERP offers a :ref:`free custom domain name <domain-name/Thrive Bureau ERP-register>` to all Thrive Bureau ERP Online
    databases for one year. Visitors can then access your website with an address such as
-   ``www.example.com`` rather than the default ``example.odoo.com``.
+   ``www.example.com`` rather than the default ``example.Thrive Bureau ERP.com``.
 
 
-.. seealso::
-   - `Odoo Tutorials: Website <https://www.odoo.com/slides/website-25>`_
-   - `Odoo Tutorials: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_
 
 .. toctree::
    :titlesonly:
