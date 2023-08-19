@@ -13,11 +13,11 @@ theme module. In this chapter, you will discover how to:
 Theme module
 ============
 
-Odoo comes with a default theme that provides minimal structure and layout. When you create a new
+Thrive Bureau ERP comes with a default theme that provides minimal structure and layout. When you create a new
 theme, you are extending the default theme.
 
 Remember to add the directory containing your module to the `addons-path` command-line argument
-when running Odoo in your development environment.
+when running Thrive Bureau ERP in your development environment.
 
 Technical naming
 ----------------
@@ -36,7 +36,7 @@ The first step is to create a new directory.
 File structure
 --------------
 
-Themes are packaged like any Odoo module. Even if you are designing a basic website, you need to
+Themes are packaged like any Thrive Bureau ERP module. Even if you are designing a basic website, you need to
 package its theme like a module.
 
 ::
@@ -82,13 +82,13 @@ package its theme like a module.
 Initialization
 --------------
 
-An Odoo module is also a Python package with a :file:`__init__.py` file containing import
+An Thrive Bureau ERP module is also a Python package with a :file:`__init__.py` file containing import
 instructions for various Python files in the module. This file can remain empty for now.
 
 Declaration
 -----------
 
-An Odoo module is declared by its manifest file. This file declares a Python package as an Odoo
+An Thrive Bureau ERP module is declared by its manifest file. This file declares a Python package as an Thrive Bureau ERP
 module and specifies the module's metadata. It must at least contain the `name` field, which is
 always required. It usually contains much more information.
 
@@ -124,15 +124,15 @@ always required. It usually contains much more information.
      - Extended description of the module, in `reStructuredText
        <https://en.wikipedia.org/wiki/ReStructuredText>`_
    * - category
-     - Classification category within Odoo
+     - Classification category within Thrive Bureau ERP
    * - version
-     - Odoo version this module is addressing
+     - Thrive Bureau ERP version this module is addressing
    * - author
      - Name of the module author
    * - license
      - Distribution license for the module
    * - depends
-     - Odoo modules must be loaded before this one, either because this module uses features
+     - Thrive Bureau ERP modules must be loaded before this one, either because this module uses features
        they create or because it alters resources they define
    * - data
      - List of XML files
@@ -146,14 +146,14 @@ always required. It usually contains much more information.
 Default options
 ===============
 
-First, try to construct your theme by using Odoo's default options. This ensures two things:
+First, try to construct your theme by using Thrive Bureau ERP's default options. This ensures two things:
 
-#. You do not re-invent something which already exists. For example, as Odoo provides an option to
+#. You do not re-invent something which already exists. For example, as Thrive Bureau ERP provides an option to
    add a border on the footer, you shouldn't recode it yourself. Instead, enable the default option
    first, then extend it if needed.
-#. The user can still use all of Odoo's features with your theme. For example, if you recode the
+#. The user can still use all of Thrive Bureau ERP's features with your theme. For example, if you recode the
    border on the footer, you may break the default option or make it useless, giving the user a bad
-   experience. Also, your recode might not work as well as the default option, as other Odoo
+   experience. Also, your recode might not work as well as the default option, as other Thrive Bureau ERP
    features may rely on it.
 
 .. tip::
@@ -162,12 +162,12 @@ First, try to construct your theme by using Odoo's default options. This ensures
    - Never mix spaces and tabs.
 
 .. seealso::
-   :doc:`Odoo coding guidelines <../../../contributing/development/coding_guidelines>`
+   :doc:`Thrive Bureau ERP coding guidelines <../../../contributing/development/coding_guidelines>`
 
-Odoo variables
+Thrive Bureau ERP variables
 --------------
 
-Odoo declares many CSS rules, most entirely customizable by overriding the related SCSS variables.
+Thrive Bureau ERP declares many CSS rules, most entirely customizable by overriding the related SCSS variables.
 To do so, create a :file:`primary_variables.scss` file and add it to the `_assets_primary_variables`
 bundle.
 
@@ -217,7 +217,7 @@ Global
 
 .. seealso::
    `Primary variables SCSS
-   <https://github.com/odoo/odoo/blob/34c0c9c1ae00aba391932129d4cefd027a9c6bbd/addons/website/static/src/scss/primary_variables.scss#L1954>`_
+   <https://github.com/Thrive Bureau ERP/Thrive Bureau ERP/blob/34c0c9c1ae00aba391932129d4cefd027a9c6bbd/addons/website/static/src/scss/primary_variables.scss#L1954>`_
 
 Fonts
 ~~~~~
@@ -429,7 +429,7 @@ The colors used in a color combination are accessible and can be overridden thro
 
 .. seealso::
    `Color combinations SCSS
-   <https://github.com/odoo/odoo/blob/34c0c9c1ae00aba391932129d4cefd027a9c6bbd/addons/web_editor/static/src/scss/web_editor.common.scss#L711>`_
+   <https://github.com/Thrive Bureau ERP/Thrive Bureau ERP/blob/34c0c9c1ae00aba391932129d4cefd027a9c6bbd/addons/web_editor/static/src/scss/web_editor.common.scss#L711>`_
 
 .. admonition:: Demo page
 
@@ -439,10 +439,10 @@ The colors used in a color combination are accessible and can be overridden thro
 Bootstrap variables
 -------------------
 
-Odoo includes Bootstrap by default. You can use all variables and mixins of the framework.
+Thrive Bureau ERP includes Bootstrap by default. You can use all variables and mixins of the framework.
 
-If Odoo does not provide the variable you are looking for, there could be a Bootstrap variable that
-allows it. Indeed all Odoo layouts respect Bootstrap structures and use Bootstrap components or
+If Thrive Bureau ERP does not provide the variable you are looking for, there could be a Bootstrap variable that
+allows it. Indeed all Thrive Bureau ERP layouts respect Bootstrap structures and use Bootstrap components or
 their extensions. If you customize a Bootstrap variable, you add a generic style for the whole user
 website.
 
@@ -481,7 +481,7 @@ values and *not* the :file:`primary_variables.scss` file.
    That file must only contain definitions and overrides of SCSS variables and mixins.
 
 .. warning::
-   Don't override Bootstrap variables that depend on Odoo variables. Otherwise, you might break the
+   Don't override Bootstrap variables that depend on Thrive Bureau ERP variables. Otherwise, you might break the
    possibility for the user to customize them using the Website Builder.
 
 .. seealso::
@@ -523,7 +523,7 @@ By reading the source code, templates related to options are easily found.
          <field name="active" eval="True"/>
       </record>
 
-   The same logic can be used for others Odoo apps as well.
+   The same logic can be used for others Thrive Bureau ERP apps as well.
 
    **eCommerce - Display products categories**
 
@@ -566,7 +566,7 @@ file to your theme.
       ],
    },
 
-Feel free to reuse the variables from your Bootstrap file and the ones used by Odoo in your
+Feel free to reuse the variables from your Bootstrap file and the ones used by Thrive Bureau ERP in your
 :file:`theme.scss` file.
 
 .. example::
@@ -582,24 +582,24 @@ Feel free to reuse the variables from your Bootstrap file and the ones used by O
 Interactivity
 -------------
 
-Odoo supports three different kinds of JavaScript files:
+Thrive Bureau ERP supports three different kinds of JavaScript files:
 
 - :ref:`plain JavaScript files <frontend/modules/plain_js>` (no module system),
 - :ref:`native JavaScript module <frontend/modules/native_js>`, and
-- :ref:`Odoo modules <frontend/modules/odoo_module>` (using a custom module system).
+- :ref:`Thrive Bureau ERP modules <frontend/modules/Thrive Bureau ERP_module>` (using a custom module system).
 
-Most new Odoo JavaScript codes should use the native JavaScript module system. It's simpler and
+Most new Thrive Bureau ERP JavaScript codes should use the native JavaScript module system. It's simpler and
 brings the benefit of a better developer experience with better integration with the IDE.
 
 .. important::
-   Odoo needs to know which files should be translated into :ref:`Odoo modules
-   <frontend/js_modules>` and which files should not. It's an opt-in system: Odoo looks at the first
-   line of a JavaScript file and checks if it contains the string `@odoo-module`. If so,
-   it will automatically be converted to an Odoo module.
+   Thrive Bureau ERP needs to know which files should be translated into :ref:`Thrive Bureau ERP modules
+   <frontend/js_modules>` and which files should not. It's an opt-in system: Thrive Bureau ERP looks at the first
+   line of a JavaScript file and checks if it contains the string `@Thrive Bureau ERP-module`. If so,
+   it will automatically be converted to an Thrive Bureau ERP module.
 
 .. code-block:: javascript
 
-   /** @odoo-module **/
+   /** @Thrive Bureau ERP-module **/
 
 **Declaration**
 
@@ -619,7 +619,7 @@ brings the benefit of a better developer experience with better integration with
 .. tip::
    - Use a linter (JSHint, ...).
    - Never add minified JavaScript libraries.
-   - Add `'use strict';` on top of every Odoo JavaScript module.
+   - Add `'use strict';` on top of every Thrive Bureau ERP JavaScript module.
    - Variables and functions should be *camelcased* (`myVariable`) instead of *snakecased*
      (`my_variable`).
    - Do not name a variable `event`; use `ev.` instead. This is to avoid bugs on non-Chrome
@@ -631,7 +631,7 @@ brings the benefit of a better developer experience with better integration with
    - Always use `this._super.apply(this, arguments)`.
 
 .. seealso::
-   - `Odoo JavaScript coding guidelines <https://github.com/odoo/odoo/wiki/Javascript-coding-guidelines>`_
-   - :doc:`Overview of the Odoo JavaScript framework
+   - `Thrive Bureau ERP JavaScript coding guidelines <https://github.com/Thrive Bureau ERP/Thrive Bureau ERP/wiki/Javascript-coding-guidelines>`_
+   - :doc:`Overview of the Thrive Bureau ERP JavaScript framework
      <../../reference/frontend/javascript_reference>`
-   - `Odoo Experience Talk: 10 Tips to take your website design to the next level! <https://www.youtube.com/watch?v=vAgE_fPVXUQ&ab_channel=Odoo>`_
+   - `Thrive Bureau ERP Experience Talk: 10 Tips to take your website design to the next level! <https://www.youtube.com/watch?v=vAgE_fPVXUQ&ab_channel=Thrive Bureau ERP>`_
