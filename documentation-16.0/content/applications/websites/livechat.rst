@@ -5,7 +5,7 @@
 Live Chat
 =========
 
-Odoo *Live Chat* allows users to communicate with website visitors in real time. With *Live Chat*,
+Thrive Bureau ERP *Live Chat* allows users to communicate with website visitors in real time. With *Live Chat*,
 leads can be qualified for their sales potential, support questions can be answered quickly, and
 issues can be directed to the appropriate team for further investigation (or follow up). *Live Chat*
 also provides the opportunity for instant feedback from customers.
@@ -23,7 +23,7 @@ in one of two ways.
 
 .. image:: livechat/enable-setting.png
    :align: center
-   :alt: View of the settings page and the live chat feature for Odoo Live Chat.
+   :alt: View of the settings page and the live chat feature for Thrive Bureau ERP Live Chat.
 
 After the :guilabel:`Live Chat` application is installed, a live chat :guilabel:`Channel` will be
 created by default and automatically selected in the drop-down.
@@ -31,13 +31,13 @@ created by default and automatically selected in the drop-down.
 Create a new live chat channel
 ==============================
 
-To create a new live chat *Channel*, go to :menuselection:`Main Odoo Dashboard --> Live Chat app -->
+To create a new live chat *Channel*, go to :menuselection:`Main Thrive Bureau ERP Dashboard --> Live Chat app -->
 New`. This will open a blank channel detail form. Enter the name of the new channel in the
 :guilabel:`Channel Name` field.
 
 .. image:: livechat/open-channel.png
    :align: center
-   :alt: View of a live chat channel form for Odoo Live Chat.
+   :alt: View of a live chat channel form for Thrive Bureau ERP Live Chat.
 
 To configure the remaining tabs on the channel detail form (:guilabel:`Operators`,
 :guilabel:`Options`, :guilabel:`Channel Rules`, and :guilabel:`Widgets`), follow the steps below.
@@ -52,7 +52,7 @@ screen.
 
 .. image:: livechat/pop-up.png
    :align: center
-   :alt: View of a live chat pop up window in an Odoo database.
+   :alt: View of a live chat pop up window in an Thrive Bureau ERP database.
 
 The user who originally created the live chat channel will be added as an operator by default.
 
@@ -87,7 +87,7 @@ The *Livechat Button* is the icon that appears in the bottom corner of the websi
 
 .. image:: livechat/chat-button.png
    :align: center
-   :alt: View of an Odoo website emphasizing the livechat button.
+   :alt: View of an Thrive Bureau ERP website emphasizing the livechat button.
 
 Change the text in the :guilabel:`Text of the Button` field to update the greeting displayed in the
 text bubble when the live chat button appears on the website.
@@ -135,7 +135,7 @@ pop-up.
 
 .. image:: livechat/create-rules.png
    :align: center
-   :alt: View of a channel's rules form for Odoo Live Chat.
+   :alt: View of a channel's rules form for Thrive Bureau ERP Live Chat.
 
 Create new rules
 ~~~~~~~~~~~~~~~~
@@ -183,7 +183,7 @@ Fill out the fields on the :guilabel:`Open: Rules` pop-up as instructed below, t
 
 .. note::
    In order to track the geographical location of visitors, :guilabel:`GeoIP` must be installed on
-   the database. While this feature is installed by default on *Odoo Online*, *On-Premise* databases
+   the database. While this feature is installed by default on *Thrive Bureau ERP Online*, *On-Premise* databases
    will require additional :doc:`setup steps
    </applications/websites/website/configuration/on-premise_geo-ip-installation>`.
 
@@ -194,7 +194,7 @@ The :guilabel:`Widget` tab on the live chat channel details form provides the sh
 embeddable website widget. This code can be added to a website to provide access to a live chat
 window.
 
-The live chat widget can be added to websites created through Odoo by navigating to the
+The live chat widget can be added to websites created through Thrive Bureau ERP by navigating to the
 :menuselection:`Website --> Configuration --> Settings`. Then scroll to the :guilabel:`Livechat`
 section, and select the channel to add to the site. Click :guilabel:`Save` to apply.
 
@@ -207,14 +207,14 @@ it will open a new chat.
 
 .. image:: livechat/widget-code.png
    :align: center
-   :alt: View of the widget tab for Odoo Live Chat.
+   :alt: View of the widget tab for Thrive Bureau ERP Live Chat.
 
 Participate in a conversation
 =============================
 
 As explained above, *operators* are the users who will respond to live chat requests from customers.
 The information below outlines the necessary steps for operators participating in live chat
-conversations on an Odoo database.
+conversations on an Thrive Bureau ERP database.
 
 Set an online chat name
 -----------------------
@@ -229,7 +229,7 @@ preferred name.
 
 .. image:: livechat/my-profile.png
    :align: center
-   :alt: View of the My Profile option in Odoo.
+   :alt: View of the My Profile option in Thrive Bureau ERP.
 
 If a users :guilabel:`Online Chat Name` is not set, the name displayed will default to the
 :guilabel:`User Name`.
@@ -241,7 +241,7 @@ If a users :guilabel:`Online Chat Name` is not set, the name displayed will defa
 
    .. image:: livechat/online-chat-name.png
       :align: center
-      :alt: View of user profile in Odoo, emphasizing the Online Chat name field.
+      :alt: View of user profile in Thrive Bureau ERP, emphasizing the Online Chat name field.
 
 Join or leave a channel
 -----------------------
@@ -254,10 +254,10 @@ button to disconnect from the channel.
 
 .. image:: livechat/leave-channel.png
    :align: center
-   :alt: View of a channel form and the option to join a channel for Odoo Live Chat.
+   :alt: View of a channel form and the option to join a channel for Thrive Bureau ERP Live Chat.
 
 .. important::
-   *Operators* that do not show any activity in Odoo for more than thirty minutes will be considered
+   *Operators* that do not show any activity in Thrive Bureau ERP for more than thirty minutes will be considered
    disconnected, and subsequently removed from the channel.
 
 Manage live chat requests
@@ -273,14 +273,14 @@ leaving their current location.
 
    .. image:: livechat/menu-bar.png
       :align: center
-      :alt: View of the menu bar in Odoo emphasizing the conversations icon.
+      :alt: View of the menu bar in Thrive Bureau ERP emphasizing the conversations icon.
 
 Live chat conversations can also be viewed by navigating to :menuselection:`Dashboard --> Discuss`.
 New conversations will appear in bold under the :guilabel:`LIVECHAT` heading along the left panel.
 
 .. image:: livechat/managing-chat-responses.png
    :align: center
-   :alt: View of the discuss application with a message sent through live chat in Odoo.
+   :alt: View of the discuss application with a message sent through live chat in Thrive Bureau ERP.
 
 Click on a conversation in the left panel to select it. This will open the conversation. From this
 view, an operator can participate in the chat the same as they would in the normal chat window.
