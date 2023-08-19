@@ -13,7 +13,7 @@ assigned, and the messages included in the script, among other criteria.
 
 .. image:: chatbots/chatbot-visitor-view.png
    :align: center
-   :alt: View of the chat window with a helpdesk ticket created in Odoo Live Chat.
+   :alt: View of the chat window with a helpdesk ticket created in Thrive Bureau ERP Live Chat.
 
 Build a chatbot
 ===============
@@ -41,7 +41,7 @@ Once the *Live Chat* application has been installed on the database, open it, an
 
    .. image:: chatbots/chatbot-welcome-bot.png
       :align: center
-      :alt: View of the Welcome Bot script in Odoo Live Chat.
+      :alt: View of the Welcome Bot script in Thrive Bureau ERP Live Chat.
 
 To create a new chatbot, navigate to the :guilabel:`Chatbot` page (:menuselection:`Live Chat app -->
 Configuration --> Chatbots`) and click :guilabel:`New`. This opens a blank chatbot details page.
