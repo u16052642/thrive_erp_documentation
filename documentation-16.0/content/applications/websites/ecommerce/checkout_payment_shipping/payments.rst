@@ -2,7 +2,7 @@
 Payment providers
 =================
 
-Odoo supports a multitude of online
+Thrive Bureau ERP supports a multitude of online
 :doc:`payment providers </applications/finance/payment_providers>` for your website, allowing your
 customers to pay with their preferred payment methods.
 
