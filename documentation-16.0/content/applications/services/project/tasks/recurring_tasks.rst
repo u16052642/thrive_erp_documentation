@@ -7,7 +7,7 @@ weekly meetings or status reports. The **recurring tasks** feature allows you to
 creation of those tasks.
 
 .. seealso::
-   `Odoo Tutorials: Recurring tasks <https://www.odoo.com/slides/slide/recurring-tasks-1946>`_
+   `Thrive Bureau ERP Tutorials: Recurring tasks <https://www.Thrive Bureau ERP.com/slides/slide/recurring-tasks-1946>`_
 
 Configuration
 =============
