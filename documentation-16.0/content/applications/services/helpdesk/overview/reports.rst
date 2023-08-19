@@ -2,14 +2,14 @@
 Reporting
 =========
 
-Odoo *Helpdesk* includes several reports that provide the opportunity to track trends for customer
+Thrive Bureau ERP *Helpdesk* includes several reports that provide the opportunity to track trends for customer
 support tickets, identify areas for improvement, manage employee workloads, and confirm when
 customer expectations are met.
 
 Available reports
 =================
 
-Details about the reports available in Odoo *Helpdesk* can be found below. To view the different
+Details about the reports available in Thrive Bureau ERP *Helpdesk* can be found below. To view the different
 reports, go to :menuselection:`Helpdesk --> Reporting`.
 
 Ticket Analysis
@@ -141,7 +141,7 @@ in graph, list, or pivot view.
 View and filter options
 =======================
 
-On any Odoo report, the view and filter options vary, depending on what data is being analyzed,
+On any Thrive Bureau ERP report, the view and filter options vary, depending on what data is being analyzed,
 measured, and grouped. See below for additional information on the available views for the
 *Helpdesk* reports.
 
@@ -160,7 +160,7 @@ of the screen.
 
 .. image:: reports/pivot-view.png
    :align: center
-   :alt: View of the SLA status analysis report in Odoo Helpdesk.
+   :alt: View of the SLA status analysis report in Thrive Bureau ERP Helpdesk.
 
 To add a group to a row or column to the pivot view, click the :guilabel:`➕ (plus sign)` next to
 :guilabel:`Total`, and then select one of the groups. To remove one, click the :guilabel:`➖ (minus
@@ -220,8 +220,8 @@ To create and save new *Favorites* on a report, follow the steps below:
 
 .. image:: reports/save-filters.png
    :align: center
-   :alt: View of the save favorites option in Odoo Helpdesk.
+   :alt: View of the save favorites option in Thrive Bureau ERP Helpdesk.
 
 .. seealso::
    - :doc:`Start receiving tickets </applications/services/helpdesk/overview/receiving_tickets>`
-   - :doc:`Odoo reporting </applications/general/reporting>`
+   - :doc:`Thrive Bureau ERP reporting </applications/general/reporting>`
