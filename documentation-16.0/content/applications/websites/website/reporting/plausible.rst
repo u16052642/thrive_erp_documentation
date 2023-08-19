@@ -19,14 +19,14 @@ To follow your website's traffic with Plausible.io:
      :align: center
      :alt: Adding a shared link in the Visibility tab
 
-- Choose a name (and NO password - it is not supported to embed it in Odoo) and click on the button
+- Choose a name (and NO password - it is not supported to embed it in Thrive Bureau ERP) and click on the button
   `Create Shared Link`.
 
   .. image:: plausible/create-sharedlink.png
      :align: center
      :alt: Credentials creation for the new shared link
 
-- Copy the new Shared Link URL from Plausible.io and paste it into the Settings of Odoo.
+- Copy the new Shared Link URL from Plausible.io and paste it into the Settings of Thrive Bureau ERP.
 
   .. image:: plausible/copy-sharedlink.png
      :align: center
@@ -34,11 +34,11 @@ To follow your website's traffic with Plausible.io:
 
   .. image:: plausible/paste-sharedlink.png
      :align: center
-     :alt: Paste the shared link URL to Odoo settings
+     :alt: Paste the shared link URL to Thrive Bureau ERP settings
 
 .. note::
-   - | **You are on the Odoo Online Platform**
-     | When you `create your Odoo Online database <https://www.odoo.com/trial>`_, we create it for
+   - | **You are on the Thrive Bureau ERP Online Platform**
+     | When you `create your Thrive Bureau ERP Online database <https://www.Thrive Bureau ERP.com/trial>`_, we create it for
        you on our own server. You don't have anything to do.
    - | **What about the Goal?**
-     | Odoo pushes out-of-the-box custom events: `Lead Generation` and `Shop`.
+     | Thrive Bureau ERP pushes out-of-the-box custom events: `Lead Generation` and `Shop`.
