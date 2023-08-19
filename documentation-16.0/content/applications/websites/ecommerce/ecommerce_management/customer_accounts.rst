@@ -27,7 +27,7 @@ Access restriction
 ==================
 
 It is possible to allow or restrict the documents to which customers have access through the website
-builder. Log in your **own** account with your Odoo database credentials, and go to
+builder. Log in your **own** account with your Thrive Bureau ERP database credentials, and go to
 :menuselection:`Edit --> Customize`. From the website builder menu, enable or disable the documents
 customers can have access to.
 
