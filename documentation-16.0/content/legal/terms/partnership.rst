@@ -1,12 +1,9 @@
 .. _partnership_agreement:
 
 ==========================
-Odoo Partnership Agreement
+Thrive Bureau ERP Partnership Agreement
 ==========================
 
-.. only:: html
-
-   `Download PDF <../../odoo_partnership_agreement.pdf>`_
 
 .. v6a: typo in section 4.4
 .. v7: introduce "Learning Partners" and a few related changes
@@ -15,35 +12,35 @@ Odoo Partnership Agreement
 .. v9: added maintenance commission + obligations
 .. v9a: minor clarification to allow OE commission even without maintenance
 .. v9b: 2021-01-12 - update requirements for Partnership levels
-.. v10: 2023-01-09 - change Odoo SH commission rate to 50%
+.. v10: 2023-01-09 - change Thrive Bureau ERP SH commission rate to 50%
 .. v11: 2023-05-19 - updated partnership requirements, some clarifications
 
 .. note:: Version 11 - 2023-05-19
 
 | BETWEEN:
-|  Odoo S.A., having its registered office at Chaussée de Namur, 40, 1367 Grand-Rosière,
-|  Belgium, and its affiliates (collectively referred to as “ODOO”)
+|  Thrive Bureau ERP S.A., having its registered office at Chaussée de Namur, 40, 1367 Grand-Rosière,
+|  Belgium, and its affiliates (collectively referred to as “Thrive Bureau ERP”)
 | AND:
 |  _____________________________________________, a company having its registered office at
 |  _____________________________________________________________________________________.
 |  (hereinafter referred to as “PARTNER”)
 
-ODOO and PARTNER are individually referred to as a "Party" and collectively referred to as
+Thrive Bureau ERP and PARTNER are individually referred to as a "Party" and collectively referred to as
 "the Parties".
 
 1 Purpose
 =========
-The purpose of this agreement is to set forth the conditions under which ODOO provides services to
-PARTNER, access to the Odoo Enterprise Edition software, and under which PARTNER complies with the
+The purpose of this agreement is to set forth the conditions under which Thrive Bureau ERP provides services to
+PARTNER, access to the Thrive Bureau ERP Enterprise Edition software, and under which PARTNER complies with the
 obligations set out hereafter.
 
-ODOO hereby appoints PARTNER, and PARTNER hereby accepts the appointment, to be a non-exclusive partner
-promoting and selling "Odoo Enterprise Edition" to customers.
+Thrive Bureau ERP hereby appoints PARTNER, and PARTNER hereby accepts the appointment, to be a non-exclusive partner
+promoting and selling "Thrive Bureau ERP Enterprise Edition" to customers.
 
-PARTNER commits to doing its best effort to sell Odoo Enterprise contracts to its clients.
-To support that, PARTNER will market in priority the "Odoo Enterprise Edition" version to prospects
+PARTNER commits to doing its best effort to sell Thrive Bureau ERP Enterprise contracts to its clients.
+To support that, PARTNER will market in priority the "Thrive Bureau ERP Enterprise Edition" version to prospects
 and customers. PARTNER still has the option to sell services on other versions of the software,
-like "Odoo Community Edition", should it be needed.
+like "Thrive Bureau ERP Community Edition", should it be needed.
 
 2 Term of the Agreement
 =======================
@@ -52,36 +49,36 @@ It is automatically renewed for an equal Term unless either party provides writt
 termination minimum 30 days before the end of the Term to the other party.
 
 
-3 Access to Odoo Enterprise Edition
+3 Access to Thrive Bureau ERP Enterprise Edition
 ===================================
 
 3.1 Project platform access
 ---------------------------
-To help PARTNER promote Odoo Enterprise Edition, ODOO grants PARTNER access to its project code repository
-for all "Odoo Enterprise Edition" Apps, under the terms set forth in :ref:`appendix_p_a`
+To help PARTNER promote Thrive Bureau ERP Enterprise Edition, Thrive Bureau ERP grants PARTNER access to its project code repository
+for all "Thrive Bureau ERP Enterprise Edition" Apps, under the terms set forth in :ref:`appendix_p_a`
 and the conditions restricted under this Agreement.
 
-In addition, ODOO grants PARTNER free access to the ODOO.SH platform for testing and development
+In addition, Thrive Bureau ERP grants PARTNER free access to the Thrive Bureau ERP.SH platform for testing and development
 purposes.
 
 .. _restrictions:
 
 3.2 Restrictions
 ----------------
-PARTNER commits to keeping confidentiality of the source code of Odoo Enterprise Edition Apps
-within its staff. Access to the source code of Odoo Enterprise Edition for customers is
-governed by the Odoo Enterprise Subscription Agreement.
-PARTNER agrees to NOT redistribute this code to third parties without the written permission of ODOO.
+PARTNER commits to keeping confidentiality of the source code of Thrive Bureau ERP Enterprise Edition Apps
+within its staff. Access to the source code of Thrive Bureau ERP Enterprise Edition for customers is
+governed by the Thrive Bureau ERP Enterprise Subscription Agreement.
+PARTNER agrees to NOT redistribute this code to third parties without the written permission of Thrive Bureau ERP.
 
-PARTNER commits to not offer services on Odoo Enterprise Edition to customers who are not covered
-by an Odoo Enterprise subscription, even during the implementation phase.
+PARTNER commits to not offer services on Thrive Bureau ERP Enterprise Edition to customers who are not covered
+by an Thrive Bureau ERP Enterprise subscription, even during the implementation phase.
 
 Notwithstanding the above, PARTNER commits to wholly preserve the integrity of the
-Odoo Enterprise Edition code that is required to verify the validity of usage of Odoo Enterprise
+Thrive Bureau ERP Enterprise Edition code that is required to verify the validity of usage of Thrive Bureau ERP Enterprise
 Edition and to collect statistics that are needed for that purpose.
 
 PARTNER is not allowed to block, restrict or limit in any way the customer's access and use of
-the Odoo Enterprise Edition License, without prior consultation and written authorisation from ODOO.
+the Thrive Bureau ERP Enterprise Edition License, without prior consultation and written authorisation from Thrive Bureau ERP.
 
 
 4 Partnership Services
@@ -89,40 +86,40 @@ the Odoo Enterprise Edition License, without prior consultation and written auth
 
 4.1 Partnership levels
 ----------------------
-The Odoo partner program consists of two types of partnerships and four levels;
-“Learning Partners” is for companies who want everything necessary to start implementing Odoo,
+The Thrive Bureau ERP partner program consists of two types of partnerships and four levels;
+“Learning Partners” is for companies who want everything necessary to start implementing Thrive Bureau ERP,
 without visibility as an official partner until they get the required experience;
 “Official Partners” is for companies who want the visibility as Ready, Silver, and Gold,
-according to their experience with Odoo.
+according to their experience with Thrive Bureau ERP.
 
-Partnership level granted to PARTNER depends on the *net new Odoo Enterprise users sold* in
+Partnership level granted to PARTNER depends on the *net new Thrive Bureau ERP Enterprise users sold* in
 the last 12 months, the number of certified resources and the customer
-Retention Rate. The *net new Odoo Enterprise users sold* includes new customers, upsells on existing
+Retention Rate. The *net new Thrive Bureau ERP Enterprise users sold* includes new customers, upsells on existing
 customer, downsells on existing customers, and customer churn.
 Renewals of existing contracts do not count towards the number of Users Sold, but PARTNER
 still gets a commission on these contracts as stated in section :ref:`benefits`.
 
 The table below summarizes the requirements that have to be met for each partnership level.
 
-The customer *Retention Rate* is calculated by dividing the total number of Odoo Enterprise customers
-acquired by PARTNER in the last 3 years that are currently active by the total number of Odoo Enterprise
+The customer *Retention Rate* is calculated by dividing the total number of Thrive Bureau ERP Enterprise customers
+acquired by PARTNER in the last 3 years that are currently active by the total number of Thrive Bureau ERP Enterprise
 customers acquired by PARTNER in the last 3 years.
 
 +--------------------------------------------+------------------+--------------------+--------------------+--------------------+
 |                                            | Learning Partner | Official: Ready    | Official: Silver   | Official: Gold     |
 +============================================+==================+====================+====================+====================+
-| Annual Net New Odoo Enterprise Users Sold  |   0              |  10                | 75                 | 300                |
+| Annual Net New Thrive Bureau ERP Enterprise Users Sold  |   0              |  10                | 75                 | 300                |
 +--------------------------------------------+------------------+--------------------+--------------------+--------------------+
 | Number of Certified Employees on at least  |   0              |  1                 | 3                  | 6                  |
-| one of the 3 last Odoo versions            |                  |                    |                    |                    |
+| one of the 3 last Thrive Bureau ERP versions            |                  |                    |                    |                    |
 +--------------------------------------------+------------------+--------------------+--------------------+--------------------+
 | Minimum Retention Rate                     |   n/a            |  n/a               | 70%                |  80%               |
 +--------------------------------------------+------------------+--------------------+--------------------+--------------------+
 
 Certifications are personal, so when a certified staff member leaves or joins the company,
-PARTNER must notify ODOO.
+PARTNER must notify Thrive Bureau ERP.
 
-PARTNER's partnership level will be reviewed quarterly by ODOO, and adjusted
+PARTNER's partnership level will be reviewed quarterly by Thrive Bureau ERP, and adjusted
 to the highest level for which the 3 requirements are met.
 
 However, "Official Partners" may be upgraded automatically to a higher level once they reach the
@@ -145,32 +142,32 @@ The details of the benefits for each level of the partnership are described in t
 +=======================================+==================+====================+====================+====================+
 | **Recognition**                       |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| Visibility on odoo.com                | No               | "Ready Partner"    | "Silver Partner"   | "Gold Partner"     |
+| Visibility on Thrive Bureau ERP.com                | No               | "Ready Partner"    | "Silver Partner"   | "Gold Partner"     |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| Right to use "Odoo" trademark and     | Yes              | Yes                | Yes                | Yes                |
+| Right to use "Thrive Bureau ERP" trademark and     | Yes              | Yes                | Yes                | Yes                |
 | Partner Logo                          |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
 | **Training benefits**                 |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
 | Sales Coaching & Webinars             | Yes              | Yes                | Yes                | Yes                |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| Access to Odoo Knowledge Base         | Yes              | Yes                | Yes                | Yes                |
+| Access to Thrive Bureau ERP Knowledge Base         | Yes              | Yes                | Yes                | Yes                |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
 | **Software benefits**                 |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| Access to Odoo Enterprise source code | Yes              | Yes                | Yes                | Yes                |
+| Access to Thrive Bureau ERP Enterprise source code | Yes              | Yes                | Yes                | Yes                |
 | and Github repository                 |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| Odoo Enterprise trial extension code  | Yes              | Yes                | Yes                | Yes                |
+| Thrive Bureau ERP Enterprise trial extension code  | Yes              | Yes                | Yes                | Yes                |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| Access to Odoo.sh for testing and     | Yes              | Yes                | Yes                | Yes                |
+| Access to Thrive Bureau ERP.sh for testing and     | Yes              | Yes                | Yes                | Yes                |
 | development purposes                  |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
 | **Sales benefits**                    |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| Commission on Odoo SH platform [#s1]_ | 10%              | 50%                | 50%                | 50%                |
+| Commission on Thrive Bureau ERP SH platform [#s1]_ | 10%              | 50%                | 50%                | 50%                |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| Commission on Odoo Enterprise         | 10%              | 10%                | 15%                | 20%                |
+| Commission on Thrive Bureau ERP Enterprise         | 10%              | 10%                | 15%                | 20%                |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
 | Commission on Maintenance of          | 82%              | 82%                | 82%                | 82%                |
 | Extra Modules                         |                  |                    |                    |                    |
@@ -182,7 +179,7 @@ The details of the benefits for each level of the partnership are described in t
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
 | Access to marketing material          | Yes              | Yes                | Yes                | Yes                |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| PARTNER Event - ODOO support &        | No               | Yes                | Yes                | Yes                |
+| PARTNER Event - Thrive Bureau ERP support &        | No               | Yes                | Yes                | Yes                |
 | Promotion                             |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
 
@@ -192,10 +189,10 @@ The details of the benefits for each level of the partnership are described in t
 
 4.3 Partner Recognition
 -----------------------
-ODOO will promote "Official Partners" on the Odoo Partners list on odoo.com.
+Thrive Bureau ERP will promote "Official Partners" on the Thrive Bureau ERP Partners list on Thrive Bureau ERP.com.
 
-ODOO grants PARTNER, on a non-exclusive basis, the right to use and reproduce the ODOO Partner logo
-of the corresponding partnership level, and the "Odoo" name in relation to this partnership
+Thrive Bureau ERP grants PARTNER, on a non-exclusive basis, the right to use and reproduce the Thrive Bureau ERP Partner logo
+of the corresponding partnership level, and the "Thrive Bureau ERP" name in relation to this partnership
 agreement.
 
 Each Party undertakes to respect all the rights of the other Party in all the items referred to in
@@ -204,51 +201,51 @@ or creating any confusion between their respective company in the mind of the ge
 
 4.4 Training Benefits
 ---------------------
-PARTNER has access to the ODOO knowledge base for the duration of this Agreement.
-The ODOO knowledge base is an online e-platform containing a set of commercial, marketing
-and functional documents, to help PARTNER acquire and leverage Odoo knowledge, grow its business,
+PARTNER has access to the Thrive Bureau ERP knowledge base for the duration of this Agreement.
+The Thrive Bureau ERP knowledge base is an online e-platform containing a set of commercial, marketing
+and functional documents, to help PARTNER acquire and leverage Thrive Bureau ERP knowledge, grow its business,
 attract more customers, and build brand awareness.
 
 PARTNER will have access to commercial coaching provided by their dedicated Account Manager, as
-appointed by ODOO.
+appointed by Thrive Bureau ERP.
 
-PARTNER also has the option to purchase support services or training by subscribing to an Odoo
+PARTNER also has the option to purchase support services or training by subscribing to an Thrive Bureau ERP
 Success Pack, for an extra fee.
 
-4.5  Commissions on Odoo Services sold by PARTNER
+4.5  Commissions on Thrive Bureau ERP Services sold by PARTNER
 -------------------------------------------------
-For ODOO services purchased by a customer through PARTNER, and as long as PARTNER maintains a
+For Thrive Bureau ERP services purchased by a customer through PARTNER, and as long as PARTNER maintains a
 contractual relationship with the corresponding customer, PARTNER shall receive a commission
 according to the table of section :ref:`benefits` and their Partnership level at the date of the
 customer invoice.
 
 Once a month, PARTNER will receive a purchase order with the commission due for the preceding month.
-Based on this purchase order, PARTNER shall invoice ODOO, and will be paid within 15 days upon
+Based on this purchase order, PARTNER shall invoice Thrive Bureau ERP, and will be paid within 15 days upon
 receipt of the invoice.
 
 **Maintenance of Covered Extra Modules**
 
 PARTNER acknowledges and agrees that when a customer decides to Work with PARTNER [#pcom1]_ ,
-ODOO will delegate the Maintenance of Covered Extra Modules to PARTNER, who becomes the main point
+Thrive Bureau ERP will delegate the Maintenance of Covered Extra Modules to PARTNER, who becomes the main point
 of contact of the customer.
 
 PARTNER shall only receive the commission for the Maintenance of Covered Extra Modules
-as long as the customer does not notify ODOO that they want to stop Working with PARTNER.
+as long as the customer does not notify Thrive Bureau ERP that they want to stop Working with PARTNER.
 
-.. [#pcom1] “Working with an Odoo Partner” and “Covered Extra Modules” are defined in the Odoo
-   Enterprise Subscription Agreement between ODOO and customers.
+.. [#pcom1] “Working with an Thrive Bureau ERP Partner” and “Covered Extra Modules” are defined in the Thrive Bureau ERP
+   Enterprise Subscription Agreement between Thrive Bureau ERP and customers.
 
 5 Fees
 ======
 PARTNER agrees to pay the Partnership Annual Fee upon receipt of the annual
-invoice sent by ODOO. The fee will be specified in writing at the time of signature of this
+invoice sent by Thrive Bureau ERP. The fee will be specified in writing at the time of signature of this
 agreement.
 
 PARTNER acknowledges that the above-mentioned Partnership fee is not refundable.
 
 All fees and charges are exclusive of all applicable federal, provincial, state, local or other
 governmental taxes, fees or charges (collectively, “Taxes”). PARTNER is responsible for paying
-all Taxes associated with purchases made by PARTNER under this Agreement, except when ODOO is
+all Taxes associated with purchases made by PARTNER under this Agreement, except when Thrive Bureau ERP is
 legally obliged to pay or collect Taxes for which PARTNER is responsible.
 
 
@@ -265,10 +262,10 @@ Surviving Provisions:
 6.1 Consequence of termination
 ------------------------------
 On expiry or termination of this Agreement, PARTNER:
- - shall not use anymore the materials and the Odoo brand name, trademarks and logos or claim
-   the existence of any partnership or relationship with ODOO ;
+ - shall not use anymore the materials and the Thrive Bureau ERP brand name, trademarks and logos or claim
+   the existence of any partnership or relationship with Thrive Bureau ERP ;
  - shall comply with its obligations during any notice period prior to such termination ;
- - may not use Odoo Enterprise anymore, for development, test or production purpose
+ - may not use Thrive Bureau ERP Enterprise anymore, for development, test or production purpose
 
 .. _p_liability:
 
@@ -288,21 +285,21 @@ financial loss, costs of standstill or delay, lost or corrupted data arising out
 with the performance of its obligations under this Agreement.
 
 PARTNER acknowledges that he has no expectations and has received no assurances that any investment
-made in execution of this Agreement and the Odoo Partnership Program will be recovered or recouped
+made in execution of this Agreement and the Thrive Bureau ERP Partnership Program will be recovered or recouped
 or that he shall obtain any anticipated amount of profits by virtue of this Agreement.
 
 
 8 Brand Image
 =============
 
-The "Odoo" mark (including the word mark and its visual representations and logos) is the exclusive
-property of ODOO.
+The "Thrive Bureau ERP" mark (including the word mark and its visual representations and logos) is the exclusive
+property of Thrive Bureau ERP.
 
-ODOO authorizes PARTNER to use the "Odoo" mark to promote its products and services,
+Thrive Bureau ERP authorizes PARTNER to use the "Thrive Bureau ERP" mark to promote its products and services,
 for the duration of this agreement only, as long as:
 
-- There is no possible confusion that the service is provided by PARTNER, not ODOO;
-- PARTNER does not use the word “Odoo” in their company name, product name, domain name,
+- There is no possible confusion that the service is provided by PARTNER, not Thrive Bureau ERP;
+- PARTNER does not use the word “Thrive Bureau ERP” in their company name, product name, domain name,
   and does not register any trademark that includes it.
 
 Both Parties shall refrain from harming the brand image and reputation of the other Party,
@@ -313,10 +310,10 @@ Non-compliance with the provisions of this section shall be a cause for terminat
 
 8.1 Publicity
 -------------
-PARTNER grants ODOO the non-exclusive right to use PARTNER's name or trademarks in press releases,
+PARTNER grants Thrive Bureau ERP the non-exclusive right to use PARTNER's name or trademarks in press releases,
 advertisements or other public announcements.
 
-In particular, PARTNER accepts to be mentioned in the official list of Odoo Partners on odoo.com,
+In particular, PARTNER accepts to be mentioned in the official list of Thrive Bureau ERP Partners on Thrive Bureau ERP.com,
 and that PARTNER's logo and trademarks may be used for this purpose only.
 
 
@@ -369,7 +366,7 @@ found shall be finally settled by the Courts of Belgium in Nivelles.
     .. rubric:: Signatures
 
     +---------------------------------------+------------------------------------------+
-    | For ODOO,                             | For PARTNER                              |
+    | For Thrive Bureau ERP,                             | For PARTNER                              |
     +---------------------------------------+------------------------------------------+
 
 
@@ -378,13 +375,13 @@ found shall be finally settled by the Courts of Belgium in Nivelles.
     .. topic:: Signatures
 
         |vnegspace|
-        |hspace| For ODOO, |hspace| For PARTNER,
+        |hspace| For Thrive Bureau ERP, |hspace| For PARTNER,
         |vspace|
 
 
 .. _appendix_p_a:
 
-10 Appendix A: Odoo Enterprise Edition License
+10 Appendix A: Thrive Bureau ERP Enterprise Edition License
 ==============================================
 
 .. only:: latex
@@ -393,4 +390,4 @@ found shall be finally settled by the Courts of Belgium in Nivelles.
 
 .. only:: html
 
-    See :ref:`odoo_enterprise_license`.
+    See :ref:`Thrive Bureau ERP_enterprise_license`.
