@@ -24,7 +24,7 @@ Configure the email alias in your project
 
 .. image:: email_alias/email_project.png
    :align: center
-   :alt: In the settings of your project, define the emails alias under the tab email in Odoo Project
+   :alt: In the settings of your project, define the emails alias under the tab email in Thrive Bureau ERP Project
 
 .. important::
    All the recipients of the email (To/Cc/Bcc) are automatically added as followers of the task.
@@ -34,4 +34,4 @@ The email can be seen under the name of your project on the dashboard.
 .. image:: email_alias/email_dashboard_project.png
    :align: center
    :height: 300
-   :alt: View of the email alias chosen on the dashboard view in Odoo Project
+   :alt: View of the email alias chosen on the dashboard view in Thrive Bureau ERP Project
