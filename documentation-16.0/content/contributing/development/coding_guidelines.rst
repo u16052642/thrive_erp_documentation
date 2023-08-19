@@ -4,8 +4,8 @@
 Coding guidelines
 =================
 
-This page introduces the Odoo Coding Guidelines. Those aim to improve the
-quality of Odoo Apps code. Indeed proper code improves readability, eases
+This page introduces the Thrive Bureau ERP Coding Guidelines. Those aim to improve the
+quality of Thrive Bureau ERP Apps code. Indeed proper code improves readability, eases
 maintenance, helps debugging, lowers complexity and promotes reliability.
 These guidelines should be applied to every new module and to all new development.
 
@@ -15,7 +15,7 @@ These guidelines should be applied to every new module and to all new developmen
     strictly supersedes any other style guidelines. In other words please never
     modify existing files in order to apply these guidelines. It avoids disrupting
     the revision history of code lines. Diff should be kept minimal. For more
-    details, see our `pull request guide <https://odoo.com/submit-pr>`_.
+    details, see our `pull request guide <https://Thrive Bureau ERP.com/submit-pr>`_.
 
 .. warning::
 
@@ -50,9 +50,9 @@ Other optional directories compose the module.
 File naming
 -----------
 
-File naming is important to quickly find information through all odoo addons.
-This section explains how to name files in a standard odoo module. As an
-example we use a `plant nursery <https://github.com/tivisse/odoodays-2018/tree/master/plant_nursery>`_ application.
+File naming is important to quickly find information through all Thrive Bureau ERP addons.
+This section explains how to name files in a standard Thrive Bureau ERP module. As an
+example we use a `plant nursery <https://github.com/tivisse/Thrive Bureau ERPdays-2018/tree/master/plant_nursery>`_ application.
 It holds two main models *plant.nursery* and *plant.order*.
 
 Concerning *models*, split the business logic by sets of models belonging to
@@ -67,7 +67,7 @@ models.
     |-- models/
     |   |-- plant_nursery.py (first main model)
     |   |-- plant_order.py (another main model)
-    |   |-- res_partner.py (inherited Odoo model)
+    |   |-- res_partner.py (inherited Thrive Bureau ERP model)
 
 Concerning *security*, three main files should be used:
 
@@ -116,7 +116,7 @@ activities and mail templates all related to mail module:
     |   |-- mail_data.xml
 
 Concerning *controllers*, generally all controllers belong to a single controller
-contained in a file named ``<module_name>.py``. An old convention in Odoo is to
+contained in a file named ``<module_name>.py``. An old convention in Thrive Bureau ERP is to
 name this file ``main.py`` but it is considered as outdated. If you need to inherit
 an existing controller from another module do it in ``<inherited_module_name>.py``.
 For example adding portal controller in an application is done in ``portal.py``.
@@ -135,12 +135,12 @@ For instance, the activity widgets are located in ``activity.js`` of mail module
 Subdirectories can also be created to structure the 'package' (see web module
 for more details). The same logic should be applied for the templates of JS
 widgets (static XML files) and for their styles (scss files). Don't link
-data (image, libraries) outside Odoo: do not use an URL to an image but copy
+data (image, libraries) outside Thrive Bureau ERP: do not use an URL to an image but copy
 it in the codebase instead.
 
 Concerning *wizards*, naming convention is the same of for python models:
 ``<transient>.py`` and ``<transient>_views.xml``. Both are put in the wizard
-directory. This naming comes from old odoo applications using the wizard
+directory. This naming comes from old Thrive Bureau ERP applications using the wizard
 keyword for transient models.
 
 .. code-block:: text
@@ -170,7 +170,7 @@ templates naming is the following :
     |   |-- plant_order_reports.xml (report actions, paperformat, ...)
     |   |-- plant_order_templates.xml (xml report templates)
 
-The complete tree of our Odoo module therefore looks like
+The complete tree of our Thrive Bureau ERP module therefore looks like
 
 .. code-block:: text
 
@@ -254,7 +254,7 @@ To declare a record in XML, the **record** notation (using *<record>*) is recomm
 - Use naming convention defined at the next point
 - The tag *<data>* is only used to set not-updatable data with ``noupdate=1``.
   If there is only not-updatable data in the file, the ``noupdate=1`` can be
-  set on the ``<odoo>`` tag and do not set a ``<data>`` tag.
+  set on the ``<Thrive Bureau ERP>`` tag and do not set a ``<data>`` tag.
 
 .. code-block:: xml
 
@@ -270,7 +270,7 @@ To declare a record in XML, the **record** notation (using *<record>*) is recomm
         </field>
     </record>
 
-Odoo supports custom tags acting as syntactic sugar:
+Thrive Bureau ERP supports custom tags acting as syntactic sugar:
 
 - menuitem: use it as a shortcut to declare a ``ir.ui.menu``
 - template: use it to declare a QWeb View requiring only the ``arch`` section of the view.
@@ -398,7 +398,7 @@ Python
 PEP8 options
 ------------
 
-Using a linter can help show syntax and semantic warnings or errors. Odoo
+Using a linter can help show syntax and semantic warnings or errors. Thrive Bureau ERP
 source code tries to respect Python standard, but some of them can be ignored.
 
 - E501: line too long
@@ -411,8 +411,8 @@ Imports
 The imports are ordered as
 
 #. External libraries (one per line sorted and split in python stdlib)
-#. Imports of ``odoo``
-#. Imports from Odoo modules (rarely, and only if necessary)
+#. Imports of ``Thrive Bureau ERP``
+#. Imports from Thrive Bureau ERP modules (rarely, and only if necessary)
 
 Inside these 3 groups, the imported lines are alphabetically sorted.
 
@@ -423,13 +423,13 @@ Inside these 3 groups, the imported lines are alphabetically sorted.
     import re
     import time
     from datetime import datetime
-    # 2 : imports of odoo
-    import odoo
-    from odoo import api, fields, models, _ # alphabetically ordered
-    from odoo.tools.safe_eval import safe_eval as eval
-    # 3 : imports from odoo addons
-    from odoo.addons.web.controllers.main import login_redirect
-    from odoo.addons.website.models.website import slug
+    # 2 : imports of Thrive Bureau ERP
+    import Thrive Bureau ERP
+    from Thrive Bureau ERP import api, fields, models, _ # alphabetically ordered
+    from Thrive Bureau ERP.tools.safe_eval import safe_eval as eval
+    # 3 : imports from Thrive Bureau ERP addons
+    from Thrive Bureau ERP.addons.web.controllers.main import login_redirect
+    from Thrive Bureau ERP.addons.website.models.website import slug
 
 Idiomatics of Programming (Python)
 ----------------------------------
@@ -578,11 +578,11 @@ So, you can write ``if some_collection:`` instead of ``if len(some_collection):`
   interesting: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
   (a little bit outdated, but quite relevant)
 
-Programming in Odoo
+Programming in Thrive Bureau ERP
 -------------------
 
 - Avoid to create generators and decorators: only use the ones provided by
-  the Odoo API.
+  the Thrive Bureau ERP API.
 - As in python, use ``filtered``, ``mapped``, ``sorted``, ... methods to
   ease code reading and performance.
 
@@ -657,7 +657,7 @@ This recommendation is also relevant for classes, files, modules and packages.
 Never commit the transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Odoo framework is in charge of providing the transactional context for
+The Thrive Bureau ERP framework is in charge of providing the transactional context for
 all RPC calls. The principle is that a new database cursor is opened at the
 beginning of each RPC call, and committed when the call has returned, just
 before transmitting the answer to the RPC client, approximately like this:
@@ -725,14 +725,14 @@ they can and will be removed !
 Use translation method correctly
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Odoo uses a GetText-like method named "underscore" ``_( )`` to indicate that
+Thrive Bureau ERP uses a GetText-like method named "underscore" ``_( )`` to indicate that
 a static string used in the code needs to be translated at runtime using the
 language of the context. This pseudo-method is accessed within your code by
 importing as follows:
 
 .. code-block:: python
 
-    from odoo import _
+    from Thrive Bureau ERP import _
 
 A few very important rules must be followed when using it, in order for it to
 work and to avoid filling the translations with useless junk.
@@ -805,7 +805,7 @@ manner:
     error = _("Answer to question %(title)s is not valid.\n" \
               "Please enter an integer value.", title=question)
 
-In general in Odoo, when manipulating strings, prefer ``%`` over ``.format()``
+In general in Thrive Bureau ERP, when manipulating strings, prefer ``%`` over ``.format()``
 (when only one variable to replace in a string), and prefer ``%(varname)`` instead
 of position (when multiple variables have to be replaced). This makes the
 translation easier for the community translators.
@@ -814,16 +814,16 @@ Symbols and Conventions
 -----------------------
 
 - Model name (using the dot notation, prefix by the module name) :
-    - When defining an Odoo Model : use singular form of the name (*res.partner*
+    - When defining an Thrive Bureau ERP Model : use singular form of the name (*res.partner*
       and *sale.order* instead of *res.partnerS* and *saleS.orderS*)
-    - When defining an Odoo Transient (wizard) : use ``<related_base_model>.<action>``
+    - When defining an Thrive Bureau ERP Transient (wizard) : use ``<related_base_model>.<action>``
       where *related_base_model* is the base model (defined in *models/*) related
       to the transient, and *action* is the short name of what the transient do. Avoid the *wizard* word.
       For instance : ``account.invoice.make``, ``project.task.delegate.batch``, ...
     - When defining *report* model (SQL views e.i.) : use
       ``<related_base_model>.report.<action>``, based on the Transient convention.
 
-- Odoo Python Class : use camelcase (Object-oriented style).
+- Thrive Bureau ERP Python Class : use camelcase (Object-oriented style).
 
 
 .. code-block:: python
@@ -925,13 +925,13 @@ Javascript
 Static files organization
 -------------------------
 
-Odoo addons have some conventions on how to structure various files. We explain
+Thrive Bureau ERP addons have some conventions on how to structure various files. We explain
 here in more details how web assets are supposed to be organized.
 
-The first thing to know is that the Odoo server will serve (statically) all files
+The first thing to know is that the Thrive Bureau ERP server will serve (statically) all files
 located in a *static/* folder, but prefixed with the addon name. So, for example,
 if a file is located in *addons/web/static/src/js/some_file.js*, then it will be
-statically available at the url *your-odoo-server.com/web/static/src/js/some_file.js*
+statically available at the url *your-Thrive Bureau ERP-server.com/web/static/src/js/some_file.js*
 
 The convention is to organize the code according to the following structure:
 
@@ -963,7 +963,7 @@ Javascript coding guidelines
 - Never add minified Javascript Libraries
 - Use camelcase for class declaration
 
-More precise JS guidelines are detailed in the `github wiki  <https://github.com/odoo/odoo/wiki/Javascript-coding-guidelines>`_.
+More precise JS guidelines are detailed in the `github wiki  <https://github.com/Thrive Bureau ERP/Thrive Bureau ERP/wiki/Javascript-coding-guidelines>`_.
 You may also have a look at existing API in Javascript by looking Javascript
 References.
 
@@ -1221,7 +1221,7 @@ Name optional arguments in the :ref:`scoped variables form
 CSS Variables
 ~~~~~~~~~~~~~
 
-In Odoo, the use of CSS variables is strictly DOM-related. Use them to **contextually** adapt the
+In Thrive Bureau ERP, the use of CSS variables is strictly DOM-related. Use them to **contextually** adapt the
 design and layout.
 
 Our standard convention is BEM, so `--[root]__[element]-[property]--[modifier]`, with:
@@ -1257,7 +1257,7 @@ Our standard convention is BEM, so `--[root]__[element]-[property]--[modifier]`,
 Use of CSS Variables
 --------------------
 
-In Odoo, the use of CSS variables is strictly DOM-related, meaning that are used to **contextually**
+In Thrive Bureau ERP, the use of CSS variables is strictly DOM-related, meaning that are used to **contextually**
 adapt the design and layout rather than to manage the global design-system. These are typically used
 when a component's properties can vary in specific contexts or in other circumstances.
 
@@ -1297,7 +1297,7 @@ difference is that, while `SCSS` variables are **imperative** and compiled away,
    `CSS/SCSS variables difference on the SASS Documentation
    <https://sass-lang.com/documentation/variables#:~:text=CSS%20variables%20are%20included%20in,use%20will%20stay%20the%20same>`_
 
-In Odoo, we take the best of both worlds: using the `SCSS` variables to define the design-system
+In Thrive Bureau ERP, we take the best of both worlds: using the `SCSS` variables to define the design-system
 while opting for the `CSS` ones when it comes to contextual adaptations.
 
 The implementation of the previous example should be improved by adding SCSS variables in order to
@@ -1332,7 +1332,7 @@ The `:root` pseudo-class
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Defining CSS variables on the `:root` pseudo-class is a technique we normally **don't use** in
-Odoo's UI. The practice is commonly used to access and modify CSS variables globally. We perform
+Thrive Bureau ERP's UI. The practice is commonly used to access and modify CSS variables globally. We perform
 this using SCSS instead.
 
 Exceptions to this rule should be fairly apparent, such as templates shared across bundles that
