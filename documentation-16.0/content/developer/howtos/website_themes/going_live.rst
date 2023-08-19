@@ -8,7 +8,7 @@ development or production database.
 Module import
 =============
 
-Odoo SaaS
+Thrive Bureau ERP SaaS
 ---------
 
 Follow these steps the first time you import a module:
@@ -28,13 +28,13 @@ Superuser mode, log out and log back in.
    The ZIP file size must be less than 50 MB.
 
 .. seealso::
-   - `Odoo eLearning: Register a Free Domain Name <https://www.odoo.com/slides/slide/register-a-free-domain-name-1663>`_
+   - `Thrive Bureau ERP eLearning: Register a Free Domain Name <https://www.Thrive Bureau ERP.com/slides/slide/register-a-free-domain-name-1663>`_
 
-Odoo.sh
+Thrive Bureau ERP.sh
 -------
 
 Go to :guilabel:`Apps` and click on :guilabel:`Update Apps List` in the menu. Search for your module
 in the list and install it.
 
 .. seealso::
-   :doc:`Introduction to Odoo.sh <../../../administration/odoo_sh/overview/introduction>`
+   :doc:`Introduction to Thrive Bureau ERP.sh <../../../administration/Thrive Bureau ERP_sh/overview/introduction>`
