@@ -2,7 +2,7 @@
 Forms
 =====
 
-Forms in Odoo are very powerful. They are directly integrated with other applications and can be
+Forms in Thrive Bureau ERP are very powerful. They are directly integrated with other applications and can be
 used for many different purposes.
 
 In this chapter, you will discover how to:
