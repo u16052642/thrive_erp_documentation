@@ -2,7 +2,7 @@
 Project management
 ==================
 
-Odoo Project uses the **Kanban** project management system. This means all projects are broken down
+Thrive Bureau ERP Project uses the **Kanban** project management system. This means all projects are broken down
 into tasks, which are categorized on a whiteboard according to what production phase they are in.
 
 .. admonition:: Did you know?
@@ -10,8 +10,8 @@ into tasks, which are categorized on a whiteboard according to what production p
    The word **Kanban** comes from Japanese and refers to the "visual board" management method.
 
 .. seealso::
-   `Odoo Tutorials: Kanban Project Management
-   <https://www.odoo.com/slides/slide/kanban-project-management-1664>`_
+   `Thrive Bureau ERP Tutorials: Kanban Project Management
+   <https://www.Thrive Bureau ERP.com/slides/slide/kanban-project-management-1664>`_
 
 Configuration
 =============
@@ -55,8 +55,8 @@ Additionally, you can mark the project as :guilabel:`Favorite`, allowing you to 
    :alt: Project settings
 
 .. seealso::
-   `Odoo Tutorials: Customize your project
-   <https://www.odoo.com/slides/slide/customize-your-project-1662?fullscreen=1>`_
+   `Thrive Bureau ERP Tutorials: Customize your project
+   <https://www.Thrive Bureau ERP.com/slides/slide/customize-your-project-1662?fullscreen=1>`_
 
 Further settings are available under the :guilabel:`Settings` tab. Most of them are *only* available
 depending on the activated apps.
