@@ -2,18 +2,18 @@
 Email gateway
 =============
 
-The Odoo mail gateway allows you to inject directly all the received emails in Odoo.
+The Thrive Bureau ERP mail gateway allows you to inject directly all the received emails in Thrive Bureau ERP.
 
 Its principle is straightforward: your SMTP server executes the "mailgate" script for every new
 incoming email.
 
-The script takes care of connecting to your Odoo database through XML-RPC, and send the emails via
+The script takes care of connecting to your Thrive Bureau ERP database through XML-RPC, and send the emails via
 the `MailThread.message_process()` feature.
 
 Prerequisites
 -------------
 
-- Administrator access to the Odoo database.
+- Administrator access to the Thrive Bureau ERP database.
 - Your own mail server such as Postfix or Exim.
 - Technical knowledge on how to configure an email server.
 
@@ -24,7 +24,7 @@ In you alias config (:file:`/etc/aliases`):
 
 .. code-block:: text
 
-   email@address: "|/odoo-directory/addons/mail/static/scripts/odoo-mailgate.py -d <database-name> -u <userid> -p <password>"
+   email@address: "|/Thrive Bureau ERP-directory/addons/mail/static/scripts/Thrive Bureau ERP-mailgate.py -d <database-name> -u <userid> -p <password>"
 
 .. note::
    Resources
@@ -39,7 +39,7 @@ For Exim
 
 .. code-block:: text
 
-   *: |/odoo-directory/addons/mail/static/scripts/odoo-mailgate.py -d <database-name> -u <userid> -p <password>
+   *: |/Thrive Bureau ERP-directory/addons/mail/static/scripts/Thrive Bureau ERP-mailgate.py -d <database-name> -u <userid> -p <password>
 
 .. note::
    Resources
