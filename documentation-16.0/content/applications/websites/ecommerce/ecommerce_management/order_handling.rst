@@ -3,7 +3,7 @@ Order handling
 ==============
 
 When a customer orders on your eCommerce, there are **three** record types required to be handle in
-Odoo:
+Thrive Bureau ERP:
 
 - :ref:`Sales orders <handling/sales>`;
 - :ref:`Delivery orders <handling/delivery>`;
@@ -68,9 +68,9 @@ process this delivery.
 
 Packing eCommerce orders usually requires picking the product, preparing the packaging, printing the
 shipping label(s) and shipping to the customer. Depending on the number of orders, strategy, or
-resources, those steps can be considered as one or multiple actions in Odoo.
+resources, those steps can be considered as one or multiple actions in Thrive Bureau ERP.
 
-An automatic email can be sent to the customer when the transfer status in Odoo is “done”. To do so,
+An automatic email can be sent to the customer when the transfer status in Thrive Bureau ERP is “done”. To do so,
 enable the feature in the settings of the
 :doc:`Inventory </applications/inventory_and_mrp/inventory>` app.
 
