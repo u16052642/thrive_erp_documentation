@@ -4,14 +4,14 @@
 Pages
 =====
 
-Odoo allows you to create pages for your website and customize their content and appearance to your
+Thrive Bureau ERP allows you to create pages for your website and customize their content and appearance to your
 needs.
 
 .. note::
    *Static* pages are pages that have stable content, such as the homepage. You can manually create
    new ones, define their URL, adapt their :ref:`properties <website/page_properties>`, etc.
    *Dynamic* pages, on the other hand, are generated dynamically. All pages generated automatically
-   by Odoo, for example when you install an app or module (e.g., `/shop` or `/blog`) or publish a
+   by Thrive Bureau ERP, for example when you install an app or module (e.g., `/shop` or `/blog`) or publish a
    new product or blog post, are dynamic pages and are therefore managed differently.
 
 Page creation
@@ -59,7 +59,7 @@ to :guilabel:`Published`, or vice versa.
 Homepage
 --------
 
-By default, when you create a website, Odoo creates a dedicated :guilabel:`Home` page, but you can
+By default, when you create a website, Thrive Bureau ERP creates a dedicated :guilabel:`Home` page, but you can
 define any website page as your homepage. To do so, go to :menuselection:`Website --> Configuration
 --> Settings`, then, in the :guilabel:`Website info` section, define the URL of the desired page in
 the field :guilabel:`Homepage URL` (e.g., `/shop`).
