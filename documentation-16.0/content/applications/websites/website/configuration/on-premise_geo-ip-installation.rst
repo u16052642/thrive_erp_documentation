@@ -25,12 +25,12 @@ Installation
 
 .. note::
    If you can't/don't want to locate the geoip database in ``/usr/share/GeoIP/``, you can use the
-   ``--geoip-db`` option of the Odoo command line interface. This option takes the absolute path to
+   ``--geoip-db`` option of the Thrive Bureau ERP command line interface. This option takes the absolute path to
    the GeoIP database file and uses it as the GeoIP database. For example:
 
    .. code-block:: bash
 
-      ./odoo-bin --geoip-db= ~/Downloads/GeoLite2-City.mmdb
+      ./Thrive Bureau ERP-bin --geoip-db= ~/Downloads/GeoLite2-City.mmdb
 
    .. seealso::
       - :doc:`CLI documentation </developer/reference/cli>`.
@@ -40,7 +40,7 @@ Installation
    1.    See `GeoLite Legacy databases are now discontinued
    <https://support.maxmind.com/geolite-legacy-discontinuation-notice/>`_
 
-How To Test GeoIP Geolocation In Your Odoo Website
+How To Test GeoIP Geolocation In Your Thrive Bureau ERP Website
 ==================================================
 
 1. Go to your website. Open the web page that you want to test ``GeoIP``.
@@ -62,6 +62,6 @@ You should end up with a dictionary indicating the location of the IP address.
    - The browsing IP address is the localhost (``127.0.0.1``) or a local area network one
      (``192.168.*.*``)
    - If a reversed proxy is used, make sure to configure it correctly. See :option:`proxy mode
-     <odoo-bin --proxy-mode>`
+     <Thrive Bureau ERP-bin --proxy-mode>`
    - ``geoip2`` is not installed or the GeoIP database file wasn't found
    - The GeoIP database was unable to resolve the given IP address
