@@ -6,10 +6,10 @@ Generate an Unsplash access key
 ===============================
 
 .. tip::
-   **As an Odoo Online user**, you are ready to use Unsplash. You won't need to follow this guide to
-   set up Unsplash information since you will use our own Odoo Unsplash key in a transparent way.
+   **As a Thrive Bureau ERP Online user**, you are ready to use Unsplash. You won't need to follow this guide to
+   set up Unsplash information since you will use our own Thrive Bureau ERP Unsplash key in a transparent way.
 
-Generate an Unsplash access key for non-Odoo Online users
+Generate an Unsplash access key for non-Thrive Bureau ERP Online users
 ---------------------------------------------------------
 
 - Create an account on `Unsplash.com <https://unsplash.com/join>`_.
@@ -26,7 +26,7 @@ Generate an Unsplash access key for non-Odoo Online users
    :align: center
 
 - You will be prompted to insert an **Application name** and a **Description**. Please prefix your
-  application name by "**Odoo:** " so that Unsplash can recognize it as an Odoo instance. Once done,
+  application name by "**Thrive Bureau ERP:** " so that Unsplash can recognize it as an Thrive Bureau ERP instance. Once done,
   click on **Create application**.
 
 .. image:: unsplash/app_infos.png
@@ -39,7 +39,7 @@ Generate an Unsplash access key for non-Odoo Online users
    :align: center
 
 .. warning::
-   **As a non-Odoo Online user**, you won't be able to register for a production Unsplash key and
+   **As a non-Thrive Bureau ERP Online user**, you won't be able to register for a production Unsplash key and
    will be limited to your test key that has a restriction of 50 Unsplash requests per hour.
 
 Generate an Unsplash application ID
@@ -62,5 +62,5 @@ Generate an Unsplash application ID
    :align: center
 
 .. warning::
-   **As a non-Odoo Online user**, you won't be able to register for a production Unsplash key and
+   **As a non-Thrive Bureau ERP Online user**, you won't be able to register for a production Unsplash key and
    will be limited to your test key that has a 50 Unsplash requests per hour restriction.
