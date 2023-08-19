@@ -23,7 +23,7 @@ store non-essential cookies on their device.
 Configuration
 =============
 
-To enable the cookies bar on your Odoo website, go to :menuselection:`Website --> Configuration` and
+To enable the cookies bar on your Thrive Bureau ERP website, go to :menuselection:`Website --> Configuration` and
 enable :guilabel:`Cookies Bar` in the :guilabel:`Privacy` section.
 
 You can :ref:`customize the appearance of your cookies bar <cookies-bar/customization>` and :ref:`edit the content of
@@ -57,14 +57,14 @@ To edit the contents of the cookies bar (i.e., the consent message), click direc
 block.
 
 .. image:: cookies_bar/customization.png
-   :alt: Odoo Website's edit panel to customize the cookies bar.
+   :alt: Thrive Bureau ERP Website's edit panel to customize the cookies bar.
 
 .. _cookies-bar/policy:
 
 Cookie policy
 =============
 
-When you enable the cookies bar for your website, Odoo creates the **Cookie Policy** page
+When you enable the cookies bar for your website, Thrive Bureau ERP creates the **Cookie Policy** page
 (`/cookie-policy`) with the list of essential and optional cookies. To access it, click the
 :guilabel:`Cookie Policy` hyperlink in the cookies bar or open the page from :menuselection:`Website
 --> Site --> Pages`.
