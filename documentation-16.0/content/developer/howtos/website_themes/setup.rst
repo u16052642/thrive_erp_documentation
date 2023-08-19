@@ -5,16 +5,16 @@ Setup
 In this chapter, you will learn:
 
 - To set up your local development environment.
-- The outline of the Odoo database structure.
-- To export and import an Odoo database in your local environment.
-- To have an Odoo instance up and running.
+- The outline of the Thrive Bureau ERP database structure.
+- To export and import an Thrive Bureau ERP database in your local environment.
+- To have an Thrive Bureau ERP instance up and running.
 
 Install
 =======
 
-There are multiple ways to :doc:`install Odoo <../../../administration/install/install>`, depending on the intended use case. This documentation
-assumes you use the :ref:`source install <setup/install/source>` (running Odoo from the source code), which is best suited
-for Odoo designers and developers.
+There are multiple ways to :doc:`install Thrive Bureau ERP <../../../administration/install/install>`, depending on the intended use case. This documentation
+assumes you use the :ref:`source install <setup/install/source>` (running Thrive Bureau ERP from the source code), which is best suited
+for Thrive Bureau ERP designers and developers.
 
 Databases
 =========
@@ -22,15 +22,15 @@ Databases
 Structure
 ---------
 
-Every Odoo application works similarly; they are built with the same logic. A model contains fields
+Every Thrive Bureau ERP application works similarly; they are built with the same logic. A model contains fields
 and relational fields that link to other models. Each model has views representing all its fields,
 with backend and frontend views.
 
 Models
 ~~~~~~
 
-The basis of Odoo is models. Models use fields to record the data. Records are stored in a database:
-they are therefore linked to a model. In Odoo, you can find the different models in the
+The basis of Thrive Bureau ERP is models. Models use fields to record the data. Records are stored in a database:
+they are therefore linked to a model. In Thrive Bureau ERP, you can find the different models in the
 backend by enabling the :ref:`developer mode <developer-mode>` and then going to
 :menuselection:`Settings --> Technical --> Database Structure: Models`.
 
@@ -94,8 +94,8 @@ Static vs. Dynamic
 Standard vs. Inherited
 **********************
 
-- **Standard views** are base views implemented by Odoo. They are directly derived from their model.
-  You should never change them as they allow updating an Odoo database without overwriting a
+- **Standard views** are base views implemented by Thrive Bureau ERP. They are directly derived from their model.
+  You should never change them as they allow updating an Thrive Bureau ERP database without overwriting a
   client's modifications.
 - **Inherited views** are duplicated views. Modifications always take place in an inherited view. If
   there is a duplicate view, there will be two views with the same name in the database, but the
@@ -111,15 +111,15 @@ Import an existing database
 Dump
 ~~~~
 
-Odoo SaaS
+Thrive Bureau ERP SaaS
 *********
 
 Go to `<database_url>/saas_worker/dump`.
 
-Odoo.sh
+Thrive Bureau ERP.sh
 *******
 
-#. Connect to Odoo.sh.
+#. Connect to Thrive Bureau ERP.sh.
 #. Select the branch you want to back up.
 #. Choose the :guilabel:`BACKUPS` tab.
 #. Click the :guilabel:`Create Backup` button.
@@ -143,8 +143,8 @@ Move filestore
 Copy all the folders included in the filestore folder and paste them to the following location on
 your computer:
 
-- macOS: `/Users/<User>/Library/Application Support/Odoo/filestore/<database_name>`
-- Linux: `/home/<User>/.local/share/Odoo/filestore/<database_name>`
+- macOS: `/Users/<User>/Library/Application Support/Thrive Bureau ERP/filestore/<database_name>`
+- Linux: `/home/<User>/.local/share/Thrive Bureau ERP/filestore/<database_name>`
 
 .. note::
    `/Library` is a hidden folder.
@@ -175,20 +175,20 @@ Reset the admin user password.
 Getting started
 ===============
 
-Running Odoo
+Running Thrive Bureau ERP
 ------------
 
-Once all dependencies are set up, Odoo can be launched by running `odoo-bin`, the command-line
-interface of the server. It is located at the root of the Odoo Community directory.
+Once all dependencies are set up, Thrive Bureau ERP can be launched by running `Thrive Bureau ERP-bin`, the command-line
+interface of the server. It is located at the root of the Thrive Bureau ERP Community directory.
 
-- :ref:`Running Odoo <setup/install/source/running_odoo>`
-- `Docker <https://hub.docker.com/_/odoo/>`_
+- :ref:`Running Thrive Bureau ERP <setup/install/source/running_Thrive Bureau ERP>`
+- `Docker <https://hub.docker.com/_/Thrive Bureau ERP/>`_
 
 To configure the server, you can specify command-line arguments or a configuration file. The first
 method is presented below.
 
-The :ref:`CLI <reference/cmdline>` offers several functionalities related to Odoo. You can use it to
-:ref:`run the server <reference/cmdline/server>`, scaffold an Odoo theme, populate a database, or
+The :ref:`CLI <reference/cmdline>` offers several functionalities related to Thrive Bureau ERP. You can use it to
+:ref:`run the server <reference/cmdline/server>`, scaffold an Thrive Bureau ERP theme, populate a database, or
 count the number of lines of code.
 
 Shell script
@@ -199,7 +199,7 @@ A typical way to :ref:`run the server <reference/cmdline/server>` would be to ad
 .. example::
    .. code-block:: xml
 
-      ./odoo-bin --addons-path=../enterprise,addons --db-filter=<database> -d <database> --without-demo=all -i website --dev=xml
+      ./Thrive Bureau ERP-bin --addons-path=../enterprise,addons --db-filter=<database> -d <database> --without-demo=all -i website --dev=xml
 
 .. list-table::
    :header-rows: 1
@@ -208,34 +208,34 @@ A typical way to :ref:`run the server <reference/cmdline/server>` would be to ad
 
    * - Folder
      - Description
-   * - :option:`--addons-path <odoo-bin --addons-path>`
+   * - :option:`--addons-path <Thrive Bureau ERP-bin --addons-path>`
      - Comma-separated list of directories in which modules are stored. These directories are
        scanned for modules.
-   * - :option:`-d <odoo-bin --database>`
+   * - :option:`-d <Thrive Bureau ERP-bin --database>`
 
-       :option:`--database <odoo-bin --database>`
+       :option:`--database <Thrive Bureau ERP-bin --database>`
      - database(s) used when installing or updating modules.
-   * - :option:`--db-filter <odoo-bin --db-filter>`
+   * - :option:`--db-filter <Thrive Bureau ERP-bin --db-filter>`
      - Hides databases that do not match the filter.
-   * - :option:`-i <odoo-bin --init>`
+   * - :option:`-i <Thrive Bureau ERP-bin --init>`
 
-       :option:`--init <odoo-bin --init>`
+       :option:`--init <Thrive Bureau ERP-bin --init>`
      - Comma-separated list of modules to install before running the server. (requires `-d`)
-   * - :option:`-u <odoo-bin --update>`
+   * - :option:`-u <Thrive Bureau ERP-bin --update>`
 
-       :option:`--update <odoo-bin --update>`
+       :option:`--update <Thrive Bureau ERP-bin --update>`
      - Comma-separated list of modules to update before running the server. (requires `-d`)
-   * - :option:`--without-demo <odoo-bin --without-demo>`
+   * - :option:`--without-demo <Thrive Bureau ERP-bin --without-demo>`
      - Disables demo data loading for modules installed comma-separated; use `all` for all modules.
        (requires `-d` and `-i`)
-   * - :option:`--dev <odoo-bin --dev>`
+   * - :option:`--dev <Thrive Bureau ERP-bin --dev>`
      - Comma-separated list of features. For development purposes only. :ref:`More info
        <reference/cmdline/dev>`
 
 Sign in
 -------
 
-After the server has started (the INFO log `odoo.modules.loading: Modules loaded.` is printed), open
+After the server has started (the INFO log `Thrive Bureau ERP.modules.loading: Modules loaded.` is printed), open
 http://localhost:8069 in your web browser and log in with the base administrator account.
 
 Type **admin** for the email and **admin** for the password.
