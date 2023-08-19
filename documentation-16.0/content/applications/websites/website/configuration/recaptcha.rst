@@ -37,9 +37,9 @@ On the website registration page:
    :alt: reCAPTCHA website registration example
 
 A new page with the generated keys is then displayed. Leave it open for convenience, as copying the
-keys to Odoo is required next.
+keys to Thrive Bureau ERP is required next.
 
-On Odoo
+On Thrive Bureau ERP
 -------
 
 - From the database dashboard, click :guilabel:`Settings`. Under :guilabel:`Integrations`, enable
@@ -50,9 +50,9 @@ On Odoo
      integration` module, as many other modules would also be removed.
 
 - Open the Google reCAPTCHA page, copy the :guilabel:`Site key`, and paste it into the
-  :guilabel:`Site Key` field in Odoo.
+  :guilabel:`Site Key` field in Thrive Bureau ERP.
 - Open the Google reCAPTCHA page, copy the :guilabel:`Secret key`, and paste it into the
-  :guilabel:`Secret Key` field in Odoo.
+  :guilabel:`Secret Key` field in Thrive Bureau ERP.
 - Change the default :guilabel:`Minimum score` (`0.5`) if necessary, using a value between `1.0`
   and `0.0`. The higher the threshold is, the more difficult it is to pass the reCAPTCHA, and vice
   versa.
