@@ -1,21 +1,19 @@
 .. _enterprise_agreement:
 
 ======================================
-Odoo Enterprise Subscription Agreement
+Thrive Bureau ERP Enterprise Subscription Agreement
 ======================================
 
 .. only:: html
 
-   `Download PDF <https://www.odoo.com/documentation/{CURRENT_BRANCH}/odoo_enterprise_agreement.pdf>`_
-
-.. note:: Version 10a - 2022-10-27
+.. note:: Version 5 - 2023-07-27
 
 .. v6: add "App" definition + update pricing per-App
 .. v7: remove possibility of price change at renewal after prior notice
 .. 7.1: specify that 7% renewal increase applies to all charges, not just per-User.
 .. v8.0: adapt for "Self-Hosting" + "Data Protection" for GDPR
 .. v8a: minor wording changes, tuned User definition, + copyright guarantee
-.. v9.0: add "Working with an Odoo Partner" + Maintenance of [Covered] Extra Modules + simplifications
+.. v9.0: add "Working with an Thrive Bureau ERP Partner" + Maintenance of [Covered] Extra Modules + simplifications
 .. v9a: clarification wrt second-level assistance for standard features
 .. v9b: clarification that maintenance is opt-out + name of `cloc` command
 .. v9c: minor wording changes, tuned User definition, + copyright guarantee (re-application of v8a changes
@@ -23,9 +21,9 @@ Odoo Enterprise Subscription Agreement
 .. v10: fall 2022 pricing change - removal of "per app" notions
 .. v10a: clarified wording for Section 5.1 "(at that time)"
 
-By subscribing to the Odoo Enterprise services (the "Services") provided by Odoo SA and its
-affiliates (collectively, "Odoo SA") in relation with Odoo Enterprise Edition or Odoo Community
-Edition (the "Software"), hosted on Odoo SA's Cloud platforms (the "Cloud Platform") or
+By subscribing to the Thrive Bureau ERP Enterprise services (the "Services") provided by Thrive Bureau ERP SA and its
+affiliates (collectively, "Thrive Bureau ERP SA") in relation with Thrive Bureau ERP Enterprise Edition or Thrive Bureau ERP Community
+Edition (the "Software"), hosted on Thrive Bureau ERP SA's Cloud platforms (the "Cloud Platform") or
 on-premises ("Self-Hosting"), you (the "Customer") are agreeing to be bound by the
 following terms and conditions (the "Agreement").
 
@@ -53,15 +51,15 @@ User
 App
     An "App" is a specialized group of features available for installation in the Software.
 
-Odoo Partner
-    An Odoo Partner is a third-party company or individual, chosen by the Customer, and working
-    with the Customer for their Odoo related services. The Customer can decide at any time to work
-    with a different Odoo Partner, or to work with Odoo SA directly (subject to prior notice).
+Thrive Bureau ERP Partner
+    An Thrive Bureau ERP Partner is a third-party company or individual, chosen by the Customer, and working
+    with the Customer for their Thrive Bureau ERP related services. The Customer can decide at any time to work
+    with a different Thrive Bureau ERP Partner, or to work with Thrive Bureau ERP SA directly (subject to prior notice).
 
 Extra Module
     An extra module is a directory of source code files, or a set of Python-based customizations
-    created in a database (e.g. with Odoo Studio), that adds features or changes the standard
-    behavior of the Software. It may have been developed by the Customer, by Odoo SA, by an Odoo
+    created in a database (e.g. with Thrive Bureau ERP Studio), that adds features or changes the standard
+    behavior of the Software. It may have been developed by the Customer, by Thrive Bureau ERP SA, by an Thrive Bureau ERP
     Partner on behalf of the Customer, or by third parties.
 
 Covered Extra Module
@@ -73,7 +71,7 @@ Bug
     a complete stop, error traceback or security breach, and is not directly caused by a defective
     installation or configuration.
     Non-compliance with specifications or requirements will be considered as Bugs at
-    the discretion of Odoo SA (typically, when the Software does not produce the results or
+    the discretion of Thrive Bureau ERP SA (typically, when the Software does not produce the results or
     performance it was designed to produce, or when a country-specific feature does not meet legal
     accounting requirements anymore).
 
@@ -93,27 +91,27 @@ Subscription Plan
 ========================
 
 The Customer can use the Software hosted on the Cloud Platform, or choose the Self-Hosting option.
-The Cloud Platform is hosted and fully managed by Odoo SA, and accessed remotely by the Customer.
+The Cloud Platform is hosted and fully managed by Thrive Bureau ERP SA, and accessed remotely by the Customer.
 With the Self-Hosting option, the Customer instead hosts the Software on computer systems of their
-choice, that are not under the control of Odoo SA.
+choice, that are not under the control of Thrive Bureau ERP SA.
 
-For the duration of this Agreement, Odoo SA gives the Customer a non-exclusive, non-transferable
-license to use (execute, modify, execute after modification) the Odoo Enterprise Edition software,
+For the duration of this Agreement, Thrive Bureau ERP SA gives the Customer a non-exclusive, non-transferable
+license to use (execute, modify, execute after modification) the Thrive Bureau ERP Enterprise Edition software,
 under the terms set forth in :ref:`appendix_a`.
 
 The Customer agrees to take all necessary measures to guarantee the unmodified execution of
-the part of the Software that verifies the validity of the Odoo Enterprise Edition usage and
+the part of the Software that verifies the validity of the Thrive Bureau ERP Enterprise Edition usage and
 collects statistics for that purpose, including but not limited to the running of an instance,
 the number of Users, the installed Apps, and the number of lines of code of Covered Extra Modules.
 
-Odoo SA commits not to disclose individual or named figures to third parties without the consent
+Thrive Bureau ERP SA commits not to disclose individual or named figures to third parties without the consent
 of the Customer, and to deal with all collected data in compliance with its official Privacy
-Policy, published at https://www.odoo.com/privacy.
+Policy, published at https://www.Thrive Bureau ERP.com/privacy.
 
 Upon expiration or termination of this Agreement, this license is revoked immediately and the
-Customer agrees to stop using the Odoo Enterprise Edition software and the Cloud Platform.
+Customer agrees to stop using the Thrive Bureau ERP Enterprise Edition software and the Cloud Platform.
 
-Should the Customer breach the terms of this section, the Customer agrees to pay Odoo SA an extra
+Should the Customer breach the terms of this section, the Customer agrees to pay Thrive Bureau ERP SA an extra
 fee equal to 300% of the applicable list price for the actual number of Users.
 
 
@@ -127,21 +125,21 @@ fee equal to 300% of the applicable list price for the actual number of Users.
 4.1 Bug Fixing Service
 ----------------------
 
-For the duration of this Agreement, Odoo SA commits to making all reasonable efforts to remedy any
+For the duration of this Agreement, Thrive Bureau ERP SA commits to making all reasonable efforts to remedy any
 Bug of the Software and Covered Extra Modules submitted by the Customer through the appropriate
-channel (typically, the web form or phone numbers listed on `odoo.com/help <https://www.odoo.com/help>`_,
-or when working with an Odoo Partner, the channel provided by the partner), and to start handling
+channel (typically, the web form or phone numbers listed on `Thrive Bureau ERP.com/help <https://www.Thrive Bureau ERP.com/help>`_,
+or when working with an Thrive Bureau ERP Partner, the channel provided by the partner), and to start handling
 such Customer submissions within 2 business days.
 
 As soon as the Bug is fixed an appropriate remedy will be communicated to the Customer.
 If the Customer is using a Covered Version, they will not be asked to upgrade to a more recent
 Covered Version of the Software as a remedy to a Bug.
 
-When a Bug is fixed in any Covered Version, Odoo SA commits to fixing the Bug in all more recent
+When a Bug is fixed in any Covered Version, Thrive Bureau ERP SA commits to fixing the Bug in all more recent
 Covered Versions of the Software.
 
 Both parties acknowledge that as specified in the license of the Software and in the :ref:`liability`
-section of this Agreement, Odoo SA cannot be held liable for Bugs in the Software
+section of this Agreement, Thrive Bureau ERP SA cannot be held liable for Bugs in the Software
 or in Covered Extra Modules.
 
 
@@ -153,7 +151,7 @@ or in Covered Extra Modules.
 Self-Hosting
 ~~~~~~~~~~~~
 
-For the duration of this Agreement, Odoo SA commits to sending a "Security Advisory" to the Customer
+For the duration of this Agreement, Thrive Bureau ERP SA commits to sending a "Security Advisory" to the Customer
 for any security Bug that is discovered in the Covered Versions of the Software (this excludes Extra
 Modules), at least 2 weeks before making the Security Advisory public, unless the Bug has already
 been disclosed publicly by a third party.
@@ -169,7 +167,7 @@ the public disclosure.
 Cloud Platform
 ~~~~~~~~~~~~~~
 
-Odoo SA commits to apply the security remedies for any security Bug discovered in a version of
+Thrive Bureau ERP SA commits to apply the security remedies for any security Bug discovered in a version of
 the Software hosted on the Cloud Platform, on all systems under its control, as soon as
 the remedy is available, without requiring any manual action of the Customer.
 
@@ -179,13 +177,13 @@ the remedy is available, without requiring any manual action of the Customer.
 4.3 Upgrade Services
 --------------------
 
-.. _upgrade_odoo:
+.. _upgrade_Thrive Bureau ERP:
 
 Upgrade Service for the Software
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For the duration of this Agreement, the Customer can submit upgrade requests through the appropriate
-channel (typically Odoo SA's upgrade service website), in order to convert a database of the Software
+channel (typically Thrive Bureau ERP SA's upgrade service website), in order to convert a database of the Software
 from any version of the Software to a more recent Covered Version (the "Target Version").
 
 For the Cloud Platform, upgrade requests are submitted directly from the control panel of the
@@ -215,7 +213,7 @@ achieved.
 --------------------------
 
 For the duration of this Agreement, when the Customer chooses to use the Cloud Platform,
-Odoo SA commits to providing at least the following services:
+Thrive Bureau ERP SA commits to providing at least the following services:
 
 - Choice of multiple hosting regions (minimum 3: Europe, America, Asia/Pacific)
 - Hosting in Tier-III data centers or equivalent, with 99.9% network uptime
@@ -224,7 +222,7 @@ Odoo SA commits to providing at least the following services:
 - Disaster Recovery Plan, tested regularly
 
 The details of the Cloud Hosting Services are described on the Service Level Agreement page at
-https://www.odoo.com/cloud-sla.
+https://www.Thrive Bureau ERP.com/cloud-sla.
 
 
 .. _support_service:
@@ -242,31 +240,31 @@ with respect to the use of the standard features of the Software and Covered Ext
 Other assistance requests, such as questions related to development or customizations
 may be covered through the purchase of a separate service agreement.
 In case it’s not clear if a request is covered by this Agreement,
-the decision is at the discretion of Odoo SA.
+the decision is at the discretion of Thrive Bureau ERP SA.
 
 Availability
 ~~~~~~~~~~~~
 
-Tickets can be submitted via the web form or phone numbers listed on `odoo.com/help <https://www.odoo.com/help>`_,
-or when working with an Odoo Partner, the channel provided by the partner, subject to local
+Tickets can be submitted via the web form or phone numbers listed on `Thrive Bureau ERP.com/help <https://www.Thrive Bureau ERP.com/help>`_,
+or when working with an Thrive Bureau ERP Partner, the channel provided by the partner, subject to local
 opening hours.
 
 
 .. _maintenance_partner:
 
-4.6 Working with an Odoo Partner
+4.6 Working with an Thrive Bureau ERP Partner
 --------------------------------
 
-For bug fixes, support and upgrade services, the Customer may either work with an Odoo Partner
-as the main point of contact, or work with Odoo SA directly.
+For bug fixes, support and upgrade services, the Customer may either work with an Thrive Bureau ERP Partner
+as the main point of contact, or work with Thrive Bureau ERP SA directly.
 
-If the Customer decides to work with an Odoo Partner, Odoo SA will subcontract services related
-to the Covered Extra Modules to the Odoo Partner, who becomes the main point of contact of the
-customer. The Odoo Partner may contact Odoo SA on behalf of the customer for second-level assistance
+If the Customer decides to work with an Thrive Bureau ERP Partner, Thrive Bureau ERP SA will subcontract services related
+to the Covered Extra Modules to the Thrive Bureau ERP Partner, who becomes the main point of contact of the
+customer. The Thrive Bureau ERP Partner may contact Thrive Bureau ERP SA on behalf of the customer for second-level assistance
 with regard to standard features of the Software.
 
-If the Customer decides to work with Odoo SA directly, services related to Covered Extra Modules
-are provided *if and only if* the Customer is hosted on the Odoo Cloud Platform.
+If the Customer decides to work with Thrive Bureau ERP SA directly, services related to Covered Extra Modules
+are provided *if and only if* the Customer is hosted on the Thrive Bureau ERP Cloud Platform.
 
 
 .. _charges:
@@ -279,7 +277,7 @@ are provided *if and only if* the Customer is hosted on the Odoo Cloud Platform.
 5.1 Standard charges
 --------------------
 
-The standard charges for the Odoo Enterprise subscription and the Services are based on the number
+The standard charges for the Thrive Bureau ERP Enterprise subscription and the Services are based on the number
 of Users and the Subscription Plan used by the Customer, and specified in writing
 at the conclusion of the Agreement.
 
@@ -298,7 +296,7 @@ of the programming language (Python, Javascript, XML, etc.), excluding blank lin
 and files that are not loaded when installing or executing the Software.
 
 When the Customer requests an upgrade, for each Covered Extra Module that has not been covered by
-a maintenance fee for the last 12 months, Odoo SA may charge a one-time extra fee
+a maintenance fee for the last 12 months, Thrive Bureau ERP SA may charge a one-time extra fee
 for each missing month of coverage.
 
 .. _charges_renewal:
@@ -318,7 +316,7 @@ are lower than the most current applicable list price, these charges will increa
 
 All fees and charges are exclusive of all applicable federal, provincial, state, local or other
 governmental taxes, fees or charges (collectively, "Taxes"). The Customer is responsible for paying
-all Taxes associated with purchases made by the Customer under this Agreement, except when Odoo SA
+all Taxes associated with purchases made by the Customer under this Agreement, except when Thrive Bureau ERP SA
 is legally obliged to pay or collect Taxes for which the Customer is responsible.
 
 
@@ -332,17 +330,17 @@ is legally obliged to pay or collect Taxes for which the Customer is responsible
 
 The Customer agrees to:
 
-- pay Odoo SA any applicable charges for the Services of the present Agreement, in accordance with
+- pay Thrive Bureau ERP SA any applicable charges for the Services of the present Agreement, in accordance with
   the payment conditions specified at the signature of this contract ;
-- immediately notify Odoo SA when their actual number of Users exceeds the
+- immediately notify Thrive Bureau ERP SA when their actual number of Users exceeds the
   number specified at the conclusion of the Agreement, and in this event, pay the applicable
   additional fee as described in section :ref:`charges_standard`;
 - take all measures necessary to guarantee the unmodified execution of the part of the Software
-  that verifies the validity of the Odoo Enterprise Edition usage, as described
+  that verifies the validity of the Thrive Bureau ERP Enterprise Edition usage, as described
   in :ref:`enterprise_access` ;
 - appoint 1 dedicated Customer contact person for the entire duration of the Agreement;
-- provide written notice to Odoo SA 30 days before changing their main point of contact to work
-  with another Odoo Partner, or to work with Odoo SA directly.
+- provide written notice to Thrive Bureau ERP SA 30 days before changing their main point of contact to work
+  with another Thrive Bureau ERP Partner, or to work with Thrive Bureau ERP SA directly.
 
 When the Customer chooses to use the Cloud Platform, the Customer further agrees to:
 
@@ -350,13 +348,13 @@ When the Customer chooses to use the Cloud Platform, the Customer further agrees
   a strong password and not sharing it with anyone else;
 - make a reasonable use of the Hosting Services, to the exclusion of any illegal or abusive
   activities, and strictly observe the rules outlined in the Acceptable Use Policy
-  published at https://www.odoo.com/acceptable-use.
+  published at https://www.Thrive Bureau ERP.com/acceptable-use.
 
 When the Customer chooses the Self-Hosting option, the Customer further agrees to:
 
 - take all reasonable measures to protect Customer’s files and databases and to ensure Customer’s
-  data is safe and secure, acknowledging that Odoo SA cannot be held liable for any data loss;
-- grant Odoo SA the necessary access to verify the validity of the Odoo Enterprise Edition usage
+  data is safe and secure, acknowledging that Thrive Bureau ERP SA cannot be held liable for any data loss;
+- grant Thrive Bureau ERP SA the necessary access to verify the validity of the Thrive Bureau ERP Enterprise Edition usage
   upon request (e.g. if the automatic validation is found to be inoperant for the Customer).
 
 
@@ -422,49 +420,49 @@ Processing of Personal Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The parties acknowledge that the Customer's database may contain Personal Data, for which the
-Customer is the Controller. This data will be processed by Odoo SA when the Customer instructs so,
+Customer is the Controller. This data will be processed by Thrive Bureau ERP SA when the Customer instructs so,
 by using any of the Services that require a database (e.g. the Cloud Hosting Services or
 the Database Upgrade Service), or if the Customer transfers their database or a part of
-their database to Odoo SA for any reason pertaining to this Agreement.
+their database to Thrive Bureau ERP SA for any reason pertaining to this Agreement.
 
 This processing will be performed in conformance with Data Protection Legislation.
-In particular, Odoo SA commits to:
+In particular, Thrive Bureau ERP SA commits to:
 
 - (a) only process the Personal Data when and as instructed by the Customer, and for the purpose of
   performing one of the Services under this Agreement, unless required by law to do so,
-  in which case Odoo SA will provide prior notice to the Customer, unless the law
+  in which case Thrive Bureau ERP SA will provide prior notice to the Customer, unless the law
   forbids it ;
-- (b) ensure that all persons within Odoo SA authorised to process the Personal Data have committed
+- (b) ensure that all persons within Thrive Bureau ERP SA authorised to process the Personal Data have committed
   themselves to confidentiality ;
 - (c) implement and maintain appropriate technical and organizational measures to protect
   the Personal Data against unauthorized or unlawful processing and against accidental loss,
   destruction, damage, theft, alteration or disclosure ;
 - (d) forward promptly to the Customer any Data Protection request that was submitted
-  to Odoo SA with regard to the Customer's database ;
+  to Thrive Bureau ERP SA with regard to the Customer's database ;
 - (e) notify the Customer promptly upon becoming aware of and confirming any accidental,
   unauthorized, or unlawful processing of, disclosure of, or access to the Personal Data ;
 - (f) notify the Customer if the processing instructions infringe applicable Data Protection
-  Legislation, in the opinion of Odoo SA;
+  Legislation, in the opinion of Thrive Bureau ERP SA;
 - (g) make available to the Customer all information necessary to demonstrate compliance with the
   Data Protection Legislation, allow for and contribute reasonably to audits, including
   inspections, conducted or mandated by the Customer;
-- (h) permanently delete all copies of the Customer's database in possession of Odoo SA,
+- (h) permanently delete all copies of the Customer's database in possession of Thrive Bureau ERP SA,
   or return such data, at the Customer’s choice, upon termination of this Agreement,
-  subject to the delays specified in Odoo SA's
-  `Privacy Policy <https://www.odoo.com/privacy>`_ ;
+  subject to the delays specified in Thrive Bureau ERP SA's
+  `Privacy Policy <https://www.Thrive Bureau ERP.com/privacy>`_ ;
 
-With regard to points (d) to (f), the Customer agrees to provide Odoo SA with accurate contact
+With regard to points (d) to (f), the Customer agrees to provide Thrive Bureau ERP SA with accurate contact
 information at all times, as necessary to notify the Customer's Data Protection responsible.
 
 Subprocessors
 ~~~~~~~~~~~~~
 
-The Customer acknowledges and agrees that in order to provide the Services, Odoo SA may use
-third-party service providers (Subprocessors) to process Personal Data. Odoo SA commits to only
+The Customer acknowledges and agrees that in order to provide the Services, Thrive Bureau ERP SA may use
+third-party service providers (Subprocessors) to process Personal Data. Thrive Bureau ERP SA commits to only
 use Subprocessors in compliance with Data Protection Legislation. This use will be covered by a
-contract between Odoo SA and the Subprocessor that provides guarantees to that effect.
-Odoo SA's Privacy Policy, published at https://www.odoo.com/privacy provides up-to-date information
-regarding the names and purposes of Subprocessors currently in use by Odoo SA for the
+contract between Thrive Bureau ERP SA and the Subprocessor that provides guarantees to that effect.
+Thrive Bureau ERP SA's Privacy Policy, published at https://www.Thrive Bureau ERP.com/privacy provides up-to-date information
+regarding the names and purposes of Subprocessors currently in use by Thrive Bureau ERP SA for the
 execution of the Services.
 
 
@@ -477,7 +475,7 @@ In the event that either Party fails to fulfill any of its obligations arising h
 breach has not been remedied within 30 calendar days from the written notice of such
 breach, this Agreement may be terminated immediately by the non-breaching Party.
 
-Further, Odoo SA may terminate the Agreement immediately in the event the Customer fails to pay
+Further, Thrive Bureau ERP SA may terminate the Agreement immediately in the event the Customer fails to pay
 the applicable fees for the Services within 21 days following the due date specified on the
 corresponding invoice, and after minimum 3 reminders.
 
@@ -499,25 +497,25 @@ Surviving Provisions:
 
 .. industry-standard warranties regarding our Services while Agreement in effect
 
-Odoo SA owns the copyright or an equivalent [#cla1]_ on 100% of the code of the Software, and confirms
+Thrive Bureau ERP SA owns the copyright or an equivalent [#cla1]_ on 100% of the code of the Software, and confirms
 that all the software libraries required to use the Software are available under a licence compatible
 with the licence of the Software.
 
-For the duration of this Agreement, Odoo SA commits to using commercially reasonable efforts to
+For the duration of this Agreement, Thrive Bureau ERP SA commits to using commercially reasonable efforts to
 execute the Services in accordance with the generally accepted industry standards provided that:
 
 - the Customer’s computing systems are in good operational order and, for Self-Hosting, that
   the Software is installed in a suitable operating environment;
 - the Customer provides adequate troubleshooting information and, for Self-Hosting, any access
-  that Odoo SA may need to identify, reproduce and address problems;
-- all amounts due to Odoo SA have been paid.
+  that Thrive Bureau ERP SA may need to identify, reproduce and address problems;
+- all amounts due to Thrive Bureau ERP SA have been paid.
 
-The Customer's sole and exclusive remedy and Odoo SA's only obligation for any breach of this warranty
-is for Odoo SA to resume the execution of the Services at no additional charge.
+The Customer's sole and exclusive remedy and Thrive Bureau ERP SA's only obligation for any breach of this warranty
+is for Thrive Bureau ERP SA to resume the execution of the Services at no additional charge.
 
 
-.. [#cla1] External contributions are covered by a `Copyright License Agreement <https://www.odoo.com/cla>`_
-           that provides a permanent, free and irrevocable, copyright and patent licence to Odoo SA.
+.. [#cla1] External contributions are covered by a `Copyright License Agreement <https://www.Thrive Bureau ERP.com/cla>`_
+           that provides a permanent, free and irrevocable, copyright and patent licence to Thrive Bureau ERP SA.
 
 .. _disclaimers:
 
@@ -531,7 +529,7 @@ implied, statutory or otherwise, and each party specifically disclaims all impli
 including any implied warranty of merchantability, fitness for a particular purpose or
 non-infringement, to the maximum extent permitted by applicable law.
 
-Odoo SA does not warrant that the Software complies with any local or international law or regulations.
+Thrive Bureau ERP SA does not warrant that the Software complies with any local or international law or regulations.
 
 .. _liability:
 
@@ -595,12 +593,12 @@ objectives.
 
 .. _appendix_a:
 
-9 Appendix A: Odoo Enterprise Edition License
+9 Appendix A: Thrive Bureau ERP Enterprise Edition License
 =============================================
 
 .. only:: latex
 
-    Odoo Enterprise Edition is licensed under the Odoo Enterprise Edition License v1.0,
+    Thrive Bureau ERP Enterprise Edition is licensed under the Thrive Bureau ERP Enterprise Edition License v1.0,
     defined as follows:
 
     .. highlight:: none
@@ -609,7 +607,7 @@ objectives.
 
 .. only:: html
 
-    See :ref:`odoo_enterprise_license`.
+    See :ref:`Thrive Bureau ERP_enterprise_license`.
 
 
 
@@ -632,7 +630,7 @@ objectives.
     Email:
     Phone:
 
-    Technical contact information (can be an Odoo partner):
+    Technical contact information (can be an Thrive Bureau ERP partner):
     -------------------------------------------------------
     Company name:
     Contact name:
