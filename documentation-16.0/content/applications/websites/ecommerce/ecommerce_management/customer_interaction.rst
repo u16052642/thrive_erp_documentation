@@ -2,7 +2,7 @@
 Customer interaction
 ====================
 
-Odoo offers many ways to interact with customers and for customers to interact with your website.
+Thrive Bureau ERP offers many ways to interact with customers and for customers to interact with your website.
 
 .. _product-reviews:
 
