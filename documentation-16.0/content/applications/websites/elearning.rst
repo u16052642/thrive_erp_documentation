@@ -12,8 +12,6 @@ learning experience enhances their attentiveness and fosters heightened producti
    additional options and allows collaboration. This documentation focuses on using the back end to
    create your content.
 
-.. seealso::
-   `Odoo Tutorials: eLearning <https://www.odoo.com/slides/elearning-56>`_
 
 Courses
 =======
