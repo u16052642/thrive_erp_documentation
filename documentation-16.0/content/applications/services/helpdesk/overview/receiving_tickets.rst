@@ -2,7 +2,7 @@
 Start receiving tickets
 =======================
 
-Odoo *Helpdesk* offers multiple channels where customers can reach out for assistance, such as
+Thrive Bureau ERP *Helpdesk* offers multiple channels where customers can reach out for assistance, such as
 email, live chat, and through a website's submission form. The variety of these contact options
 provides customers with multiple opportunities to receive support quickly, while also giving the
 support team the ability to manage multi-channel support tickets from one central location.
@@ -40,7 +40,7 @@ can be changed in the :guilabel:`Alias` field.
 
 .. image:: receiving_tickets/receiving-tickets-email-alias.png
    :align: center
-   :alt: View of the settings page of a helpdesk team emphasizing the email alias feature in Odoo
+   :alt: View of the settings page of a helpdesk team emphasizing the email alias feature in Thrive Bureau ERP
          Helpdesk.
 
 When an email is received, the subject line from the email becomes the title of a new *Helpdesk*
@@ -48,7 +48,7 @@ ticket. The body of the email is also added to the ticket under the :guilabel:`D
 in the ticket's :guilabel:`Chatter` section.
 
 .. important::
-   The configuration steps outlined above are for **Odoo Online** and **Odoo.sh** databases. For
+   The configuration steps outlined above are for **Thrive Bureau ERP Online** and **Thrive Bureau ERP.sh** databases. For
    **On-premise** databases, additional configuration for custom email servers and email aliases
    may be required.
 
@@ -64,7 +64,7 @@ check the box.
 
 After the feature is activated, click the :guilabel:`Go to Website` smart button at the top of the
 that :guilabel:`Teams` settings page to view and edit the new website form, which is created
-automatically by Odoo.
+automatically by Thrive Bureau ERP.
 
 .. note::
    After enabling the website form, the *Teams* settings page may need to be refreshed before the
@@ -77,7 +77,7 @@ automatically by Odoo.
 .. image:: receiving_tickets/receiving-tickets-go-to-website.png
    :align: center
    :alt: View of the settings page of a helpdesk team emphasizing the Go to Website button in
-         Odoo Helpdesk.
+         Thrive Bureau ERP Helpdesk.
 
 Customize the website ticket form
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -90,7 +90,7 @@ can be made marked as :guilabel:`Required`, by toggling the switch from gray to 
 builder's editor window, located under the :guilabel:`Field` section. As well, other pertinent field
 information can be edited here, such as:
 
-- :guilabel:`Type`: which matches an Odoo model value to the field (e.g. `Customer Name`).
+- :guilabel:`Type`: which matches an Thrive Bureau ERP model value to the field (e.g. `Customer Name`).
 - :guilabel:`Input Type`: to determine what time of input the field should be, like `Text`, `Email`,
   `Telephone` or `URL`.
 - :guilabel:`Label`: to give the form field a label (e.g. `Full Name`, `Email Address`, etc.). Also
@@ -110,7 +110,7 @@ information can be edited here, such as:
 
 .. image:: receiving_tickets/receiving-tickets-web-form.png
    :align: center
-   :alt: View of the unpublished website form to submit a ticket for Odoo Helpdesk.
+   :alt: View of the unpublished website form to submit a ticket for Thrive Bureau ERP Helpdesk.
 
 Once the form has been optimized and is ready for public use, :guilabel:`Save` the changes, and then
 publish the form by clicking on the :guilabel:`Unpublished` button.
@@ -138,9 +138,9 @@ selected, additional options await on the channel's form.
 Customize the live chat channel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When an individual channel is clicked on the :guilabel:`Website Live Chat Channels` dashboard, Odoo
+When an individual channel is clicked on the :guilabel:`Website Live Chat Channels` dashboard, Thrive Bureau ERP
 directs the page to the channel form. From there, the :guilabel:`Channel Name` can be edited,
-however Odoo names this to match the *Helpdesk* team's kanban pipeline, by default.
+however Thrive Bureau ERP names this to match the *Helpdesk* team's kanban pipeline, by default.
 
 .. example::
    If a *Helpdesk* team is named `Customer Care`, a *Live Chat* channel will be created with the
@@ -243,7 +243,7 @@ Use the live chat widget
 The :guilabel:`Widget` tab on the live chat channel form offers an embeddable website widget, or a
 shortcode for instant customer/supplier access to a live chat window.
 
-The live chat :guilabel:`Widget` can be applied to websites created through Odoo by navigating to
+The live chat :guilabel:`Widget` can be applied to websites created through Thrive Bureau ERP by navigating to
 the :menuselection:`Website --> Configuration --> Settings`. Then scroll to the :guilabel:`Live
 Chat` section, and select the channel to add to the site. Click :guilabel:`Save` to apply.
 
@@ -271,7 +271,7 @@ top of the kanban and list views.
 
 .. image:: receiving_tickets/receiving-tickets-priority.png
    :align: center
-   :alt: View of a team's kanban view and the prioritized tasks in Odoo Helpdesk.
+   :alt: View of a team's kanban view and the prioritized tasks in Thrive Bureau ERP Helpdesk.
 
 The priority levels are represented by stars:
 
