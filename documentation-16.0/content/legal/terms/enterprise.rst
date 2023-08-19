@@ -6,7 +6,7 @@ Thrive Bureau ERP Enterprise Subscription Agreement
 
 .. only:: html
 
-.. note:: Version 5 - 2023-07-27
+.. note:: Version 10a - 2023-07-27
 
 .. v6: add "App" definition + update pricing per-App
 .. v7: remove possibility of price change at renewal after prior notice
