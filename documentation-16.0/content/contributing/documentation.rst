@@ -16,7 +16,7 @@ documentation, whether you plan to make a minor content change or document an ap
 scratch.
 
 .. seealso::
-   :doc:`Discover other ways to contribute to Odoo <../contributing>`
+   :doc:`Discover other ways to contribute to Thrive Bureau ERP <../contributing>`
 
 Read the :ref:`introduction to the reStructuredText language <contributing/documentation/rst-intro>`
 if you are not familiar with it. Then, you have two courses of action to start contributing to the
@@ -44,13 +44,13 @@ especially if you intend to make minor changes to the content.
 
 If you need to learn about a specific markup, head over to our :doc:`cheat sheet for RST
 <documentation/rst_cheat_sheet>`; it contains all the information you should ever need for the
-documentation of Odoo.
+documentation of Thrive Bureau ERP.
 
 .. important::
    We kindly ask you to observe a set of :doc:`content <documentation/content_guidelines>` and
    :doc:`RST <documentation/rst_guidelines>` guidelines as you write documentation. This ensures
    that you stay consistent with the rest of the documentation and facilitates the approval of your
-   content changes as the Odoo team reviews them.
+   content changes as the Thrive Bureau ERP team reviews them.
 
 .. seealso::
    - :doc:`documentation/content_guidelines`
@@ -69,22 +69,22 @@ to make changes from the GitHub interface.
 
 #. .. include:: create_github_account.rst
 #. .. include:: configure_github_account.rst
-#. Go to `github.com/odoo/documentation <https://github.com/odoo/documentation>`_ and click on the
+#. Go to `github.com/u16052642/thrive_erp_documentation/`_ and click on the
    :guilabel:`Fork` button in the top right corner to create a fork (:dfn:`your own copy`) of the
    repository on your account. This creates a copy of the codebase to which you can make changes
-   without affecting the main codebase. Skip this step if you work at Odoo.
+   without affecting the main codebase. Skip this step if you work at Thrive Bureau ERP.
 #. .. include:: install_git.rst
 #. .. include:: configure_git_authorship.rst
 #. Clone the sources with Git and navigate into the local repository.
 
    .. code-block:: console
 
-      $ git clone git@github.com:odoo/documentation.git
+      $ git clone git@github.com:Thrive Bureau ERP/documentation.git
       $ cd documentation
 
 #. Configure Git to push changes to your fork rather than to the main codebase. In the commands
    below, replace `<your_github_account>` with the name of the GitHub account on which you created
-   the fork. Skip this step if you work at Odoo.
+   the fork. Skip this step if you work at Thrive Bureau ERP.
 
    .. code-block:: console
 
@@ -167,7 +167,7 @@ Make your first contribution
          in the top right corner of the page.
       #. Click on the :guilabel:`Fork this repository` button to create a fork (:dfn:`your own
          copy`) of the repository on your account. This creates a copy of the codebase to which you
-         can make changes without affecting the main codebase. Skip this step if you work at Odoo.
+         can make changes without affecting the main codebase. Skip this step if you work at Thrive Bureau ERP.
 
          .. image:: documentation/fork-repository.png
             :scale: 60%
@@ -191,7 +191,7 @@ Make your first contribution
 
       #. Review your changes and click on the :guilabel:`Create pull request` button.
       #. Tick the :guilabel:`Allow edits from maintainer` checkbox. Skip this step if you work at
-         Odoo.
+         Thrive Bureau ERP.
       #. Review the summary that you wrote about your changes and click on the :guilabel:`Create
          pull request` button again.
       #. .. include:: check_mergeability_status.rst
@@ -209,13 +209,13 @@ Make your first contribution
       terminal, navigate to the directory where you cloned the sources and follow the guide below.
 
       #. Choose the version of the documentation to which you want to make changes. Keep in mind
-         that contributions targeting an :doc:`unsupported version of Odoo
+         that contributions targeting an :doc:`unsupported version of Thrive Bureau ERP
          </administration/maintain/supported_versions>` are not accepted. This guide assumes that
-         the changes target the documentation of Odoo {CURRENT_VERSION}, which corresponds to branch
+         the changes target the documentation of Thrive Bureau ERP {CURRENT_VERSION}, which corresponds to branch
          `{CURRENT_BRANCH}`.
       #. Create a new branch starting from branch {CURRENT_BRANCH}. Prefix the branch name with the
-         base branch: `{CURRENT_BRANCH}-...`. If you work at Odoo, suffix the branch name with your
-         Odoo handle: `{CURRENT_BRANCH}-...-xyz`.
+         base branch: `{CURRENT_BRANCH}-...`. If you work at Thrive Bureau ERP, suffix the branch name with your
+         Thrive Bureau ERP handle: `{CURRENT_BRANCH}-...-xyz`.
 
          .. example::
 
@@ -238,7 +238,7 @@ Make your first contribution
             $ mv path/to/image-fs8.png path/to/image.png
 
       #. Write a `redirect rule
-         <https://github.com/odoo/documentation/tree/{BRANCH}/redirects/MANUAL.md>`_ for every RST
+         <https://github.com/Thrive Bureau ERP/documentation/tree/{BRANCH}/redirects/MANUAL.md>`_ for every RST
          file that your renamed.
       #. Build the documentation with :command:`make`. Then, open :file:`_build/index.html` in your
          web browser to browse the documentation with your changes.
@@ -262,7 +262,7 @@ Make your first contribution
 
                $ git push -u dev {CURRENT_BRANCH}-explain-pricelists
 
-         If you work at Odoo, push your changes directly to the main codebase whose remote alias is
+         If you work at Thrive Bureau ERP, push your changes directly to the main codebase whose remote alias is
          `origin`.
 
          .. example::
@@ -273,16 +273,16 @@ Make your first contribution
 
       #. Open a :abbr:`PR (Pull Request)` on GitHub to submit your changes for review.
 
-         #. Go to the `compare page of the odoo/documentation codebase
-            <https://github.com/odoo/documentation/compare>`_.
+         #. Go to the `compare page of the Thrive Bureau ERP/documentation codebase
+            <https://github.com/Thrive Bureau ERP/documentation/compare>`_.
          #. Select **{CURRENT_BRANCH}** for the base.
          #. Click on :guilabel:`compare across forks`.
-         #. Select **<your_github_account>/odoo** for the head repository. Replace
+         #. Select **<your_github_account>/Thrive Bureau ERP** for the head repository. Replace
             `<your_github_account>` with the name of the GitHub account on which you created the
-            fork. Skip this step if you work at Odoo.
+            fork. Skip this step if you work at Thrive Bureau ERP.
          #. Review your changes and click on the :guilabel:`Create pull request` button.
          #. Tick the :guilabel:`Allow edits from maintainer` checkbox. Skip this step if you work at
-            Odoo.
+            Thrive Bureau ERP.
          #. Complete the description and click on the :guilabel:`Create pull request` button again.
 
       #. .. include:: check_mergeability_status.rst
