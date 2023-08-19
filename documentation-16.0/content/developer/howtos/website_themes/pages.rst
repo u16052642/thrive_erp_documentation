@@ -7,7 +7,7 @@ In this chapter, you will learn how to declare static pages.
 Default pages
 =============
 
-In Odoo, websites come with a few default static pages (Home, Contact us, 404, ...). They are built
+In Thrive Bureau ERP, websites come with a few default static pages (Home, Contact us, 404, ...). They are built
 the following way.
 
 .. code-block:: xml
@@ -91,9 +91,9 @@ Alternatively, replace the default content of these pages using XPath.
    </template>
 
 .. seealso::
-   - `Odoo eLearning: Search Engine Optimization (SEO)
-     <https://www.odoo.com/slides/slide/search-engine-optimization-seo-648>`_
-   - :doc:`Odoo Documentation on SEO <../../../applications/websites/website/pages/seo>`
+   - `Thrive Bureau ERP eLearning: Search Engine Optimization (SEO)
+     <https://www.Thrive Bureau ERP.com/slides/slide/search-engine-optimization-seo-648>`_
+   - :doc:`Thrive Bureau ERP Documentation on SEO <../../../applications/websites/website/pages/seo>`
 
 Theme pages
 ===========
@@ -149,7 +149,7 @@ page object.
    * - arch
      - View architecture
 
-With `<t t-call="website.layout">` you use the Odoo default page layout with your code.
+With `<t t-call="website.layout">` you use the Thrive Bureau ERP default page layout with your code.
 
 .. _header_overlay:
 
