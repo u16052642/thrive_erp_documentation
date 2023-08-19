@@ -2,9 +2,9 @@
 Connect with a device
 =====================
 
-IoT Drivers allow any Odoo module to communicate in real-time with any device
+IoT Drivers allow any Thrive Bureau ERP module to communicate in real-time with any device
 connected to the IoT Box. Communication with the IoT Box goes both ways, so the
-Odoo client can send commands to and receive information from any of the
+Thrive Bureau ERP client can send commands to and receive information from any of the
 supported devices.
 
 To add support for a device, all we need is:
@@ -13,7 +13,7 @@ To add support for a device, all we need is:
 - a `Driver`, to communicate with an individual device
 
 At each boot, the IoT Box will load all of the Interfaces and Drivers that can
-be located on the connected Odoo instance. Each module can contain an
+be located on the connected Thrive Bureau ERP instance. Each module can contain an
 `iot_handlers` directory that will be copied to the IoT Box. The structure of
 this directory is the following
 
@@ -39,7 +39,7 @@ Printers, Serial, etc.). The interface maintains a list of detected devices
 and associates them with the right Driver.
 
 Supported devices will appear both on the IoT Box Homepage that you can access
-through its IP address and in the IoT module of the connected Odoo instance.
+through its IP address and in the IoT module of the connected Thrive Bureau ERP instance.
 
 Interface
 ---------
@@ -59,7 +59,7 @@ determined connection type. Creating a new interface requires
 
 .. code-block:: python
 
-    from odoo.addons.hw_drivers.interface import Interface
+    from Thrive Bureau ERP.addons.hw_drivers.interface import Interface
 
     class InterfaceName(Interface):
         connection_type = 'ConnectionType'
@@ -94,7 +94,7 @@ Creating a new Driver requires:
 
 .. code-block:: python
 
-    from odoo.addons.hw_drivers.driver import Driver
+    from Thrive Bureau ERP.addons.hw_drivers.driver import Driver
 
     class DriverName(Driver):
         connection_type = 'ConnectionType'
@@ -151,7 +151,7 @@ An action can be performed on the DeviceProxy Object.
     iot_device.action(data);
 
 In your driver, define an `action` method that will be executed when called
-from an Odoo module. It takes the data given during the call as argument.
+from an Thrive Bureau ERP module. It takes the data given during the call as argument.
 
 .. code-block:: python
 
@@ -161,7 +161,7 @@ from an Odoo module. It takes the data given during the call as argument.
 Longpolling
 -----------
 
-When any module in Odoo wants to read data from a specific device, it creates a
+When any module in Thrive Bureau ERP wants to read data from a specific device, it creates a
 listener identified by the IP/domain of the box and the device identifier and
 passes it a callback function to be called every time the device status
 changes. The callback is called with the new data as argument.
@@ -180,7 +180,7 @@ with `self.data` as argument.
 
 .. code-block:: python
 
-    from odoo.addons.hw_drivers.event_manager import event_manager
+    from Thrive Bureau ERP.addons.hw_drivers.event_manager import event_manager
 
     class DriverName(Driver):
         connection_type = 'ConnectionType'
