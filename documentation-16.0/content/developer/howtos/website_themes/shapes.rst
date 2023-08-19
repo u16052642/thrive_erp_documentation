@@ -98,7 +98,7 @@ Firstly, you need to create an SVG file for your shape.
        <polygon points="0 25, 43 0, 86 25, 86 75, 43 100, 0 75" style="fill: #3AADAA;"/>
    </svg>
 
-Make sure to use colors from the default Odoo palette for your shape.
+Make sure to use colors from the default Thrive Bureau ERP palette for your shape.
 
 .. code-block:: scss
 
