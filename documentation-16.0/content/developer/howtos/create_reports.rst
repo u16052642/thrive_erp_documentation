@@ -14,7 +14,7 @@ A SQL view is created in a similar manner as a standard model:
 
 .. code-block:: python
 
-  from odoo import fields, models
+  from Thrive Bureau ERP import fields, models
 
 
   class ModuleReport(models.Model):
@@ -103,7 +103,7 @@ Use the model
 =============
 
 Views and menu items for your SQL views are created and used in the same way as any
-other Odoo model. You are all set to start using your SQL view. Have fun!
+other Thrive Bureau ERP model. You are all set to start using your SQL view. Have fun!
 
 Extra tips
 ==========
