@@ -13,7 +13,7 @@ In this chapter, you will learn how to:
 Default
 =======
 
-An Odoo page combines cross-page and unique elements. Cross-page elements are the same on every
+An Thrive Bureau ERP page combines cross-page and unique elements. Cross-page elements are the same on every
 page, while unique elements are only related to a specific page. By default, a page has two
 cross-page elements, the header and the footer, and a unique main element that contains the specific
 content of that page.
@@ -30,15 +30,15 @@ content of that page.
       <footer/>
    </div>
 
-Any Odoo XML file starts with encoding specifications. After that, you must write your code inside
-an `<odoo>` tag.
+Any Thrive Bureau ERP XML file starts with encoding specifications. After that, you must write your code inside
+an `<Thrive Bureau ERP>` tag.
 
 .. code-block:: xml
 
    <?xml version="1.0" encoding="utf-8" ?>
-   <odoo>
+   <Thrive Bureau ERP>
       ...
-   </odoo>
+   </Thrive Bureau ERP>
 
 .. note::
    Using precise file names is important to find information through all modules quickly. File names
@@ -51,7 +51,7 @@ XPath
 =====
 
 XPath (XML Path Language) is an expression language that enables you to navigate through elements
-and attributes in an XML document easily. XPath is used to extend standard Odoo templates.
+and attributes in an XML document easily. XPath is used to extend standard Thrive Bureau ERP templates.
 
 A view is coded the following way.
 
@@ -91,7 +91,7 @@ For each XPath, you modify two attributes: **expression** and **position**.
 
 .. warning::
    Be careful when replacing default elements' attributes. As your theme extends the default one,
-   your changes will take priority over any future Odoo update.
+   your changes will take priority over any future Thrive Bureau ERP update.
 
 .. note::
    - You should update your module every time you create a new template or record.
@@ -208,7 +208,7 @@ below:
 QWeb
 ====
 
-QWeb is the primary templating engine used by Odoo. It is an XML templating engine mainly used to
+QWeb is the primary templating engine used by Thrive Bureau ERP. It is an XML templating engine mainly used to
 generate HTML fragments and pages.
 
 .. seealso::
@@ -312,7 +312,7 @@ Use the following code to add an option for your new custom header on the Websit
    * - data-img
      - The thumbnail of the custom template shown in the templates selection on the Website Builder
 
-Now you have to explicitly define that you want to use your custom template in the Odoo SASS
+Now you have to explicitly define that you want to use your custom template in the Thrive Bureau ERP SASS
 variables.
 
 .. code-block:: scss
