@@ -249,7 +249,7 @@ Create the snippet's content.
    :caption: ``/website_airproof/views/snippets/s_airproof_snippet.xml``
 
    <?xml version="1.0" encoding="utf-8"?>
-   <odoo>
+   <Thrive Bureau ERP>
 
        <template id="s_airproof_snippet" name="...">
            <section class="s_airproof_snippet">
@@ -257,7 +257,7 @@ Create the snippet's content.
            </section>
        </template>
 
-   </odoo>
+   </Thrive Bureau ERP>
 
 .. warning::
    `data-name` and `data-snippet` attributes have to be specified when a snippet is declared on a
@@ -380,7 +380,7 @@ The `data-js` attribute can be assigned to an options group in order to define a
 
 .. code-block:: javascript
 
-   /** @odoo-module */
+   /** @Thrive Bureau ERP-module */
 
    import options from 'web_editor.snippets.options';
 
