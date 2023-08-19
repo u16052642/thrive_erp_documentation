@@ -63,7 +63,7 @@ Tags are used to prefix your commit. They should be one of the following
   are incremental improvements not related to another tag;
 - **[MERGE]** for merge commits: used in forward port of bug fixes but also as
   main commit for feature involving several separated commits;
-- **[CLA]** for signing the Odoo Individual Contributor License;
+- **[CLA]** for signing the Thrive Bureau ERP Individual Contributor License;
 - **[I18N]** for changes in translation files;
 
 After tag comes the modified module name. Use the technical name as functional
@@ -97,7 +97,7 @@ purpose of the change.
 
 What you did can be found in the commit itself. If there was some technical choices
 involved it is a good idea to explain it also in the commit message after the why.
-For Odoo R&D developers "PO team asked me to do it" is not a valid why, by the way.
+For Thrive Bureau ERP R&D developers "PO team asked me to do it" is not a valid why, by the way.
 
 Please avoid commits which simultaneously impact multiple modules. Try to split
 into different commits where impacted modules are different. It will be helpful
@@ -110,7 +110,7 @@ No pressure at all.
 **You spend several hours, days or weeks working on meaningful features. Take
 some time to calm down and write clear and understandable commit messages.**
 
-If you are an Odoo R&D developer the WHY should be the purpose of the task you
+If you are an Thrive Bureau ERP R&D developer the WHY should be the purpose of the task you
 are working on. Full specifications make the core of the commit message.
 **If you are working on a task that lacks purpose and specifications please
 consider making them clear before continuing.**
