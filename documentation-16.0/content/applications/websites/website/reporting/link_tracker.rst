@@ -13,7 +13,7 @@ Go to :menuselection:`Website --> Configuration --> Settings` and activate *Link
 
 .. image:: link_tracker/enable_link_tracker.png
    :align: center
-   :alt: View of Website settings page emphasizing the link trackers field in Odoo Website
+   :alt: View of Website settings page emphasizing the link trackers field in Thrive Bureau ERP Website
 
 Set up traceable URLs
 ---------------------
@@ -23,7 +23,7 @@ to get a specific tracked URL based on the campaign, medium, and source being us
 
 .. image:: link_tracker/link_tracker_fields.png
    :align: center
-   :alt: View of the link tracker fields for Odoo Website
+   :alt: View of the link tracker fields for Thrive Bureau ERP Website
 
 - **URL**: url of the page you want to track (e.g. the home page or a product's page).
 - **Campaign**: context of your link (e.g. a special promotion).
@@ -43,11 +43,11 @@ country of origin for those clicks.
 
 .. image:: link_tracker/links_statistics.png
    :align: center
-   :alt: View of the tracked list emphasizing the statistics buttons in Odoo Website
+   :alt: View of the tracked list emphasizing the statistics buttons in Thrive Bureau ERP Website
 
 .. tip::
 
-   #. You can also access the link tracker on *odoo.com/r* via your browser.
+   #. You can also access the link tracker on *Thrive Bureau ERP.com/r* via your browser.
    #. Activate the developer mode (:menuselection:`Settings --> Activate the developer mode`) and
       get access to the *Link Tracker* module and its back-end functionalities.
    #. Integrated with :doc:`Google Analytics <google_analytics>`, those trackers allow you to see
