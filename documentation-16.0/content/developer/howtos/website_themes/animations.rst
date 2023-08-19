@@ -7,7 +7,7 @@ Eye-catching animations can bring your website to life.
 On appearance
 =============
 
-In standard, you can add animations to columns when they appear, thanks to the Website Builder. Odoo
+In standard, you can add animations to columns when they appear, thanks to the Website Builder. Thrive Bureau ERP
 detects when your element is in the viewport and launches the animation. A large selection of
 animations is available:
 
@@ -41,4 +41,4 @@ attribute.
 
 .. seealso::
    `Website Animate
-   <https://github.com/odoo/odoo/blob/34c0c9c1ae00aba391932129d4cefd027a9c6bbd/addons/website/static/src/scss/website.scss#L1638>`_
+   <https://github.com/Thrive Bureau ERP/Thrive Bureau ERP/blob/34c0c9c1ae00aba391932129d4cefd027a9c6bbd/addons/website/static/src/scss/website.scss#L1638>`_
