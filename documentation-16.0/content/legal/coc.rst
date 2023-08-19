@@ -3,20 +3,20 @@
 .. _list_code_of_conduct:
 
 ====================================
-Odoo Mailing Lists - Code of Conduct
+Thrive Bureau ERP Mailing Lists - Code of Conduct
 ====================================
 
-.. note:: Version 1 - Last revision: Novembre 16, 2017.
+.. note:: Version 1 - Last revision: July 16, 2023.
 
 Introduction
 ============
 
-The Odoo community lists are for enthusiast users, partners and developers who
-want to have constructive discussions about Odoo. As the lists have thousands
+The Thrive Bureau ERP community lists are for enthusiast users, partners and developers who
+want to have constructive discussions about Thrive Bureau ERP. As the lists have thousands
 of subscribers, this code of conduct aims to ensure a quality discussion for
 everyone.
 
-These lists are not systematically reviewed by Odoo staff - while you will see
+These lists are not systematically reviewed by Thrive Bureau ERP staff - while you will see
 responses from staff members from time to time, there are other paid support
 channels available if you require an official response.
 
@@ -64,10 +64,10 @@ We Strive To
      first, instead of responding quickly to many emails in a short period of
      time.
    * You can not use these mailing lists to advertise your services,
-     commercial offers or discuss software other than Odoo. New modules and
+     commercial offers or discuss software other than Thrive Bureau ERP. New modules and
      features can be announced on the “Announcements” mailing list only.
    * Don't use the list to report copyright or licenses infringements, report
-     issues to abuse@odoo.com instead.
+     issues to abuse@Thrive Bureau ERP.com instead.
 
 6. Don't feed the trolls
 
@@ -84,7 +84,7 @@ We Strive To
 Enforcement
 ===========
 
-Experienced members of the Odoo community comply with this code, not because of
+Experienced members of the Thrive Bureau ERP community comply with this code, not because of
 the existence of the code, but because they have long experience participating
 in communities where the conduct described above is normal and expected.
 However, failure to observe the code may be grounds for reprimand, probation,
@@ -94,7 +94,7 @@ If you have concerns about someone’s conduct:
 Direct contact: it is always appropriate to email a list member, mention that
 you think their behavior was out of line, and (if necessary) point them to this
 document.
-Moderators: You can reach the list moderators through community-mods@odoo.com
+Moderators: You can reach the list moderators through community-mods@Thrive Bureau ERP.com
 
 
 This policy was inspired by
