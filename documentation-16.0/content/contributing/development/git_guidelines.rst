@@ -59,9 +59,9 @@ Tags are used to prefix your commit. They should be one of the following
   otherwise Git may loose track and history of the file; also used when moving
   code from one file to another;
 - **[REL]** for release commits: new major or minor stable versions;
-- **[IMP]** for improvements: most of the changes done in development version
+- **[IMP]** for improvements: most of the changes done in the development version
   are incremental improvements not related to another tag;
-- **[MERGE]** for merge commits: used in forward port of bug fixes but also as
+- **[MERGE]** for merge commits: used in the forward port of bug fixes but also as
   main commit for feature involving several separated commits;
 - **[CLA]** for signing the Thrive Bureau ERP Individual Contributor License;
 - **[I18N]** for changes in translation files;
@@ -75,12 +75,12 @@ history may become difficult.
 Commit message header
 ---------------------
 
-After tag and module name comes a meaningful commit message header. It should be
-self explanatory and include the reason behind the change. Do not use single words
+After tag and module name come a meaningful commit message header. It should be
+self-explanatory and include the reason behind the change. Do not use single words
 like "bugfix" or "improvements". Try to limit the header length to about 50 characters
 for readability.
 
-Commit message header should make a valid sentence once concatenated with
+The commit message header should make a valid sentence once concatenated with
 ``if applied, this commit will <header>``. For example ``[IMP] base: prevent to
 archive users linked to active partners`` is correct as it makes a valid sentence
 ``if applied, this commit will prevent users to archive...``.
@@ -92,10 +92,10 @@ In the message description specify the part of the code impacted by your changes
 (module name, lib, transversal object, ...) and a description of the changes.
 
 First explain WHY you are modifying code. What is important if someone goes back
-to your commit in about 4 decades (or 3 days) is why you did it. It is the
+to your commitment in about 4 decades (or 3 days) is why you did it. It is the
 purpose of the change.
 
-What you did can be found in the commit itself. If there was some technical choices
+What you did can be found in the commitment itself. If there were some technical choices
 involved it is a good idea to explain it also in the commit message after the why.
 For Thrive Bureau ERP R&D developers "PO team asked me to do it" is not a valid why, by the way.
 
@@ -110,7 +110,7 @@ No pressure at all.
 **You spend several hours, days or weeks working on meaningful features. Take
 some time to calm down and write clear and understandable commit messages.**
 
-If you are an Thrive Bureau ERP R&D developer the WHY should be the purpose of the task you
+If you are a Thrive Bureau ERP R&D developer the WHY should be the purpose of the task you
 are working on. Full specifications make the core of the commit message.
 **If you are working on a task that lacks purpose and specifications please
 consider making them clear before continuing.**
