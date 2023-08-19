@@ -85,7 +85,7 @@ the name of the :abbr:`SLA (Service Level Agreement)` applied.
 
 .. image:: sla/sla-open-deadline.png
    :align: center
-   :alt: View of a ticket's form emphasizing an open SLA deadline on a ticket in Odoo Helpdesk
+   :alt: View of a ticket's form emphasizing an open SLA deadline on a ticket in Thrive Bureau ERP Helpdesk
 
 .. important::
    If a ticket fits the criteria for more than one :abbr:`SLA (Service Level Agreement)`, the
@@ -97,7 +97,7 @@ Level Agreement)` tag turns green, and the :guilabel:`Deadline` field disappears
 
 .. image:: sla/sla-deadline.png
    :align: center
-   :alt: View of a ticket's form emphasizing a satisfied SLA in Odoo Helpdesk
+   :alt: View of a ticket's form emphasizing a satisfied SLA in Thrive Bureau ERP Helpdesk
 
 If the :abbr:`SLA (Service Level Agreement)` deadline passes and the ticket has not moved to the
 :guilabel:`Reach Stage`, the :abbr:`SLA (Service Level Agreement)` tag will turn red. Once the
@@ -106,7 +106,7 @@ the ticket is moved to the :guilabel:`Reach Stage`.
 
 .. image:: sla/sla-passing-failing.png
    :align: center
-   :alt: View of a ticket's form with a failing and passing SLA in Odoo Helpdesk
+   :alt: View of a ticket's form with a failing and passing SLA in Thrive Bureau ERP Helpdesk
 
 Analyzing SLA performance
 =========================
@@ -124,7 +124,7 @@ of SLAs failed and the failure rate over the last 30 days, grouped by team.
 
 .. image:: sla/sla-status-analysis.png
    :align: center
-   :alt: View of the SLA status analysis report in Odoo Helpdesk
+   :alt: View of the SLA status analysis report in Thrive Bureau ERP Helpdesk
 
 To add the number of SLAs passed or in progress, click the :guilabel:`Measures` button to reveal a
 drop-down menu of reporting criteria, and choose from the options available based on the
